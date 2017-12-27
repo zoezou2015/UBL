@@ -15,6 +15,8 @@ The output will be written to file "run_sv.test"
 
 The fixed lexicon is necessary for such algorithm. The file Run_GIZA++ contains all commands for 
 learning fixed lexicon for four geo880-funql lingual corpus
+Tutorial for GIZA++
+http://okapiframework.org/wiki/index.php?title=GIZA%2B%2B_Installation_and_Running_Tutorial
 
 ############################################################
 The following is original README content provided by authors
