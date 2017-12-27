@@ -1,3 +1,23 @@
+This is implementation in Java for paper "Inducing Probabilistic CCG Grammars from Logical Form with Higher-Order Unification".
+The code is published by authors. This version is slightly modified to support multilingual corpus 
+(only loading path part is changed).
+
+To run the parser, two arguments need provided, the inintial lexicon learnt by GIZA++ and language
+
+Two options to start learning parser:
+1. Export .java files into .jar, and run command
+java -Xmx1500m -Djava.library.path=/usr/local/lib -cp TestTrain.jar TestTrain sv-np-fixedlex.geo sv > run_sv.test
+
+2. Compile TestTrain.java and run command 
+java -Xmx1500m TestTrain sv-np-fixedlex.geo sv > run_sv.test
+
+The output will be written to file "run_sv.test"
+
+The fixed lexicon is necessary for such algorithm. The file Run_GIZA++ contains all commands for 
+learning fixed lexicon for four geo880-funql lingual corpus
+
+############################################################
+The following is original README content provided by authors
 
 To run fold i of the 10 fold cross validation on the 600 sentence 
 development set:
