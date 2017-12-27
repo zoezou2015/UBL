@@ -1,0 +1,2658 @@
+列举 出 美国 所有 湖泊
+(answer (lake (loc_2 (countryid usa:e))))
+
+佛罗里达 州 的 最高 点 是 什么
+(answer (highest (place (loc_2 (stateid florida:e)))))
+
+什么 是 密西西比 州 周边 的 州 的 高点
+(answer (high_point_1 (state (next_to_2 (stateid mississippi:e)))))
+
+哪个 州 有 最短 的 河流
+(answer (state (loc_1 (shortest (river all:e)))))
+
+在 美国 最高 的 山 是 哪个
+(answer (highest (mountain (loc_2 (countryid usa:e)))))
+
+缅因 州 的 首府 是 哪儿
+(answer (capital (loc_2 (stateid maine:e))))
+
+密西西比 河 所 贯穿 的 州 的 人口 是 多少
+(answer (population_1 (state (traverse_1 (riverid mississippi:e)))))
+
+列举 出 美国 所有 湖泊
+(answer (lake (loc_2 (countryid usa:e))))
+
+哪些 州 与 被 密西西比 河 穿越 的 州 接壤
+(answer (state (next_to_2 (state (traverse_1 (riverid mississippi:e))))))
+
+阿拉斯加 州 最高 的 山峰 是 什么
+(answer (highest (mountain (loc_2 (stateid alaska:e)))))
+
+伊利诺伊 州 人口 是 多少
+(answer (population_1 (stateid illinois:e)))
+
+列出 在 科罗拉多 州 所有 的 河流
+(answer (river (loc_2 (stateid colorado:e))))
+
+哪个 州 包含 美国 的 最高 点 呢
+(answer (state (loc_1 (highest (place (loc_2 (countryid usa:e)))))))
+
+丹佛 市 位于 哪个 州
+(answer (state (loc_1 (cityid denver:e _:e))))
+
+德克萨斯 州 的 最低 点 是 什么
+(answer (lowest (place (loc_2 (stateid texas:e)))))
+
+有 多少 州 含有 一个 叫 罗切斯特 的 城市
+(answer (count (state (loc_1 (city (cityid rochester:e _:e))))))
+
+哪些 首府 是 在 与 得克萨斯 州 接壤 的 州 里
+(answer (capital (loc_2 (state (next_to_2 (stateid texas:e))))))
+
+有 多少 人 居住 在 奥斯汀
+(answer (population_1 (cityid austin:e _:e)))
+
+哪些 州 有 叫 科罗拉多 的 河流
+(answer (state (loc_1 (river (riverid colorado:e)))))
+
+得克萨斯 州 有 多大
+(answer (size (stateid texas:e)))
+
+在 美国 最短 的 河流 是 哪个
+(answer (shortest (river (loc_2 (countryid usa:e)))))
+
+美国 的 主要 城市 是 什么
+(answer (major (city (loc_2 (countryid usa:e)))))
+
+哪些 州 与 肯塔基 州 接壤
+(answer (state (next_to_2 (stateid kentucky:e))))
+
+俄勒冈 州 的 人口 是 多少
+(answer (population_1 (stateid oregon:e)))
+
+哪些 州 有 一个 名为 奥斯汀 的 城市
+(answer (state (loc_1 (city (cityid austin:e _:e)))))
+
+南卡罗来纳 州 最高 海拔 是 什么
+(answer (highest (place (loc_2 (stateid south_carolina:e)))))
+
+有 多少 人 住 在 得克萨斯 州 的 奥斯汀
+(answer (population_1 (cityid austin:e tx:e)))
+
+得克萨斯 州 有 哪些 河流
+(answer (river (loc_2 (stateid texas:e))))
+
+科罗拉多 州 的 最低 点 是 什么
+(answer (lowest (place (loc_2 (stateid colorado:e)))))
+
+亚特兰大 的 人口 是 多少
+(answer (population_1 (cityid atlanta:e _:e)))
+
+在 犹他 州 有 什么 河流
+(answer (river (loc_2 (stateid utah:e))))
+
+哪条 河流 贯穿 最多 的 州
+(answer (most (river (traverse_2 (state all:e)))))
+
+萨克拉门托 的 人口 是 多少
+(answer (population_1 (cityid sacramento:e _:e)))
+
+你 能 告诉 我 俄勒冈 州 的 最高 点 是 什么
+(answer (highest (place (loc_2 (stateid oregon:e)))))
+
+密西西比 河 贯穿 哪些 州
+(answer (state (traverse_1 (riverid mississippi:e))))
+
+美国 的 最小 州 的 主要 城市 是 什么
+(answer (major (city (loc_2 (smallest (state (loc_2 (countryid usa:e))))))))
+
+瓜峰 有 多高
+(answer (elevation_1 (placeid guadalupe_peak:e)))
+
+哪条 河流 贯穿 伊利诺伊 州
+(answer (river (traverse_2 (stateid illinois:e))))
+
+密西西比 河 有 多长
+(answer (len (riverid mississippi:e)))
+
+最大 的 州 的 最高 点 有 多高
+(answer (elevation_1 (highest (place (loc_2 (largest (state all:e)))))))
+
+南卡罗来纳 州 的 面积 是 多少
+(answer (area_1 (stateid south_carolina:e)))
+
+最长 的 河流 贯穿 哪些 州
+(answer (state (traverse_1 (longest (river all:e)))))
+
+新奥尔良 市 在 哪里
+(answer (loc_1 (cityid new_orleans:e _:e)))
+
+麦金利 山 在 哪个 州
+(answer (state (loc_1 (placeid mount_mckinley:e))))
+
+哪个 州 有 最高 海拔
+(answer (state (loc_1 (highest (place all:e)))))
+
+加 州 有 多大
+(answer (size (stateid california:e)))
+
+与 得克萨斯 州 接壤 的 最小 的 州 是 哪个
+(answer (smallest (state (next_to_2 (stateid texas:e)))))
+
+在 阿拉巴马 州 有 多少 公民
+(answer (population_1 (stateid alabama:e)))
+
+罗切斯特 在 哪个 州
+(answer (state (loc_1 (cityid rochester:e _:e))))
+
+最短 的 河流 贯穿 美国 多少 州
+(answer (count (intersection (state (loc_2 (countryid usa:e))) (traverse_1 (shortest (river all:e))))))
+
+美国 最大 的 州 是 哪个
+(answer (largest (state (loc_2 (countryid usa:e)))))
+
+最大 的 州 的 面积 是 多少
+(answer (area_1 (largest (state all:e))))
+
+惠特尼 山 在 哪里
+(answer (loc_1 (placeid mount_whitney:e)))
+
+有 多少 州 与 艾奥瓦 州 接壤
+(answer (count (state (next_to_1 (stateid iowa:e)))))
+
+最长 的 河流 穿过 哪些 州
+(answer (state (traverse_1 (longest (river all:e)))))
+
+什么 河流 流经 堪萨斯 州
+(answer (river (traverse_2 (stateid kansas:e))))
+
+得克萨斯 州 的 奥斯汀 人口 是 多少
+(answer (population_1 (cityid austin:e tx:e)))
+
+佛蒙特 州 的 首府 是 什么
+(answer (capital (loc_2 (stateid vermont:e))))
+
+哪些 州 与 科罗拉多 州 接壤
+(answer (state (next_to_2 (stateid colorado:e))))
+
+密西西比 河 有 多长
+(answer (len (riverid mississippi:e)))
+
+哪个 州 有 最大 的 人口 密度
+(answer (largest_one (density_1 (state all:e))))
+
+什么 州 与 佐治亚 州 接壤
+(answer (state (next_to_2 (stateid georgia:e))))
+
+宾夕法尼亚 州 的 首府 是 哪儿
+(answer (capital (loc_2 (stateid pennsylvania:e))))
+
+得克萨斯 州 的 最大 的 河流 是 什么
+(answer (longest (river (loc_2 (stateid texas:e)))))
+
+美国 最长 的 河流 是 什么
+(answer (longest (river (loc_2 (countryid usa:e)))))
+
+犹他 州 的 首府 是 什么
+(answer (capital (loc_2 (stateid utah:e))))
+
+哪个 州 具有 最小 的 人口 密度
+(answer (smallest_one (density_1 (state all:e))))
+
+哪些 首府 不是 主要 城市
+(answer (exclude (capital all:e) (major (city all:e))))
+
+内布拉斯加 州 最大 的 城市 是 哪个
+(answer (largest (city (loc_2 (stateid nebraska:e)))))
+
+得克萨斯 州 的 人口 是 多少
+(answer (population_1 (stateid texas:e)))
+
+在 美国 最短 的 河流 是 哪个
+(answer (shortest (river (loc_2 (countryid usa:e)))))
+
+罗得岛 的 人口 是 多少
+(answer (population_1 (stateid rhode_island:e)))
+
+含有 最低 点 的 州 是 哪个
+(answer (state (loc_1 (lowest (place all:e)))))
+
+纽约 州 最长 的 河流 是 哪条
+(answer (longest (river (loc_2 (stateid new_york:e)))))
+
+贯穿 与 田纳西 州 接壤 的 州 的 最长 的 河流 是 哪条
+(answer (longest (river (traverse_2 (state (next_to_2 (stateid tennessee:e)))))))
+
+在 亚利桑那 州 的 主要 城市 有 多少
+(answer (count (major (city (loc_2 (stateid arizona:e))))))
+
+哪些 是 和 密歇根 州 相邻 的 州
+(answer (state (next_to_2 (stateid michigan:e))))
+
+与 得克萨斯 州 接壤 的 最大 的 州 是 哪个
+(answer (largest (state (next_to_2 (stateid texas:e)))))
+
+哪个 是 最短 的 河流
+(answer (shortest (river all:e)))
+
+有 多少 州 与 和 最多 的 州 接壤 的 州 接壤
+(answer (count (state (next_to_2 (most (state (next_to_2 (state all:e))))))))
+
+蒙大拿 州 最大 的 城市 在 哪个 州
+(answer (state (loc_1 (largest (city (loc_2 (stateid montana:e)))))))
+
+华盛顿 特区 的 人口 是 多少
+(answer (population_1 (cityid washington:e dc:e)))
+
+在 得克萨斯 州 人口 最多 的 城市 是 哪个
+(answer (largest_one (population_1 (city (loc_2 (stateid texas:e))))))
+
+夏威夷 州 的 首府 是 什么
+(answer (capital (loc_2 (stateid hawaii:e))))
+
+艾奥瓦 州 的 首府 是 什么
+(answer (capital (loc_2 (stateid iowa:e))))
+
+圣地亚哥 市 在 哪里
+(answer (loc_1 (cityid san_diego:e _:e)))
+
+特拉华 州 的 主要 城市 是 什么
+(answer (major (city (loc_2 (stateid delaware:e)))))
+
+路易斯安那 州 的 最低 点 是 什么
+(answer (lowest (place (loc_2 (stateid louisiana:e)))))
+
+哪个 州 拥有 美国 的 最高 峰
+(answer (state (loc_1 (highest (place all:e)))))
+
+得克萨斯 州 的 什么 城市 的 人口 最多
+(answer (largest_one (population_1 (city (loc_2 (stateid texas:e))))))
+
+在 美国 哪个 首府 最大
+(answer (largest (capital (loc_2 (countryid usa:e)))))
+
+纽约 州 的 人口 是 多少
+(answer (population_1 (stateid new_york:e)))
+
+最小 的 州 的 首府 的 人口 是 多少
+(answer (population_1 (capital (loc_2 (smallest (state all:e))))))
+
+阿拉斯加 州 的 面积 是 多少
+(answer (area_1 (stateid alaska:e)))
+
+加 州 人口 是 多少
+(answer (population_1 (stateid california:e)))
+
+哪个 州 有 最长 的 河流
+(answer (state (loc_1 (longest (river all:e)))))
+
+得克萨斯 州 的 首府 是 哪儿
+(answer (capital (loc_2 (stateid texas:e))))
+
+给 我 在 德克萨斯 州 的 城市
+(answer (city (loc_2 (stateid texas:e))))
+
+什么 州 与 肯塔基 州 接壤
+(answer (state (next_to_2 (stateid kentucky:e))))
+
+佛罗里达 州 的 最高 点 有 多高
+(answer (elevation_1 (highest (place (loc_2 (stateid florida:e))))))
+
+北卡罗来纳 州 的 主要 城市 是 什么
+(answer (major (city (loc_2 (stateid north_carolina:e)))))
+
+德梅因 首府 所在 州 的 最高 点 是 什么
+(answer (highest (place (loc_2 (state (loc_1 (capital (cityid des_moines:e _:e))))))))
+
+加利福尼亚 州 的 最低 点 是 什么
+(answer (lowest (place (loc_2 (stateid california:e)))))
+
+在 怀俄明 州 最大 的 城市 是 哪个
+(answer (largest (city (loc_2 (stateid wyoming:e)))))
+
+与 得克萨斯 州 接壤 的 最大 的 州 是 哪个
+(answer (largest (state (next_to_2 (stateid texas:e)))))
+
+在 夏威夷 州 最小 的 城市 是 哪个
+(answer (smallest (city (loc_2 (stateid hawaii:e)))))
+
+美国 的 面积 是 多少
+(answer (area_1 (state all:e)))
+
+爱达荷 州 的 面积 是 多少
+(answer (area_1 (stateid idaho:e)))
+
+哪个 州 流经 它的 河流 最多
+(answer (most (state (traverse_1 (river all:e)))))
+
+美国 密苏里 州 斯普林菲尔德 的 人口 是 多少
+(answer (population_1 (cityid springfield:e mo:e)))
+
+与 俄克拉荷马 州 接壤 的 人口 最多 的 州 是 哪个
+(answer (largest_one (population_1 (state (next_to_2 (stateid oklahoma:e))))))
+
+与 肯塔基 州 相邻 的 州 有 多少
+(answer (count (state (next_to_2 (stateid kentucky:e)))))
+
+在 宾夕法尼亚 州 每 平方公里 的 平均 人口 是 多少
+(answer (density_1 (stateid pennsylvania:e)))
+
+哪个 州 拥有 最大 的 人口 密度
+(answer (largest_one (density_1 (state all:e))))
+
+在 美国 最高 的 山 是 哪个
+(answer (highest (mountain (loc_2 (countryid usa:e)))))
+
+面积 最大 的 州 的 最高 点 是 什么
+(answer (highest (place (loc_2 (largest_one (area_1 (state all:e)))))))
+
+有 哪些 州
+(answer (state all:e))
+
+在 华盛顿 有 多少 条 河流
+(answer (count (river (loc_2 (stateid washington:e)))))
+
+密西西比 河 所 贯穿 的 州 的 人口 是 多少
+(answer (population_1 (state (traverse_1 (riverid mississippi:e)))))
+
+伊利诺伊 州 最大 的 河流 是 哪个
+(answer (longest (river (loc_2 (stateid illinois:e)))))
+
+密歇根 州 的 首都 是 哪儿
+(answer (capital (loc_2 (stateid michigan:e))))
+
+与 得克萨斯 州 接壤 的 州 的 人口 总数 是 多少
+(answer (sum (population_1 (state (next_to_2 (stateid texas:e))))))
+
+什么 州 与 罗得岛 接壤
+(answer (state (next_to_2 (stateid rhode_island:e))))
+
+在 俄勒冈 州 最大 的 城市 是 哪个
+(answer (largest (city (loc_2 (stateid oregon:e)))))
+
+威斯康星 州 的 最低 点 是 什么
+(answer (lowest (place (loc_2 (stateid wisconsin:e)))))
+
+印第安纳 州 的 河流 是 什么
+(answer (river (loc_2 (stateid indiana:e))))
+
+奥斯汀 市 的 人口 是 多少
+(answer (population_1 (cityid austin:e _:e)))
+
+在 阿肯色 州 最小 的 城市 是 哪个
+(answer (smallest (city (loc_2 (stateid arkansas:e)))))
+
+给 我 流经 美国 的 最长 的 河流
+(answer (longest (river (traverse_2 (countryid usa:e)))))
+
+密苏里 河 有 多长
+(answer (len (riverid missouri:e)))
+
+哪个 州 有 最大 的 城市
+(answer (state (loc_1 (largest (city all:e)))))
+
+宾夕法尼亚 州 的 最低 海拔 是 什么
+(answer (lowest (place (loc_2 (stateid pennsylvania:e)))))
+
+最高 点 所在 州 的 的 最长 的 河流 是 哪条
+(answer (longest (river (loc_2 (state (loc_1 (highest (place all:e))))))))
+
+科罗拉多 河 贯穿 哪些 州
+(answer (state (traverse_1 (riverid colorado:e))))
+
+波托马克 河 贯穿 哪些 州
+(answer (state (traverse_1 (riverid potomac:e))))
+
+哪个 是 美国 最大 的 城市
+(answer (largest (city (loc_2 (countryid usa:e)))))
+
+什么 州 没有 河流
+(answer (exclude (state all:e) (loc_1 (river all:e))))
+
+罗得岛 的 最高 点 是 什么
+(answer (highest (place (loc_2 (stateid rhode_island:e)))))
+
+列出 所有 不跟 其它 州 接壤 的 州
+(answer (exclude (state all:e) (next_to_2 (state all:e))))
+
+佐治亚 州 亚特兰大 的 人口 是 多少
+(answer (population_1 (cityid atlanta:e ga:e)))
+
+美国 有 多少 平方公里 呢
+(answer (area_1 (countryid usa:e)))
+
+爱达荷 州 的 人口 是 多少
+(answer (population_1 (stateid idaho:e)))
+
+与 加 州 相邻 的 是 哪个 州
+(answer (state (next_to_2 (stateid california:e))))
+
+被 最长 的 河流 贯穿 的 最小 的 州 是 哪个
+(answer (smallest (state (traverse_1 (longest (river all:e))))))
+
+在 伊利诺伊 州 主要 城市 的 名称 是 什么
+(answer (major (city (loc_2 (stateid illinois:e)))))
+
+科罗拉多 河 贯穿 多少 州
+(answer (count (state (traverse_1 (riverid colorado:e)))))
+
+科罗拉多 河 流经 多少 州
+(answer (count (state (traverse_1 (riverid colorado:e)))))
+
+堪萨斯 州 的 主要 城市 是 什么
+(answer (major (city (loc_2 (stateid kansas:e)))))
+
+哪些 州 与 得克萨斯 州 接壤
+(answer (state (next_to_2 (stateid texas:e))))
+
+有 多少 人 住 在 纽约
+(answer (population_1 (stateid new_york:e)))
+
+与 最大 的 州 接壤 的 州 的 最大 的 城市 是 什么
+(answer (largest (city (loc_2 (state (next_to_2 (largest (state all:e))))))))
+
+哪些 州 含有 比 德克萨斯 州 的 最高 点 高 的 点
+(answer (state (loc_1 (place (higher_2 (highest (place (loc_2 (stateid texas:e)))))))))
+
+横贯 俄亥俄 州 的 河流 是 哪个
+(answer (river (traverse_2 (stateid ohio:e))))
+
+密歇根 州 最大 的 城市 是 哪个
+(answer (largest (city (loc_2 (stateid michigan:e)))))
+
+在 国家 最高 点 的 所在 州 有 多少 条 河流
+(answer (count (river (loc_2 (state (loc_1 (highest (place all:e))))))))
+
+哪些 城市 是 位于 宾夕法尼亚 州 的
+(answer (city (loc_2 (stateid pennsylvania:e))))
+
+人口 最少 的 州 是 哪个
+(answer (smallest_one (population_1 (state all:e))))
+
+在 各个 最低 点 与 海平面 持平 的 州 里 的 最高 点 是 什么
+(answer (highest (place (loc_2 (state (loc_1 (lowest (place (elevation_2 0:e)))))))))
+//(answer (highest (place (loc_2 (state (loc_1 (place (elevation_2 0:e))))))))
+
+给 我 在 美国 的 城市
+(answer (city (loc_2 (countryid usa:e))))
+
+有 多少 州 被 密苏里 河 贯穿 呢
+(answer (count (state (traverse_1 (riverid missouri:e)))))
+
+哪个 州 拥有 人口 最多 的 城市
+(answer (state (loc_1 (largest_one (population_1 (city all:e))))))
+
+最短 的 河流 是 哪个
+(answer (shortest (river all:e)))
+
+有 多少 州 与 阿拉斯加 州 接壤
+(answer (count (state (next_to_2 (stateid alaska:e)))))
+
+达拉斯 的 人口 是 多少
+(answer (population_1 (cityid dallas:e _:e)))
+
+圣何塞 市 在 哪里
+(answer (loc_1 (cityid san_jose:e _:e)))
+
+和 科罗拉多 接壤 的 州 与 哪些 州 接壤
+(answer (state (next_to_2 (state (next_to_2 (stateid colorado:e))))))
+
+什么 河流 流经 人口 最多 的 州
+(answer (river (traverse_2 (largest_one (population_1 (state all:e))))))
+
+最大 的 城市 是 什么
+(answer (largest (city all:e)))
+
+阿拉巴马 州 的 首府 是 哪儿
+(answer (capital (loc_2 (stateid alabama:e))))
+
+什么 州 与 阿肯色 州 接壤
+(answer (state (next_to_2 (stateid arkansas:e))))
+
+丹佛 市 人口 是 多少
+(answer (population_1 (cityid denver:e _:e)))
+
+美国 最长 的 河流 是 什么
+(answer (longest (river (loc_2 (countryid usa:e)))))
+
+哪里 是 马萨诸塞 州
+(answer (loc_1 (stateid massachusetts:e)))
+
+哪个 州 的 面积 最小
+(answer (smallest_one (area_1 (state all:e))))
+
+哪些 主要 河流 流经 伊利诺伊 州
+(answer (major (river (traverse_2 (stateid illinois:e)))))
+
+在 美国 有 多少 城市 呢
+(answer (count (city (loc_2 (countryid usa:e)))))
+
+有 多少 人 生活 在 加利福尼亚
+(answer (population_1 (stateid california:e)))
+
+在 美国 有 哪些 主要 河流 呢
+(answer (major (river (loc_2 (countryid usa:e)))))
+
+密西西比 河 贯穿 多少 州
+(answer (count (state (traverse_1 (riverid mississippi:e)))))
+
+得克萨斯 的 面积 是 多少
+(answer (area_1 (stateid texas:e)))
+
+流经 最多 州 的 河流 的 长度 是 多少
+(answer (len (most (river (traverse_2 (state all:e))))))
+
+美国 最长 的 河流 的 长度 是 多少
+(answer (len (longest (river (loc_2 (countryid usa:e))))))
+
+你 能 告诉 我 得克萨斯 州 的 省会 吗
+(answer (capital (loc_2 (stateid texas:e))))
+
+明尼苏达 州 人口 最多 的 城市 是 哪个
+(answer (largest_one (population_1 (city (loc_2 (stateid minnesota:e))))))
+
+美国 最小 的 州 是 哪个
+(answer (smallest (state (loc_2 (countryid usa:e)))))
+
+哪些 州 与 缅因 州 相邻
+(answer (state (next_to_2 (stateid maine:e))))
+
+哪些 州 的 高点 比 科罗拉多 州 的 高点 高
+(answer (state (high_point_2 (higher_2 (high_point_1 (stateid colorado:e))))))
+
+德克萨斯 州 最高 的 山峰 是 什么
+(answer (highest (mountain (loc_2 (stateid texas:e)))))
+
+得克萨斯 州 的 主要 城市 是 什么
+(answer (major (city (loc_2 (stateid texas:e)))))
+
+有 哪些 州 与 人口 最多 的 州 接壤
+(answer (state (next_to_2 (largest_one (population_1 (state all:e))))))
+
+什么 河流 贯穿 科罗拉多 州
+(answer (river (traverse_2 (stateid colorado:e))))
+
+在 美国 有 多少 河流
+(answer (count (river (loc_2 (countryid usa:e)))))
+
+在 纽约 州 有 多少 条 河流
+(answer (count (river (loc_2 (stateid new_york:e)))))
+
+哪些 河流 在 阿拉斯加
+(answer (river (loc_2 (stateid alaska:e))))
+
+流经 纽约 的 最长 的 河流 是 哪个
+(answer (longest (river (traverse_2 (stateid new_york:e)))))
+
+什么 河流 贯穿 西弗吉尼亚 州
+(answer (river (traverse_2 (stateid west_virginia:e))))
+
+与 得克萨斯 州 接壤 的 州 的 首府 是 什么
+(answer (capital (loc_2 (state (next_to_2 (stateid texas:e))))))
+
+加 州 的 面积 是 多少
+(answer (area_1 (stateid california:e)))
+
+有 多少 州 含有 一个 名为 斯普林菲尔德 的 城市
+(answer (count (state (loc_1 (city (cityid springfield:e _:e))))))
+
+在 德克萨斯 州 最大 的 城市 是 哪个
+(answer (largest (city (loc_2 (stateid texas:e)))))
+
+在 美国 有 多少 城市 以 奥斯汀 为名
+(answer (count (intersection (city (cityid austin:e _:e)) (loc_2 (countryid usa:e)))))
+
+最大 的 州 的 主要 城市 是 什么
+(answer (major (city (loc_2 (largest (state all:e))))))
+
+科罗拉多 河 贯穿 哪些 州
+(answer (state (traverse_1 (riverid colorado:e))))
+
+威斯康星 州 最大 的 城市 是 什么
+(answer (largest (city (loc_2 (stateid wisconsin:e)))))
+
+阿拉斯加 州 有 多大
+(answer (size (stateid alaska:e)))
+
+哪个 州 包含 美国 的 最高 点 呢
+(answer (state (loc_1 (highest (place (loc_2 (countryid usa:e)))))))
+
+北达科他 州 有 多大
+(answer (size (stateid north_dakota:e)))
+
+哪些 河流 流经 阿拉斯加 州
+(answer (river (traverse_2 (stateid alaska:e))))
+
+美国 的 最高 点 是 什么 呢
+(answer (highest (place (loc_2 (countryid usa:e)))))
+
+在 得克萨斯 州 最短 的 河流 是 哪个
+(answer (shortest (river (loc_2 (stateid texas:e)))))
+
+弗吉尼亚 州 的 主要 河流 贯穿 的 州 的 主要 城市 有 哪些
+(answer (major (city (loc_2 (state (traverse_1 (major (river (loc_2 (stateid virginia:e))))))))))
+
+俄勒冈 州 有 什么 河流
+(answer (river (loc_2 (stateid oregon:e))))
+
+美国 的 最低 点 是 什么
+(answer (lowest (place (loc_2 (countryid usa:e)))))
+
+含有 名为 斯普林菲尔德 的 城市 或 小镇 的 州 有 多少
+(answer (count (state (loc_1 (city (cityid springfield:e _:e))))))
+
+南达科他 州 的 人口 是 多少
+(answer (population_1 (stateid south_dakota:e)))
+
+最高 点 所在 州 的 首府 是 什么
+(answer (capital (loc_2 (state (loc_1 (highest (place all:e)))))))
+
+哪个 州 的 海拔 最高
+(answer (state (loc_1 (highest (place all:e)))))
+
+什么 州 与 得克萨斯 州 相邻
+(answer (state (next_to_2 (stateid texas:e))))
+
+流经 与 最多 州 接壤 的 州 接壤 的 州 的 最长 的 河流 是 哪个
+(answer (longest (river (traverse_2 (state (next_to_2 (most (state (next_to_2 (state all:e))))))))))
+
+哪些 州 与 夏威夷 接壤
+(answer (state (next_to_2 (stateid hawaii:e))))
+
+在 俄勒冈 州 有 多少 个 主要 城市
+(answer (count (major (city (loc_2 (stateid oregon:e))))))
+
+南达科他 州 的 斯普林菲尔德 的 人口 是 多少
+(answer (population_1 (cityid springfield:e sd:e)))
+
+在 得克萨斯 州 有 多少 河流
+(answer (count (river (traverse_2 (stateid texas:e)))))
+
+哪个 州 拥有 流经 它的 最多 主要 河流
+(answer (most (state (traverse_1 (major (river all:e))))))
+
+哪些 湖泊 在 与 得克萨斯 州 接壤 的 州
+(answer (lake (loc_2 (state (next_to_2 (stateid texas:e))))))
+
+博尔德 市 有 多少 人
+(answer (population_1 (cityid boulder:e _:e)))
+
+内华达 州 有 什么 河流
+(answer (river (loc_2 (stateid nevada:e))))
+
+韦恩堡 市 在 哪里
+(answer (loc_1 (cityid fort_wayne:e _:e)))
+
+印第安纳波利斯 市 在 哪里
+(answer (loc_1 (cityid indianapolis:e _:e)))
+
+什么 州 和 与 得克萨斯 州 接壤 的 州 接壤 的 州 接壤 的 州 接壤
+(answer (state (next_to_2 (state (next_to_2 (state (next_to_2 (state (next_to_2 (stateid texas:e))))))))))
+
+博尔德 市 的 居民 人数 是 多少
+(answer (population_1 (cityid boulder:e _:e)))
+
+美国 有 哪些 主要 城市 呢
+(answer (major (city (loc_2 (countryid usa:e)))))
+
+列出 在 科罗拉多 州 的 主要 城市
+(answer (major (city (loc_2 (stateid colorado:e)))))
+
+哥伦布 是 哪个 州 的 首府
+(answer (state (loc_1 (capital (cityid columbus:e _:e)))))
+
+所有 州 的 面积 总和 是 多少
+(answer (sum (area_1 (state all:e))))
+
+在 美国 每 平方公里 的 平均 人口 是 多少
+(answer (density_1 (countryid usa:e)))
+
+与 加利福尼亚 州 接壤 的 最大 的 州 是 哪个
+(answer (largest (state (next_to_2 (stateid california:e)))))
+
+蒙大拿 州 的 人口 是 多少
+(answer (population_1 (stateid montana:e)))
+
+在 蒙大拿 州 所有 主要 城市 的 人口 是 多少
+(answer (population_1 (major (city (loc_2 (stateid montana:e))))))
+
+哪些 河流 贯穿 美国 海拔 最低 的 州
+(answer (river (traverse_2 (state (loc_1 (lowest (place (loc_2 (countryid usa:e)))))))))
+
+什么 河流 流经 最大 的 州
+(answer (river (traverse_2 (largest (state all:e)))))
+
+缅因 州 的 面积 是 多少
+(answer (area_1 (stateid maine:e)))
+
+德克萨斯 州 的 主要 河流 是 哪些
+(answer (major (river (loc_2 (stateid texas:e)))))
+
+人口 最少 的 州 的 人口 密度 是 多少
+(answer (density_1 (smallest_one (population_1 (state all:e)))))
+
+怀俄明 州 的 最高 点 是 什么
+(answer (highest (place (loc_2 (stateid wyoming:e)))))
+
+什么 州 与 特拉华 州 接壤
+(answer (state (next_to_2 (stateid delaware:e))))
+
+哪个 州 拥有 最多 流经 它的 河流
+(answer (most (state (traverse_1 (river all:e)))))
+
+最大 的 首府 是 哪里
+(answer (largest (capital all:e)))
+
+哪个 州 有 最高 的 人口 密度
+(answer (largest_one (density_1 (state all:e))))
+
+哪些 州 有 名为 斯普林菲尔德 的 小镇
+(answer (state (loc_1 (city (cityid springfield:e _:e)))))
+
+最大 的 州 中 最小 的 城市 是 哪个
+(answer (smallest (city (loc_2 (largest (state all:e))))))
+
+在 阿拉斯加 州 有 什么 山
+(answer (mountain (loc_2 (stateid alaska:e))))
+
+哪个 州 有 最小 的 人口 密度
+(answer (smallest_one (density_1 (state all:e))))
+
+蒙哥马利 市 有 多少 居民 呢
+(answer (population_1 (cityid montgomery:e _:e)))
+
+哪个 城市 拥有 人口 最多
+(answer (largest_one (population_1 (city all:e))))
+
+最大 的 州 是 哪个
+(answer (largest (state all:e)))
+
+在 密西西比 河 流经 的 州 里 哪 一个 州 有 最低 点
+(answer (state (loc_1 (lowest (place (loc_2 (state (traverse_1 (riverid mississippi:e)))))))))
+
+人口 密度 最小 的 州 的 的 面积 是 多少
+(answer (area_1 (smallest_one (density_1 (state all:e)))))
+
+哪个 州 有 最多 的 河流
+(answer (most (state (loc_1 (river all:e)))))
+
+密西西比 州 最长 的 河流 是 哪条
+(answer (longest (river (loc_2 (stateid mississippi:e)))))
+
+最大 的 州 的 首府 是 哪儿
+(answer (capital (loc_2 (largest (state all:e)))))
+
+哪个 州 拥有 最多 人口
+(answer (largest_one (population_1 (state all:e))))
+
+说出 在 阿肯色 州 的 河流
+(answer (river (loc_2 (stateid arkansas:e))))
+
+密西西比 河 所 贯穿 的 州 的 人口 是 多少
+(answer (population_1 (state (traverse_1 (riverid mississippi:e)))))
+
+亚利桑那 州 的 人口 是 多少
+(answer (population_1 (stateid arizona:e)))
+
+哪个 州 与 人口 最少 的 州 接壤
+(answer (state (next_to_2 (smallest_one (population_1 (state all:e))))))
+
+美国 的 总 面积 是 多少
+(answer (area_1 (countryid usa:e)))
+
+华盛顿 州 西雅图 的 人口 是 多少
+(answer (population_1 (cityid seattle:e wa:e)))
+
+美国 最大 的 州 有 多大
+(answer (size (largest (state (loc_2 (countryid usa:e))))))
+
+哪个 州 的 首府 是 塞勒姆
+(answer (state (loc_1 (capital (cityid salem:e _:e)))))
+
+被 密西西比 河 贯穿 的 州 的 最低 点 是 哪个
+(answer (lowest (place (loc_2 (state (traverse_1 (riverid mississippi:e)))))))
+
+在 得克萨斯 州 有 多少 主要 城市
+(answer (count (major (city (loc_2 (stateid texas:e))))))
+
+美国 最大 的 州 的 首府 城市 是 什么
+(answer (capital (city (loc_2 (largest (state (loc_2 (countryid usa:e))))))))
+
+罗德岛 州 的 主要 城市 是 什么
+(answer (major (city (loc_2 (stateid rhode_island:e)))))
+
+哪个 州 有 最多 人
+(answer (largest_one (population_1 (state all:e))))
+
+堪萨斯 州 最大 的 城市 是 什么
+(answer (largest (city (loc_2 (stateid kansas:e)))))
+
+奥尔巴尼 首府 的 所在 州 的 面积 是 多少
+(answer (area_1 (state (loc_1 (capital (cityid albany:e _:e))))))
+
+流经 科罗拉多 州 的 最长 的 河流 是 哪个
+(answer (longest (river (traverse_2 (stateid colorado:e)))))
+
+阿拉斯加 州 有 多少 河流 呢
+(answer (count (river (loc_2 (stateid alaska:e)))))
+
+马萨诸塞 州 有 多大
+(answer (size (stateid massachusetts:e)))
+
+阿拉斯加 州 最大 的 城市 有 多大
+(answer (size (largest (city (loc_2 (stateid alaska:e))))))
+
+在 美国 有 多少 城市
+(answer (count (city (loc_2 (countryid usa:e)))))
+
+哪个 州 的 首都 是 多佛 市
+(answer (state (capital_2 (cityid dover:e _:e))))
+
+什么 州 与 新罕布什尔 州 接壤
+(answer (state (next_to_2 (stateid new_hampshire:e))))
+
+内布拉斯加 州 最短 的 河流 是 哪个
+(answer (shortest (river (loc_2 (stateid nebraska:e)))))
+
+有 多少 州 与 夏威夷 接壤
+(answer (count (state (next_to_2 (stateid hawaii:e)))))
+
+达拉斯 在 哪个 州
+(answer (state (loc_1 (cityid dallas:e _:e))))
+
+哪个 城市 的 人口 最少
+(answer (smallest_one (population_1 (city all:e))))
+
+有 多少 人 住 在 犹他 州
+(answer (population_1 (stateid utah:e)))
+
+哪个 州 具有 最 稀少 的 人口 密度
+(answer (smallest_one (density_1 (state all:e))))
+
+与 美国 的 最低 点 所在 州 接壤 的 最大 的 州 是 哪个
+(answer (largest (state (next_to_2 (state (loc_1 (lowest (place (loc_2 (countryid usa:e))))))))))
+
+德克萨斯 州 最大 的 城市 是 什么
+(answer (largest (city (loc_2 (stateid texas:e)))))
+
+美国 最大 的 州 是 哪个 呢
+(answer (largest (state (loc_2 (countryid usa:e)))))
+
+哪个 州 拥有 最多 的 人
+(answer (largest_one (population_1 (state all:e))))
+
+新墨西哥 州 有 什么 河流
+(answer (river (loc_2 (stateid new_mexico:e))))
+
+马里兰 州 的 面积 是 多少 平方公里
+(answer (area_1 (stateid maryland:e)))
+
+在 美国 有 多少 州
+(answer (count (state (loc_2 (countryid usa:e)))))
+
+在 与 内布拉斯加 接壤 的 州 里 有 多少 主要 城市 呢
+(answer (count (major (city (loc_2 (state (next_to_2 (stateid nebraska:e))))))))
+
+最大 的 州 的 人口 是 多少
+(answer (population_1 (largest (state all:e))))
+
+佛罗里达 州 有 多大
+(answer (size (stateid florida:e)))
+
+在 密苏里 州 有 多少 条 河流
+(answer (count (river (loc_2 (stateid missouri:e)))))
+
+有 多少 河流 贯穿 得克萨斯 州
+(answer (count (river (loc_2 (stateid texas:e)))))
+
+德梅因 首府 所在 州 的 最高 点 是 什么
+(answer (highest (place (loc_2 (state (loc_1 (capital (cityid des_moines:e _:e))))))))
+
+西雅图 的 人口 是 多少
+(answer (population_1 (cityid seattle:e _:e)))
+
+科罗拉多 州 的 最高 点 是 什么
+(answer (highest (place (loc_2 (stateid colorado:e)))))
+
+哪些 州 与 亚利桑那 州 接壤
+(answer (state (next_to_2 (stateid arizona:e))))
+
+什么 河流 贯穿 美国 最低 点 的 所在 州
+(answer (river (traverse_2 (state (loc_1 (lowest (place (loc_2 (countryid usa:e)))))))))
+
+明尼苏达 州 的 人口 是 多少
+(answer (population_1 (stateid minnesota:e)))
+
+哪个 州 拥有 人口 最多 的 城市
+(answer (state (loc_1 (largest_one (population_1 (city all:e))))))
+
+哪些 州 有 一个 名为 奥斯汀 的 主要 城市
+(answer (state (loc_1 (major (city (cityid austin:e _:e))))))
+
+哪些 州 有 比 科罗拉多 州 的 最高 点 更高 的 点
+(answer (state (loc_1 (place (higher_2 (highest (place (loc_2 (stateid colorado:e)))))))))
+
+人口 最少 的 州 的 最高 点 是 什么
+(answer (highest (place (loc_2 (smallest_one (population_1 (state all:e)))))))
+
+新罕布什尔 州 在 哪里
+(answer (loc_1 (stateid new_hampshire:e)))
+
+哪个 州 与 佛罗里达 州 接壤
+(answer (state (next_to_2 (stateid florida:e))))
+
+在 得克萨斯 州 有 多少 条 河流 比 红 河 长
+(answer (count (intersection (river (loc_2 (stateid texas:e))) (longer (riverid red:e)))))
+
+有 多少 河流 没有 穿越 奥尔巴尼 首府 的 所在 州
+(answer (count (exclude (river all:e) (traverse_2 (state (loc_1 (capital (cityid albany:e _:e))))))))
+
+密西西比 河 所 贯穿 的 州 的 人口 是 多少
+(answer (population_1 (state (traverse_1 (riverid mississippi:e)))))
+
+密西西比 河 贯穿 哪些 州
+(answer (state (traverse_1 (riverid mississippi:e))))
+
+什么 州 与 密西西比 州 相邻
+(answer (state (next_to_2 (riverid mississippi:e))))
+//(answer (state (next_to_2 (stateid mississippi:e))))
+
+告诉 我 在 弗吉尼亚 州 的 城市
+(answer (city (loc_2 (stateid virginia:e))))
+
+与 得克萨斯 州 接壤 的 州 的 首府 城市 是 什么
+(answer (capital (city (loc_2 (state (next_to_2 (stateid texas:e)))))))
+
+哪个 与 得克萨斯 州 接壤 的 州 的 人口 最多
+(answer (largest_one (population_1 (state (next_to_2 (stateid texas:e))))))
+
+哪个 州 是 拥有 河流 最多 的 州
+(answer (state (most (state (loc_1 (river all:e))))))
+
+哪个 州 拥有 最小 的 人口 密度
+(answer (smallest_one (density_1 (state all:e))))
+
+俄亥俄 州 的 主要 城市 是 什么
+(answer (major (city (loc_2 (stateid ohio:e)))))
+
+密苏里 河 贯穿 哪些 州
+(answer (state (traverse_1 (riverid missouri:e))))
+
+亚利桑那 州 最大 的 城市 是 哪个
+(answer (largest (city (loc_2 (stateid arizona:e)))))
+
+有 多少 人 生活 在 夏威夷
+(answer (population_1 (stateid hawaii:e)))
+
+有 多少 人 住 在 与 怀俄明 州 接壤 的 最小 的 州 里
+(answer (population_1 (smallest (state (next_to_2 (stateid wyoming:e))))))
+
+最低 点 所在 州 的 名字 是 什么
+(answer (state (loc_1 (lowest (place all:e)))))
+
+流经 密苏里 州 的 有 什么 河流
+(answer (river (traverse_2 (stateid missouri:e))))
+
+死亡谷 海拔 是 多少
+(answer (elevation_1 (placeid death_valley:e)))
+
+什么 河流 流经 得克萨斯 州
+(answer (river (traverse_2 (stateid texas:e))))
+
+所有 州 的 最高 点 是 多高
+(answer (elevation_1 (highest (place (loc_2 (state all:e))))))
+
+新罕布什尔 州 的 首都 是 哪儿
+(answer (capital (loc_2 (stateid new_hampshire:e))))
+
+里奥格兰德 河 有 多长
+(answer (len (riverid rio_grande:e)))
+
+哪个 州 与 最多 的 州 接壤
+(answer (most (state (next_to_2 (state all:e)))))
+
+有 多少 州 与 密苏里 州 接壤
+(answer (count (state (next_to_1 (stateid missouri:e)))))
+
+奥斯汀 市 在 哪里
+(answer (loc_1 (cityid austin:e _:e)))
+
+特拉华 州 的 最高 点 有 多高
+(answer (elevation_1 (highest (place (loc_2 (stateid delaware:e))))))
+
+哪里 是 蒙大拿 州 的 最高 点
+(answer (loc_1 (highest (place (loc_2 (stateid montana:e))))))
+//(answer (highest (place (loc_2 (stateid montana:e)))))
+
+什么 州 和 与 人口 最多 的 州 接壤 的 州 接壤
+(answer (state (next_to_2 (state (next_to_2 (largest_one (population_1 (state all:e))))))))
+
+德克萨斯 州 最高 的 山峰 的 高度 是 多少
+(answer (elevation_1 (highest (mountain (loc_2 (stateid texas:e))))))
+
+哪个 州 拥有 弗林特 市
+(answer (state (loc_1 (cityid flint:e _:e))))
+
+在 美国 密度 最大 的 州 是 哪个
+(answer (largest_one (density_1 (state (loc_2 (countryid usa:e))))))
+
+在 得克萨斯 州 哪个 城市 的 市民 人数 最多
+(answer (largest_one (population_1 (city (loc_2 (stateid texas:e))))))
+
+什么 州 与 密苏里 州 接壤
+(answer (state (next_to_2 (stateid missouri:e))))
+
+给 我 最大 的 州
+(answer (largest (state all:e)))
+
+哪个 州 的 人口 密度 最 稀少
+(answer (smallest_one (density_1 (state all:e))))
+
+哪些 州 与 阿拉巴马 州 接壤
+(answer (state (next_to_2 (stateid alabama:e))))
+
+什么 河流 流经 与 阿拉巴马 州 接壤 的 州
+(answer (river (traverse_2 (state (next_to_1 (stateid alabama:e))))))
+
+怀俄明 州 的 主要 城市 是 什么
+(answer (major (city (loc_2 (stateid wyoming:e)))))
+
+什么 是 密西西比 州 的 周边 的 州 的 最高 点
+(answer (highest (place (loc_2 (state (next_to_2 (stateid mississippi:e)))))))
+
+密西西比 河 流经 哪些 州
+(answer (state (traverse_1 (riverid mississippi:e))))
+
+斯科茨瓦利 市 在 哪里
+(answer (loc_1 (cityid scotts_valley:e _:e)))
+
+美国 有 哪些 主要 湖泊 呢
+(answer (major (lake (loc_2 (countryid usa:e)))))
+
+密苏里 州 最大 的 城市 是 哪个
+(answer (largest (city (loc_2 (stateid missouri:e)))))
+
+什么 州 与 阿拉斯加 州 接壤
+(answer (state (next_to_2 (stateid alaska:e))))
+
+哪个 州 拥有 最大 的 城市
+(answer (state (loc_1 (largest (city all:e)))))
+
+什么 河流 贯穿 缅因 州
+(answer (river (traverse_2 (stateid maine:e))))
+
+给 我 在 加利福尼亚 州 的 湖泊
+(answer (lake (loc_2 (stateid california:e))))
+
+所有 50 个 州 的 总 人口 是 多少
+(answer (sum (population_1 (state all:e))))
+
+路易斯安那 州 的 最高 点 有 多高
+(answer (elevation_1 (highest (place (loc_2 (stateid louisiana:e))))))
+
+宾夕法尼亚 州 最长 的 河流 是 哪条
+(answer (longest (river (loc_2 (stateid pennsylvania:e)))))
+
+马里兰 州 首府 是 哪儿
+(answer (capital (loc_2 (stateid maryland:e))))
+
+哪个 州 最大
+(answer (largest (state all:e)))
+
+哪些 州 与 艾奥瓦 州 接壤
+(answer (state (next_to_2 (stateid iowa:e))))
+
+哪些 州 与 阿拉斯加 州 接壤
+(answer (state (next_to_2 (stateid alaska:e))))
+
+美国 最大 的 州 是 哪个
+(answer (largest (state (loc_2 (countryid usa:e)))))
+
+加利福尼亚 州 的 主要 城市 是 什么
+(answer (major (city (loc_2 (stateid california:e)))))
+
+密西西比 河 流经 的 最大 的 州 是 哪个
+(answer (largest (state (traverse_1 (riverid mississippi:e)))))
+
+哪些 河流 流经 与 新墨西哥 州 接壤 的 州
+(answer (river (traverse_2 (state (next_to_2 (stateid new_mexico:e))))))
+
+在 得克萨斯 州 的 最低 点 是 什么
+(answer (lowest (place (loc_2 (stateid texas:e)))))
+
+与 俄亥俄 州 接壤 的 最小 的 州 是 哪个
+(answer (smallest (state (next_to_2 (stateid ohio:e)))))
+
+有 多少 个 州 是 临近 主要 河流 的
+(answer (count (state (next_to_2 (major (river all:e))))))
+
+美国 最低 点 是 什么
+(answer (lowest (place (loc_2 (countryid usa:e)))))
+
+人口 密度 最大 的 州 是 哪个
+(answer (largest_one (density_1 (state all:e))))
+
+有 多少 州 与 最大 的 州 接壤
+(answer (count (state (next_to_2 (largest (state all:e))))))
+
+没有 流经 得克萨斯 州 的 最长 的 河流 是 哪个
+(answer (longest (exclude (river all:e) (traverse_2 (stateid texas:e)))))
+
+给 我 美国 所有 的 州
+(answer (state (loc_2 (countryid usa:e))))
+
+得克萨斯 州 的 人口 密度 是 多少
+(answer (density_1 (stateid texas:e)))
+
+在 美国 最小 的 州 里 最小 的 城市 是 哪个
+(answer (smallest (city (loc_2 (smallest (state (loc_2 (countryid usa:e))))))))
+
+堪萨斯 州 的 最高 点 是 什么
+(answer (highest (place (loc_2 (stateid kansas:e)))))
+
+波士顿 的 人口 是 多少
+(answer (population_1 (cityid boston:e _:e)))
+
+在 内华达 州 有 多少 人
+(answer (population_1 (stateid nevada:e)))
+
+得克萨斯 州 的 人口 密度 是 多少
+(answer (density_1 (stateid texas:e)))
+
+有 多少 人 住 在 华盛顿 特区
+(answer (population_1 (cityid washington:e dc:e)))
+
+给 我 在 得克萨斯 州 的 城市
+(answer (city (loc_2 (stateid texas:e))))
+
+在 美国 最短 的 河流 有 多长
+(answer (len (shortest (river (loc_2 (countryid usa:e))))))
+
+有 多少 个 州 有 主要 河流
+(answer (count (state (loc_1 (major (river all:e))))))
+
+面积 最小 的 州 的 人口 密度 是 多少
+(answer (density_1 (smallest (state all:e))))
+
+哪些 州 与 密歇根 接壤
+(answer (state (next_to_2 (stateid michigan:e))))
+
+在 得克萨斯 州 人口 最多 的 城市 是 哪个
+(answer (largest_one (population_1 (city (loc_2 (stateid texas:e))))))
+
+什么 河流 贯穿 与 首府 亚特兰大 所在 州 接壤 的 州
+(answer (river (traverse_2 (state (next_to_2 (state (loc_1 (capital (cityid atlanta:e _:e)))))))))
+
+这个 国家 的 最高 点 是 什么
+(answer (highest (place (loc_2 (countryid usa:e)))))
+
+有 多少 人 居住 在 卡拉马祖
+(answer (population_1 (cityid kalamazoo:e _:e)))
+
+在 佛罗里达 州 的 主要 城市 有 多少
+(answer (count (major (city (loc_2 (stateid florida:e))))))
+
+哪个 州 有 最大 的 人口 密度
+(answer (largest_one (density_1 (state all:e))))
+
+在 科罗拉多 州 被 发现 有 多少 河流
+(answer (count (river (loc_2 (stateid colorado:e)))))
+
+面积 最大 的 州 的 最低 点 是 什么
+(answer (lowest (place (loc_2 (largest_one (area_1 (state all:e)))))))
+
+与 得克萨斯 州 接壤 的 是 什么 州
+(answer (state (next_to_2 (stateid texas:e))))
+
+至少 与 两个 以上 其它 州 接壤 的 州 有 多少
+(answer (count (state (next_to_2 (state all:e)))))
+
+哪些 州 没有 与 其它 州 接壤
+(answer (exclude (state all:e) (next_to_2 (state all:e))))
+
+什么 河流 贯穿 得克萨斯 州 奥斯汀
+(answer (river (traverse_2 (cityid austin:e tx:e))))
+
+有 多少 人 生活 在 新罕布什尔 州
+(answer (population_1 (stateid new_hampshire:e)))
+
+印第安纳 州 的 首府 是 哪儿
+(answer (capital (loc_2 (stateid indiana:e))))
+
+什么 州 和 拥有 最多 城市 的 州 接壤
+(answer (state (next_to_2 (most (state (loc_1 (city all:e)))))))
+
+最小 的 州 的 面积 是 多少
+(answer (area_1 (smallest (state all:e))))
+
+哪些 州 与 纽约 州 接壤
+(answer (state (next_to_2 (stateid new_york:e))))
+
+缅因 州 的 人口 是 多少
+(answer (population_1 (stateid maine:e)))
+
+在 最小 的 州 中 最大 的 城市 是 哪个
+(answer (largest (city (loc_2 (smallest (state all:e))))))
+
+美国 最高 点 的 海拔 是 多少
+(answer (elevation_1 (highest (place (loc_2 (countryid usa:e))))))
+
+哪个 州 与 除 阿拉斯加 和 夏威夷 州 之外 的 其它 州 接壤 最少
+(answer (fewest (state (next_to_2 (exclude (exclude (state all:e) (stateid alaska:e)) (stateid hawaii:e))))))
+
+新墨西哥 州 最高 海拔 是 多少
+(answer (highest (place (loc_2 (stateid new_mexico:e)))))
+
+最大 的 州 是 哪个
+(answer (largest (state all:e)))
+
+有 多少 人 住 在 华盛顿 州 的 斯波坎 市
+(answer (population_1 (cityid spokane:e wa:e)))
+
+最短 的 河流 贯穿 哪些 州
+(answer (state (traverse_1 (shortest (river all:e)))))
+
+格兰德 河 有 多长
+(answer (len (riverid rio_grande:e)))
+
+有 多少 人 住 在 得克萨斯 州
+(answer (population_1 (stateid texas:e)))
+
+哪里 是 爱荷华 州 的 最低 点
+(answer (loc_1 (lowest (place (loc_2 (stateid iowa:e))))))
+//(answer (lowest (place (loc_2 (stateid iowa:e)))))
+
+密西西比 河 所 贯穿 的 州 有 多少 人
+(answer (population_1 (state (traverse_1 (riverid mississippi:e)))))
+
+俄勒冈 州 的 最低 点 是 什么
+(answer (lowest (place (loc_2 (stateid oregon:e)))))
+
+阿拉斯加 州 最短 的 河流 是 哪个
+(answer (shortest (river (loc_2 (stateid alaska:e)))))
+
+有 多少 州 与 密西西比 河 接壤
+(answer (count (state (next_to_2 (riverid mississippi:e)))))
+
+美国 人口 最多 的 首府 是 哪个
+(answer (largest_one (population_1 (capital (loc_2 (countryid usa:e))))))
+
+俄亥俄 州 的 最高 点 是 什么
+(answer (highest (place (loc_2 (stateid ohio:e)))))
+
+与 威斯康星 州 接壤 的 州 是 什么
+(answer (state (next_to_2 (stateid wisconsin:e))))
+
+哪些 州 的 首府 是 州 的 最高 点
+(answer (state (loc_1 (capital (highest (place all:e))))))
+
+有 多少 州 与 科罗拉多 州 和 新墨西哥 州 接壤
+(answer (count (state (intersection (next_to_2 (stateid colorado:e)) (next_to_2 (stateid new_mexico:e))))))
+
+密苏里 州 的 主要 城市 是 什么
+(answer (major (city (loc_2 (stateid missouri:e)))))
+
+得克萨斯 州 的 主要 城市 是 什么
+(answer (major (city (loc_2 (stateid texas:e)))))
+
+有 多少 河流 被 称为 科罗拉多
+(answer (count (river (riverid colorado:e))))
+//(answer (count (riverid colorado:e)))
+
+蒙大拿 州 的 最高 点 有 多高
+(answer (elevation_1 (highest (place (loc_2 (stateid montana:e))))))
+
+含有 名为 奥斯汀 的 城市 的 州 有 多少
+(answer (count (state (loc_1 (city (cityid austin:e _:e))))))
+
+密苏里 河 流经 哪些 州
+(answer (state (traverse_1 (riverid missouri:e))))
+
+什么 是 美国 最大 的 城市
+(answer (largest (city (loc_2 (countryid usa:e)))))
+
+新墨西哥 州 有 多大
+(answer (size (stateid new_mexico:e)))
+
+有 多少 人 住 在 南达科他 州
+(answer (population_1 (stateid south_dakota:e)))
+
+匹兹堡 在 哪个 州
+(answer (state (loc_1 (cityid pittsburgh:e _:e))))
+
+什么 河流 流经 亚利桑那 州
+(answer (river (traverse_2 (stateid arizona:e))))
+
+有 多少 主要 河流 贯穿 俄亥俄 州
+(answer (count (major (river (traverse_2 (stateid ohio:e))))))
+
+博尔德 市 有 多少 人口
+(answer (population_1 (cityid boulder:e _:e)))
+
+有 多少 河流 在 爱达荷 州
+(answer (count (river (loc_2 (stateid idaho:e)))))
+
+萨克拉门托 是 哪个 州 的 首府
+(answer (state (loc_1 (capital (cityid sacramento:e _:e)))))
+
+在 美国 有 多少 城市
+(answer (count (city (loc_2 (countryid usa:e)))))
+
+在 加利福尼亚 州 住 了 多少 公民
+(answer (population_1 (stateid california:e)))
+
+哪个 州 拥有 最多 的 城镇 人口
+(answer (largest_one (population_1 (state all:e))))
+
+什么 州 与 密西西比 河 接壤
+(answer (state (next_to_2 (riverid mississippi:e))))
+
+你 能 告诉 我 密苏里 州 的 人口 是 多少 吗
+(answer (population_1 (stateid missouri:e)))
+
+什么 河流 不 贯穿 田纳西 州
+(answer (exclude (river all:e) (traverse_2 (stateid tennessee:e))))
+
+与 得克萨斯 州 接壤 的 州 的 最大 的 城市 是 什么
+(answer (largest (city (loc_2 (state (next_to_2 (stateid texas:e)))))))
+
+美国 最长 的 河流 是 哪个
+(answer (longest (river (loc_2 (countryid usa:e)))))
+
+有 多少 州 被 密西西比 河 贯穿
+(answer (count (state (traverse_1 (riverid mississippi:e)))))
+
+格兰德 河 贯穿 的 最大 的 州 是 什么
+(answer (largest (state (traverse_1 (riverid rio_grande:e)))))
+
+得克萨斯 州 首府 的 有多大
+(answer (size (capital (loc_2 (stateid texas:e)))))
+
+哪些 州 被 河流 贯穿
+(answer (state (traverse_1 (river all:e))))
+
+什么 州 与 夏威夷 州 接壤
+(answer (state (next_to_2 (stateid hawaii:e))))
+
+在 博尔德 有 多少 人
+(answer (population_1 (cityid boulder:e _:e)))
+
+什么 州 和 与 佛罗里达 州 接壤 的 州 接壤 的 州 接壤
+(answer (state (next_to_2 (state (next_to_2 (state (next_to_2 (stateid florida:e))))))))
+
+在 美国 哪些 州 与 最长 的 河流 接壤
+(answer (state (next_to_2 (longest (river (loc_2 (countryid usa:e)))))))
+
+怀俄明 州 的 人口 密度 是 多少
+(answer (density_1 (stateid wyoming:e)))
+
+在 爱荷华 州 有 多少 人
+(answer (population_1 (stateid iowa:e)))
+
+河流 最多 的 州 的 最高 点 是 什么
+(answer (highest (place (loc_2 (most (state (traverse_1 (river all:e))))))))
+
+在 博尔德 有 多少 公民
+(answer (population_1 (cityid boulder:e _:e)))
+
+蒙大拿 州 的 河流 是 什么
+(answer (river (loc_2 (stateid montana:e))))
+
+有 多少 州 与 波士顿 首府 的 所在 州 接壤
+(answer (count (state (next_to_2 (state (loc_1 (capital (cityid boston:e _:e))))))))
+
+有 多少 人 住 在 华盛顿
+(answer (population_1 (stateid washington:e)))
+
+人口 最多 的 首府 是 哪个
+(answer (largest_one (population_1 (capital_1 (state all:e)))))
+
+与 加利福尼亚 州 接壤 的 州 的 最大 的 城市 是 什么
+(answer (largest (city (loc_2 (state (next_to_2 (stateid california:e)))))))
+
+在 怀俄明 州 人口 最多 的 城市 是 哪个
+(answer (largest_one (population_1 (city (loc_2 (stateid wyoming:e))))))
+
+奥斯汀 首府 所在 州 的 人口 密度 是 多少
+(answer (density_1 (state (loc_1 (capital (cityid austin:e _:e))))))
+
+缅因 州 波特兰 的 人口 是 多少
+(answer (population_1 (cityid portland:e me:e)))
+
+卡拉马祖 是 在 哪个 州
+(answer (state (loc_1 (cityid kalamazoo:e _:e))))
+
+与 得克萨斯 州 接壤 的 最大 的 州 人口 是 多少
+(answer (population_1 (largest (state (next_to_2 (stateid texas:e))))))
+
+什么 州 与 俄亥俄 州 接壤
+(answer (state (next_to_2 (stateid ohio:e))))
+
+美国 最长 的 河流 是 哪条
+(answer (longest (river (loc_2 (countryid usa:e)))))
+
+面积 最小 的 州 的 人口 密度 是 多少
+(answer (density_1 (smallest_one (area_1 (state all:e)))))
+
+最大 的 首府 是 哪个
+(answer (largest (capital all:e)))
+
+哪个 州 有 最小 的 首府
+(answer (state (loc_1 (smallest (capital all:e)))))
+
+在 宾夕法尼亚 州 有 多少 主要 城市
+(answer (count (major (city (loc_2 (stateid pennsylvania:e))))))
+
+哪些 州 被 美国 最大 的 河流 穿越
+(answer (state (traverse_1 (longest (river (loc_2 (countryid usa:e)))))))
+
+休斯顿 市 在 哪里
+(answer (loc_1 (cityid houston:e _:e)))
+
+什么 河流 流经 与 人口 最多 的 州 接壤 的 州
+(answer (river (traverse_2 (state (next_to_2 (largest_one (population_1 (state all:e))))))))
+
+最小 的 州 的 最高 点 是 什么
+(answer (highest (place (loc_2 (smallest (state all:e))))))
+
+哪条 河流 贯穿 弗吉尼亚
+(answer (river (traverse_2 (stateid virginia:e))))
+
+哪些 州 与 密歇根 州 接壤
+(answer (state (next_to_2 (stateid michigan:e))))
+
+列出 在 密歇根 州 的 主要 湖泊
+(answer (major (lake (loc_2 (stateid michigan:e)))))
+
+告诉 我 在 弗吉尼亚 州 的 城市
+(answer (city (loc_2 (stateid virginia:e))))
+
+哪个 河流 贯穿 最多 的 州
+(answer (most (river (traverse_2 (state all:e)))))
+
+有 多少 人 住 在 新墨西哥 州
+(answer (population_1 (stateid new_mexico:e)))
+
+阿拉巴马 州 最大 的 城市 是 哪个
+(answer (largest (city (loc_2 (stateid alabama:e)))))
+
+有 多少 人 生活 在 旧金山
+(answer (population_1 (cityid san_francisco:e _:e)))
+
+最大 州 的 首府 的 人口 是 多少
+(answer (population_1 (capital (loc_2 (largest (state all:e))))))
+
+美国 最长 的 河流 是 哪条
+(answer (longest (river (loc_2 (countryid usa:e)))))
+
+与 人口 最多 的 州 接壤 的 州 最大 的 是 哪个
+(answer (largest (state (next_to_2 (largest_one (population_1 (state all:e)))))))
+
+告诉 我 在 美国 所有 的 主要 湖泊
+(answer (major (lake (loc_2 (countryid usa:e)))))
+
+斯普林菲尔德 镇 在 哪里
+(answer (loc_1 (cityid springfield:e _:e)))
+
+德梅因 位于 哪个 州
+(answer (state (loc_1 (cityid des_moines:e _:e))))
+
+在 得克萨斯 州 有 多少 城市 呢
+(answer (count (city (loc_2 (stateid texas:e)))))
+
+波士顿 在 哪个 州
+(answer (state (loc_1 (cityid boston:e _:e))))
+
+哪些 河流 贯穿 拥有 美国 最大 城市 的 州
+(answer (river (traverse_2 (state (loc_1 (largest (city (loc_2 (countryid usa:e)))))))))
+
+列出 与 艾奥瓦 州 接壤 的 州
+(answer (state (next_to_2 (stateid iowa:e))))
+
+哪些 州 没有 和 其它 州 接壤
+(answer (exclude (state all:e) (next_to_2 (state all:e))))
+
+哪里 是 美国 的 最低 点
+(answer (loc_1 (lowest (place (loc_2 (countryid usa:e))))))
+//(answer (lowest (place (loc_2 (countryid usa:e)))))
+
+俄克拉荷马 州 的 主要 城市 是 什么
+(answer (major (city (loc_2 (stateid oklahoma:e)))))
+
+和 德克萨斯 州 接壤 的 面积 最小 的 州 是 哪个
+(answer (smallest_one (area_1 (state (next_to_2 (stateid texas:e))))))
+
+海拔 最高 的 州 的 首府 是 什么
+(answer (capital (loc_2 (state (loc_1 (highest (place all:e)))))))
+
+密西西比 河 贯穿 哪些 州
+(answer (state (traverse_1 (riverid mississippi:e))))
+
+惠特尼 山 坐落 在 哪里
+(answer (loc_1 (placeid mount_whitney:e)))
+
+哪个 州 拥有 最大 的 人口 密度
+(answer (largest_one (density_1 (state all:e))))
+
+华盛顿 的 最小 的 城市 是 哪个
+(answer (smallest (city (loc_2 (stateid washington:e)))))
+
+新墨西哥 州 的 主要 城市 是 什么
+(answer (major (city (loc_2 (stateid new_mexico:e)))))
+
+有 多少 人 居住 在 佐治亚 州 的 省府
+(answer (population_1 (capital (loc_2 (stateid georgia:e)))))
+
+密西西比 河 流经 的 哪个 州 有 最多 人口
+(answer (largest_one (population_1 (state (traverse_1 (riverid mississippi:e))))))
+
+说出 面积 最大 的 州
+(answer (largest_one (area_1 (state all:e))))
+
+有 多少 人 住 在 里弗赛德斯塔特 市
+(answer (population_1 (cityid riverside:e _:e)))
+
+西雅图 的 面积 是 多少
+(answer (area_1 (cityid seattle:e _:e)))
+
+哪个 首府 的 人口 最多
+(answer (largest_one (population_1 (capital all:e))))
+
+和 最多 州 接壤 的 州 的 首府 是 什么
+(answer (capital (loc_2 (most (state (next_to_2 (state all:e)))))))
+
+有 多少 河流 流经 与 科罗拉多 接壤 的 州 呢
+(answer (count (river (traverse_2 (state (next_to_2 (stateid colorado:e)))))))
+
+在 加 州 有 什么 城市
+(answer (city (loc_2 (stateid california:e))))
+
+奥斯汀 是 哪个 州 的 首府
+(answer (state (loc_1 (capital (cityid austin:e _:e)))))
+
+有 多少 人 生活 在 堪萨斯 州
+(answer (population_1 (stateid kansas:e)))
+
+哪个 州 与 其它 州 接壤 最少
+(answer (fewest (state (next_to_2 (state all:e)))))
+
+哪些 州 与 南达科他 州 接壤
+(answer (state (next_to_2 (stateid south_dakota:e))))
+
+说出 在 阿肯色 州 的 河流
+(answer (river (loc_2 (stateid arkansas:e))))
+
+密西西比 河 有 多少 英里 长
+(answer (len (riverid mississippi:e)))
+
+在 美国 最短 的 河流 是 哪个
+(answer (shortest (river (loc_2 (countryid usa:e)))))
+
+在 美国 最大 的 城市 是 哪个
+(answer (largest (city (loc_2 (countryid usa:e)))))
+
+华盛顿 州 的 首府 是 什么
+(answer (capital (loc_2 (stateid washington:e))))
+
+在 蒙大拿 州 有 多少 城市
+(answer (count (city (loc_2 (stateid montana:e)))))
+
+得克萨斯 州 的 首府 是 哪儿
+(answer (capital (loc_2 (stateid texas:e))))
+
+麦金利 山 的 高度 是 多少
+(answer (elevation_1 (placeid mount_mckinley:e)))
+
+人口 最少 的 城市 是 哪个
+(answer (smallest_one (population_1 (city all:e))))
+
+美国 最大 的 州 是 哪个
+(answer (largest (state (loc_2 (countryid usa:e)))))
+
+在 与 犹他 州 接壤 的 州 里 有 多少 主要 城市 呢
+(answer (count (major (city (loc_2 (state (next_to_2 (stateid utah:e))))))))
+
+有 多少 州 与 田纳西 州 接壤
+(answer (count (state (next_to_2 (stateid tennessee:e)))))
+
+俄亥俄 河 经过 哪些 州
+(answer (state (traverse_1 (riverid ohio:e))))
+
+在 面积 最小 的 州 里 最长 的 河流 是 哪个
+(answer (longest (river (loc_2 (smallest (state (loc_2 (countryid usa:e))))))))
+
+面积 最小 的 州 是 哪个
+(answer (smallest_one (area_1 (state all:e))))
+
+密西西比 河 流经 的 最大 州 的 首府 的 人口 是 多少
+(answer (population_1 (capital (loc_2 (largest (state (traverse_1 (riverid mississippi:e))))))))
+
+马萨诸塞 州 波士顿 的 人口 是 多少
+(answer (population_1 (cityid boston:e ma:e)))
+
+加 州 有 什么 城市
+(answer (city (loc_2 (stateid california:e))))
+
+纽约 市 有 多大
+(answer (size (cityid new_york:e _:e)))
+
+哪个 州 拥有 最多 的 城市
+(answer (most (state (loc_1 (city all:e)))))
+
+美国 最长 的 河流 是 哪条
+(answer (longest (river (loc_2 (countryid usa:e)))))
+
+说出 美国 的 50 个 首府 名
+(answer (capital (loc_2 (countryid usa:e))))
+
+与 得克萨斯 州 接壤 的 州 接壤 的 州 的 首府 是 什么
+(answer (capital (loc_2 (state (next_to_2 (state (next_to_2 (stateid texas:e))))))))
+
+哪个 州 有 红 河
+(answer (state (loc_1 (riverid red:e))))
+
+有 多少 人 生活 在 芝加哥
+(answer (population_1 (cityid chicago:e _:e)))
+
+在 阿拉斯加 最小 的 城市 是 哪个
+(answer (smallest (city (loc_2 (stateid alaska:e)))))
+
+列举 出 州
+(answer (state all:e))
+
+佐治亚 州 最大 的 城市 是 哪个
+(answer (largest (city (loc_2 (stateid georgia:e)))))
+
+什么 州 和 密西西比 河 贯穿 的 州 接壤
+(answer (state (next_to_2 (state (traverse_1 (riverid mississippi:e))))))
+
+在 美国 有 多少 城市
+(answer (count (city (loc_2 (countryid usa:e)))))
+
+得克萨斯 州 有 多大
+(answer (size (stateid texas:e)))
+
+美国 最高 点 的 高度 是 多少
+(answer (elevation_1 (highest (place (loc_2 (countryid usa:e))))))
+
+密西西比 河 所 贯穿 的 州 的 人口 是 多少
+(answer (population_1 (state (traverse_1 (riverid mississippi:e)))))
+
+哪个 州 有 最少 的 人口
+(answer (smallest_one (population_1 (state all:e))))
+
+有 多少 州 与 得克萨斯 州 接壤
+(answer (count (state (next_to_2 (stateid texas:e)))))
+
+科罗拉多 河 流经 哪些 州
+(answer (state (traverse_1 (riverid colorado:e))))
+
+德克萨斯 州 的 最高 点 是 什么
+(answer (highest (place (loc_2 (stateid texas:e)))))
+
+加利福尼亚 州 最长 的 河流 是 哪条
+(answer (longest (river (loc_2 (stateid california:e)))))
+
+贯穿 数量 最多 的 州 的 河流 的 长度 是 多少
+(answer (len (most (river (traverse_2 (state all:e))))))
+
+美国 人口 最多 的 州 是 哪个
+(answer (largest_one (population_1 (state (loc_2 (countryid usa:e))))))
+
+佐治亚 州 的 首府 是 哪儿
+(answer (capital (loc_2 (stateid georgia:e))))
+
+美国 各 州 的 平均 人口 是 多少
+(answer (density_1 (countryid usa:e)))
+
+新墨西哥 州 的 面积 是 多少
+(answer (area_1 (stateid new_mexico:e)))
+
+德克萨斯 州 最长 的 河流 是 哪条
+(answer (longest (river (loc_2 (stateid texas:e)))))
+
+有 多少 个 主要 城市
+(answer (count (major (city all:e))))
+
+在 人口 最多 的 州 里 有 多少 条 河流
+(answer (count (river (loc_2 (largest_one (population_1 (state all:e)))))))
+
+蒙大拿 州 的 主要 城市 是 什么
+(answer (major (city (loc_2 (stateid montana:e)))))
+
+威斯康星 州 的 主要 城市 的 人口 是 多少
+(answer (population_1 (major (city (loc_2 (stateid wisconsin:e))))))
+
+哪些 州 不 与 得克萨斯 州 接壤
+(answer (exclude (state all:e) (next_to_2 (stateid texas:e))))
+
+哪条 河流 流经 的 州 最多
+(answer (most (river (traverse_2 (state all:e)))))
+
+人口 密度 最低 的 州 是 哪个
+(answer (smallest_one (density_1 (state all:e))))
+
+密苏里 河 贯穿 哪些 州
+(answer (state (traverse_1 (riverid missouri:e))))
+
+在 科罗拉多 州 有 多少 河流
+(answer (count (river (loc_2 (stateid colorado:e)))))
+
+爱荷华 州 最短 的 河流 是 哪个
+(answer (shortest (river (loc_2 (stateid iowa:e)))))
+
+什么 州 和 密西西比 河 贯穿 的 州 接壤
+(answer (state (next_to_2 (state (traverse_1 (riverid mississippi:e))))))
+
+在 纽约 有 多少 人
+(answer (population_1 (stateid new_york:e)))
+
+德克萨斯 州 人口 最多 的 城市 是 哪个
+(answer (largest_one (population_1 (city (loc_2 (stateid texas:e))))))
+
+新墨西哥 州 的 最高 点 是 什么
+(answer (highest (place (loc_2 (stateid new_mexico:e)))))
+
+美国 的 最高 点 是 什么
+(answer (highest (place (loc_2 (countryid usa:e)))))
+
+面积 最大 的 州 的 人口 是 多少
+(answer (population_1 (largest_one (area_1 (state all:e)))))
+
+巴吞鲁日 市 在 哪里
+(answer (loc_1 (cityid baton_rouge:e _:e)))
+
+在 美国 有 什么 州 有 一个 斯普林菲尔德 市
+(answer (intersection (state (loc_2 (countryid usa:e))) (loc_1 (city (cityid springfield:e _:e)))))
+
+在 路易斯安那 州 有 多少 城市
+(answer (count (city (loc_2 (stateid louisiana:e)))))
+
+在 美国 有 多少 州
+(answer (count (state (loc_2 (countryid usa:e)))))
+
+什么 河流 贯穿 路易斯安那 州
+(answer (river (traverse_2 (stateid louisiana:e))))
+
+有 多少 人 居住 在 人口 密度 最大 的 州 里
+(answer (population_1 (largest_one (density_1 (state all:e)))))
+
+美国 海拔 最高 的 州 是 哪个
+(answer (state (loc_1 (highest (place (loc_2 (countryid usa:e)))))))
+
+哪个 州 与 最多 的 其他 州 接壤
+(answer (most (state (next_to_2 (state all:e)))))
+
+哪些 州 与 阿拉巴马 州 接壤
+(answer (state (next_to_2 (stateid alabama:e))))
+
+德克萨斯 州 的 科罗拉多 河 的 长度 是 多少
+(answer (len (intersection (riverid colorado:e) (river (loc_2 (stateid texas:e))))))
+
+哪个 州 拥有 最多 人口
+(answer (largest_one (population_1 (state all:e))))
+
+哪个 州 拥有 最高 海拔
+(answer (state (loc_1 (highest (place all:e)))))
+
+南达科他 州 的 人口 密度 是 多少
+(answer (density_1 (stateid south_dakota:e)))
+
+哪些 州 有 名为 奥斯汀 的 城市
+(answer (state (loc_1 (city (cityid austin:e _:e)))))
+
+有 多少 人 住 在 蒙大拿 州
+(answer (population_1 (stateid montana:e)))
+
+
+哪个 州 是 最小 的
+(answer (smallest (state all:e)))
+
+哪个 是 美国 最长 的 河流
+(answer (longest (river (loc_2 (countryid usa:e)))))
+
+所有 州 的 最高 点 是 什么
+(answer (highest (place (loc_2 (state all:e)))))
+
+在 俄亥俄 州 有 哪些 主要 河流
+(answer (major (river (loc_2 (stateid ohio:e)))))
+
+说出 在 佛罗里达 州 的 主要 河流
+(answer (major (river (loc_2 (stateid florida:e)))))
+
+宾夕法尼亚 州 伊利 市 的 人口 是 多少
+(answer (population_1 (cityid erie:e pa:e)))
+
+哪个 州 有 最低 的 人口 密度
+(answer (smallest_one (density_1 (state all:e))))
+
+最小 的 城市 是 哪里
+(answer (loc_1 (smallest (city all:e))))
+
+哪些 河流 贯穿 与 以 奥斯汀 为 首府 的 州 接壤 的 州
+(answer (river (traverse_2 (state (next_to_2 (state (loc_1 (capital (cityid austin:e _:e)))))))))
+
+马萨诸塞 州 的 最低 点 是 什么
+(answer (lowest (place (loc_2 (stateid massachusetts:e)))))
+
+马里兰 州 的 人口 是 多少
+(answer (population_1 (stateid maryland:e)))
+
+密西西比 河 贯穿 哪些 州
+(answer (state (traverse_1 (riverid mississippi:e))))
+
+波特兰 市 在 哪里
+(answer (loc_1 (cityid portland:e _:e)))
+
+密西西比 河 所 贯穿 的 州 的 城市 有 哪些
+(answer (city (loc_2 (state (traverse_1 (riverid mississippi:e))))))
+
+有 多少 人 生活 在 休斯敦
+(answer (population_1 (cityid houston:e _:e)))
+
+密西西比 河 所 贯穿 的 州 的 人口 是 多少
+(answer (population_1 (state (traverse_1 (riverid mississippi:e)))))
+
+俄亥俄 河 贯穿 哪些 州
+(answer (state (traverse_1 (riverid ohio:e))))
+
+哪个 州 有 最多 的 人口
+(answer (largest_one (population_1 (state all:e))))
+
+哪些 州 环绕 着 肯塔基 州
+(answer (state (next_to_2 (stateid kentucky:e))))
+
+北达科他 州 的 首府 是 哪儿
+(answer (capital (loc_2 (stateid north_dakota:e))))
+
+在 美国 有 多少 城市
+(answer (count (city (loc_2 (countryid usa:e)))))
+
+美国 最大 的 首府 城市 是 哪个
+(answer (largest (capital (city (loc_2 (countryid usa:e))))))
+
+与 德 州 接壤 的 州 的 人口 是 多少
+(answer (population_1 (state (next_to_2 (stateid texas:e)))))
+
+含有 城市 名为 达勒姆 的 州 的 首府 是 什么
+(answer (capital (loc_2 (state (loc_1 (city (cityid durham:e _:e)))))))
+
+堪萨斯 州 最大 的 城市 是 哪个
+(answer (largest (city (loc_2 (stateid kansas:e)))))
+
+博尔德 市 的 人口 是 多少
+(answer (population_1 (cityid boulder:e _:e)))
+
+哪个 州 有 最多 的 人口
+(answer (largest_one (population_1 (state all:e))))
+
+休斯顿 人口 是 多少
+(answer (population_1 (cityid houston:e _:e)))
+
+有 多少 个 州
+(answer (count (state all:e)))
+
+什么 州 和 面积 最小 的 州 接壤
+(answer (state (next_to_2 (smallest_one (area_1 (state all:e))))))
+
+流经 与 印第安纳 州 接壤 的 州 的 最长 的 河流 是 哪个
+(answer (longest (river (traverse_2 (state (next_to_2 (stateid indiana:e)))))))
+
+什么 州 与 人口 最多 的 州 接壤
+(answer (state (next_to_2 (largest_one (population_1 (state all:e))))))
+
+加 州 最大 的 城市 是 哪个
+(answer (largest (city (loc_2 (stateid california:e)))))
+
+与 内布拉斯加 州 接壤 的 最长 的 河流 是 哪个
+(answer (longest (river (loc_2 (state (next_to_2 (stateid nebraska:e)))))))
+
+新泽西 州 的 首府 是 哪儿
+(answer (capital (loc_2 (stateid new_jersey:e))))
+
+哪个 州 拥有 最多 的 主要 城市
+(answer (most (state (loc_1 (major (city all:e))))))
+
+被 称为 科罗拉多 的 河流 有 多少 呢
+(answer (count (riverid colorado:e)))
+
+美国 最高 海拔 是 哪儿
+(answer (highest (place (loc_2 (countryid usa:e)))))
+
+有 多少 人 居住 在 纽约 州 最大 的 城市
+(answer (population_1 (largest (city (loc_2 (stateid new_york:e))))))
+
+与 密苏里 接壤 的 州 的 首府 是 什么
+(answer (capital (loc_2 (state (next_to_2 (stateid missouri:e))))))
+
+贯穿 最多 州 的 河流 的 长度 是 多少
+(answer (len (most (river (traverse_2 (state all:e))))))
+
+奥斯汀 首府 所在 州 的 最高 点 是 什么
+(answer (highest (place (loc_2 (state (loc_1 (capital (cityid austin:e _:e))))))))
+
+哪个 州 拥有 最大 的 首府
+(answer (state (loc_1 (largest (capital all:e)))))
+
+马萨诸塞 州 的 首府 是 哪儿
+(answer (capital (loc_2 (stateid massachusetts:e))))
+
+什么 州 与 新泽西 州 接壤
+(answer (state (next_to_2 (stateid new_jersey:e))))
+
+什么 州 和 俄亥俄 河 贯穿 的 州 接壤
+(answer (state (next_to_2 (state (traverse_1 (riverid ohio:e))))))
+
+哪个 州 有 最高 点
+(answer (state (loc_1 (highest (place all:e)))))
+
+密西西比 河 贯穿 的 人口 最多 的 州 是 哪个
+(answer (largest_one (population_1 (state (traverse_1 (riverid mississippi:e))))))
+
+哪个 是 不 在 阿拉斯加 州 的 最高 山峰
+(answer (highest (exclude (mountain all:e) (loc_2 (stateid alaska:e)))))
+
+哪个 州 拥有 最多 的 主要 城市
+(answer (most (state (loc_1 (major (city all:e))))))
+
+哪些 州 有 城市 名为 波特兰
+(answer (state (loc_1 (city (cityid portland:e _:e)))))
+
+人口 密度 最小 的 州 的 最高 点 是 什么
+(answer (highest (place (loc_2 (smallest_one (density_1 (state all:e)))))))
+
+什么 州 和 拥有 最多 主要 城市 的 州 接壤
+(answer (state (next_to_2 (most (state (loc_1 (major (city all:e))))))))
+
+在 美国 最小 的 城市 是 哪个
+(answer (smallest (city (loc_2 (countryid usa:e)))))
+
+夏威夷 人口 是 多少
+(answer (population_1 (stateid hawaii:e)))
+
+什么 州 与 印第安纳 州 接壤
+(answer (state (next_to_2 (stateid indiana:e))))
+
+在 美国 有 多少 州
+(answer (count (state (loc_2 (countryid usa:e)))))
+
+伊利诺伊 州 首府 是 哪儿
+(answer (capital (loc_2 (stateid illinois:e))))
+
+什么 河流 流经 与 最多 州 接壤 的 州
+(answer (river (traverse_2 (most (state (next_to_2 (state all:e)))))))
+
+哪些 州 和 与 最多 州 接壤 的 州 接壤
+(answer (state (next_to_2 (most (state (next_to_2 (state all:e)))))))
+
+科罗拉多 河 有 多长
+(answer (len (riverid colorado:e)))
+
+哪个 州 拥有 最长 的 河流
+(answer (state (loc_1 (longest (river all:e)))))
+
+哪些 州 与 肯塔基 州 接壤
+(answer (state (next_to_2 (stateid kentucky:e))))
+
+告诉我 与 犹他 州 接壤 的 州
+(answer (state (next_to_2 (stateid utah:e))))
+
+人口 密度 最大 的 州 的 首府 是 什么
+(answer (capital (loc_2 (largest_one (density_1 (state all:e))))))
+
+哪些 州 有 城市 名为 普莱诺
+(answer (state (loc_1 (city (cityid plano:e _:e)))))
+
+什么 州 和 拥有 最多 城市 的 州 接壤
+(answer (state (next_to_2 (most (state (loc_1 (city all:e)))))))
+
+在 美国 最大 的 城市 有 多少 市民
+(answer (population_1 (largest (city (loc_2 (countryid usa:e))))))
+//(answer (population_1 (largest (city all:e))))
+
+有 多少 人 居住 在 犹他 州
+(answer (population_1 (stateid utah:e)))
+
+什么 州 与 蒙大拿 州 接壤
+(answer (state (next_to_2 (stateid montana:e))))
+
+什么 河流 贯穿 纽约 州
+(answer (river (traverse_2 (stateid new_york:e))))
+
+什么 河流 流经 与 其它 州 接壤 最多 的 州
+(answer (river (traverse_2 (most (state (next_to_2 (state all:e)))))))
+
+数一数 拥有 比 美国 阿拉巴马 州 的 海拔 低 的 州 有 多少
+(answer (count (state (low_point_2 (lower_2 (low_point_1 (stateid alabama:e)))))))
+
+什么 河流 流经 最多 的 州
+(answer (most (river (traverse_2 (state all:e)))))
+
+在 德克萨斯 州 有 什么 河流
+(answer (river (loc_2 (stateid texas:e))))
+
+哪个 州 有 最高 的 海拔
+(answer (state (loc_1 (highest (place all:e)))))
+
+哪个 州 拥有 奥斯汀
+(answer (state (loc_1 (cityid austin:e _:e))))
+
+阿拉巴马 州 的 最高 点 有 多高
+(answer (elevation_1 (highest (place (loc_2 (stateid alabama:e))))))
+
+密西西比 河 的 长度 是 多少
+(answer (len (riverid mississippi:e)))
+
+科罗拉多 州 有 多少 条 河流 呢
+(answer (count (river (loc_2 (stateid colorado:e)))))
+
+密西西比 河 有 多长
+(answer (len (riverid mississippi:e)))
+
+哪个 州 有 最多 河流
+(answer (most (state (loc_1 (river all:e)))))
+
+有 多少 人 住 在 奥斯汀
+(answer (population_1 (cityid austin:e _:e)))
+
+在 美国 什么 城市 拥有 最高 的 人口 密度
+(answer (largest_one (density_1 (city (loc_2 (countryid usa:e))))))
+
+哪些 州 有 河流
+(answer (state (loc_1 (river all:e))))
+
+美国 的 最高 点 是 什么
+(answer (highest (place (loc_2 (countryid usa:e)))))
+
+佛罗里达 州 的 面积 是 多少
+(answer (area_1 (stateid florida:e)))
+
+加利福尼亚 州 的 首府 是 什么
+(answer (capital (loc_2 (stateid california:e))))
+
+人口 最多 的 州 的 首府 是 什么
+(answer (capital (loc_2 (largest_one (population_1 (state all:e))))))
+
+哪个 州 拥有 最多 的 主要 河流
+(answer (most (state (loc_1 (major (river all:e))))))
+
+居民 数 最多 的 州 的 首府 是 什么
+(answer (capital (loc_2 (largest_one (population_1 (state all:e))))))
+
+俄亥俄 州 的 首府 是 哪儿
+(answer (capital (loc_2 (stateid ohio:e))))
+
+哪个 州 有 最低 海拔
+(answer (state (loc_1 (lowest (place all:e)))))
+
+圣安东尼奥 的 人口 是 多少
+(answer (population_1 (cityid san_antonio:e _:e)))
+
+与 艾奥瓦 州 接壤 的 州 有 多少
+(answer (count (state (next_to_2 (stateid iowa:e)))))
+
+查塔胡奇 河 贯穿 哪些 州
+(answer (state (traverse_1 (riverid chattahoochee:e))))
+
+有 多少 人 生活 在 底特律
+(answer (population_1 (cityid detroit:e _:e)))
+
+有 多少 州 没有 河流
+(answer (count (exclude (state all:e) (loc_1 (river all:e)))))
+
+哪些 州 与 和 密西西比 州 接壤 的 州 接壤
+(answer (state (next_to_2 (state (next_to_2 (stateid mississippi:e))))))
+
+在 美国 有 什么 主要 城市
+(answer (major (city (loc_2 (countryid usa:e)))))
+
+人口 最多 的 城市 是 哪个
+(answer (largest_one (population_1 (city all:e))))
+
+流经 得克萨斯 州 的 最长 的 河流 的 长度 是 多少
+(answer (len (longest (river (traverse_2 (stateid texas:e))))))
+
+麦金利 山 有 多高
+(answer (elevation_1 (placeid mount_mckinley:e)))
+
+哪个 州 有 最低 的 人口 密度
+(answer (smallest_one (density_1 (state all:e))))
+
+告诉 我 在 加利福尼亚 州 有 多少 条 河流
+(answer (count (river (loc_2 (stateid california:e)))))
+
+华盛顿 州 最大 的 河流 是 什么
+(answer (longest (river (loc_2 (stateid washington:e)))))
+
+佛罗里达 州 的 首府 是 哪儿
+(answer (capital (loc_2 (stateid florida:e))))
+
+加利福尼亚 州 的 哪个 城市 有 最多 人口
+(answer (largest_one (population_1 (city (loc_2 (stateid california:e))))))
+
+蒙大拿 州 的 最高 点 是 什么
+(answer (highest (place (loc_2 (stateid montana:e)))))
+
+加利福尼亚 州 的 最低 点 是 什么
+(answer (lowest (place (loc_2 (stateid california:e)))))
+
+阿拉斯加 州 的 主要 城市 是 什么
+(answer (major (city (loc_2 (stateid alaska:e)))))
+
+所有 50 个 州 的 总 面积 是 多少
+(answer (sum (area_1 (state all:e))))
+
+内布拉斯加 州 的 最低 点 是 什么
+(answer (lowest (place (loc_2 (stateid nebraska:e)))))
+
+哪个 是 最小 的 州
+(answer (smallest (state all:e)))
+
+在 艾奥瓦 州 有 多少 条 河流
+(answer (count (river (loc_2 (stateid iowa:e)))))
+
+什么 州 与 佛罗里达 州 接壤
+(answer (state (next_to_2 (stateid florida:e))))
+
+在 得克萨斯 州 有 什么 河流
+(answer (river (loc_2 (stateid texas:e))))
+
+美国 加利福尼亚 州 的 主要 城市 是 什么
+(answer (major (city (loc_2 (stateid california:e)))))
+
+哪个 州 的 人口 最多
+(answer (largest_one (population_1 (state all:e))))
+
+与 科罗拉多 州 接壤 的 州 的 最高 点 是 什么
+(answer (highest (place (loc_2 (state (next_to_2 (stateid colorado:e)))))))
+
+哪里 是 夏威夷 的 最高 点
+(answer (loc_1 (highest (place (loc_2 (stateid hawaii:e))))))
+//(answer (highest (place (loc_2 (stateid hawaii:e)))))
+
+爱荷华 州 的 最高 点 是 什么
+(answer (highest (place (loc_2 (stateid iowa:e)))))
+
+密西西比 河 所 贯穿 的 州 的 人口 是 多少
+(answer (population_1 (state (traverse_1 (riverid mississippi:e)))))
+
+艾奥瓦 州 的 首府 是 哪儿
+(answer (capital (loc_2 (stateid iowa:e))))
+
+哪个 首府 有 最少 的 人口
+(answer (smallest_one (population_1 (capital all:e))))
+
+在 美国 所有 有 河流 的 州 里 最大 的 城市 是 哪个
+(answer (largest (city (loc_2 (state (loc_1 (river all:e)))))))
+
+哪个 州 与 夏威夷 州 接壤
+(answer (state (next_to_2 (stateid hawaii:e))))
+
+阿拉斯加 州 有 多大
+(answer (size (stateid alaska:e)))
+
+与 怀俄明 州 接壤 的 最小 的 州 是 哪个
+(answer (smallest (state (next_to_2 (stateid wyoming:e)))))
+
+哪个 州 有 最高 的 人口 密度
+(answer (largest_one (density_1 (state all:e))))
+
+与 宾夕法尼亚 州 接壤 的 州 里 哪个 有 最多 人口
+(answer (largest_one (population_1 (state (next_to_2 (stateid pennsylvania:e))))))
+
+哪些 州 与 纽约 州 接壤
+(answer (state (next_to_2 (stateid new_york:e))))
+
+美国 的 最高 点 是 什么
+(answer (highest (place (loc_2 (countryid usa:e)))))
+
+有 多少 人 住 在 美国
+(answer (population_1 (countryid usa:e)))
+
+什么 州 与 得克萨斯 州 接壤 并 有 主要 河流
+(answer (state (intersection (next_to_2 (stateid texas:e)) (loc_1 (major (river all:e))))))
+//(answer (intersection (state (next_to_2 (stateid texas:e))) (loc_1 (major (river all:e)))))
+
+哪里 是 马里兰 州 的 最低 点
+(answer (loc_1 (lowest (place (loc_2 (stateid maryland:e))))))
+//(answer (lowest (place (loc_2 (stateid maryland:e)))))
+
+人口 密度 最高 的 州 的 人口 是 多少
+(answer (population_1 (largest_one (density_1 (state all:e)))))
+
+哪些 州 有 名为 达拉斯 的 城市
+(answer (state (loc_1 (city (cityid dallas:e _:e)))))
+
+和 最多 的 州 接壤 的 州 的 人口 是 多少
+(answer (population_1 (most (state (next_to_2 (state all:e))))))
+
+有 多少 州 与 人口 最多 的 州 接壤
+(answer (count (state (next_to_2 (largest_one (population_1 (state all:e)))))))
+
+哪个 州 拥有 最大 的 面积
+(answer (largest_one (area_1 (state all:e))))
+
+密西西比 河 贯穿 哪些 州
+(answer (state (traverse_1 (riverid mississippi:e))))
+
+美国 所有 的 河流 的 总 长度 是 多少
+(answer (sum (len (river (loc_2 (countryid usa:e))))))
+//(answer (sum (len (river all:e))))
+
+特拉华 河 是 多长
+(answer (len (riverid delaware:e)))
+
+科罗拉多 州 的 首府 是 什么
+(answer (capital (loc_2 (stateid colorado:e))))
+
+科罗拉多 河 的 长度 是 多少
+(answer (len (riverid colorado:e)))
+
+美国 各 州 的 人口 密度 是 什么
+(answer (density_1 (state all:e)))
+
+哪个 州 有 最少 的 平均 城市 人口
+(answer (smallest_one (density_1 (state all:e))))
+
+哪些 州 有 名为 罗切斯特 的 城市
+(answer (state (loc_1 (city (cityid rochester:e _:e)))))
+
+哪个 州 有 与 爱达荷 州 接壤 的 最低 点
+(answer (state (loc_1 (lowest (place (loc_2 (next_to_2 (stateid idaho:e))))))))
+
+最小 的 州 的 首府 是 哪儿
+(answer (capital (loc_2 (smallest (state all:e)))))
+
+华盛顿 州 的 人口 是 多少
+(answer (population_1 (stateid washington:e)))
+
+艾奥瓦 州 和 多少 州 接壤
+(answer (count (state (next_to_1 (stateid iowa:e)))))
+
+哪些 州 有 名为 奥斯汀 的 城市
+(answer (state (loc_1 (city (cityid austin:e _:e)))))
+
+在 河流 数 最多 的 州 里 有 多少 条 河流
+(answer (count (river (loc_2 (most (state (loc_1 (river all:e))))))))
+
+列出 所有 纽约 州 的 河流
+(answer (river (loc_2 (stateid new_york:e))))
+
+缅因 州 的 人口 密度 是 多少
+(answer (density_1 (stateid maine:e)))
+
+流经 最多 州 的 河流 的 长度 是 多少
+(answer (len (most (river (traverse_2 (state all:e))))))
+
+德克萨斯 州 的 首府 城市 是 什么
+(answer (capital (city (loc_2 (stateid texas:e)))))
+
+密苏里 河 贯穿 哪些 州
+(answer (state (traverse_1 (riverid missouri:e))))
+
+面积 最大 的 州 是 哪个
+(answer (largest_one (area_1 (state all:e))))
+
+在 德克萨斯 州 的 最长 的 河流 贯穿 哪些 州
+(answer (state (traverse_1 (longest (river (loc_2 (stateid texas:e)))))))
+
+新墨西哥 州 的 人口 是 多少
+(answer (population_1 (stateid new_mexico:e)))
+
+与 得克萨斯 州 接壤 的 州 里 有 什么 河流
+(answer (river (loc_2 (state (next_to_2 (stateid texas:e))))))
+
+哪些 州 与 密苏里 河 接壤
+(answer (state (next_to_2 (riverid missouri:e))))
+
+在 美国 最小 的 城市 是 哪个
+(answer (smallest (city (loc_2 (countryid usa:e)))))
+
+麦金利 山 有 多高
+(answer (elevation_1 (placeid mount_mckinley:e)))
+
+特拉华 州 的 最高 点 是 什么
+(answer (highest (place (loc_2 (stateid delaware:e)))))
+
+密西西比 州 的 最低 点 是 什么
+(answer (lowest (place (loc_2 (stateid mississippi:e)))))
+
+迈阿密 在 哪个 州
+(answer (state (loc_1 (cityid miami:e _:e))))
+
+科罗拉多 河 贯穿 的 所有 州 的 最低 点 是 什么
+(answer (lowest (place (loc_2 (state (traverse_1 (riverid colorado:e)))))))
+
+哪些 州 包含 至少 一个 主要 河流
+(answer (state (loc_1 (major (river all:e)))))
+
+路易斯安那 州 最大 的 城市 是 哪个
+(answer (largest (city (loc_2 (stateid louisiana:e)))))
+
+美国 最 密集 的 州 是 哪个
+(answer (largest_one (density_1 (state (loc_2 (countryid usa:e))))))
+
+佛罗里达 州 最长 的 河流 是 哪条
+(answer (longest (river (loc_2 (stateid florida:e)))))
+
+亚利桑那 州 坦佩 的 人口 是 多少
+(answer (population_1 (cityid tempe:e az:e)))
+
+美国 最小 的 州 里 最大 的 城市 是 什么
+(answer (largest (city (loc_2 (smallest (state (loc_2 (countryid usa:e))))))))
+
+阿拉斯加 的 人口 是 多少
+(answer (population_1 (stateid alaska:e)))
+
+内华达 州 的 最高 点 是 什么
+(answer (highest (place (loc_2 (stateid nevada:e)))))
+
+有 哪些 主要 城市 位于 宾夕法尼亚 州
+(answer (major (city (loc_2 (stateid pennsylvania:e)))))
+
+阿拉斯加 州 有 什么 河流
+(answer (river (loc_2 (stateid alaska:e))))
+
+哪个 州 的 首府 城市 是 最大 的
+(answer (state (loc_1 (largest (city (capital_1 (state all:e)))))))
+
+山 在 哪里
+(answer (loc_1 (mountain all:e)))
+
+哪个 州 与 最多 的 州 接壤
+(answer (most (state (next_to_2 (state all:e)))))
+
+最高 点 所在 州 有 什么 城市
+(answer (city (loc_2 (state (loc_1 (highest (place all:e)))))))
+
+得克萨斯 州 有 多少 人口 呢
+(answer (population_1 (stateid texas:e)))
+
+纽约 州 的 主要 城市 是 什么
+(answer (major (city (loc_2 (stateid new_york:e)))))
+
+美国 最高 的 山峰 是 什么
+(answer (highest (mountain (loc_2 (countryid usa:e)))))
+
+美国 哪个 州 包含 科罗拉多 河 穿越 的 最高 点 呢
+(answer (state (loc_1 (highest (place (traverse_1 (riverid colorado:e)))))))
+//(answer (state (loc_1 (highest (place (loc_2 (state (traverse_1 (riverid colorado:e)))))))))
+
+达拉斯 市 在 哪里
+(answer (loc_1 (cityid dallas:e _:e)))
+
+美国 最高 的 山峰 在 哪里
+(answer (loc_1 (highest (mountain (loc_2 (countryid usa:e))))))
+//(answer (highest (mountain (loc_2 (countryid usa:e)))))
+
+特拉华 河 贯穿 哪些 州
+(answer (state (traverse_1 (riverid delaware:e))))
+
+美国 的 最高 点 有 多高
+(answer (elevation_1 (highest (place (loc_2 (countryid usa:e))))))
+
+哪个 城市 拥有 最多 的 人
+(answer (largest_one (population_1 (city all:e))))
+
+纽约 州 的 人口 密度 是 多少
+(answer (density_1 (stateid new_york:e)))
+
+旧金山 最高 海拔 是 多少
+(answer (highest (place (loc_2 (cityid san_francisco:e _:e)))))
+
+罗德岛 有 多少 省会 城市 呢
+(answer (count (capital (loc_2 (stateid rhode_island:e)))))
+
+弗吉尼亚 州 的 最高 点 是 什么
+(answer (highest (place (loc_2 (stateid virginia:e)))))
+
+俄亥俄 河 有 多长
+(answer (len (riverid ohio:e)))
+
+在 加利福尼亚 州 最长 的 河流 有 多长
+(answer (len (longest (river (loc_2 (stateid california:e))))))
+
+最小 的 面积 的 州 是 哪个
+(answer (smallest_one (area_1 (state all:e))))
+
+哪些 河流 不 贯穿 得克萨斯
+(answer (exclude (river all:e) (traverse_2 (stateid texas:e))))
+
+哪个 州 拥有 最多 的 流经 它的 主要 河流
+(answer (most (state (traverse_1 (major (river all:e))))))
+
+美国 的 最低 点 是 什么
+(answer (lowest (place (loc_2 (countryid usa:e)))))
+
+纽约 市 的 人口 有 多少
+(answer (population_1 (cityid new_york:e _:e)))
+
+哪个 州 有 最多 的 人口
+(answer (largest_one (population_1 (state all:e))))
+
+与 得克萨斯 州 接壤 的 最大 的 州 是 哪个
+(answer (largest (state (next_to_2 (stateid texas:e)))))
+
+罗得岛 州 最大 的 城市 是 哪个
+(answer (largest (city (loc_2 (stateid rhode_island:e)))))
+
+图森 市 的 人口 是 多少
+(answer (population_1 (cityid tucson:e _:e)))
+
+缅因 州 的 最高 点 是 什么
+(answer (highest (place (loc_2 (stateid maine:e)))))
+
+有 多少 人 生活 在 明尼苏达 州 的 明尼阿波利斯 市
+(answer (population_1 (cityid minneapolis:e mn:e)))
+
+哪些 河流 不 贯穿 美国
+(answer (exclude (river all:e) (traverse_2 (countryid usa:e))))
+
+列出 在 科罗拉多 州 所有 的 河流
+(answer (river (loc_2 (stateid colorado:e))))
+
+在 最大 的 州 最长 的 河流 是 哪个
+(answer (longest (river (loc_2 (largest (state all:e))))))
+
+哪个 州 有 最小 的 人口 密度
+(answer (smallest_one (density_1 (state all:e))))
+
+最低 点 所在 州 的 首府 是 什么
+(answer (capital (loc_2 (state (loc_1 (lowest (place all:e)))))))
+
+在 美国 最长 的 河流 有 多长
+(answer (len (longest (river (loc_2 (countryid usa:e))))))
+
+有 多少 州 与 艾奥瓦 州 接壤
+(answer (count (state (next_to_2 (stateid iowa:e)))))
+
+与 佐治亚 州 接壤 的 州 的 最高 点 是 什么
+(answer (highest (place (loc_2 (state (next_to_2 (stateid georgia:e)))))))
+
+圣安东尼奥 在 哪个 州
+(answer (state (loc_1 (cityid san_antonio:e _:e))))
+
+哪个 河流 流经 最多 的 州
+(answer (most (river (traverse_2 (state all:e)))))
+
+俄亥俄 州 的 面积 是 多少
+(answer (area_1 (stateid ohio:e)))
+
+在 主要 城市 最多 的 州 里 最长 的 河流 是 哪条
+(answer (longest (river (loc_2 (most (state (loc_1 (major (city all:e)))))))))
+
+最长 的 河流 贯穿 哪些 州
+(answer (state (traverse_1 (longest (river all:e)))))
+
+美国 有 多少 州 呢
+(answer (count (state (loc_2 (countryid usa:e)))))
+
+面积 最大 的 州 的 最大 的 城市 的 人口 是 多少
+(answer (population_1 (largest (city (loc_2 (largest_one (area_1 (state all:e))))))))
+
+怀俄明 州 的 最高 点 是 什么
+(answer (high_point_1 (stateid wyoming:e)))
+
+美国 最高 的 山峰 是 什么
+(answer (highest (mountain (loc_2 (countryid usa:e)))))
+
+有 多少 居民 居住 在 得克萨斯
+(answer (population_1 (stateid texas:e)))
+
+阿拉巴马 州 的 主要 城市 是 什么
+(answer (major (city (loc_2 (stateid alabama:e)))))
+
+与 最多 的 州 接壤 而且 面积 最小 的 州 是 哪个
+(answer (smallest (most (state (next_to_2 (state all:e))))))
+
+在 德克萨斯 州 所有 的 河流 是 哪些
+(answer (river (loc_2 (stateid texas:e))))
+
+人口 最少 的 州 是 哪个
+(answer (smallest_one (population_1 (state all:e))))
+
+最大 的 州 的 人口 密度 是 多少
+(answer (density_1 (largest (state all:e))))
+
+哪个 河流 贯穿 最多 的 州
+(answer (most (river (traverse_2 (state all:e)))))
+
+麦金利 山 在 哪个 州
+(answer (state (loc_1 (placeid mount_mckinley:e))))
+
+哪个 河流 流经 最多 的 州
+(answer (most (river (traverse_2 (state all:e)))))
+
+密西西比 河 贯穿 的 州 的 主要 城市 是 什么
+(answer (major (city (loc_2 (state (traverse_1 (riverid mississippi:e)))))))
+
+德克萨斯 州 最高 点 是 什么
+(answer (highest (place (loc_2 (stateid texas:e)))))
+
+哪些 州 与 伊利诺伊 州 接壤
+(answer (state (next_to_2 (stateid illinois:e))))
+
+有 多少 州 与 田纳西 州 接壤
+(answer (count (state (next_to_1 (stateid tennessee:e)))))
+
+有 多少 人 住 在 罗得岛
+(answer (population_1 (stateid rhode_island:e)))
+
+博尔德 市 有 多少 人
+(answer (population_1 (cityid boulder:e _:e)))
+
+告诉 我 在 得克萨斯 州 有 哪些 城市
+(answer (city (loc_2 (stateid texas:e))))
+
+哪条 河流 贯穿 城市 最多 的 州
+(answer (river (traverse_2 (most (state (loc_1 (city all:e)))))))
+
+哪些 州 与 面积 最小 的 州 接壤
+(answer (state (next_to_2 (smallest_one (area_1 (state all:e))))))
+
+什么 州 与 密歇根 州 接壤
+(answer (state (next_to_2 (stateid michigan:e))))
+
+与 阿肯色 州 接壤 的 最大 的 州 是 哪个
+(answer (largest (state (next_to_2 (stateid arkansas:e)))))
+
+北普拉特 河 有 多长
+(answer (len (riverid north_platte:e)))
+
+与 内华达 州 接壤 的 哪个 州 具有 最多 的 人口
+(answer (largest_one (population_1 (state (next_to_2 (stateid nevada:e))))))
+
+纽约 州 的 首府 是 哪儿
+(answer (capital (loc_2 (stateid new_york:e))))
+
+哪些 河流 贯穿 拥有 最少 城市 的 州
+(answer (river (traverse_2 (fewest (state (loc_1 (city all:e)))))))
+
+德克萨斯 州 的 主要 城市 的 人口 是 多少
+(answer (population_1 (major (city (loc_2 (stateid texas:e))))))
+
+最长 的 河流 的 所在 州 的 首府 是 什么
+(answer (capital (loc_2 (state (loc_1 (longest (river all:e)))))))
+
+哪个 州 拥有 最多 的 河流
+(answer (most (state (loc_1 (river all:e)))))
+
+有 多少 人 住 在 得克萨斯 州 的 首府
+(answer (population_1 (capital (loc_2 (stateid texas:e)))))
+
+哪里 是 新墨西哥 州 人口 最多 的 地区
+(answer (loc_1 (largest_one (population_1 (city (loc_2 (stateid new_mexico:e)))))))
+//(answer (largest_one (population_1 (city (loc_2 (stateid new_mexico:e))))))
+
+在 美国 有 多少 州 有 比 首府 城市 最大 的 州 的 最高 点 高 的 地区
+(answer (count (state (loc_1 (place (higher_2 (highest (place (loc_2 (state (loc_1 (largest (capital (city (loc_2 (countryid usa:e))))))))))))))))
+
+有 多少 人 住 在 密西西比 州
+(answer (population_1 (stateid mississippi:e)))
+
+密西西比 河 贯穿 的 最小 州 的 最大 的 城市 是 哪个
+(answer (largest (city (loc_2 (smallest (state (traverse_1 (riverid mississippi:e))))))))
+
+哪些 州 有 名为 盐湖城 的 城市
+(answer (state (loc_1 (city (cityid salt_lake_city:e _:e)))))
+
+哪个 州 具有 最少 的 城镇 人口
+(answer (smallest_one (population_1 (state all:e))))
+
+蒙大拿 州 的 最高 点 有 多高
+(answer (elevation_1 (highest (place (loc_2 (stateid montana:e))))))
+
+密西西比 河 贯穿 的 最小 的 州 是 哪个
+(answer (smallest (state (traverse_1 (riverid mississippi:e)))))
+
+得克萨斯 州 的 面积 是 多少
+(answer (area_1 (stateid texas:e)))
+
+佛蒙特 州 的 主要 城市 是 什么
+(answer (major (city (loc_2 (stateid vermont:e)))))
+
+美国 最大 的 首府 城市 是 哪个 呢
+(answer (largest (capital (city (loc_2 (countryid usa:e))))))
+
+查塔胡奇 河 在 哪里
+(answer (loc_1 (riverid chattahoochee:e)))
+
+犹他 州 的 人口 是 多少
+(answer (population_1 (stateid utah:e)))
+
+在 美国 有 多少 州
+(answer (count (state (loc_2 (countryid usa:e)))))
+
+什么 州 与 亚利桑那 州 相邻
+(answer (state (next_to_2 (stateid arizona:e))))
+
+阿肯色 州 的 最低 点 是 什么
+(answer (lowest (place (loc_2 (stateid arkansas:e)))))
+
+人口 最多 的 州 是 哪个
+(answer (largest_one (population_1 (state all:e))))
+
+密西西比 州 的 人口 是 多少
+(answer (population_1 (stateid mississippi:e)))
+
+哪个 州 与 最多 的 州 接壤
+(answer (most (state (next_to_2 (state all:e)))))
+
+哪个 美国 的 城市 具有 最高 的 人口 密度
+(answer (largest_one (density_1 (city (loc_2 (countryid usa:e))))))
+//(answer (largest_one (density_1 (city all:e))))
+
+威斯康星 州 的 面积 是 多少
+(answer (area_1 (stateid wisconsin:e)))
+
+得克萨斯 州 有 多大
+(answer (size (stateid texas:e)))
+
+最小 的 州 的 人口 是 多少
+(answer (population_1 (smallest (state all:e))))
+//(answer (smallest (population_1 (state all:e))))
+
+被 美国 的 最大 河流 贯穿 的 州 的 人口 密度 是 多少
+(answer (density_1 (state (traverse_1 (longest (river (loc_2 (countryid usa:e))))))))
+
+

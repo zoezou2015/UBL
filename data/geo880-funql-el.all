@@ -1,0 +1,2658 @@
+ονόμασε όλες τις λίμνες των ηπα
+(answer (lake (loc_2 (countryid usa:e))))
+
+ποιο είναι το ψηλότερο σημείο στη florida
+(answer (highest (place (loc_2 (stateid florida:e)))))
+
+ποια είναι τα ψηλά σημεία των πολιτειών που περιβάλλουν τον mississippi
+(answer (high_point_1 (state (next_to_2 (stateid mississippi:e)))))
+
+ποια πολιτεία έχει το κοντύτερο ποταμό
+(answer (state (loc_1 (shortest (river all:e)))))
+
+ποιο είναι το ψηλότερο βουνό στις ηνωμένες πολιτείες
+(answer (highest (mountain (loc_2 (countryid usa:e)))))
+
+ποια είναι η πρωτεύουσα του maine
+(answer (capital (loc_2 (stateid maine:e))))
+
+ποιοι είναι οι πληθυσμού των πολιτειών από τις οποίες περνά ο mississippi
+(answer (population_1 (state (traverse_1 (riverid mississippi:e)))))
+
+ονόμασε όλες τις λίμνες των ηπα
+(answer (lake (loc_2 (countryid usa:e))))
+
+ποιες πολιτείες συνορεύουν με πολιτείες τις οποίες διασχίζει ο mississippi
+(answer (state (next_to_2 (state (traverse_1 (riverid mississippi:e))))))
+
+ποιο είναι το ψηλότερο βουνό στην alaska
+(answer (highest (mountain (loc_2 (stateid alaska:e)))))
+
+ποιος είναι ο πληθυσμός του illinois
+(answer (population_1 (stateid illinois:e)))
+
+ονόμασε όλα τα ποτάμια στο colorado
+(answer (river (loc_2 (stateid colorado:e))))
+
+σε ποια πολιτεία υπάρχει το ψηλότερο σημείο στις ηπα
+(answer (state (loc_1 (highest (place (loc_2 (countryid usa:e)))))))
+
+σε ποια πολιτεία βρίσκεται η πόλη denver
+(answer (state (loc_1 (cityid denver:e _:e))))
+
+ποιο είναι το χαμηλότερο σημείο στο texas
+(answer (lowest (place (loc_2 (stateid texas:e)))))
+
+πόσες πολιτείες έχουν μια πόλη που λέγεται rochester
+(answer (count (state (loc_1 (city (cityid rochester:e _:e))))))
+
+ποιες πρωτεύουσες είναι στις πολιτείες που συνορεύουν με το texas
+(answer (capital (loc_2 (state (next_to_2 (stateid texas:e))))))
+
+πόσοι άνθρωποι ζουν στο austin
+(answer (population_1 (cityid austin:e _:e)))
+
+ποιες πολιτείες έχουν ποτάμια που ονομάζονται colorado
+(answer (state (loc_1 (river (riverid colorado:e)))))
+
+ποιο είναι το μέγεθος του texas
+(answer (size (stateid texas:e)))
+
+ποιο είναι το κοντύτερο ποτάμι στις ηπα
+(answer (shortest (river (loc_2 (countryid usa:e)))))
+
+ποιες είναι οι κύριες πόλεις των ηπα
+(answer (major (city (loc_2 (countryid usa:e)))))
+
+ποια πολιτεία συνορεύει με το kentucky
+(answer (state (next_to_2 (stateid kentucky:e))))
+
+ποιος είναι ο πληθυσμός του oregon
+(answer (population_1 (stateid oregon:e)))
+
+ποιες πολιτείες έχουν μια πόλη που ονομάζεται austin
+(answer (state (loc_1 (city (cityid austin:e _:e)))))
+
+ποιο είναι το μεγαλύτερο υψόμετρο στη south carolina
+(answer (highest (place (loc_2 (stateid south_carolina:e)))))
+
+πόσοι άνθρωποι ζουν στο austin texas
+(answer (population_1 (cityid austin:e tx:e)))
+
+ποια είναι τα ποτάμια στην πολιτεία του texas
+(answer (river (loc_2 (stateid texas:e))))
+
+ποιο είναι το χαμηλότερο σημείο του colorado
+(answer (lowest (place (loc_2 (stateid colorado:e)))))
+
+ποιος είναι ο πληθυσμός της atlanta
+(answer (population_1 (cityid atlanta:e _:e)))
+
+ποια ποτάμια είναι στη utah
+(answer (river (loc_2 (stateid utah:e))))
+
+ποιο ποτάμι διασχίζει τις περισσότερες πολιτείες
+(answer (most (river (traverse_2 (state all:e)))))
+
+ποιος είναι ο πληθυσμός του sacramento
+(answer (population_1 (cityid sacramento:e _:e)))
+
+μπορείς να μου πεις ποιο είναι το ψηλότερο σημείο στην πολιτεία του oregon
+(answer (highest (place (loc_2 (stateid oregon:e)))))
+
+ποιες πολιτείες διασχίζει ο mississippi
+(answer (state (traverse_1 (riverid mississippi:e))))
+
+ποιες είναι οι κύριες πόλεις στη μικρότερη πολιτεία στις ηπα
+(answer (major (city (loc_2 (smallest (state (loc_2 (countryid usa:e))))))))
+
+πόσο ψηλή είναι η κορυφή guadalupe
+(answer (elevation_1 (placeid guadalupe_peak:e)))
+
+ποιος ποταμός διασχίζει το illinois
+(answer (river (traverse_2 (stateid illinois:e))))
+
+πόσο μακρύς είναι ο ποταμός mississippi
+(answer (len (riverid mississippi:e)))
+
+πόσο ψηλό είναι το ψηλότερο σημείο στη μεγαλύτερη πολιτεία
+(answer (elevation_1 (highest (place (loc_2 (largest (state all:e)))))))
+
+πόσο είναι το εμβαδό της south carolina
+(answer (area_1 (stateid south_carolina:e)))
+
+ποιες είναι οι πολιτείες τις οποίες διασχίζει ο μακρύτερος ποταμός
+(answer (state (traverse_1 (longest (river all:e)))))
+
+που είναι η new orleans
+(answer (loc_1 (cityid new_orleans:e _:e)))
+
+σε ποια πολιτεία είναι το όρος mckinley
+(answer (state (loc_1 (placeid mount_mckinley:e))))
+
+ποια πολιτεία έχει το μεγαλύτερο υψόμετρο
+(answer (state (loc_1 (highest (place all:e)))))
+
+ποιο είναι το μέγεθος της california
+(answer (size (stateid california:e)))
+
+ποια είναι η μικρότερη πολιτεία που συνορεύει το texas
+(answer (smallest (state (next_to_2 (stateid texas:e)))))
+
+πόσοι πολίτες στην alabama
+(answer (population_1 (stateid alabama:e)))
+
+σε ποια πολιτεία είναι το rochester
+(answer (state (loc_1 (cityid rochester:e _:e))))
+
+πόσες πολιτείες των ηπα διασχίζει το κοντύτερο ποτάμι
+(answer (count (intersection (state (loc_2 (countryid usa:e))) (traverse_1 (shortest (river all:e))))))
+
+ποια είναι η μεγαλύτερη πολιτεία στις ηπειρωτικές ηπα
+(answer (largest (state (loc_2 (countryid usa:e)))))
+
+ποιο είναι το εμβαδό της μεγαλύτερης πολιτείας
+(answer (area_1 (largest (state all:e))))
+
+που είναι το mount whitney
+(answer (loc_1 (placeid mount_whitney:e)))
+
+με πόσες πολιτείες συνορεύει η iowa
+(answer (count (state (next_to_1 (stateid iowa:e)))))
+
+ποιες πολιτείες διασχίζει το μεγαλύτερο ποτάμι
+(answer (state (traverse_1 (longest (river all:e)))))
+
+ποιο ποτάμι διασχίζει το kansas
+(answer (river (traverse_2 (stateid kansas:e))))
+
+ποιος είναι ο πληθυσμός του austin texas
+(answer (population_1 (cityid austin:e tx:e)))
+
+ποια είναι  η πρωτεύουσα του vermont
+(answer (capital (loc_2 (stateid vermont:e))))
+
+ποιες πολιτείες συνορεύουν με το colorado
+(answer (state (next_to_2 (stateid colorado:e))))
+
+πόσο μακρύς είναι ο mississippi
+(answer (len (riverid mississippi:e)))
+
+ποια πολιτεία έχει τη μεγαλύτερη πυκνότητα πληθυσμού
+(answer (largest_one (density_1 (state all:e))))
+
+ποιες πολιτείες συνορεύουν με τη georgia
+(answer (state (next_to_2 (stateid georgia:e))))
+
+ποια είναι η πρωτεύουσα της  pennsylvania
+(answer (capital (loc_2 (stateid pennsylvania:e))))
+
+ποια είναι τα μεγαλύτερα ποτάμια στο texas
+(answer (longest (river (loc_2 (stateid texas:e)))))
+
+ποιο είναι το μακρύτερο ποτάμι στις ηνωμένες πολιτείες
+(answer (longest (river (loc_2 (countryid usa:e)))))
+
+ποια είναι η πρωτεύουσα της utah
+(answer (capital (loc_2 (stateid utah:e))))
+
+ποια πολιτεία έχει τη μικρότερη πυκνότητα πληθυσμού
+(answer (smallest_one (density_1 (state all:e))))
+
+ποιες πρωτεύουσες δεν είναι κύριες πόλεις
+(answer (exclude (capital all:e) (major (city all:e))))
+
+ποια είναι η μεγαλύτερη πόλη στη nebraska
+(answer (largest (city (loc_2 (stateid nebraska:e)))))
+
+ποιο είναι ο πληθυσμός του texas
+(answer (population_1 (stateid texas:e)))
+
+ποιο είναι το κοντύτερο ποτάμι στις ηνωμένες πολιτείες
+(answer (shortest (river (loc_2 (countryid usa:e)))))
+
+ποιος είναι ο πληθυσμός του rhode island
+(answer (population_1 (stateid rhode_island:e)))
+
+ποια είναι η πολιτεία με το χαμηλότερο σημείο
+(answer (state (loc_1 (lowest (place all:e)))))
+
+ποιο είναι το μακρύτερο ποτάμι στη new york
+(answer (longest (river (loc_2 (stateid new_york:e)))))
+
+ποιο είναι το μεγαλύτερο ποτάμι που διασχίζει μια πολιτεία που συνορεύει με το tennessee
+(answer (longest (river (traverse_2 (state (next_to_2 (stateid tennessee:e)))))))
+
+πόσες πόλεις υπάρχουν στην arizona
+(answer (count (major (city (loc_2 (stateid arizona:e))))))
+
+ποιες είναι οι γειτονικές πολιτείες για το michigan
+(answer (state (next_to_2 (stateid michigan:e))))
+
+ποια πολιτεία που συνορεύει με το texas είναι η μεγαλύτερη
+(answer (largest (state (next_to_2 (stateid texas:e)))))
+
+ποιο είναι το κοντύτερο ποτάμι
+(answer (shortest (river all:e)))
+
+πόσες πολιτείες συνορεύουν με την πολιτεία την οποία συνορεύουν οι περισσότερες πολιτείες
+(answer (count (state (next_to_2 (most (state (next_to_2 (state all:e))))))))
+
+σε ποια πολιτεία είναι η μεγαλύτερη πόλη στη montana
+(answer (state (loc_1 (largest (city (loc_2 (stateid montana:e)))))))
+
+ποιος είναι ο πληθυσμός της washington dc
+(answer (population_1 (cityid washington:e dc:e)))
+
+ποια είναι η πιο πολυπληθής πόλη στο texas
+(answer (largest_one (population_1 (city (loc_2 (stateid texas:e))))))
+
+ποια είναι η πρωτεύουσα της hawaii
+(answer (capital (loc_2 (stateid hawaii:e))))
+
+ποια είναι  η πρωτεύουσα της iowa
+(answer (capital (loc_2 (stateid iowa:e))))
+
+που είναι το san diego
+(answer (loc_1 (cityid san_diego:e _:e)))
+
+ποιες είναι οι κύριες πολιτείες στο delaware
+(answer (major (city (loc_2 (stateid delaware:e)))))
+
+ποιο είναι το χαμηλότερο σημείο στη louisiana
+(answer (lowest (place (loc_2 (stateid louisiana:e)))))
+
+ποια πολιτεία έχει την ψηλότερη κορυφή στη χώρα
+(answer (state (loc_1 (highest (place all:e)))))
+
+ποια πολιτεία του texas έχει το μεγαλύτερο πληθυσμό
+(answer (largest_one (population_1 (city (loc_2 (stateid texas:e))))))
+
+ποια πρωτεύουσα είναι η μεγαλύτερη στις ηπα
+(answer (largest (capital (loc_2 (countryid usa:e)))))
+
+ποιος είναι ο πληθυσμός της new york
+(answer (population_1 (stateid new_york:e)))
+
+ποιος είναι ο πληθυσμός της πρωτεύουσας της μικρότερης πολιτείας
+(answer (population_1 (capital (loc_2 (smallest (state all:e))))))
+
+ποιο είναι το εμβαδό της alaska
+(answer (area_1 (stateid alaska:e)))
+
+ποιος είναι ο πληθυσμός της california
+(answer (population_1 (stateid california:e)))
+
+ποια πολιτεία έχει το μακρύτερο ποτάμι
+(answer (state (loc_1 (longest (river all:e)))))
+
+ποια είναι η πρωτεύουσα του texas
+(answer (capital (loc_2 (stateid texas:e))))
+
+δώσε μου τις πόλεις που υπάρχουν στο texas
+(answer (city (loc_2 (stateid texas:e))))
+
+ποιες πολιτείες συνορεύουν με το kentucky
+(answer (state (next_to_2 (stateid kentucky:e))))
+
+πόσο ψηλό είναι το ψηλότερο σημείο της florida
+(answer (elevation_1 (highest (place (loc_2 (stateid florida:e))))))
+
+ποιες είναι οι κύριες πόλεις στη north carolina
+(answer (major (city (loc_2 (stateid north_carolina:e)))))
+
+ποιο είναι το ψηλότερο σημείο στην πολιτεία με πρωτεύουσα το des moines
+(answer (highest (place (loc_2 (state (loc_1 (capital (cityid des_moines:e _:e))))))))
+
+ποιο είναι το χαμηλότερο σημείο στην california
+(answer (lowest (place (loc_2 (stateid california:e)))))
+
+ποια είναι η μεγαλύτερη πόλη στο wyoming
+(answer (largest (city (loc_2 (stateid wyoming:e)))))
+
+ποια είναι η μεγαλύτερη πολιτεία που συνορεύει το texas
+(answer (largest (state (next_to_2 (stateid texas:e)))))
+
+ποια είναι η μικρότερη πόλη στη hawaii
+(answer (smallest (city (loc_2 (stateid hawaii:e)))))
+
+ποιο είναι το εμβαδό των πολιτειών
+(answer (area_1 (state all:e)))
+
+ποιο είναι το εμβαδό του idaho
+(answer (area_1 (stateid idaho:e)))
+
+ποια πολιτεία διασχίζουν τα περισσότερα ποτάμια
+(answer (most (state (traverse_1 (river all:e)))))
+
+ποιος είναι ο πληθυσμός του springfield missouri
+(answer (population_1 (cityid springfield:e mo:e)))
+
+ποια είναι η πολυπληθέστερη πολιτεία που συνορεύει με την oklahoma
+(answer (largest_one (population_1 (state (next_to_2 (stateid oklahoma:e))))))
+
+ποιος είναι ο αριθμός των γειτονικών πολιτειών του kentucky
+(answer (count (state (next_to_2 (stateid kentucky:e)))))
+
+ποιος είναι ο μέσος πληθυσμός ανά τετραγωνικό χμ στη pennsylvania
+(answer (density_1 (stateid pennsylvania:e)))
+
+ποια πολιτεία έχει τη μεγαλύτερη πυκνότητα πληθυσμού
+(answer (largest_one (density_1 (state all:e))))
+
+ποιο είναι το μεγαλύτερο βουνό στην αμερική
+(answer (highest (mountain (loc_2 (countryid usa:e)))))
+
+ποιο είναι το ψηλότερο σημείο της πολιτείας με το μεγαλύτερο εμβαδό
+(answer (highest (place (loc_2 (largest_one (area_1 (state all:e)))))))
+
+ποιες είναι οι πολιτείες
+(answer (state all:e))
+
+πόσα ποτάμια στη washington
+(answer (count (river (loc_2 (stateid washington:e)))))
+
+ποιοι είναι οι πληθυσμού των πολιτειών από τις οποίες περνά ο mississippi
+(answer (population_1 (state (traverse_1 (riverid mississippi:e)))))
+
+ποιο είναι το μεγαλύτερο ποτάμι στο illinois
+(answer (longest (river (loc_2 (stateid illinois:e)))))
+
+ποια είναι η πρωτεύουσα του michigan
+(answer (capital (loc_2 (stateid michigan:e))))
+
+ποιος είναι ο συνολικός πληθυσμός των πολιτειών που συνορεύουν με το texas
+(answer (sum (population_1 (state (next_to_2 (stateid texas:e))))))
+
+ποιες πολιτείες συνορεύουν με  το rhode island
+(answer (state (next_to_2 (stateid rhode_island:e))))
+
+ποια είναι η μεγαλύτερη πόλη στο oregon
+(answer (largest (city (loc_2 (stateid oregon:e)))))
+
+ποιο είναι το χαμηλότερο σημείο στο wisconsin
+(answer (lowest (place (loc_2 (stateid wisconsin:e)))))
+
+ποια είναι τα ποτάμια στην πολιτεία της indiana
+(answer (river (loc_2 (stateid indiana:e))))
+
+ποιος είναι ο πληθυσμός του austin
+(answer (population_1 (cityid austin:e _:e)))
+
+ποια είναι η μικρότερη πόλη στο arkansas
+(answer (smallest (city (loc_2 (stateid arkansas:e)))))
+
+δώσε μου το μακρύτερο ποτάμι που διασχίζει τις ηπα
+(answer (longest (river (traverse_2 (countryid usa:e)))))
+
+πόσο μακρύς είναι ο ποταμός missouri
+(answer (len (riverid missouri:e)))
+
+ποια πολιτεία έχει τη μεγαλύτερη πόλη
+(answer (state (loc_1 (largest (city all:e)))))
+
+ποιο είναι το χαμηλότερο υψόμετρο στην pennsylvania
+(answer (lowest (place (loc_2 (stateid pennsylvania:e)))))
+
+ποιο είναι το μακρύτερο ποτάμι στη πολιτεία με το ψηλότερο σημείο
+(answer (longest (river (loc_2 (state (loc_1 (highest (place all:e))))))))
+
+ποιες πολιτείες διασχίζει ο ποταμός colorado
+(answer (state (traverse_1 (riverid colorado:e))))
+
+ποιες είναι πολιτείες που διασχίζει ο potomac
+(answer (state (traverse_1 (riverid potomac:e))))
+
+ποια είναι η μεγαλύτερη πόλη στις ηπα
+(answer (largest (city (loc_2 (countryid usa:e)))))
+
+ποια πολιτεία δεν έχει ποτάμια
+(answer (exclude (state all:e) (loc_1 (river all:e))))
+
+ποιο είναι το ψηλότερο σημείο στο rhode island
+(answer (highest (place (loc_2 (stateid rhode_island:e)))))
+
+ονόμασε τις πολιτείες που δεν έχουν περιβάλλουσες πολιτείες
+(answer (exclude (state all:e) (next_to_2 (state all:e))))
+
+ποιος είναι ο πληθυσμός της atlanta ga
+(answer (population_1 (cityid atlanta:e ga:e)))
+
+πόσα τετραγωνικά χιλιόμετρα είναι οι ηπα
+(answer (area_1 (countryid usa:e)))
+
+ποιος είναι ο πληθυσμός του idaho
+(answer (population_1 (stateid idaho:e)))
+
+ποια είναι η γειτονική πολιτεία της california
+(answer (state (next_to_2 (stateid california:e))))
+
+ποια είναι η μικρότερη πολιτεία που διασχίζει το μακρύτερο ποτάμι
+(answer (smallest (state (traverse_1 (longest (river all:e))))))
+
+ποια είναι τα ονόματα των κύριων πόλεων στο illinois
+(answer (major (city (loc_2 (stateid illinois:e)))))
+
+πόσες πολιτείες διασχίζει ο ποταμός colorado
+(answer (count (state (traverse_1 (riverid colorado:e)))))
+
+ανάμεσα σε πόσες πολιτείες κυλά ο ποταμός colorado
+(answer (count (state (traverse_1 (riverid colorado:e)))))
+
+ποιες είναι οι κύριες πόλεις στο kansas
+(answer (major (city (loc_2 (stateid kansas:e)))))
+
+ποιες πολιτείες συνορεύουν με το texas
+(answer (state (next_to_2 (stateid texas:e))))
+
+πόσοι άνθρωποι ζουν στη new york
+(answer (population_1 (stateid new_york:e)))
+
+ποιες είναι οι μεγαλύτερες πόλεις στις πολιτείες που συνορεύουν με τη μεγαλύτερη πολιτεία
+(answer (largest (city (loc_2 (state (next_to_2 (largest (state all:e))))))))
+
+ποιες πολιτείες έχουν σημεία ψηλότερα από το ψηλότερο σημείο στο texas
+(answer (state (loc_1 (place (higher_2 (highest (place (loc_2 (stateid texas:e)))))))))
+
+ποιο είναι το ποτάμι που διασχίζει το ohio
+(answer (river (traverse_2 (stateid ohio:e))))
+
+ποια είναι η μεγαλύτερη πόλη στο michigan
+(answer (largest (city (loc_2 (stateid michigan:e)))))
+
+πόσα ποτάμια υπάρχουν στην πολιτεία με το ψηλότερο σημείο
+(answer (count (river (loc_2 (state (loc_1 (highest (place all:e))))))))
+
+ποιες πόλεις βρίσκονται στην pennsylvania
+(answer (city (loc_2 (stateid pennsylvania:e))))
+
+ποια είναι η πολιτεία με το χαμηλότερο πληθυσμό
+(answer (smallest_one (population_1 (state all:e))))
+
+ποιο είναι το ψηλότερο σημείο σε κάθε πολιτεία της οποία το χαμηλότερο σημείο είναι στο επίπεδο της θάλασσας
+(answer (highest (place (loc_2 (state (loc_1 (lowest (place (elevation_2 0:e)))))))))
+//(answer (highest (place (loc_2 (state (loc_1 (place (elevation_2 0:e))))))))
+
+δώσε μου τις πόλεις στις ηπα
+(answer (city (loc_2 (countryid usa:e))))
+
+πόσες πολιτείες διασχίζει ο ποταμός missouri
+(answer (count (state (traverse_1 (riverid missouri:e)))))
+
+ποια πολιτεία έχει η πόλη με το μεγαλύτερο πληθυσμό
+(answer (state (loc_1 (largest_one (population_1 (city all:e))))))
+
+ποιο είναι το κοντύτερο ποτάμι
+(answer (shortest (river all:e)))
+
+πόσες πολιτείες συνορεύουν με την alaska
+(answer (count (state (next_to_2 (stateid alaska:e)))))
+
+ποιος είναι ο πληθυσμός του dallas
+(answer (population_1 (cityid dallas:e _:e)))
+
+που είναι το san jose
+(answer (loc_1 (cityid san_jose:e _:e)))
+
+ποιες πολιτείες συνορεύουν με πολιτείες που συνορεύουν με το colorado
+(answer (state (next_to_2 (state (next_to_2 (stateid colorado:e))))))
+
+ποια ποτάμια διασχίζουν την πολιτεία με το μεγαλύτερο πληθυσμό
+(answer (river (traverse_2 (largest_one (population_1 (state all:e))))))
+
+ποια είναι η μεγαλύτερη πόλη
+(answer (largest (city all:e)))
+
+ποια είναι η πρωτεύουσα της πολιτείας της alabama
+(answer (capital (loc_2 (stateid alabama:e))))
+
+ποιες πολιτείες συνορεύουν το arkansas
+(answer (state (next_to_2 (stateid arkansas:e))))
+
+ποιος είναι ο πληθυσμός του denver
+(answer (population_1 (cityid denver:e _:e)))
+
+ποιο είναι το μακρύτερο ποτάμι στην αμερική
+(answer (longest (river (loc_2 (countryid usa:e)))))
+
+που είναι η massachusetts
+(answer (loc_1 (stateid massachusetts:e)))
+
+ποια πολιτεία έχει το μικρότερο εμβαδό
+(answer (smallest_one (area_1 (state all:e))))
+
+ποιο κύριο ποτάμι διασχίζει το illinois
+(answer (major (river (traverse_2 (stateid illinois:e)))))
+
+πόσες πόλεις έχουν οι ηπα
+(answer (count (city (loc_2 (countryid usa:e)))))
+
+πόσοι άνθρωποι ζουν στην california
+(answer (population_1 (stateid california:e)))
+
+ποια είναι τα κύρια ποτάμια στις ηπα
+(answer (major (river (loc_2 (countryid usa:e)))))
+
+πόσες πολιτείες διασχίζει ο ποταμός mississippi
+(answer (count (state (traverse_1 (riverid mississippi:e)))))
+
+ποιο είναι το εμβαδό του texas
+(answer (area_1 (stateid texas:e)))
+
+ποιο είναι το μήκος του ποταμού που διασχίζει τις περισσότερες πολιτείες
+(answer (len (most (river (traverse_2 (state all:e))))))
+
+ποιο είναι το μήκος του μακρύτερου ποταμού στις ηπα
+(answer (len (longest (river (loc_2 (countryid usa:e))))))
+
+μπορείς να μου πεις την πρωτεύουσα του texas
+(answer (capital (loc_2 (stateid texas:e))))
+
+ποια είναι η μεγαλύτερη πολιτεία στη minnesota βάσει πληθυσμού
+(answer (largest_one (population_1 (city (loc_2 (stateid minnesota:e))))))
+
+ποια είναι η μικρότερη πολιτεία στις ηπα
+(answer (smallest (state (loc_2 (countryid usa:e)))))
+
+ποιες πολιτείες γειτονεύουν το maine
+(answer (state (next_to_2 (stateid maine:e))))
+
+ποιων πολιτειών το ψηλότερο σημείο είναι ψηλότερο από αυτό του colorado
+(answer (state (high_point_2 (higher_2 (high_point_1 (stateid colorado:e))))))
+
+ποιο είναι το ψηλότερο βουνό στο texas
+(answer (highest (mountain (loc_2 (stateid texas:e)))))
+
+ποιες είναι οι κύριες πόλεις στο texas
+(answer (major (city (loc_2 (stateid texas:e)))))
+
+ποιες είναι οι πολιτείες που συνορεύουν την πολιτεία με το μεγαλύτερο πληθυσμό
+(answer (state (next_to_2 (largest_one (population_1 (state all:e))))))
+
+ποιο ποτάμι διασχίζει το colorado
+(answer (river (traverse_2 (stateid colorado:e))))
+
+πόσα ποτάμια υπάρχουν στις ηπα
+(answer (count (river (loc_2 (countryid usa:e)))))
+
+πόσα ποτάμια υπάρχουν στη new york
+(answer (count (river (loc_2 (stateid new_york:e)))))
+
+πόσα ποτάμια υπάρχουν στην alaska
+(answer (river (loc_2 (stateid alaska:e))))
+
+ποιο είναι το μακρύτερο ποτάμι που διασχίζει τη new york
+(answer (longest (river (traverse_2 (stateid new_york:e)))))
+
+πόσα ποτάμια διασχίζουν τη west virginia
+(answer (river (traverse_2 (stateid west_virginia:e))))
+
+ποιες είναι οι πρωτεύουσες των πολιτειών που συνορεύουν με το texas
+(answer (capital (loc_2 (state (next_to_2 (stateid texas:e))))))
+
+ποιο είναι το εμβαδό της california
+(answer (area_1 (stateid california:e)))
+
+πόσες πολιτείες έχουν μια πόλη που ονομάζεται springfield
+(answer (count (state (loc_1 (city (cityid springfield:e _:e))))))
+
+ποια είναι η μεγαλύτερη πόλη στο texas
+(answer (largest (city (loc_2 (stateid texas:e)))))
+
+πόσες πόλεις με το όνομα austin υπάρχουν στις ηπα
+(answer (count (intersection (city (cityid austin:e _:e)) (loc_2 (countryid usa:e)))))
+
+ποιες είναι οι κύριες πόλεις στη μεγαλύτερη πολιτεία
+(answer (major (city (loc_2 (largest (state all:e))))))
+
+ποιες πολιτείες διασχίζει ο ποταμός colorado
+(answer (state (traverse_1 (riverid colorado:e))))
+
+ποια είναι η μεγαλύτερη πόλη στο wisconsin
+(answer (largest (city (loc_2 (stateid wisconsin:e)))))
+
+πόσο μεγάλη είναι η alaska
+(answer (size (stateid alaska:e)))
+
+ποια πολιτεία περιέχει το ψηλότερο σημείο στις ηπα
+(answer (state (loc_1 (highest (place (loc_2 (countryid usa:e)))))))
+
+πόσο μεγάλη είναι η north dakota
+(answer (size (stateid north_dakota:e)))
+
+ποια ποτάμια διασχίζουν την alaska
+(answer (river (traverse_2 (stateid alaska:e))))
+
+ποιο είναι το ψηλότερο σημείο στις ηπα
+(answer (highest (place (loc_2 (countryid usa:e)))))
+
+ποιο είναι το μικρότερο ποτάμι στο texas
+(answer (shortest (river (loc_2 (stateid texas:e)))))
+
+ποιες είναι οι κύριες πόλεις στις πολιτείες τις οποίες διασχίζει το μεγαλύτερο ποτάμι στη virginia
+(answer (major (city (loc_2 (state (traverse_1 (major (river (loc_2 (stateid virginia:e))))))))))
+
+ποια ποτάμια είναι στο oregon
+(answer (river (loc_2 (stateid oregon:e))))
+
+ποιο είναι το χαμηλότερο σημείο στις ηνωμένες πολιτείες
+(answer (lowest (place (loc_2 (countryid usa:e)))))
+
+πόσες πολιτείες έχουν πόλεις ή κωμοπόλεις που ονομάζονται springfield
+(answer (count (state (loc_1 (city (cityid springfield:e _:e))))))
+
+ποιος είναι ο πληθυσμός της south dakota
+(answer (population_1 (stateid south_dakota:e)))
+
+ποιά είναι η πρωτεύουσα της πολιτείας με το ψηλότερο σημείο
+(answer (capital (loc_2 (state (loc_1 (highest (place all:e)))))))
+
+ποια πολιτεία έχει το μεγαλύτερο υψόμετρο
+(answer (state (loc_1 (highest (place all:e)))))
+
+ποιες πολιτείες είναι δίπλα στο texas
+(answer (state (next_to_2 (stateid texas:e))))
+
+ποιο είναι το μεγαλύτερο ποτάμι που διασχίζει τις πολιτείες που συνορεύουν την πολιτεία που συνορεύει τις περισσότερες πολιτείες
+(answer (longest (river (traverse_2 (state (next_to_2 (most (state (next_to_2 (state all:e))))))))))
+
+ποιές πολιτείες συνορεύουν με τη hawaii
+(answer (state (next_to_2 (stateid hawaii:e))))
+
+πόσες κύριες πόλεις υπάρχουν στο oregon
+(answer (count (major (city (loc_2 (stateid oregon:e))))))
+
+ποιος είναι ο πληθυσμός του springfield νότια ντακότα
+(answer (population_1 (cityid springfield:e sd:e)))
+
+πόσα ποτάμια διασχίζουν το texas
+(answer (count (river (traverse_2 (stateid texas:e)))))
+
+ποια πολιτεία διασχίζουν τα περισσότερα κύρια ποτάμια
+(answer (most (state (traverse_1 (major (river all:e))))))
+
+ποιες είναι οι λίμνες στις πολιτείες που συνορεύουν το texas
+(answer (lake (loc_2 (state (next_to_2 (stateid texas:e))))))
+
+άνθρωποι στο boulder
+(answer (population_1 (cityid boulder:e _:e)))
+
+ποια ποτάμια υπάρχουν στη nevada
+(answer (river (loc_2 (stateid nevada:e))))
+
+που το fort wayne
+(answer (loc_1 (cityid fort_wayne:e _:e)))
+
+που είναι η indianapolis
+(answer (loc_1 (cityid indianapolis:e _:e)))
+
+ποιες πολιτείες συνορεύουν με πολιτείες που συνορεύουν με πολιτείες που συνορεύουν με πολιτείες που συνορεύουν με το texas
+(answer (state (next_to_2 (state (next_to_2 (state (next_to_2 (state (next_to_2 (stateid texas:e))))))))))
+
+πληθυσμός του boulder
+(answer (population_1 (cityid boulder:e _:e)))
+
+ποιες είναι οι κύριες πόλεις στις ηνωμένες πολιτείες
+(answer (major (city (loc_2 (countryid usa:e)))))
+
+εμφάνισε κύριες πόλεις στο colorado
+(answer (major (city (loc_2 (stateid colorado:e)))))
+
+ποιας πολιτείας είναι πρωτεύουσα το columbus
+(answer (state (loc_1 (capital (cityid columbus:e _:e)))))
+
+ποιο είναι το εμβαδό όλων των πολιτειών συνολικά
+(answer (sum (area_1 (state all:e))))
+
+ποιος είναι ο μέσος πληθυσμός ανά τετραγωνικό χλμ, στις ηπα
+(answer (density_1 (countryid usa:e)))
+
+ποια είναι η μεγαλύτερη πολιτεία που συνορεύει με την california
+(answer (largest (state (next_to_2 (stateid california:e)))))
+
+ποιος είναι ο πληθυσμός της montana
+(answer (population_1 (stateid montana:e)))
+
+ποιοι είναι οι πληθυσμοί από όλες τις κύριες πόλεις στη montana
+(answer (population_1 (major (city (loc_2 (stateid montana:e))))))
+
+ποια ποτάμια διασχίζουν την πολιτεία με το χαμηλότερο υψόμετρο στις ηπα
+(answer (river (traverse_2 (state (loc_1 (lowest (place (loc_2 (countryid usa:e)))))))))
+
+ποια ποτάμια διασχίζουν τη μεγαλύτερη πολιτεία
+(answer (river (traverse_2 (largest (state all:e)))))
+
+ποιο είναι το εμβαδό του maine
+(answer (area_1 (stateid maine:e)))
+
+ποια είναι τα κύρια ποτάμια στο texas
+(answer (major (river (loc_2 (stateid texas:e)))))
+
+ποια είναι η πυκνότητα πληθυσμού στην πολιτεία με το μικρότερο πληθυσμό
+(answer (density_1 (smallest_one (population_1 (state all:e)))))
+
+ποιο είναι το ψηλότερο σημείο στο wyoming
+(answer (highest (place (loc_2 (stateid wyoming:e)))))
+
+ποιες πολιτείες συνορεύουν με το delaware
+(answer (state (next_to_2 (stateid delaware:e))))
+
+ποια πολιτεία διασχίζουν τα περισσότερα ποτάμια
+(answer (most (state (traverse_1 (river all:e)))))
+
+ποια είναι η μεγαλύτερη πρωτεύουσα
+(answer (largest (capital all:e)))
+
+ποια είναι η πολιτεία με τη μεγαλύτερη πυκνότητα πληθυσμού
+(answer (largest_one (density_1 (state all:e))))
+
+ποιες πολιτείες έχουν κωμοπόλεις που ονομάζονται springfield
+(answer (state (loc_1 (city (cityid springfield:e _:e)))))
+
+ποια είναι η μικρότερη πόλη στη μεγαλύτερη πολιτεία
+(answer (smallest (city (loc_2 (largest (state all:e))))))
+
+ποια βουνά υπάρχουν στην alaska
+(answer (mountain (loc_2 (stateid alaska:e))))
+
+ποια πολιτεία έχει τη μικρότερη πυκνότητα πληθυσμού
+(answer (smallest_one (density_1 (state all:e))))
+
+πόσους κατοίκους έχει το montgomery
+(answer (population_1 (cityid montgomery:e _:e)))
+
+ποια πόλη έχει το μεγαλύτερο πληθυσμό
+(answer (largest_one (population_1 (city all:e))))
+
+ποια είναι η μεγαλύτερη πολιτεία
+(answer (largest (state all:e)))
+
+από τις πολιτείες που βρέχονται από το ποταμό mississippi ποια έχει το χαμηλότερο σημείο
+(answer (state (loc_1 (lowest (place (loc_2 (state (traverse_1 (riverid mississippi:e)))))))))
+
+ποιο είναι το εμβαδό της πολιτείας με τη χαμηλότερη πυκνότητα πληθυσμού
+(answer (area_1 (smallest_one (density_1 (state all:e)))))
+
+ποια πολιτεία περιέχει τα περισσότερα ποτάμια
+(answer (most (state (loc_1 (river all:e)))))
+
+ποιο είναι το μακρύτερο ποτάμι στο mississippi
+(answer (longest (river (loc_2 (stateid mississippi:e)))))
+
+ποια είναι η πρωτεύουσα της μεγαλύτερης πολιτείας
+(answer (capital (loc_2 (largest (state all:e)))))
+
+ποια πολιτεία έχει τον περισσότερο πληθυσμό
+(answer (largest_one (population_1 (state all:e))))
+
+ονόμασε τα ποτάμια στο arkansas
+(answer (river (loc_2 (stateid arkansas:e))))
+
+ποιοι είναι οι πληθυσμού των πολιτειών από τις οποίες περνά ο mississippi
+(answer (population_1 (state (traverse_1 (riverid mississippi:e)))))
+
+ποιος είναι ο πληθυσμός της arizona
+(answer (population_1 (stateid arizona:e)))
+
+ποιες πολιτείες συνορεύουν με την πολιτεία με τον χαμηλότερο πληθυσμό
+(answer (state (next_to_2 (smallest_one (population_1 (state all:e))))))
+
+ποιο είναι το συνολικό εμβαδό των ηπα
+(answer (area_1 (countryid usa:e)))
+
+ποιος είναι ο πληθυσμός του seattle washington
+(answer (population_1 (cityid seattle:e wa:e)))
+
+ποιο είναι το μέγεθος της μεγαλύτερης πολιτείας στις ηπα
+(answer (size (largest (state (loc_2 (countryid usa:e))))))
+
+ποια πολιτεία έχει πρωτεύουσα το salem
+(answer (state (loc_1 (capital (cityid salem:e _:e)))))
+
+ποιο είναι το χαμηλότερο σημείο των πολιτειών τις οποίες διασχίζει ο mississippi
+(answer (lowest (place (loc_2 (state (traverse_1 (riverid mississippi:e)))))))
+
+πόσες κύριες πόλεις υπάρχουν στο texas
+(answer (count (major (city (loc_2 (stateid texas:e))))))
+
+ποια είναι η πρωτεύουσα πόλη της μεγαλύτερης πολιτείας στις ηπα
+(answer (capital (city (loc_2 (largest (state (loc_2 (countryid usa:e))))))))
+
+ποιες είναι οι κύριες πόλεις στο rhode island
+(answer (major (city (loc_2 (stateid rhode_island:e)))))
+
+ποια πολιτεία έχει του περισσότερους ανθρώπους
+(answer (largest_one (population_1 (state all:e))))
+
+ποια είναι η μεγαλύτερη πόλη στο kansas
+(answer (largest (city (loc_2 (stateid kansas:e)))))
+
+ποιο είναι το εμβαδό της πολιτείας με πρωτεύουσα το albany
+(answer (area_1 (state (loc_1 (capital (cityid albany:e _:e))))))
+
+ποιο είναι το μακρύτερο ποτάμι που διασχίζει το colorado
+(answer (longest (river (traverse_2 (stateid colorado:e)))))
+
+πόσα ποτάμια έχει η alaska
+(answer (count (river (loc_2 (stateid alaska:e)))))
+
+πόσο μεγάλη είναι η massachusetts
+(answer (size (stateid massachusetts:e)))
+
+πόσο μεγάλη είναι η μεγαλύτερη πόλη στην alaska
+(answer (size (largest (city (loc_2 (stateid alaska:e))))))
+
+πόσες πόλεις υπάρχουν στις ηπα
+(answer (count (city (loc_2 (countryid usa:e)))))
+
+ποιων πολιτειών είναι πρωτεύουσα το dover
+(answer (state (capital_2 (cityid dover:e _:e))))
+
+ποιες πολιτείες συνορεύουν με το new hampshire
+(answer (state (next_to_2 (stateid new_hampshire:e))))
+
+ποιο είναι το μικρότερο ποτάμι στη nebraska
+(answer (shortest (river (loc_2 (stateid nebraska:e)))))
+
+πόσες πολιτείες συνορεύουν με τη hawaii
+(answer (count (state (next_to_2 (stateid hawaii:e)))))
+
+σε ποια πολιτεία είναι το dallas
+(answer (state (loc_1 (cityid dallas:e _:e))))
+
+ποια πόλη έχει το λιγότερο πληθυσμό
+(answer (smallest_one (population_1 (city all:e))))
+
+πόσοι άνθρωποι μένουν στη utah
+(answer (population_1 (stateid utah:e)))
+
+ποια πολιτεία έχει την αραιότερη πυκνότητα πληθυσμού
+(answer (smallest_one (density_1 (state all:e))))
+
+ποια είναι η μεγαλύτερη πολιτεία που συνορεύει με την πολιτεία με το χαμηλότερο σημείο στις ηπα
+(answer (largest (state (next_to_2 (state (loc_1 (lowest (place (loc_2 (countryid usa:e))))))))))
+
+ποια είναι η μεγαλύτερη πόλη στο texas
+(answer (largest (city (loc_2 (stateid texas:e)))))
+
+ποια είναι η μεγαλύτερη πολιτεία στις ηπα
+(answer (largest (state (loc_2 (countryid usa:e)))))
+
+ποια πολιτεία έχει τους περισσότερους ανθρώπους
+(answer (largest_one (population_1 (state all:e))))
+
+ποια ποτάμια υπάρχουν στο new mexico
+(answer (river (loc_2 (stateid new_mexico:e))))
+
+ποιο είναι το εμβαδό του maryland σε τετραγωνικά χιλιόμετρα
+(answer (area_1 (stateid maryland:e)))
+
+πόσες πολιτείες υπάρχουν στις ηνωμένες πολιτείες
+(answer (count (state (loc_2 (countryid usa:e)))))
+
+πόσες κύριες πόλεις υπάρχουν σε πολιτείες που συνορεύουν με τη nebraska
+(answer (count (major (city (loc_2 (state (next_to_2 (stateid nebraska:e))))))))
+
+ποιος είναι ο πληθυσμός της μεγαλύτερης πολιτείας
+(answer (population_1 (largest (state all:e))))
+
+ποιο είναι το μέγεθος της florida
+(answer (size (stateid florida:e)))
+
+πόσα ποτάμια υπάρχουν στο missouri
+(answer (count (river (loc_2 (stateid missouri:e)))))
+
+πόσα ποτάμια υπάρχουν στο texas
+(answer (count (river (loc_2 (stateid texas:e)))))
+
+ποιο είναι το ψηλότερο σημείο στην πολιτεία με πρωτεύουσα το des moines
+(answer (highest (place (loc_2 (state (loc_1 (capital (cityid des_moines:e _:e))))))))
+
+ποιος είναι ο πληθυσμός του seattle
+(answer (population_1 (cityid seattle:e _:e)))
+
+ποιο είναι το ψηλότερο σημείο στο colorado
+(answer (highest (place (loc_2 (stateid colorado:e)))))
+
+ποιες πολιτείες συνορεύουν με την arizona
+(answer (state (next_to_2 (stateid arizona:e))))
+
+ποια ποτάμια διασχίζουν την πολιτεία με το χαμηλότερο σημείο στις ηπα
+(answer (river (traverse_2 (state (loc_1 (lowest (place (loc_2 (countryid usa:e)))))))))
+
+ποιος είναι ο πληθυσμός της minnesota
+(answer (population_1 (stateid minnesota:e)))
+
+ποια πολιτεία έχει την πόλη με τον περισσότερο πληθυσμό
+(answer (state (loc_1 (largest_one (population_1 (city all:e))))))
+
+ποιες πολιτείες έχουν μια κύρια πόλη με όνομα austin
+(answer (state (loc_1 (major (city (cityid austin:e _:e))))))
+
+ποιες πολιτείες έχουν σημεία ψηλότερα από το ψηλότερο σημείο στο colorado
+(answer (state (loc_1 (place (higher_2 (highest (place (loc_2 (stateid colorado:e)))))))))
+
+ποιο είναι το ψηλότερο σημείο στην πολιτεία με τον μικρότερο πληθυσμό
+(answer (highest (place (loc_2 (smallest_one (population_1 (state all:e)))))))
+
+που είναι το new hampshire
+(answer (loc_1 (stateid new_hampshire:e)))
+
+ποια πολιτεία συνορεύει με τη florida
+(answer (state (next_to_2 (stateid florida:e))))
+
+πόσα ποτάμια στο texas είναι μακρύτερα από το red
+(answer (count (intersection (river (loc_2 (stateid texas:e))) (longer (riverid red:e)))))
+
+πόσα ποτάμια δεν διασχίζουν την πολιτεία με πρωτεύουσα το albany
+(answer (count (exclude (river all:e) (traverse_2 (state (loc_1 (capital (cityid albany:e _:e))))))))
+
+ποιοι είναι οι πληθυσμού των πολιτειών από τις οποίες περνά ο mississippi
+(answer (population_1 (state (traverse_1 (riverid mississippi:e)))))
+
+ποιες πολιτείες διασχίζει ο mississippi
+(answer (state (traverse_1 (riverid mississippi:e))))
+
+ποιες πολιτείες είναι δίπλα στο mississippi
+(answer (state (next_to_2 (riverid mississippi:e))))
+//(answer (state (next_to_2 (stateid mississippi:e))))
+
+δώσε μου τις πόλεις στην virginia
+(answer (city (loc_2 (stateid virginia:e))))
+
+ποιες είναι οι πρωτεύουσες πόλεις των πολιτειών που συνορεύουν με το texas
+(answer (capital (city (loc_2 (state (next_to_2 (stateid texas:e)))))))
+
+ποια πολιτεία που συνορεύει με το texas έχει τον μεγαλύτερο πληθυσμό
+(answer (largest_one (population_1 (state (next_to_2 (stateid texas:e))))))
+
+ποια πολιτεία είναι η πολιτεία με τα περισσότερα ποτάμια
+(answer (state (most (state (loc_1 (river all:e))))))
+
+ποια πολιτεία έχει τη μικρότερη πυκνότητα πληθυσμού
+(answer (smallest_one (density_1 (state all:e))))
+
+ποιες είναι οι κύριες πολιτείες στο ohio
+(answer (major (city (loc_2 (stateid ohio:e)))))
+
+ποιες πολιτείες διασχίζει ο ποταμός missouri
+(answer (state (traverse_1 (riverid missouri:e))))
+
+ποια είναι η μεγαλύτερη πόλη στην arizona
+(answer (largest (city (loc_2 (stateid arizona:e)))))
+
+πόσοι άνθρωποι ζουν στην hawaii
+(answer (population_1 (stateid hawaii:e)))
+
+πόσοι άνθρωποι ζουν στη μικρότερη πολιτεία που συνορεύει με το wyoming
+(answer (population_1 (smallest (state (next_to_2 (stateid wyoming:e))))))
+
+ποιο είναι το όνομα της πολιτείας με το χαμηλότερο σημείο
+(answer (state (loc_1 (lowest (place all:e)))))
+
+ποια ποτάμια διασχίζουν το missouri
+(answer (river (traverse_2 (stateid missouri:e))))
+
+ποιο είναι το υψόμετρο της death valley
+(answer (elevation_1 (placeid death_valley:e)))
+
+ποιο ποτάμι διασχίζει το texas
+(answer (river (traverse_2 (stateid texas:e))))
+
+πόσο ψηλά είναι τα ψηλότερα σημεία σε όλες τις πολιτείες
+(answer (elevation_1 (highest (place (loc_2 (state all:e))))))
+
+ποια είναι η πρωτεύουσα του new hampshire
+(answer (capital (loc_2 (stateid new_hampshire:e))))
+
+πόσο μακρύς είναι ο ποταμός rio grande
+(answer (len (riverid rio_grande:e)))
+
+ποιες πολιτείες συνορεύουν με τις περισσότερες πολιτείες
+(answer (most (state (next_to_2 (state all:e)))))
+
+πόσες πολιτείες συνορεύουν με το missouri
+(answer (count (state (next_to_1 (stateid missouri:e)))))
+
+που είναι το austin
+(answer (loc_1 (cityid austin:e _:e)))
+
+πόσο ψηλά είναι το ψηλότερο σημείο στο delaware
+(answer (elevation_1 (highest (place (loc_2 (stateid delaware:e))))))
+
+που είναι το ψηλότερο σημείο στη montana
+(answer (loc_1 (highest (place (loc_2 (stateid montana:e))))))
+//(answer (highest (place (loc_2 (stateid montana:e)))))
+
+ποιες πολιτείες συνορεύουν με πολιτείες που συνορεύουν με την πολιτεία με το μεγαλύτερο πληθυσμό
+(answer (state (next_to_2 (state (next_to_2 (largest_one (population_1 (state all:e))))))))
+
+ποιο είναι το ύψος του ψηλότερου βουνού στο texas
+(answer (elevation_1 (highest (mountain (loc_2 (stateid texas:e))))))
+
+ποια πολιτεία έχει την πόλη flint
+(answer (state (loc_1 (cityid flint:e _:e))))
+
+ποια είναι η πολιτεία με τη μεγαλύτερη πυκνότητα στις ηπα
+(answer (largest_one (density_1 (state (loc_2 (countryid usa:e))))))
+
+ποιες πόλεις στο texas έχουν τον μεγαλύτερο αριθμό πολιτών
+(answer (largest_one (population_1 (city (loc_2 (stateid texas:e))))))
+
+ποιες πολιτείες συνορεύουν με το missouri
+(answer (state (next_to_2 (stateid missouri:e))))
+
+δώσε μου τη μεγαλύτερη πολιτεία
+(answer (largest (state all:e)))
+
+ποια πολιτεία έχει την αραιότερη πυκνότητα πληθυσμού
+(answer (smallest_one (density_1 (state all:e))))
+
+ποιες πολιτείες συνορεύουν με την alabama
+(answer (state (next_to_2 (stateid alabama:e))))
+
+ποια ποτάμια διασχίζουν πολιτείες που συνορεύουν με την αλαμπάμα
+(answer (river (traverse_2 (state (next_to_1 (stateid alabama:e))))))
+
+ποιες είναι οι κύριες πόλεις στο wyoming
+(answer (major (city (loc_2 (stateid wyoming:e)))))
+
+ποια είναι τα ψηλότερα σημεία των πολιτειών που περιβάλλουν τον mississippi
+(answer (highest (place (loc_2 (state (next_to_2 (stateid mississippi:e)))))))
+
+ποιες πολιτείες διασχίζει ο mississippi
+(answer (state (traverse_1 (riverid mississippi:e))))
+
+που είναι η scotts valley
+(answer (loc_1 (cityid scotts_valley:e _:e)))
+
+ποιες είναι οι κύριες λίμνες στις ηνωμένες πολιτείες
+(answer (major (lake (loc_2 (countryid usa:e)))))
+
+ποια είναι η μεγαλύτερη πόλη στο missouri
+(answer (largest (city (loc_2 (stateid missouri:e)))))
+
+ποιες πολιτείες συνορεύουν με την alaska
+(answer (state (next_to_2 (stateid alaska:e))))
+
+ποια πολιτεία έχει τη μεγαλύτερη πόλη
+(answer (state (loc_1 (largest (city all:e)))))
+
+ποια ποτάμια διασχίζουν το maine
+(answer (river (traverse_2 (stateid maine:e))))
+
+δώσε μου τις λίμνες στην california
+(answer (lake (loc_2 (stateid california:e))))
+
+ποιος είναι ο συνδυαστικός πληθυσμός όλων των 50 πολιτειών
+(answer (sum (population_1 (state all:e))))
+
+ποιο είναι το ψηλότερο σημείο στη louisiana
+(answer (elevation_1 (highest (place (loc_2 (stateid louisiana:e))))))
+
+ποιο είναι το μακρύτερο ποτάμι στην pennsylvania
+(answer (longest (river (loc_2 (stateid pennsylvania:e)))))
+
+ποια είναι η πρωτεύουσα του maryland
+(answer (capital (loc_2 (stateid maryland:e))))
+
+ποια πολιτεία είναι η μεγαλύτερη
+(answer (largest (state all:e)))
+
+ποιες πολιτείες συνορεύουν με την iowa
+(answer (state (next_to_2 (stateid iowa:e))))
+
+ποιες πολιτείες συνορεύουν με την alaska
+(answer (state (next_to_2 (stateid alaska:e))))
+
+ποια είναι η μεγαλύτερη πολιτεία στις ηπα
+(answer (largest (state (loc_2 (countryid usa:e)))))
+
+ποιες είναι οι κύριες πόλεις στην california
+(answer (major (city (loc_2 (stateid california:e)))))
+
+ποια είναι η μεγαλύτερη πολιτεία που διασχίζει ο ποταμός mississippi
+(answer (largest (state (traverse_1 (riverid mississippi:e)))))
+
+ποια ποτάμια διασχίζουν πολιτείες που συνορεύουν με το new mexico
+(answer (river (traverse_2 (state (next_to_2 (stateid new_mexico:e))))))
+
+ποιο είναι το χαμηλότερο σημείο στην πολιτεία του texas
+(answer (lowest (place (loc_2 (stateid texas:e)))))
+
+ποια είναι η μικρότερη πολιτεία που συνορεύει με το ohio
+(answer (smallest (state (next_to_2 (stateid ohio:e)))))
+
+πόσες πολιτείες είναι δίπλα σε κύρια ποτάμια
+(answer (count (state (next_to_2 (major (river all:e))))))
+
+ποιο είναι το χαμηλότερο σημείο στις ηπα
+(answer (lowest (place (loc_2 (countryid usa:e)))))
+
+ποια πολιτεία έχει τη μεγαλύτερη πυκνότητα
+(answer (largest_one (density_1 (state all:e))))
+
+πόσες πολιτείες συνορεύουν με τη μεγαλύτερη πολιτεία
+(answer (count (state (next_to_2 (largest (state all:e))))))
+
+ποιο είναι το μακρύτερο ποτάμι που δεν διασχίζει το texas
+(answer (longest (exclude (river all:e) (traverse_2 (stateid texas:e)))))
+
+δώσε μου όλες τις πολιτείες των ηπα
+(answer (state (loc_2 (countryid usa:e))))
+
+ποια είναι η πυκνότητα του texas
+(answer (density_1 (stateid texas:e)))
+
+ποια είναι η μικρότερη πόλη στην μικρότερη πολιτεία στις ηπα
+(answer (smallest (city (loc_2 (smallest (state (loc_2 (countryid usa:e))))))))
+
+ποιο είναι το ψηλότερο σημείο στο kansas
+(answer (highest (place (loc_2 (stateid kansas:e)))))
+
+ποιος είναι ο πληθυσμός της boston
+(answer (population_1 (cityid boston:e _:e)))
+
+πόσοι άνθρωποι υπάρχουν στην πολιτεία της nevada
+(answer (population_1 (stateid nevada:e)))
+
+ποια είναι η πυκνότητα πληθυσμού του texas
+(answer (density_1 (stateid texas:e)))
+
+πόσοι άνθρωποι ζουν στην washington dc
+(answer (population_1 (cityid washington:e dc:e)))
+
+δώσε μου τις πόλεις στο texas
+(answer (city (loc_2 (stateid texas:e))))
+
+πόσο μακρύ είναι το μικρότερο ποτάμι στις ηπα
+(answer (len (shortest (river (loc_2 (countryid usa:e))))))
+
+πόσες πολιτείες έχουν κύρια ποτάμια
+(answer (count (state (loc_1 (major (river all:e))))))
+
+ποια είναι η πυκνότητα πληθυσμού της μικρότερης πολιτείας
+(answer (density_1 (smallest (state all:e))))
+
+ποιες πολιτείες συνορεύουν το michigan
+(answer (state (next_to_2 (stateid michigan:e))))
+
+ποιες πόλεις στο texas έχουν τους μεγαλύτερους πληθυσμούς
+(answer (largest_one (population_1 (city (loc_2 (stateid texas:e))))))
+
+ποια ποτάμια διασχίζουν τις πολιτείες που συνορεύουν την πολιτεία με πρωτεύουσα την atlanta
+(answer (river (traverse_2 (state (next_to_2 (state (loc_1 (capital (cityid atlanta:e _:e)))))))))
+
+ποιο είναι το ψηλότερο σημείο στην χώρα
+(answer (highest (place (loc_2 (countryid usa:e)))))
+
+πόσοι άνθρωποι ζουν στο kalamazoo
+(answer (population_1 (cityid kalamazoo:e _:e)))
+
+πόσες κύριες πόλεις υπάρχουν στη florida
+(answer (count (major (city (loc_2 (stateid florida:e))))))
+
+ποια πολιτεία έχει τη μεγαλύερη πυκνότητα πληθυσμού
+(answer (largest_one (density_1 (state all:e))))
+
+πόσα ποτάμια βρίσκονται στο colorado
+(answer (count (river (loc_2 (stateid colorado:e)))))
+
+ποιο είναι το χαμηλότερο σημείο της πολιτείας με τη μεγαλύτερη επιφάνεια
+(answer (lowest (place (loc_2 (largest_one (area_1 (state all:e)))))))
+
+ποια πολιτεία συνορεύει με το texas
+(answer (state (next_to_2 (stateid texas:e))))
+
+πόσες πολιτείες συνορεύουν με τουλάχιστον άλλη μια πολιτεία
+(answer (count (state (next_to_2 (state all:e)))))
+
+ποιες πολιτείες δε συνορεύουν με καμία άλλη πολιτεία
+(answer (exclude (state all:e) (next_to_2 (state all:e))))
+
+ποιοι ποταμί διαπερνούν το austin texas
+(answer (river (traverse_2 (cityid austin:e tx:e))))
+
+πόσοι άνθρωποι κατοικούν στο new hampshire
+(answer (population_1 (stateid new_hampshire:e)))
+
+ποια είναι η πρωτεύουσα της indiana
+(answer (capital (loc_2 (stateid indiana:e))))
+
+ποιες πολιτείες συνορεύουν με τις πολιτείες με τις περισσότερες πόλεις
+(answer (state (next_to_2 (most (state (loc_1 (city all:e)))))))
+
+ποια είναι η επιφάνεια της μικρότερης πολιτείας
+(answer (area_1 (smallest (state all:e))))
+
+ποιες πολιτείες συνορεύουν με τη new york
+(answer (state (next_to_2 (stateid new_york:e))))
+
+ποιος είναι ο πληθυσμός του maine
+(answer (population_1 (stateid maine:e)))
+
+ποια είναι η μεγαλύτερη πόλη στη μικρότερη πολιτεία
+(answer (largest (city (loc_2 (smallest (state all:e))))))
+
+ποιο είναι το υψόμετρο του ψηλότερου σημείου στις usa
+(answer (elevation_1 (highest (place (loc_2 (countryid usa:e))))))
+
+ποια πολιτεία συνορεύει με τις λιγότερες πολιτείες μη συμπεριλαμβανομένης της alaska και μη συμπεριλαμβανομένης της hawaii
+(answer (fewest (state (next_to_2 (exclude (exclude (state all:e) (stateid alaska:e)) (stateid hawaii:e))))))
+
+ποιο είναι το ψηλότερο σημείο του new mexico
+(answer (highest (place (loc_2 (stateid new_mexico:e)))))
+
+ποια είναι η μεγαλύτερη πολιτεία
+(answer (largest (state all:e)))
+
+πόσοι άνθρωποι ζουν στο spokane washington
+(answer (population_1 (cityid spokane:e wa:e)))
+
+ποιες πολιτείες διασχίζει το μικρότερο ποτάμι
+(answer (state (traverse_1 (shortest (river all:e)))))
+
+πόσο μακρύ είναι το rio grande
+(answer (len (riverid rio_grande:e)))
+
+πόσοι άνθρωποι ζουν στο texas
+(answer (population_1 (stateid texas:e)))
+
+που είναι το χαμηλότερο σημείο στην iowa
+(answer (loc_1 (lowest (place (loc_2 (stateid iowa:e))))))
+//(answer (lowest (place (loc_2 (stateid iowa:e)))))
+
+ποιοι είναι οι πληθυσμοί των πολιτειών τις οποίες διασχίζει ο ποταμός mississippi
+(answer (population_1 (state (traverse_1 (riverid mississippi:e)))))
+
+ποιο είναι το χαμηλότερο σημείο στο oregon
+(answer (lowest (place (loc_2 (stateid oregon:e)))))
+
+ποιο είναι το μικρότερο ποτάμι στην alaska
+(answer (shortest (river (loc_2 (stateid alaska:e)))))
+
+πόσες πολιτείες συνορεύουν τον mississippi ποταμό
+(answer (count (state (next_to_2 (riverid mississippi:e)))))
+
+ποια είναι η πολυπληθέστερη πρωτεύουσα στις usa
+(answer (largest_one (population_1 (capital (loc_2 (countryid usa:e))))))
+
+ποιο είναι το ψηλότερο σημείο στο ohio
+(answer (highest (place (loc_2 (stateid ohio:e)))))
+
+ποιες πολιτείες συνορεύουν με το wisconsin
+(answer (state (next_to_2 (stateid wisconsin:e))))
+
+ποιες πολιτείες έχουν πρωτεύουσα η οποία είναι το ψηλότερο σημείο στην πολιτεία
+(answer (state (loc_1 (capital (highest (place all:e))))))
+
+πόσες πολιτείες συνορεύουν με το colarado και συνορεύουν με το new mexico
+(answer (count (state (intersection (next_to_2 (stateid colorado:e)) (next_to_2 (stateid new_mexico:e))))))
+
+ποιες είναι οι κύριες πόλεις στο missouri
+(answer (major (city (loc_2 (stateid missouri:e)))))
+
+ποιες είναι οι κύριες πόλεις στο texas
+(answer (major (city (loc_2 (stateid texas:e)))))
+
+πόσα ποτάμια ονομάζονται colorado
+(answer (count (river (riverid colorado:e))))
+//(answer (count (riverid colorado:e)))
+
+πόσο ψηλό είναι το ψηλότερο σημείο στη montana
+(answer (elevation_1 (highest (place (loc_2 (stateid montana:e))))))
+
+πόσες πολιτείες έχουν όνομα austin
+(answer (count (state (loc_1 (city (cityid austin:e _:e))))))
+
+ποιες πολιτείες διασχίζει ο missouri ποταμός
+(answer (state (traverse_1 (riverid missouri:e))))
+
+ποια είναι η μεγαλύτερη πόλη στις us
+(answer (largest (city (loc_2 (countryid usa:e)))))
+
+πόσο μεγάλο είναι το new mexico
+(answer (size (stateid new_mexico:e)))
+
+πόσοι άνθρωποι ζουν στη νότια dakota
+(answer (population_1 (stateid south_dakota:e)))
+
+σε ποια πολιτεία βρίσκεται το pittsburgh
+(answer (state (loc_1 (cityid pittsburgh:e _:e))))
+
+ποια ποτάμια διασχίζουν την arizona
+(answer (river (traverse_2 (stateid arizona:e))))
+
+πόσα κύρια ποτάμια διασχίζουν το ohio
+(answer (count (major (river (traverse_2 (stateid ohio:e))))))
+
+πόσοι άνθρωποι στο boulder
+(answer (population_1 (cityid boulder:e _:e)))
+
+πόσα ποτάμια υπάρχουν στο idaho
+(answer (count (river (loc_2 (stateid idaho:e)))))
+
+το sacramento είναι πρωτεύουσα ποιας πολιτείας
+(answer (state (loc_1 (capital (cityid sacramento:e _:e)))))
+
+πόσες πόλεις υπάρχουν στις us
+(answer (count (city (loc_2 (countryid usa:e)))))
+
+πόσοι πολίτες ζουν στην california
+(answer (population_1 (stateid california:e)))
+
+ποια πολιτεία έχει το μεγαλύτερο αστικό πληθυσμό
+(answer (largest_one (population_1 (state all:e))))
+
+ποιες πολιτείες συνορεύουν με τον mississippi ποταμό
+(answer (state (next_to_2 (riverid mississippi:e))))
+
+τι μπορείς να μου πεις για τον πληθυσμό του missouri
+(answer (population_1 (stateid missouri:e)))
+
+ποια ποτάμια δεν διασχίζουν το tennessee
+(answer (exclude (river all:e) (traverse_2 (stateid tennessee:e))))
+
+ποια είναι η μεγαλύτερη πόλη σε μια πολιτεία που συνορεύει με το texas
+(answer (largest (city (loc_2 (state (next_to_2 (stateid texas:e)))))))
+
+ονόμασε το μακρύτερο ποτάμι στις us
+(answer (longest (river (loc_2 (countryid usa:e)))))
+
+πόσες πολιτείες διασχίζει ο mississippi
+(answer (count (state (traverse_1 (riverid mississippi:e)))))
+
+ποια είναι η μεγαλύτερη από τις πολιτείες που ο rio grande διασχίζει
+(answer (largest (state (traverse_1 (riverid rio_grande:e)))))
+
+ποιο είναι το μέγεθος της πρωτεύουσας του texas
+(answer (size (capital (loc_2 (stateid texas:e)))))
+
+ποιες πολιτείες έχουν ποτάμια να τις διασχίζουν
+(answer (state (traverse_1 (river all:e))))
+
+ποιες πολιτείες συνορεύουν με τη hawaii
+(answer (state (next_to_2 (stateid hawaii:e))))
+
+πόσοι πολίτες στο boulder
+(answer (population_1 (cityid boulder:e _:e)))
+
+πόσες πολιτείες συνορεύουν με πολιτείες που συνορεύουν με πολιτείες που συνορεύουν με τη florida
+(answer (state (next_to_2 (state (next_to_2 (state (next_to_2 (stateid florida:e))))))))
+
+ποιες πολιτείες συνορεύουν με το μακρύτερο ποτάμι στις usa
+(answer (state (next_to_2 (longest (river (loc_2 (countryid usa:e)))))))
+
+ποιος είναι η πυκνότητα πληθυσμού στο wyoming
+(answer (density_1 (stateid wyoming:e)))
+
+πόσοι άνθρωποι υπάρχουν στην iowa
+(answer (population_1 (stateid iowa:e)))
+
+ποιο είναι το ψηλότερο σημείο στην πολιτεία με τα περισσότερα ποτάμια
+(answer (highest (place (loc_2 (most (state (traverse_1 (river all:e))))))))
+
+ο αριθμός των πολιτών στο boulder
+(answer (population_1 (cityid boulder:e _:e)))
+
+ποια είναι τα ποτάμια στη montana
+(answer (river (loc_2 (stateid montana:e))))
+
+πόσες πολιτείες συνορεύουν με την πολιτεία της οποίας πρωτεύουσα είναι η boston
+(answer (count (state (next_to_2 (state (loc_1 (capital (cityid boston:e _:e))))))))
+
+πόσοι άνθρωποι ζουν στην washington
+(answer (population_1 (stateid washington:e)))
+
+ποια είναι η μεγαλύτερη πρωτεύουσα πολιτείας σε πληθυσμό
+(answer (largest_one (population_1 (capital_1 (state all:e)))))
+
+ποια είναι η μεγαλύτερη πόλη σε πολιτείες που συνορεύουν με την california
+(answer (largest (city (loc_2 (state (next_to_2 (stateid california:e)))))))
+
+ποια είναι η πολυπληθέστερη πόλη στην wyoming
+(answer (largest_one (population_1 (city (loc_2 (stateid wyoming:e))))))
+
+ποια είναι η πυκνότητα πληθυσμού στην πολιτεία με πρωτεύουσα το austin
+(answer (density_1 (state (loc_1 (capital (cityid austin:e _:e))))))
+
+ποιος είναι ο πληθυσμός του portland maine
+(answer (population_1 (cityid portland:e me:e)))
+
+σε ποια πολιτεία βρίσκεται το kalamazoo
+(answer (state (loc_1 (cityid kalamazoo:e _:e))))
+
+ποιος είναι ο πληθυσμός της μεγαλύτερης πολιτείας που συνορεύει με το texas
+(answer (population_1 (largest (state (next_to_2 (stateid texas:e))))))
+
+ποιες πολιτείες συνορεύουν με το ohio
+(answer (state (next_to_2 (stateid ohio:e))))
+
+ποιο ποτάμι είναι το μακρύτερο στις ηνωμένες πολιτείες
+(answer (longest (river (loc_2 (countryid usa:e)))))
+
+ποια είναι η πυκνότητα πληθυσμού της πολιτείας με τη μικρότερη επιφάνεια
+(answer (density_1 (smallest_one (area_1 (state all:e)))))
+
+ποια είναι η μεγαύτερη πρωτεύουσα
+(answer (largest (capital all:e)))
+
+ποια πολιτεία έχει τη μικρότερη πρωτεύουσα
+(answer (state (loc_1 (smallest (capital all:e)))))
+
+πόσες μεγάλες πόλεις υπάρχουν στην pennsylvania
+(answer (count (major (city (loc_2 (stateid pennsylvania:e))))))
+
+σε ποιες πολιτείες βρίσκεται το μακρύτερο ποτάμι στις ηνωμένες πολιτείες
+(answer (state (traverse_1 (longest (river (loc_2 (countryid usa:e)))))))
+
+που είναι το houston
+(answer (loc_1 (cityid houston:e _:e)))
+
+ποια ποτάμια διασχίζουν πολιτείες που συνορεύουν με την πολιτεία με τον μεγαλύτερο πληθυσμό
+(answer (river (traverse_2 (state (next_to_2 (largest_one (population_1 (state all:e))))))))
+
+ποιο είναι το ψηλότερο σημείο στη μικρότερη πολιτεία
+(answer (highest (place (loc_2 (smallest (state all:e))))))
+
+ποια ποτάμι διασχίζει τη virginia
+(answer (river (traverse_2 (stateid virginia:e))))
+
+ποια πολιτεία συνορεύει με το michigan
+(answer (state (next_to_2 (stateid michigan:e))))
+
+ονόμασε τις κύριες λίμνες στο michigan
+(answer (major (lake (loc_2 (stateid michigan:e)))))
+
+δώσε μου τις πόλεις στην virginia
+(answer (city (loc_2 (stateid virginia:e))))
+
+ποιο ποτάμι διασχίζει τις περισσότερες πολιτείες
+(answer (most (river (traverse_2 (state all:e)))))
+
+πόσοι άνθρωποι ζουν στο new mexico
+(answer (population_1 (stateid new_mexico:e)))
+
+ποια είναι η μεγαλύτερη πόλη στην alabama
+(answer (largest (city (loc_2 (stateid alabama:e)))))
+
+πόσοι άνθρωποι ζουν στο san francisco
+(answer (population_1 (cityid san_francisco:e _:e)))
+
+ποιος είναι ο πληθυσμός της πρωτεύουσας της μεγαλύτερης πολιτείας
+(answer (population_1 (capital (loc_2 (largest (state all:e))))))
+
+ποιο είναι το μακρύτερο ποτάμι στις us
+(answer (longest (river (loc_2 (countryid usa:e)))))
+
+ποια είναι η μεγαλύτερη πολιτεία που συνορεύει με την πολιτεία με τον μεγαλύτερο πληθυσμό
+(answer (largest (state (next_to_2 (largest_one (population_1 (state all:e)))))))
+
+δείξε μου όλες τις κύριες λίμνες στις us
+(answer (major (lake (loc_2 (countryid usa:e)))))
+
+που είναι το springfield
+(answer (loc_1 (cityid springfield:e _:e)))
+
+σε ποια πολιτεία βρίσκεται το des moines
+(answer (state (loc_1 (cityid des_moines:e _:e))))
+
+πόσες πόλεις έχει το texas
+(answer (count (city (loc_2 (stateid texas:e)))))
+
+σε ποια πολιτεία είναι η boston
+(answer (state (loc_1 (cityid boston:e _:e))))
+
+ποια ποτάμια διατρέχουν την πολιτεία με τη μεγαλύτερη πόλη στις us
+(answer (river (traverse_2 (state (loc_1 (largest (city (loc_2 (countryid usa:e)))))))))
+
+πολιτείες που συνορεύουν με την iowa
+(answer (state (next_to_2 (stateid iowa:e))))
+
+ποιες πολιτείες δεν έχουν συνορεύουσα πολιτεία
+(answer (exclude (state all:e) (next_to_2 (state all:e))))
+
+πού είναι το μικρότερο σημείο στις us
+(answer (loc_1 (lowest (place (loc_2 (countryid usa:e))))))
+//(answer (lowest (place (loc_2 (countryid usa:e)))))
+
+ποιες είναι οι κύριες πόλεις στην oklahoma
+(answer (major (city (loc_2 (stateid oklahoma:e)))))
+
+ποια πολιτεία έχει τη μικρότερη επιφάνεια που συνορεύει με το texas
+(answer (smallest_one (area_1 (state (next_to_2 (stateid texas:e))))))
+
+ποια είναι η πρωτεύουσα της πολιτείας με το μεγαλύτερο υψόμετρο
+(answer (capital (loc_2 (state (loc_1 (highest (place all:e)))))))
+
+ποιες πολιτείες διασχίζει ο mississippi
+(answer (state (traverse_1 (riverid mississippi:e))))
+
+που βρίσκεται το όρος whitney
+(answer (loc_1 (placeid mount_whitney:e)))
+
+ποια πολιτεία έχει την μεγαλύτερη πυκνότητα
+(answer (largest_one (density_1 (state all:e))))
+
+ποια είναι η μικρότερη πόλη στην washington
+(answer (smallest (city (loc_2 (stateid washington:e)))))
+
+ποιες είναι οι κύριες πόλεις στο new mexico
+(answer (major (city (loc_2 (stateid new_mexico:e)))))
+
+πόσοι άνθρωποι ζουν στην πρωτεύουσα της georgia
+(answer (population_1 (capital (loc_2 (stateid georgia:e)))))
+
+ποια πολιτεία την οποία διασχίζει ο mississippi έχει τον μεγαλύτερο πληθυσμό
+(answer (largest_one (population_1 (state (traverse_1 (riverid mississippi:e))))))
+
+ονόμασε την πολιτεία με τη μεγαλύτερη επιφάνεια
+(answer (largest_one (area_1 (state all:e))))
+
+πόσοι άνθρωποι ζουν στην όχθη ποταμού
+(answer (population_1 (cityid riverside:e _:e)))
+
+ποια είναι η επιφάνεια του seattle
+(answer (area_1 (cityid seattle:e _:e)))
+
+ποια πολιτεία έχει τον μεγαλύτερο πληθυσμό
+(answer (largest_one (population_1 (capital all:e))))
+
+ποια είναι η πρωτεύουσα της πολιτείας που συνορεύει με τις περισσότερες πολιτείες
+(answer (capital (loc_2 (most (state (next_to_2 (state all:e)))))))
+
+πόσα ποτάμια διατρέχουν τις πολιτείες που συνορεύουν με το colorado
+(answer (count (river (traverse_2 (state (next_to_2 (stateid colorado:e)))))))
+
+ποιες είναι οι πόλεις στην california
+(answer (city (loc_2 (stateid california:e))))
+
+ποιας πολιτείας είναι το austin πρωτεύουσα
+(answer (state (loc_1 (capital (cityid austin:e _:e)))))
+
+πόσοι άνθρωποι ζουν στο kansas
+(answer (population_1 (stateid kansas:e)))
+
+ποια πολιτεία συνορεύει με τις λιγότερες πολιτείες
+(answer (fewest (state (next_to_2 (state all:e)))))
+
+ποιες πολιτείες συνορεύουν με τη νότια dakota
+(answer (state (next_to_2 (stateid south_dakota:e))))
+
+ονόμασε τα ποτάμια στο arkansas
+(answer (river (loc_2 (stateid arkansas:e))))
+
+πόσο μεγάλος είναι ο mississippi ποταμός σε μίλια
+(answer (len (riverid mississippi:e)))
+
+ποιο είναι το μικρότερο ποτάμι στις us
+(answer (shortest (river (loc_2 (countryid usa:e)))))
+
+ποια είναι η μεγαλύτερη πόλη στις usa
+(answer (largest (city (loc_2 (countryid usa:e)))))
+
+ποια είναι η πρωτεύουσα της washington
+(answer (capital (loc_2 (stateid washington:e))))
+
+πόσες πόλεις υπάρχουν στη montana
+(answer (count (city (loc_2 (stateid montana:e)))))
+
+ποια είναι η πρωτεύουσα της πολιτείας texas
+(answer (capital (loc_2 (stateid texas:e))))
+
+ποιο είναι το υψόμετρο του όρους mckinley
+(answer (elevation_1 (placeid mount_mckinley:e)))
+
+ποια είναι η πόλη με τον μικρότερη πληθυσμό
+(answer (smallest_one (population_1 (city all:e))))
+
+ποια είναι η μεγαλύτερη πολιτεία στις usa
+(answer (largest (state (loc_2 (countryid usa:e)))))
+
+πόσες κύριες πόλεις είναι σε πολιτείες που συνορεύουν με την utah
+(answer (count (major (city (loc_2 (state (next_to_2 (stateid utah:e))))))))
+
+ποιες πολιτείες συνορεύουν με το tennessee
+(answer (count (state (next_to_2 (stateid tennessee:e)))))
+
+ποιες πολιτείες διασχίζει ο ohio ποταμός
+(answer (state (traverse_1 (riverid ohio:e))))
+
+ποιο είναι το μεγαλύτερο ποτάμι στη μικρότερη πολιτεία στις usa
+(answer (longest (river (loc_2 (smallest (state (loc_2 (countryid usa:e))))))))
+
+ποια είναι η μικρότερη πολιτεία ανά επιφάνεια
+(answer (smallest_one (area_1 (state all:e))))
+
+ποιος είναι ο πληθυσμός της πρωτεύουσας της μεγαλύτερης πολιτείας την οποία διασχίζει ο mississippi
+(answer (population_1 (capital (loc_2 (largest (state (traverse_1 (riverid mississippi:e))))))))
+
+ποιος είναι ο πληθυσμός της boston massachusetts
+(answer (population_1 (cityid boston:e ma:e)))
+
+ποιες πόλεις στην california
+(answer (city (loc_2 (stateid california:e))))
+
+πόση μεγάλη είναι η πόλη της new york
+(answer (size (cityid new_york:e _:e)))
+
+ποια πολιτεία έχει τις περισσότερες πόλεις
+(answer (most (state (loc_1 (city all:e)))))
+
+ποιο είναι το μακρύτερο ποτάμι στις us
+(answer (longest (river (loc_2 (countryid usa:e)))))
+
+ονόμασε τις 50 πρωτεύουσες των usa
+(answer (capital (loc_2 (countryid usa:e))))
+
+ποια είναι η πρωτεύουσα της πολιτείας που συνορεύει με την πολιτεία που συνορεύει με το texas
+(answer (capital (loc_2 (state (next_to_2 (state (next_to_2 (stateid texas:e))))))))
+
+ποια πολιτεία έχει τον red ποταμό
+(answer (state (loc_1 (riverid red:e))))
+
+πόσοι άνθρωποι ζουν στο chicago
+(answer (population_1 (cityid chicago:e _:e)))
+
+ποια είναι η μικρότερη πόλη στην αλάσκα
+(answer (smallest (city (loc_2 (stateid alaska:e)))))
+
+σύνταξε κατάλογο των πολιτειών
+(answer (state all:e))
+
+ποια είναι η μεγαλύτερη πόλη στην georgia
+(answer (largest (city (loc_2 (stateid georgia:e)))))
+
+ποιες πολιτείες συνορεύουν πολιτείες τις οποίες διασχίζει ο mississippi
+(answer (state (next_to_2 (state (traverse_1 (riverid mississippi:e))))))
+
+πόσες πόλεις υπάρχουν στις us
+(answer (count (city (loc_2 (countryid usa:e)))))
+
+πόσο μεγάλο είναι το texas
+(answer (size (stateid texas:e)))
+
+ποιο είναι το υψόμετρο του ψηλότερου σημείου στις usa
+(answer (elevation_1 (highest (place (loc_2 (countryid usa:e))))))
+
+ποιοι είναι οι πληθυσμοί των πολιτειών τις οποίες διασχίζει ο mississippi
+(answer (population_1 (state (traverse_1 (riverid mississippi:e)))))
+
+ποια πολιτεία έχει τον μικρότερο πληθυσμό
+(answer (smallest_one (population_1 (state all:e))))
+
+πόσες πολιτείες συνορεύουν με το texas
+(answer (count (state (next_to_2 (stateid texas:e)))))
+
+ποιες πολιτείες διασχίζει ο colorado ποταμός
+(answer (state (traverse_1 (riverid colorado:e))))
+
+ποιο είναι το ψηλότερο σημείο στο texas
+(answer (highest (place (loc_2 (stateid texas:e)))))
+
+ποιο είναι το μεγαλύτερο ποτάμι στην california
+(answer (longest (river (loc_2 (stateid california:e)))))
+
+ποιο είναι το μήκος του ποταμιού που διασχίζει το μεγαλύτερο αριθμό πολιτειών
+(answer (len (most (river (traverse_2 (state all:e))))))
+
+ποια είανι η πολυπληθέστερη πολιτεία στις us
+(answer (largest_one (population_1 (state (loc_2 (countryid usa:e))))))
+
+ποια είναι η πρωτεύουσα της georgia
+(answer (capital (loc_2 (stateid georgia:e))))
+
+ποιος είναι ο μέσος πληθυσμό των us ανά πολιτεία
+(answer (density_1 (countryid usa:e)))
+
+ποια είναι η επιφάνεια του new mexico
+(answer (area_1 (stateid new_mexico:e)))
+
+ποιο είναι το μεγαλύτερο ποτάμι στο texas
+(answer (longest (river (loc_2 (stateid texas:e)))))
+
+πόσες κύριες πόλεις υπάρχουν
+(answer (count (major (city all:e))))
+
+πόσα ποτάμια υπάρχουν στην πολιτεία με τον μεγαλύτερο πληθυσμό
+(answer (count (river (loc_2 (largest_one (population_1 (state all:e)))))))
+
+ποιες είναι οι κύριες πόλεις στη montana
+(answer (major (city (loc_2 (stateid montana:e)))))
+
+ποιος είναι ο πληθυσμός των κύριων πόλεων στο wisconsin
+(answer (population_1 (major (city (loc_2 (stateid wisconsin:e))))))
+
+ποιες πολιτείες δεν συνορεύουν με το texas
+(answer (exclude (state all:e) (next_to_2 (stateid texas:e))))
+
+ποιο ποτάμι διαπερνά τις περισσότερες πολιτείες
+(answer (most (river (traverse_2 (state all:e)))))
+
+ποια είναι η πολιτεία με τη μικρότερη πυκνότητα πληθυσμού
+(answer (smallest_one (density_1 (state all:e))))
+
+ποιες πολιτείες διασχίζει ο ποταμός missouri
+(answer (state (traverse_1 (riverid missouri:e))))
+
+πόσα ποτάμια υπάρχουν στο colorado
+(answer (count (river (loc_2 (stateid colorado:e)))))
+
+ποιο είναι το μικρότερο ποτάμι στην iowa
+(answer (shortest (river (loc_2 (stateid iowa:e)))))
+
+ποιες πολιτείες συνορεύουν με πολιτείες τις οποίες διασχίζει ο mississippi
+(answer (state (next_to_2 (state (traverse_1 (riverid mississippi:e))))))
+
+πόσοι άνθρωποι είναι στη new york
+(answer (population_1 (stateid new_york:e)))
+
+ποια είναι η πόλη στο texas με τον μεγαλύτερο πληθυσμό
+(answer (largest_one (population_1 (city (loc_2 (stateid texas:e))))))
+
+ποιο είναι το μεγαλύτερο υψόμετρο στο new mexico
+(answer (highest (place (loc_2 (stateid new_mexico:e)))))
+
+ποιο είναι το ψηλότερο σημείο στις ηνωμένες πολιτείες
+(answer (highest (place (loc_2 (countryid usa:e)))))
+
+ποιος είναι ο πληθυσμός της πολιτείας με την μεγαλύτερη επιφάνεια
+(answer (population_1 (largest_one (area_1 (state all:e)))))
+
+πού είναι το baton rouge
+(answer (loc_1 (cityid baton_rouge:e _:e)))
+
+ποιες πολιτείες στις ηνωμένες πολιτείες έχουν πόλη springfield
+(answer (intersection (state (loc_2 (countryid usa:e))) (loc_1 (city (cityid springfield:e _:e)))))
+
+πόσες πόλλες είναι στη louisiana
+(answer (count (city (loc_2 (stateid louisiana:e)))))
+
+πόσες πολιτείες είναι στις ηνωμένες πολιτείες
+(answer (count (state (loc_2 (countryid usa:e)))))
+
+ποια ποτάμια διασχίζουν τη louisiana
+(answer (river (traverse_2 (stateid louisiana:e))))
+
+πόσοι άνθρωποι ζουν στην πολιτεία με την μεγαλύτερη πυκνότητα πληθυσμού
+(answer (population_1 (largest_one (density_1 (state all:e)))))
+
+ποια είναι η πολιτεία με το μεγαλύτερο υψόμετρο στις ηνωμένες πολιτείες
+(answer (state (loc_1 (highest (place (loc_2 (countryid usa:e)))))))
+
+ποια πολιτεία συνορεύει με τις περισσότερες άλλες πολιτείες
+(answer (most (state (next_to_2 (state all:e)))))
+
+ποιες πολιτείες γειτονεύουν με την alabama
+(answer (state (next_to_2 (stateid alabama:e))))
+
+ποιο είναι το μήκος του ποταμού colorado στο texas
+(answer (len (intersection (riverid colorado:e) (river (loc_2 (stateid texas:e))))))
+
+ποια πολιτεία έχει τον μεγαλύτερο πληθυσμό
+(answer (largest_one (population_1 (state all:e))))
+
+ποια είναι η πολιτεία που περιέχει το ψηλότερο σημείο
+(answer (state (loc_1 (highest (place all:e)))))
+
+ποια είναι η πυκνότητα του πληθυσμού της south dakota
+(answer (density_1 (stateid south_dakota:e)))
+
+ποιες πολιτείες έχουν πόλεις με όνομα austin
+(answer (state (loc_1 (city (cityid austin:e _:e)))))
+
+πόσοι άνθρωποι μένουν στη montana
+(answer (population_1 (stateid montana:e)))
+
+
+ποια πολιτεία είναι η μικρότερη
+(answer (smallest (state all:e)))
+
+ποια είναι το μακρύτερο ποτάμι στις ηπα
+(answer (longest (river (loc_2 (countryid usa:e)))))
+
+ποια είναι τα ψηλότερα σημεία όλων των πολιτειών
+(answer (highest (place (loc_2 (state all:e)))))
+
+ποια είναι τα κύρια ποτάμια του ohio
+(answer (major (river (loc_2 (stateid ohio:e)))))
+
+ονόμασε τα κύρια ποτάμια στη florida
+(answer (major (river (loc_2 (stateid florida:e)))))
+
+ποιος είναι ο πληθυσμός του erie pennsylvania
+(answer (population_1 (cityid erie:e pa:e)))
+
+ποια πολιτεία έχει τη μικρότερη πυκνότητα πληθυσμού
+(answer (smallest_one (density_1 (state all:e))))
+
+ποια είναι η μικρότερη πόλη
+(answer (loc_1 (smallest (city all:e))))
+
+ποια ποτάμια διασχίζουν την πολιτεία που συνορεύει με την πολιτεία με την πρωτεύουσα austin
+(answer (river (traverse_2 (state (next_to_2 (state (loc_1 (capital (cityid austin:e _:e)))))))))
+
+ποιο είναι το χαμηλότερο σημείο στη massachusetts
+(answer (lowest (place (loc_2 (stateid massachusetts:e)))))
+
+ποιος είναι ο πληθυσμός του maryland
+(answer (population_1 (stateid maryland:e)))
+
+ποιες πολιτείες διασχίζει ο ποταμός mississippi
+(answer (state (traverse_1 (riverid mississippi:e))))
+
+που είναι το portland
+(answer (loc_1 (cityid portland:e _:e)))
+
+ποιες είναι οι πόλεις στις πολιτείες τις οποίες διασχίζει ο mississippi
+(answer (city (loc_2 (state (traverse_1 (riverid mississippi:e))))))
+
+πόσοι άνθρωποι ζουν στο houston
+(answer (population_1 (cityid houston:e _:e)))
+
+ποιοι είναι οι πληθυσμοί των πολιτειών τις οποίες διασχίζει ο ποταμός mississippi
+(answer (population_1 (state (traverse_1 (riverid mississippi:e)))))
+
+ποιες πολιτείες διασχίζει ο ποταμός ohio
+(answer (state (traverse_1 (riverid ohio:e))))
+
+ποια πολιτεία έχει τον περισσότερο πληθυσμό
+(answer (largest_one (population_1 (state all:e))))
+
+ποιες πολιτείες περιβάλλουν το kentucky
+(answer (state (next_to_2 (stateid kentucky:e))))
+
+ποια είναι η πρωτεύουσα της north dakota
+(answer (capital (loc_2 (stateid north_dakota:e))))
+
+πόσες πόλεις υπάρχουν στις ηνωμένες πολιτείες
+(answer (count (city (loc_2 (countryid usa:e)))))
+
+ποια είναι η μεγαλύτερη πρωτεύουσα πόλη στις ηπα
+(answer (largest (capital (city (loc_2 (countryid usa:e))))))
+
+ποιοι είναι οι πληθυσμοί των πολιτειών που συνορεύουν με το texas
+(answer (population_1 (state (next_to_2 (stateid texas:e)))))
+
+ποια είναι η πρωτεύουσα των πολιτειών που έχουν πόλεις που ονομάζονται durham
+(answer (capital (loc_2 (state (loc_1 (city (cityid durham:e _:e)))))))
+
+ποια είναι η μεγαλύτερη πόλη στο kansas
+(answer (largest (city (loc_2 (stateid kansas:e)))))
+
+ποιος είναι ο πληθυσμός του boulder
+(answer (population_1 (cityid boulder:e _:e)))
+
+ποια πολιτεία έχει το μεγαλύτερο πληθυσμό
+(answer (largest_one (population_1 (state all:e))))
+
+ποιος είναι ο πληθυσμός του houston
+(answer (population_1 (cityid houston:e _:e)))
+
+πόσες πολιτείες υπάρχουν
+(answer (count (state all:e)))
+
+ποιες πολιτείες συνορεύουν με την πολιτεία με το μικρότερο εμβαδό
+(answer (state (next_to_2 (smallest_one (area_1 (state all:e))))))
+
+ποιο είναι το μεγαλύτερο ποτάμι που διασχίζει μια πολιτεία που συνορεύει με την indiana
+(answer (longest (river (traverse_2 (state (next_to_2 (stateid indiana:e)))))))
+
+ποιες πολιτείες συνορεύουν την πιο πολυπληθή πολιτεία
+(answer (state (next_to_2 (largest_one (population_1 (state all:e))))))
+
+ποια είναι η μεγαλύτερη πόλη στην california
+(answer (largest (city (loc_2 (stateid california:e)))))
+
+ποιο είναι το μεγαλύτερο ποτάμι στις πολιτείες που συνορεύουν με τη nebraska
+(answer (longest (river (loc_2 (state (next_to_2 (stateid nebraska:e)))))))
+
+ποια είναι η πρωτεύουσα του new jersey
+(answer (capital (loc_2 (stateid new_jersey:e))))
+
+ποια πολιτεία έχει τις περισσότερες κύριες πόλεις
+(answer (most (state (loc_1 (major (city all:e))))))
+
+πόσοι ποταμοί colorado υπάρχουν
+(answer (count (riverid colorado:e)))
+
+ποιο είναι το μεγαλύτερο υψόμετρο στις ηνωμένες πολιτείες
+(answer (highest (place (loc_2 (countryid usa:e)))))
+
+πόσοι άνθρωποι ζουν στη μεγαλύτερη πόλη στην πολιτεία της new york
+(answer (population_1 (largest (city (loc_2 (stateid new_york:e))))))
+
+ποιες είναι οι πρωτεύουσες των πολιτειών που συνορεύουν με το missouri
+(answer (capital (loc_2 (state (next_to_2 (stateid missouri:e))))))
+
+ποιο είναι το μήκος του ποταμού που διασχίζει τις περισσότερες πολιτείες
+(answer (len (most (river (traverse_2 (state all:e))))))
+
+ποιο είναι το ψηλότερο σημείο στην πολιτεία με πρωτεύουσα το austin
+(answer (highest (place (loc_2 (state (loc_1 (capital (cityid austin:e _:e))))))))
+
+ποια πολιτεία έχει τη μεγαλύτερη πρωτεύουσα
+(answer (state (loc_1 (largest (capital all:e)))))
+
+ποια είναι η πρωτεύουσα της massachusetts
+(answer (capital (loc_2 (stateid massachusetts:e))))
+
+ποιες πολιτείες συνορεύουν με το new jersey
+(answer (state (next_to_2 (stateid new_jersey:e))))
+
+ποιες πολιτείες συνορεύουν με πολιτείες που διασχίζει ο ohio
+(answer (state (next_to_2 (state (traverse_1 (riverid ohio:e))))))
+
+ποια πολιτεία έχει το μεγαλύτερο υψόμετρο
+(answer (state (loc_1 (highest (place all:e)))))
+
+ποια είναι η πιο πολυπληθής πολιτεία που διασχίζει ο mississippi
+(answer (largest_one (population_1 (state (traverse_1 (riverid mississippi:e))))))
+
+ποια είναι η ψηλότερη κορυφή εκτός της alaska
+(answer (highest (exclude (mountain all:e) (loc_2 (stateid alaska:e)))))
+
+ποια πολιτεία έχει τις περισσότερες κύριες πόλεις
+(answer (most (state (loc_1 (major (city all:e))))))
+
+ποιες πολιτείες έχουν πόλεις που ονομάζονται portland
+(answer (state (loc_1 (city (cityid portland:e _:e)))))
+
+ποιο είναι το ψηλότερο σημείο της πολιτείας με τη μικρότερη πυκνότητα πληθυσμού
+(answer (highest (place (loc_2 (smallest_one (density_1 (state all:e)))))))
+
+ποιες πολιτείες συνορεύουν με την πολιτεία με τις περισσότερες κύριες πόλεις
+(answer (state (next_to_2 (most (state (loc_1 (major (city all:e))))))))
+
+ποια είναι η μικρότερη πόλη στις ηπα
+(answer (smallest (city (loc_2 (countryid usa:e)))))
+
+ποιος είναι ο πληθυσμός της hawaii
+(answer (population_1 (stateid hawaii:e)))
+
+ποιες πολιτείες συνορεύουν με την indiana
+(answer (state (next_to_2 (stateid indiana:e))))
+
+πόσες πολιτείες υπάρχουν στις ηπα
+(answer (count (state (loc_2 (countryid usa:e)))))
+
+ποια είναι η πρωτεύουσα του illinois
+(answer (capital (loc_2 (stateid illinois:e))))
+
+ποιο ποτάμι διασχίζει την πολιτεία που συνορεύει με τις περισσότερες πολιτείες
+(answer (river (traverse_2 (most (state (next_to_2 (state all:e)))))))
+
+ποιες πολιτείες συνορεύουν με την πολιτεία που συνορεύει με τις περισσότερες πολιτείες
+(answer (state (next_to_2 (most (state (next_to_2 (state all:e)))))))
+
+πόσο μακρύς είναι ο ποταμός colorado
+(answer (len (riverid colorado:e)))
+
+ποια πολιτεία έχει το μακρύτερο ποτάμι
+(answer (state (loc_1 (longest (river all:e)))))
+
+ποιες πολιτείες συνορεύουν με το kentucky
+(answer (state (next_to_2 (stateid kentucky:e))))
+
+δώσε μου τις πολιτείες που συνορεύουν με τη utah
+(answer (state (next_to_2 (stateid utah:e))))
+
+ποια είναι η πρωτεύουσα της πολιτείας με την μεγαλύτερη πυκνότητα πληθυσμού
+(answer (capital (loc_2 (largest_one (density_1 (state all:e))))))
+
+ποιες πολιτείες έχουν πόλεις που ονομάζονται plano
+(answer (state (loc_1 (city (cityid plano:e _:e)))))
+
+ποιες πολιτείες συνορεύουν με την πολιτεία με τις περισσότερες πόλεις
+(answer (state (next_to_2 (most (state (loc_1 (city all:e)))))))
+
+πόσους κατοίκους έχει η μεγαλύτερη πόλη στις ηπα
+(answer (population_1 (largest (city (loc_2 (countryid usa:e))))))
+//(answer (population_1 (largest (city all:e))))
+
+πόσοι άνθρωποι κατοικούν στη utah
+(answer (population_1 (stateid utah:e)))
+
+ποιες πολιτείες συνορεύουν με τη montana
+(answer (state (next_to_2 (stateid montana:e))))
+
+ποια ποτάμια διασχίζουν τη new york
+(answer (river (traverse_2 (stateid new_york:e))))
+
+ποια ποτάμια διασχίζουν την πολιτεία που συνορεύει με τις περισσότερες πολιτείες
+(answer (river (traverse_2 (most (state (next_to_2 (state all:e)))))))
+
+μέτρα τις πολιτείες που έχουν υψόμετρα χαμηλότερα από αυτό που έχει η alabama
+(answer (count (state (low_point_2 (lower_2 (low_point_1 (stateid alabama:e)))))))
+
+ποιο ποτάμι διασχίζει τις περισσότερες πολιτείες
+(answer (most (river (traverse_2 (state all:e)))))
+
+ποια ποτάμια υπάρχουν στο texas
+(answer (river (loc_2 (stateid texas:e))))
+
+ποια πολιτεία έχει το ψηλότερο σημείο
+(answer (state (loc_1 (highest (place all:e)))))
+
+σε ποια πολιτεία είναι το austin
+(answer (state (loc_1 (cityid austin:e _:e))))
+
+πόσο ψηλό είναι το ψηλότερο σημείο στην alabama
+(answer (elevation_1 (highest (place (loc_2 (stateid alabama:e))))))
+
+ποιο είναι το μήκος του ποταμού mississippi
+(answer (len (riverid mississippi:e)))
+
+πόσα ποτάμια έχει το colorado
+(answer (count (river (loc_2 (stateid colorado:e)))))
+
+ποιο είναι το μήκος του mississippi
+(answer (len (riverid mississippi:e)))
+
+ποια πολιτεία έχει τα περισσότερα ποτάμια
+(answer (most (state (loc_1 (river all:e)))))
+
+πόσοι άνθρωποι ζουν στο austin
+(answer (population_1 (cityid austin:e _:e)))
+
+ποια πόλη στις ηνωμένες πολιτείες έχει τη μεγαλύτερη πυκνότητα πληθυσμού
+(answer (largest_one (density_1 (city (loc_2 (countryid usa:e))))))
+
+ποιες πολιτείες έχουν ποτάμι
+(answer (state (loc_1 (river all:e))))
+
+ποιο είναι το ψηλότερο σημείο στις ηπα
+(answer (highest (place (loc_2 (countryid usa:e)))))
+
+ποιο είναι το εμβαδό της florida
+(answer (area_1 (stateid florida:e)))
+
+ποια είναι η πρωτεύουσα της california
+(answer (capital (loc_2 (stateid california:e))))
+
+ποια είναι η πρωτεύουσα της πολιτείας με το μεγαλύτερο πληθυσμό
+(answer (capital (loc_2 (largest_one (population_1 (state all:e))))))
+
+ποια πολιτεία έχει τα περισσότερα κύρια ποτάμια
+(answer (most (state (loc_1 (major (river all:e))))))
+
+ποια είναι η πρωτεύουσα της πολιτείας με τους περισσότερους κατοίκους
+(answer (capital (loc_2 (largest_one (population_1 (state all:e))))))
+
+ποια είναι η πρωτεύουσα του ohio
+(answer (capital (loc_2 (stateid ohio:e))))
+
+ποια πολιτεία έχει το χαμηλότερο υψόμετρο
+(answer (state (loc_1 (lowest (place all:e)))))
+
+ποιος είναι ο πληθυσμός του san antonio
+(answer (population_1 (cityid san_antonio:e _:e)))
+
+αριθμός πολιτειών που συνορεύουν με την iowa
+(answer (count (state (next_to_2 (stateid iowa:e)))))
+
+ποιες πολιτείες διασχίζει ο ποταμός chattahoochee
+(answer (state (traverse_1 (riverid chattahoochee:e))))
+
+πόσοι άνθρωποι ζουν στο detroit
+(answer (population_1 (cityid detroit:e _:e)))
+
+πόσες πολιτείες δεν έχουν ποτάμια
+(answer (count (exclude (state all:e) (loc_1 (river all:e)))))
+
+ποιες πολιτείες συνορεύουν πολιτείες που συνορεύουν με το mississippi
+(answer (state (next_to_2 (state (next_to_2 (stateid mississippi:e))))))
+
+ποιες είναι οι κύριες πόλεις στις ηπα
+(answer (major (city (loc_2 (countryid usa:e)))))
+
+ποια είναι η πιο πολυπληθής πόλη
+(answer (largest_one (population_1 (city all:e))))
+
+ποιο είναι το μήκος του μακρύτερου ποταμού που διασχίζει το texas
+(answer (len (longest (river (traverse_2 (stateid texas:e))))))
+
+πόσο ψηλό είναι το όρος mckinley
+(answer (elevation_1 (placeid mount_mckinley:e)))
+
+ποια πολιτεία έχει τη χαμηλότερη πυκνότητα πληθυσμού
+(answer (smallest_one (density_1 (state all:e))))
+
+δώσε μου τον αριθμό των ποταμιών στην california
+(answer (count (river (loc_2 (stateid california:e)))))
+
+ποιο είναι το μεγαλύτερο ποτάμι στην πολιτεία washington
+(answer (longest (river (loc_2 (stateid washington:e)))))
+
+ποια είναι η πρωτεύουσα της πολιτείας florida
+(answer (capital (loc_2 (stateid florida:e))))
+
+ποια πόλη στην california έχει το μεγαλύτερο πληθυσμό
+(answer (largest_one (population_1 (city (loc_2 (stateid california:e))))))
+
+ποιο είναι το ψηλότερο σημείο στη montana
+(answer (highest (place (loc_2 (stateid montana:e)))))
+
+ποιο είναι το χαμηλότερο σημείο στην πολιτεία της california
+(answer (lowest (place (loc_2 (stateid california:e)))))
+
+ποιες είναι οι κύριες πόλεις στην alaska
+(answer (major (city (loc_2 (stateid alaska:e)))))
+
+πόσο είναι το συνδυαστικό εμβαδό των 50 πολιτειών
+(answer (sum (area_1 (state all:e))))
+
+ποιο είναι το χαμηλότερο σημείο στη nebraska σε μέτρα
+(answer (lowest (place (loc_2 (stateid nebraska:e)))))
+
+ποια είναι η μικρότερη πολιτεία
+(answer (smallest (state all:e)))
+
+πόσα ποτάμια υπάρχουν στην iowa
+(answer (count (river (loc_2 (stateid iowa:e)))))
+
+ποιες πολιτείες συνορεύουν με τη florida
+(answer (state (next_to_2 (stateid florida:e))))
+
+πόσα ποτάμια υπάρχουν στο texas
+(answer (river (loc_2 (stateid texas:e))))
+
+ποιες είναι οι κύριες πόλεις στην πολιτεία της california
+(answer (major (city (loc_2 (stateid california:e)))))
+
+ποια πολιτεία είναι μεγαλύτερη σε πληθυσμό
+(answer (largest_one (population_1 (state all:e))))
+
+ποιο είναι το ψηλότερο σημείο στις πολιτείες που συνορεύουν με το colorado
+(answer (highest (place (loc_2 (state (next_to_2 (stateid colorado:e)))))))
+
+ποιο είναι το ψηλότερο σημείο στην hawaii
+(answer (loc_1 (highest (place (loc_2 (stateid hawaii:e))))))
+//(answer (highest (place (loc_2 (stateid hawaii:e)))))
+
+ποιο είναι το ψηλότερο σημείο στην iowa
+(answer (highest (place (loc_2 (stateid iowa:e)))))
+
+ποιοι είναι οι πληθυσμού των πολιτειών τις οποίες διασχίζει ο mississippi
+(answer (population_1 (state (traverse_1 (riverid mississippi:e)))))
+
+ποια είναι η πρωτεύουσα της iowa
+(answer (capital (loc_2 (stateid iowa:e))))
+
+ποια πρωτεύουσα πολιτείας έχει το μικρότερο πληθυσμό
+(answer (smallest_one (population_1 (capital all:e))))
+
+ποια είναι η μεγαλύτερη αμερικανική πόλη σε πολιτεία με ποτάμι
+(answer (largest (city (loc_2 (state (loc_1 (river all:e)))))))
+
+ποια πολιτεία συνορεύει με τη hawaii
+(answer (state (next_to_2 (stateid hawaii:e))))
+
+πόσο μεγάλη είναι η alaska
+(answer (size (stateid alaska:e)))
+
+ποια είναι η μικρότερη πολιτεία που συνορεύει με το wyoming
+(answer (smallest (state (next_to_2 (stateid wyoming:e)))))
+
+ποια πολιτεία έχει τη ψηλότερη πυκνότητα πληθυσμού
+(answer (largest_one (density_1 (state all:e))))
+
+ποια από τις πολιτείες που συνορεύουν με την pennsylvania έχει το μεγαλύτερο πληθυσμό
+(answer (largest_one (population_1 (state (next_to_2 (stateid pennsylvania:e))))))
+
+ποια πολιτεία συνορεύει με τη new york
+(answer (state (next_to_2 (stateid new_york:e))))
+
+ποιο είναι το ψηλότερο σημείο στις ηπα
+(answer (highest (place (loc_2 (countryid usa:e)))))
+
+πόσοι άνθρωποι ζουν στις ηνωμένες πολιτείες
+(answer (population_1 (countryid usa:e)))
+
+ποιες πολιτείες συνορεύουν με το texas και έχουν κύρια ποτάμια
+(answer (state (intersection (next_to_2 (stateid texas:e)) (loc_1 (major (river all:e))))))
+//(answer (intersection (state (next_to_2 (stateid texas:e))) (loc_1 (major (river all:e)))))
+
+που είναι το χαμηλότερο σημείο στο maryland
+(answer (loc_1 (lowest (place (loc_2 (stateid maryland:e))))))
+//(answer (lowest (place (loc_2 (stateid maryland:e)))))
+
+ποιος είναι ο πληθυσμός της πολιτείας με την ψηλότερη πυκνότητα πληθυσμού
+(answer (population_1 (largest_one (density_1 (state all:e)))))
+
+ποιες πολιτείες έχουν πόλεις που ονομάζονται dallas
+(answer (state (loc_1 (city (cityid dallas:e _:e)))))
+
+ποιος είναι ο πληθυσμός της πολιτείας που συνορεύει με τις περισσότερες πολιτείες
+(answer (population_1 (most (state (next_to_2 (state all:e))))))
+
+πόσες πολιτείες συνορεύουν την πολιτεία με το μεγαλύτερο πληθυσμό
+(answer (count (state (next_to_2 (largest_one (population_1 (state all:e)))))))
+
+ποια πολιτεία έχει το μεγαλύτερο εμβαδό
+(answer (largest_one (area_1 (state all:e))))
+
+ποια πολιτεία διασχίζει ο mississippi
+(answer (state (traverse_1 (riverid mississippi:e))))
+
+ποιο είναι το συνολικό μήκος όλων των ποταμών στις ηπα
+(answer (sum (len (river (loc_2 (countryid usa:e))))))
+//(answer (sum (len (river all:e))))
+
+πόσο μακρύς είναι ο ποταμός delaware
+(answer (len (riverid delaware:e)))
+
+ποια είναι η πρωτεύουσα του colorado
+(answer (capital (loc_2 (stateid colorado:e))))
+
+ποιο είναι το μήκος του ποταμού colorado
+(answer (len (riverid colorado:e)))
+
+ποιες είναι οι πυκνότητες πληθυσμού καθεμίας από τις πολιτείες των ηπα
+(answer (density_1 (state all:e)))
+
+ποια πολιτεία έχει το μικρότερο μέσο αστικό πληθυσμό
+(answer (smallest_one (density_1 (state all:e))))
+
+ποιες πολιτείες έχουν πόλεις που ονομάζονται rochester
+(answer (state (loc_1 (city (cityid rochester:e _:e)))))
+
+ποια πολιτεία έχει το χαμηλότερο που συνορεύει με το idaho
+(answer (state (loc_1 (lowest (place (loc_2 (next_to_2 (stateid idaho:e))))))))
+
+ποια είναι η πρωτεύουσα της μικρότερης πολιτείας
+(answer (capital (loc_2 (smallest (state all:e)))))
+
+ποιος είναι πληθυσμός της washington
+(answer (population_1 (stateid washington:e)))
+
+η iowa συνορεύει με πόσες πολιτείες
+(answer (count (state (next_to_1 (stateid iowa:e)))))
+
+ποιες πολιτείες έχουν πόλεις που ονομάζονται austin
+(answer (state (loc_1 (city (cityid austin:e _:e)))))
+
+πόσα ποτάμια υπάρχουν στη πολιτεία που έχει τα περισσότερα ποτάμια
+(answer (count (river (loc_2 (most (state (loc_1 (river all:e))))))))
+
+ποτάμια στη new york
+(answer (river (loc_2 (stateid new_york:e))))
+
+ποια είναι η πυκνότητα πληθυσμού του maine
+(answer (density_1 (stateid maine:e)))
+
+ποιο είναι του ποταμού που διασχίζει τις περισσότερες πολιτείες
+(answer (len (most (river (traverse_2 (state all:e))))))
+
+ποια είναι η πρωτεύουσα πόλη του texas
+(answer (capital (city (loc_2 (stateid texas:e)))))
+
+ποιες πολιτείες διασχίζει ο missouri
+(answer (state (traverse_1 (riverid missouri:e))))
+
+ποια είναι η πολιτεία με το μεγαλύτερο εμβαδό
+(answer (largest_one (area_1 (state all:e))))
+
+πόσες πολιτείες διασχίζει το μεγαλύτερο ποτάμι στο texas
+(answer (state (traverse_1 (longest (river (loc_2 (stateid texas:e)))))))
+
+ποιος είναι ο πληθυσμός του new mexico
+(answer (population_1 (stateid new_mexico:e)))
+
+ποια ποτάμια είναι στις πολιτείες που συνορεύουν με το texas
+(answer (river (loc_2 (state (next_to_2 (stateid texas:e))))))
+
+ποιες πολιτείες συνορεύουν με τον ποταμό missouri
+(answer (state (next_to_2 (riverid missouri:e))))
+
+ποια είναι η μικρότερη πόλη στις ηπα
+(answer (smallest (city (loc_2 (countryid usa:e)))))
+
+πόσο ψηλό είναι το όρος mckinley
+(answer (elevation_1 (placeid mount_mckinley:e)))
+
+ποιο είναι το ψηλότερο σημείο στο delaware
+(answer (highest (place (loc_2 (stateid delaware:e)))))
+
+ποιο είναι το χαμηλότερο σημείο στο mississippi
+(answer (lowest (place (loc_2 (stateid mississippi:e)))))
+
+σε ποια πολιτεία είναι το miami
+(answer (state (loc_1 (cityid miami:e _:e))))
+
+ποιο είναι το χαμηλότερο σημείο όλων των πολιτειών τις οποίες διασχίζει ο ποταμός colorado
+(answer (lowest (place (loc_2 (state (traverse_1 (riverid colorado:e)))))))
+
+ποιες πολιτείες περιέχουν τουλάχιστον ένα κύριο ποτάμι
+(answer (state (loc_1 (major (river all:e)))))
+
+ποια είναι η μεγαλύτερη πόλη στη louisiana
+(answer (largest (city (loc_2 (stateid louisiana:e)))))
+
+ποια είναι η πιο πυκνή πολιτεία στις ηπα
+(answer (largest_one (density_1 (state (loc_2 (countryid usa:e))))))
+
+ποιο είναι το μακρύτερο ποτάμι στη florida
+(answer (longest (river (loc_2 (stateid florida:e)))))
+
+ποιος είναι ο πληθυσμός του tempe arizona
+(answer (population_1 (cityid tempe:e az:e)))
+
+ποια είναι η μεγαλύτερη πόλη στη μικρότερη πολιτεία στις ηπα
+(answer (largest (city (loc_2 (smallest (state (loc_2 (countryid usa:e))))))))
+
+ποιος είναι ο πληθυσμός της alaska
+(answer (population_1 (stateid alaska:e)))
+
+ποιο είναι το ψηλότερο σημείο της nevada σε μέτρα
+(answer (highest (place (loc_2 (stateid nevada:e)))))
+
+ποιες κύριε πόλεις βρίσκονται στην pennsylvania
+(answer (major (city (loc_2 (stateid pennsylvania:e)))))
+
+ποια είναι τα ποτάμια στην alaska
+(answer (river (loc_2 (stateid alaska:e))))
+
+ποιας πολιτείας η πρωτεύουσα πόλη είναι η μεγαλύτερη
+(answer (state (loc_1 (largest (city (capital_1 (state all:e)))))))
+
+που υπάρχουν βουνά
+(answer (loc_1 (mountain all:e)))
+
+ποια πολιτεία συνορεύει με τις περισσότερες πολιτείες
+(answer (most (state (next_to_2 (state all:e)))))
+
+ποιες είναι οι πόλεις της πολιτείας με το ψηλότερο σημείο
+(answer (city (loc_2 (state (loc_1 (highest (place all:e)))))))
+
+πόσο πληθυσμό έχει το texas
+(answer (population_1 (stateid texas:e)))
+
+ποιες είναι οι κύριες πόλεις στη new york
+(answer (major (city (loc_2 (stateid new_york:e)))))
+
+ποιο είναι το ψηλότερο βουνό στις ηπα
+(answer (highest (mountain (loc_2 (countryid usa:e)))))
+
+ποια πολιτεία από αυτές που διασχίζει ο ποταμός colorado περιέχει το ψηλότερο σημείο
+(answer (state (loc_1 (highest (place (traverse_1 (riverid colorado:e)))))))
+//(answer (state (loc_1 (highest (place (loc_2 (state (traverse_1 (riverid colorado:e)))))))))
+
+που είναι το dallas
+(answer (loc_1 (cityid dallas:e _:e)))
+
+που είναι το ψηλότερο βουνό στις ηνωμένες πολιτείες
+(answer (loc_1 (highest (mountain (loc_2 (countryid usa:e))))))
+//(answer (highest (mountain (loc_2 (countryid usa:e)))))
+
+ποιες πολιτείες διασχίζει ο ποταμός delaware
+(answer (state (traverse_1 (riverid delaware:e))))
+
+πόσο ψηλό είναι το ψηλότερο σημείο στην αμερική
+(answer (elevation_1 (highest (place (loc_2 (countryid usa:e))))))
+
+ποια πόλη έχει τους περισσότερους κατοίκους
+(answer (largest_one (population_1 (city all:e))))
+
+ποια είναι η πυκνότητας της new york
+(answer (density_1 (stateid new_york:e)))
+
+ποιο είναι το μεγαλύτερο υψόμετρο στο san francisco
+(answer (highest (place (loc_2 (cityid san_francisco:e _:e)))))
+
+πόσες πρωτεύουσες έχει το rhode island
+(answer (count (capital (loc_2 (stateid rhode_island:e)))))
+
+ποιο είναι το ψηλότερο σημείο στη virginia
+(answer (highest (place (loc_2 (stateid virginia:e)))))
+
+πόσο μακρύς είναι ο ποταμός ohio
+(answer (len (riverid ohio:e)))
+
+πόσο μακρύ είναι το μακρύτερο ποτάμι στην california
+(answer (len (longest (river (loc_2 (stateid california:e))))))
+
+ποια είναι η πολιτεία με την μικρότερη επιφάνεια
+(answer (smallest_one (area_1 (state all:e))))
+
+ποια ποτάμια δεν διασχίζουν το texas
+(answer (exclude (river all:e) (traverse_2 (stateid texas:e))))
+
+ποια πολιτεία έχει τα περισσότερα κύρια ποτάμια που τη διατρέχουν
+(answer (most (state (traverse_1 (major (river all:e))))))
+
+ποιο είναι το χαμηλότερο σημείο στις usa
+(answer (lowest (place (loc_2 (countryid usa:e)))))
+
+ποιος είναι ο πληθυσμός της new york city
+(answer (population_1 (cityid new_york:e _:e)))
+
+ποια πολιτεία έχει τον μεγαλύτερο πληθυσμό
+(answer (largest_one (population_1 (state all:e))))
+
+ποια είναι η μεγαλύτερη πολιτεία που συνορεύει με το texas
+(answer (largest (state (next_to_2 (stateid texas:e)))))
+
+ποια είναι η μεγαλύτερη πόλη στο rhode island
+(answer (largest (city (loc_2 (stateid rhode_island:e)))))
+
+ποιος είναι ο πληθυσμός του tucson
+(answer (population_1 (cityid tucson:e _:e)))
+
+ποιο είναι το ψηλότερο σημείο στο maine
+(answer (highest (place (loc_2 (stateid maine:e)))))
+
+πόσοι άνθρωποι ζουν στη minneapolis minnesota
+(answer (population_1 (cityid minneapolis:e mn:e)))
+
+ποια ποτάμια δε διασχίζουν τις usa
+(answer (exclude (river all:e) (traverse_2 (countryid usa:e))))
+
+ονόμασε όλα τα ποτάμια του colorado
+(answer (river (loc_2 (stateid colorado:e))))
+
+ποιο είναι το μεγαλύτερο ποτάμι στη μεγαλύτερη πολιτεία
+(answer (longest (river (loc_2 (largest (state all:e))))))
+
+ποια πολιτεία έχει τη μικρότερη πυκνότητα πληθυσμού
+(answer (smallest_one (density_1 (state all:e))))
+
+ποια είναι η πρωτεύουσα της πολιτείας με το χαμηλότερο σημείο
+(answer (capital (loc_2 (state (loc_1 (lowest (place all:e)))))))
+
+πόσο μεγάλος είναι ο μακρύτερος ποταμός στις usa
+(answer (len (longest (river (loc_2 (countryid usa:e))))))
+
+πόσες πολιτείες συνορεύουν με την iowa
+(answer (count (state (next_to_2 (stateid iowa:e)))))
+
+ποιο είναι το ψηλότερο σημείο σε πολιτείες που συνορεύουν με την georgia
+(answer (highest (place (loc_2 (state (next_to_2 (stateid georgia:e)))))))
+
+το san antonio είναι σε ποια πολιτεία
+(answer (state (loc_1 (cityid san_antonio:e _:e))))
+
+ποιο ποτάμι διασχίζει τις περισσότερες πολιτείες
+(answer (most (river (traverse_2 (state all:e)))))
+
+ποια είναι η επιφάνεια του ohio
+(answer (area_1 (stateid ohio:e)))
+
+ποιο είναι το μεγαλύτερο ποτάμι στην πολιτεία με τις περισσότερες κύριες πόλεις
+(answer (longest (river (loc_2 (most (state (loc_1 (major (city all:e)))))))))
+
+ποιες πολιτείες διασχίζει το μεγαλύτερο ποτάμι
+(answer (state (traverse_1 (longest (river all:e)))))
+
+πόσες πολιτείες έχουν οι usa
+(answer (count (state (loc_2 (countryid usa:e)))))
+
+ποιος είναι ο πληθυσμός της μεγαλύτερης πόλης στην πολιτεία με τη μεγαλύτερη επιφάνεια
+(answer (population_1 (largest (city (loc_2 (largest_one (area_1 (state all:e))))))))
+
+ποιο είναι το ψηλό σημείο του wyoming
+(answer (high_point_1 (stateid wyoming:e)))
+
+ποιο είναι το ψηλότερο βουνό στις us
+(answer (highest (mountain (loc_2 (countryid usa:e)))))
+
+πόσοι κάτοικοι ζουν στο texas
+(answer (population_1 (stateid texas:e)))
+
+ποιες είναι οι κύριες πόλεις στην alabama
+(answer (major (city (loc_2 (stateid alabama:e)))))
+
+ποια είναι η μικρότερη πολιτεία που συνορεύει τις περισσότερες πολιτείες
+(answer (smallest (most (state (next_to_2 (state all:e))))))
+
+ποιοι είναι όλα τα ποτάμια στο texas
+(answer (river (loc_2 (stateid texas:e))))
+
+ποια είναι η ολιγοπληθέστερη πολιτεία
+(answer (smallest_one (population_1 (state all:e))))
+
+ποια είναι η πυκνότητα πληθυσμού της μεγαλύτερης πολιτείας
+(answer (density_1 (largest (state all:e))))
+
+ποιο ποτάμι διατρέχει τις περισσότερες πολιτείες
+(answer (most (river (traverse_2 (state all:e)))))
+
+σε ποια πολιτεία είναι το όρος mckinley
+(answer (state (loc_1 (placeid mount_mckinley:e))))
+
+ποιο ποτάμι περνάει από τις περισσότερες πολιτείες
+(answer (most (river (traverse_2 (state all:e)))))
+
+ποιες είναι οι κύριες πόλεις στις πολιτείεςτις οποίες διατρέχει ο mississippi
+(answer (major (city (loc_2 (state (traverse_1 (riverid mississippi:e)))))))
+
+ποιο είναι το μεγαλύτερο υψόμετρο στο texas
+(answer (highest (place (loc_2 (stateid texas:e)))))
+
+ποιες πολιτείες συνορεύουν με το illinois
+(answer (state (next_to_2 (stateid illinois:e))))
+
+με πόσες πολιτείες συνορεύει το tennessee
+(answer (count (state (next_to_1 (stateid tennessee:e)))))
+
+πόσοι άνθρωποι κατοικούν στο rhode island
+(answer (population_1 (stateid rhode_island:e)))
+
+αριθμός των ανθρώπων στο boulder
+(answer (population_1 (cityid boulder:e _:e)))
+
+πες μου ποιες πόλεις είναι στο texas
+(answer (city (loc_2 (stateid texas:e))))
+
+ποιο ποτάμι διασχίζει την πολιτεία με τις περισσότερες πόλεις
+(answer (river (traverse_2 (most (state (loc_1 (city all:e)))))))
+
+ποιες πολιτείες συνορεύουν με την πολιτεία με τη μικρότερη επιφάνεια
+(answer (state (next_to_2 (smallest_one (area_1 (state all:e))))))
+
+ποιες πολιτείες συνορεύουν με το michigan
+(answer (state (next_to_2 (stateid michigan:e))))
+
+ποια είναι η μεγαλύτερη πολιτεία που συνορεύει με το arkansas
+(answer (largest (state (next_to_2 (stateid arkansas:e)))))
+
+πόσο μεγάλος είναι ο βόρειος platte ποταμός
+(answer (len (riverid north_platte:e)))
+
+ποια πολιτεία που συνορεύει με τη nevada έχει τον μεγαλύτερο πληθυσμό
+(answer (largest_one (population_1 (state (next_to_2 (stateid nevada:e))))))
+
+ποια είναι η πρωτεύουσα της new york
+(answer (capital (loc_2 (stateid new_york:e))))
+
+ποια ποτάμια διασχίζουν πολιτείες με τις λιγότερες πόλεις
+(answer (river (traverse_2 (fewest (state (loc_1 (city all:e)))))))
+
+ποιοι είναι οι πληθυσμοί των κύριων πόλεων του texas
+(answer (population_1 (major (city (loc_2 (stateid texas:e))))))
+
+ποια είναι η πρωτεύουσα της πολιτείας με το μεγαλύτερο ποτάμι
+(answer (capital (loc_2 (state (loc_1 (longest (river all:e)))))))
+
+ποια πολιτεία έχει τα περισσότερα ποτάμια
+(answer (most (state (loc_1 (river all:e)))))
+
+πόσοι άνθρωποι ζουν στην πρωτεύουσα του texas
+(answer (population_1 (capital (loc_2 (stateid texas:e)))))
+
+που είναι η πολυπληθέστερη περιοχή του new mexico
+(answer (loc_1 (largest_one (population_1 (city (loc_2 (stateid new_mexico:e)))))))
+//(answer (largest_one (population_1 (city (loc_2 (stateid new_mexico:e))))))
+
+πόσες πολιτείες έχουν ψηλότερο σημείο από το ψηλότερο σημείο της πολιτείας με το τη μεγαλύτερη πρωτεύουσα πόλη στις us
+(answer (count (state (loc_1 (place (higher_2 (highest (place (loc_2 (state (loc_1 (largest (capital (city (loc_2 (countryid usa:e))))))))))))))))
+
+πόσοι άνθρωποι ζουν στο mississippi
+(answer (population_1 (stateid mississippi:e)))
+
+ποια είναι η μεγαλύτερη πόλη στη μικρότερη πολιτεία την οποία διασχίζει ο mississippi
+(answer (largest (city (loc_2 (smallest (state (traverse_1 (riverid mississippi:e))))))))
+
+ποιες πολιτείες έχουν πόλεις με το όνομα salt lake city
+(answer (state (loc_1 (city (cityid salt_lake_city:e _:e)))))
+
+ποια πολιτεία έχει το μικρότερο αστικό πληθυσμό
+(answer (smallest_one (population_1 (state all:e))))
+
+πόσο ψηλό είναι το ψηλότερο σημείο στη montana
+(answer (elevation_1 (highest (place (loc_2 (stateid montana:e))))))
+
+ποια είναι η μικρότερη πολιτεία την οποία διασχίζει ο ποταμός mississippi
+(answer (smallest (state (traverse_1 (riverid mississippi:e)))))
+
+ποια είναι η επιφάνεια της πολιτείας του texas
+(answer (area_1 (stateid texas:e)))
+
+ποιες είναι οι κύριες πόλεις στο vermont
+(answer (major (city (loc_2 (stateid vermont:e)))))
+
+ποια είναι η μεγαλύτερη πρωτεύουσα πόλη στις us
+(answer (largest (capital (city (loc_2 (countryid usa:e))))))
+
+που είναι ο chattahoochee ποταμός
+(answer (loc_1 (riverid chattahoochee:e)))
+
+ποιος είναι ο πληθυσμός της utah
+(answer (population_1 (stateid utah:e)))
+
+πόσες πολιτείες υπάρχουν στις usa
+(answer (count (state (loc_2 (countryid usa:e)))))
+
+ποιες πολιτείες είναι δίπλα στην arizona
+(answer (state (next_to_2 (stateid arizona:e))))
+
+ποιο είναι το χαμηλότερο σημείο στο arkansas
+(answer (lowest (place (loc_2 (stateid arkansas:e)))))
+
+ποια είναι η πολυπληθέστερη πολιτεία
+(answer (largest_one (population_1 (state all:e))))
+
+ποιος είναι ο πληθυσμός του mississippi
+(answer (population_1 (stateid mississippi:e)))
+
+ποια πολιτεία συνορεύει με τις περισσότερες πολιτείες
+(answer (most (state (next_to_2 (state all:e)))))
+
+ποια πόλη των us έχει τη μεγαλύτερη πυκνότητα πληθυσμού
+(answer (largest_one (density_1 (city (loc_2 (countryid usa:e))))))
+//(answer (largest_one (density_1 (city all:e))))
+
+ποια είναι η επιφάνεια του wisconsin
+(answer (area_1 (stateid wisconsin:e)))
+
+πόσο μεγάλο είναι το texas
+(answer (size (stateid texas:e)))
+
+ποιος είναι ο πληθυσμός της μικρότερης πολιτείας
+(answer (population_1 (smallest (state all:e))))
+//(answer (smallest (population_1 (state all:e))))
+
+ποια είναι η πυκνότητα της πολιτείας την οποία διασχίζει το μεγαλύτερο ποτάμι στις ηνωμένες πολιτείες
+(answer (density_1 (state (traverse_1 (longest (river (loc_2 (countryid usa:e))))))))
+
+

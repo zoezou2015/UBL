@@ -1,0 +1,851 @@
+vilken stat är den minsta
+(answer (smallest (state all:e)))
+
+vilken är den längsta floden i usa
+(answer (longest (river (loc_2 (countryid usa:e)))))
+
+vilka är de högsta punkterna i alla stater
+(answer (highest (place (loc_2 (state all:e)))))
+
+vilka är de stora floderna i ohio
+(answer (major (river (loc_2 (stateid ohio:e)))))
+
+namnge de stora floderna i florida
+(answer (major (river (loc_2 (stateid florida:e)))))
+
+vad är folkmängden i erie pennsylvania
+(answer (population_1 (cityid erie:e pa:e)))
+
+vilken stat har den lägsta befolkningstätheten
+(answer (smallest_one (density_1 (state all:e))))
+
+vart är den minsta staden
+(answer (loc_1 (smallest (city all:e))))
+
+vilka floder rinner genom stater som gränsar till staten med huvudstaden austin
+(answer (river (traverse_2 (state (next_to_2 (state (loc_1 (capital (cityid austin:e _:e)))))))))
+
+vad är den lägsta punkten i massachusetts
+(answer (lowest (place (loc_2 (stateid massachusetts:e)))))
+
+vad är folkmängden i maryland
+(answer (population_1 (stateid maryland:e)))
+
+vilka stater rinner mississippifloden genom
+(answer (state (traverse_1 (riverid mississippi:e))))
+
+vart ligger portland
+(answer (loc_1 (cityid portland:e _:e)))
+
+vilka är städerna i de stater genom vilka mississippifloden löper
+(answer (city (loc_2 (state (traverse_1 (riverid mississippi:e))))))
+
+hur många människor bor i houston
+(answer (population_1 (cityid houston:e _:e)))
+
+vad är folkmängden i de stater mississippifloden rinner genom
+(answer (population_1 (state (traverse_1 (riverid mississippi:e)))))
+
+vilka stater rinner ohiofloden genom
+(answer (state (traverse_1 (riverid ohio:e))))
+
+vilken stat har störst befolkning
+(answer (largest_one (population_1 (state all:e))))
+
+vilka stater ligger kring kentucky
+(answer (state (next_to_2 (stateid kentucky:e))))
+
+vilken är huvudstaden i north dakota
+(answer (capital (loc_2 (stateid north_dakota:e))))
+
+hur många städer finns det i usa
+(answer (count (city (loc_2 (countryid usa:e)))))
+
+vilken är den största huvudstaden i usa
+(answer (largest (capital (city (loc_2 (countryid usa:e))))))
+
+vad är folkmängden i de stater som gränsar texas
+(answer (population_1 (state (next_to_2 (stateid texas:e)))))
+
+vilka är huvudstäderna i staterna som har en stad som heter durham
+(answer (capital (loc_2 (state (loc_1 (city (cityid durham:e _:e)))))))
+
+vilken är den största staden i kansas
+(answer (largest (city (loc_2 (stateid kansas:e)))))
+
+vad är folkmängden i boulder
+(answer (population_1 (cityid boulder:e _:e)))
+
+vilken stat har den största befolkningen
+(answer (largest_one (population_1 (state all:e))))
+
+vad är folkmängden i houston
+(answer (population_1 (cityid houston:e _:e)))
+
+hur många stater finns det
+(answer (count (state all:e)))
+
+vilka stater gränsar till staten med minsta arean
+(answer (state (next_to_2 (smallest_one (area_1 (state all:e))))))
+
+vilken är den längsta floden som rinner genom en stat som gränsar till indiana
+(answer (longest (river (traverse_2 (state (next_to_2 (stateid indiana:e)))))))
+
+vilka stater gränsar till folkrikaste staten
+(answer (state (next_to_2 (largest_one (population_1 (state all:e))))))
+
+vad är den största staden i kalifornien
+(answer (largest (city (loc_2 (stateid california:e)))))
+
+vilka är de längsta floderna i de stater som gränsar till nebraska
+(answer (longest (river (loc_2 (state (next_to_2 (stateid nebraska:e)))))))
+
+vilken är huvudstaden i new jersey
+(answer (capital (loc_2 (stateid new_jersey:e))))
+
+vilken stat har flest stora städer
+(answer (most (state (loc_1 (major (city all:e))))))
+
+hur många floder har colorado
+(answer (count (riverid colorado:e)))
+
+vad är den högsta höjden i usa
+(answer (highest (place (loc_2 (countryid usa:e)))))
+
+hur många människor bor i den största staden i staten new york
+(answer (population_1 (largest (city (loc_2 (stateid new_york:e))))))
+
+vilka är huvudstäderna i de stater som gränsar till missouri
+(answer (capital (loc_2 (state (next_to_2 (stateid missouri:e))))))
+
+vad är längden på floden som rinner genom flest stater
+(answer (len (most (river (traverse_2 (state all:e))))))
+
+vad är den högsta punkten i delstaten med huvudstaden austin
+(answer (highest (place (loc_2 (state (loc_1 (capital (cityid austin:e _:e))))))))
+
+vilken stat har den största huvudstaden
+(answer (state (loc_1 (largest (capital all:e)))))
+
+vilken är huvudstaden i massachusetts
+(answer (capital (loc_2 (stateid massachusetts:e))))
+
+vilka stater gränsar till new jersey
+(answer (state (next_to_2 (stateid new_jersey:e))))
+
+vilka stater gränsar till stater som ohio rinner genom
+(answer (state (next_to_2 (state (traverse_1 (riverid ohio:e))))))
+
+vilken stat har den högsta höjden
+(answer (state (loc_1 (highest (place all:e)))))
+
+vilken är den folkrikaste staten genom vilken mississippi rinner
+(answer (largest_one (population_1 (state (traverse_1 (riverid mississippi:e))))))
+
+vilken är den högsta toppen som inte är i alaska
+(answer (highest (exclude (mountain all:e) (loc_2 (stateid alaska:e)))))
+
+vilken stat har flest stora städer
+(answer (most (state (loc_1 (major (city all:e))))))
+
+vilka stater har städer som heter portland
+(answer (state (loc_1 (city (cityid portland:e _:e)))))
+
+vad är den högsta punkten i den stat med den lägsta befolkningstätheten
+(answer (highest (place (loc_2 (smallest_one (density_1 (state all:e)))))))
+
+vilka stater gränsar till staten med flest antal stora städer
+(answer (state (next_to_2 (most (state (loc_1 (major (city all:e))))))))
+
+vilken är den minsta staden i usa
+(answer (smallest (city (loc_2 (countryid usa:e)))))
+
+vad är folkmängden i hawaii
+(answer (population_1 (stateid hawaii:e)))
+
+vilka stater gränsar till indiana
+(answer (state (next_to_2 (stateid indiana:e))))
+
+hur många stater finns det i usa
+(answer (count (state (loc_2 (countryid usa:e)))))
+
+vilken är huvudstaden i illinois
+(answer (capital (loc_2 (stateid illinois:e))))
+
+vilken flod korsar den stat som gränsar till flest stater
+(answer (river (traverse_2 (most (state (next_to_2 (state all:e)))))))
+
+vilka stater gränsar till staten som gränsar till flest stater
+(answer (state (next_to_2 (most (state (next_to_2 (state all:e)))))))
+
+hur lång är coloradofloden
+(answer (len (riverid colorado:e)))
+
+vilken stat har den längsta flod
+(answer (state (loc_1 (longest (river all:e)))))
+
+vilka stater gränsar kentucky
+(answer (state (next_to_2 (stateid kentucky:e))))
+
+ge mig de stater som gränsar till utah
+(answer (state (next_to_2 (stateid utah:e))))
+
+vilken är huvudstaden i delstaten med den största befolkningstätheten
+(answer (capital (loc_2 (largest_one (density_1 (state all:e))))))
+
+vilka stater har städer som heter plano
+(answer (state (loc_1 (city (cityid plano:e _:e)))))
+
+vilka stater gränsar till staten med flest antal städer
+(answer (state (next_to_2 (most (state (loc_1 (city all:e)))))))
+
+hur många medborgare har den största staden i usa
+(answer (population_1 (largest (city (loc_2 (countryid usa:e))))))
+//(answer (population_1 (largest (city all:e))))
+
+hur många människor bor i utah
+(answer (population_1 (stateid utah:e)))
+
+vilka stater gränsar till montana
+(answer (state (next_to_2 (stateid montana:e))))
+
+vilka floder löper genom new york
+(answer (river (traverse_2 (stateid new_york:e))))
+
+vilka floder korsar staten som gränsar till flest stater
+(answer (river (traverse_2 (most (state (next_to_2 (state all:e)))))))
+
+räkna de stater som har höjder lägre än vad alabama har
+(answer (count (state (low_point_2 (lower_2 (low_point_1 (stateid alabama:e)))))))
+
+vilken flod flyter genom flest stater
+(answer (most (river (traverse_2 (state all:e)))))
+
+vilka floder finns i texas
+(answer (river (loc_2 (stateid texas:e))))
+
+vilken stat har den högsta punkten
+(answer (state (loc_1 (highest (place all:e)))))
+
+vilken stat ligger austin i
+(answer (state (loc_1 (cityid austin:e _:e))))
+
+hur hög är den högsta punkten i alabama
+(answer (elevation_1 (highest (place (loc_2 (stateid alabama:e))))))
+
+vad är längden på mississippifloden
+(answer (len (riverid mississippi:e)))
+
+hur många floder har colorado
+(answer (count (river (loc_2 (stateid colorado:e)))))
+
+hur lång är mississippi
+(answer (len (riverid mississippi:e)))
+
+vilken stat har flest floder
+(answer (most (state (loc_1 (river all:e)))))
+
+hur många människor bodde i austin
+(answer (population_1 (cityid austin:e _:e)))
+
+vilken stad i usa har den högsta befolkningstätheten
+(answer (largest_one (density_1 (city (loc_2 (countryid usa:e))))))
+
+vilka stater har en flod
+(answer (state (loc_1 (river all:e))))
+
+vad är den högsta punkten i usa
+(answer (highest (place (loc_2 (countryid usa:e)))))
+
+vad är floridas area
+(answer (area_1 (stateid florida:e)))
+
+vilken är huvudstaden i kalifornien
+(answer (capital (loc_2 (stateid california:e))))
+
+vilken är huvudstaden i delstaten med den största befolkningen
+(answer (capital (loc_2 (largest_one (population_1 (state all:e))))))
+
+vilken stat har flest stora floder
+(answer (most (state (loc_1 (major (river all:e))))))
+
+vilken är huvudstaden i delstaten med flest invånare
+(answer (capital (loc_2 (largest_one (population_1 (state all:e))))))
+
+vilken är huvudstaden i ohio
+(answer (capital (loc_2 (stateid ohio:e))))
+
+vilken stat har den lägsta höjden
+(answer (state (loc_1 (lowest (place all:e)))))
+
+vad är folkmängden i san antonio
+(answer (population_1 (cityid san_antonio:e _:e)))
+
+antal stater som gränsar till iowa
+(answer (count (state (next_to_2 (stateid iowa:e)))))
+
+vilka stater rinner floden chattahoochee genom
+(answer (state (traverse_1 (riverid chattahoochee:e))))
+
+hur många människor bor i detroit
+(answer (population_1 (cityid detroit:e _:e)))
+
+hur många stater har inga floder
+(answer (count (exclude (state all:e) (loc_1 (river all:e)))))
+
+vilka stater gränsar till de stater som gränsar till mississippi
+(answer (state (next_to_2 (state (next_to_2 (stateid mississippi:e))))))
+
+vilka är de stora städerna i usa
+(answer (major (city (loc_2 (countryid usa:e)))))
+
+vilken är den folkrikaste staden
+(answer (largest_one (population_1 (city all:e))))
+
+vad är längden på den längsta flod som rinner genom texas
+(answer (len (longest (river (traverse_2 (stateid texas:e))))))
+
+hur hög är mount mckinley
+(answer (elevation_1 (placeid mount_mckinley:e)))
+
+vilken stat har den lägsta befolkningstätheten
+(answer (smallest_one (density_1 (state all:e))))
+
+ge mig antalet floder i kalifornien
+(answer (count (river (loc_2 (stateid california:e)))))
+
+vilken är den största floden i staten washington
+(answer (longest (river (loc_2 (stateid washington:e)))))
+
+vilken är huvudstaden i staten florida
+(answer (capital (loc_2 (stateid florida:e))))
+
+vilken stad i kalifornien har den största befolkningen
+(answer (largest_one (population_1 (city (loc_2 (stateid california:e))))))
+
+vad är den högsta punkten i montana
+(answer (highest (place (loc_2 (stateid montana:e)))))
+
+vad är den lägsta punkten i delstaten kalifornien
+(answer (lowest (place (loc_2 (stateid california:e)))))
+
+vilka är de stora städerna i alaska
+(answer (major (city (loc_2 (stateid alaska:e)))))
+
+vad är den kombinerade arean av alla 50 stater
+(answer (sum (area_1 (state all:e))))
+
+vad är den lägsta punkten i nebraska i meter
+(answer (lowest (place (loc_2 (stateid nebraska:e)))))
+
+vilken är den minsta staten
+(answer (smallest (state all:e)))
+
+hur många floder har iowa
+(answer (count (river (loc_2 (stateid iowa:e)))))
+
+vilka stater gränsar till florida
+(answer (state (next_to_2 (stateid florida:e))))
+
+vilka floder är i texas
+(answer (river (loc_2 (stateid texas:e))))
+
+vilka är de stora städerna i delstaten kalifornien
+(answer (major (city (loc_2 (stateid california:e)))))
+
+vilken stat är den största enligt befolkning
+(answer (largest_one (population_1 (state all:e))))
+
+vad är den högsta punkten i de stater som gränsar till colorado
+(answer (highest (place (loc_2 (state (next_to_2 (stateid colorado:e)))))))
+
+vart ligger den högsta punkten i hawaii
+(answer (loc_1 (highest (place (loc_2 (stateid hawaii:e))))))
+//(answer (highest (place (loc_2 (stateid hawaii:e)))))
+
+vad är den högsta punkten i iowa
+(answer (highest (place (loc_2 (stateid iowa:e)))))
+
+vad är folkmängden i de stater som mississippifloden löper genom
+(answer (population_1 (state (traverse_1 (riverid mississippi:e)))))
+
+vilken är huvudstaden i iowa
+(answer (capital (loc_2 (stateid iowa:e))))
+
+vilken stats hvuudstad har den minsta befolkningen
+(answer (smallest_one (population_1 (capital all:e))))
+
+vilken är den största amerikanska staden i en stat med en flod
+(answer (largest (city (loc_2 (state (loc_1 (river all:e)))))))
+
+vilken stat gränsar till hawaii
+(answer (state (next_to_2 (stateid hawaii:e))))
+
+hur stort är alaska
+(answer (size (stateid alaska:e)))
+
+vilken är den minsta staten som gränsar till wyoming
+(answer (smallest (state (next_to_2 (stateid wyoming:e)))))
+
+vilken stat har den högsta befolkningstätheten
+(answer (largest_one (density_1 (state all:e))))
+
+vilken av de stater som gränsar till pennsylvania har den största befolkningen
+(answer (largest_one (population_1 (state (next_to_2 (stateid pennsylvania:e))))))
+
+vilken stat gränsar till new york
+(answer (state (next_to_2 (stateid new_york:e))))
+
+vad är den högsta punkten i usa
+(answer (highest (place (loc_2 (countryid usa:e)))))
+
+hur många människor bor i usa
+(answer (population_1 (countryid usa:e)))
+
+vilka stater gränsar till texas och har en stor flod
+(answer (state (intersection (next_to_2 (stateid texas:e)) (loc_1 (major (river all:e))))))
+//(answer (intersection (state (next_to_2 (stateid texas:e))) (loc_1 (major (river all:e)))))
+
+vart ligger den lägsta punkten i maryland
+(answer (loc_1 (lowest (place (loc_2 (stateid maryland:e))))))
+//(answer (lowest (place (loc_2 (stateid maryland:e)))))
+
+vad är folkmängden i staten med den högsta befolkningstätheten
+(answer (population_1 (largest_one (density_1 (state all:e)))))
+
+vilka stater har städer som heter dallas
+(answer (state (loc_1 (city (cityid dallas:e _:e)))))
+
+vad är folkmängden i den stat som gränsar till flest stater
+(answer (population_1 (most (state (next_to_2 (state all:e))))))
+
+hur många stater gränsar till staten med den största befolkningen
+(answer (count (state (next_to_2 (largest_one (population_1 (state all:e)))))))
+
+vilken stat har den största arean
+(answer (largest_one (area_1 (state all:e))))
+
+vilka stater rinner mississippi genom
+(answer (state (traverse_1 (riverid mississippi:e))))
+
+vad är den totala längden av alla floder i usa
+(answer (sum (len (river (loc_2 (countryid usa:e))))))
+//(answer (sum (len (river all:e))))
+
+hur lång är delawarefloden
+(answer (len (riverid delaware:e)))
+
+vilken är huvudstaden i colorado
+(answer (capital (loc_2 (stateid colorado:e))))
+
+vad är längden på coloradofloden
+(answer (len (riverid colorado:e)))
+
+vad är befolkningstätheten i varje stat i usa
+(answer (density_1 (state all:e)))
+
+vilken stat har den minsta genomsnittliga urbana befolkningen
+(answer (smallest_one (density_1 (state all:e))))
+
+vilka stater har städer som heter rochester
+(answer (state (loc_1 (city (cityid rochester:e _:e)))))
+
+vilken stat har den lägsta punkten som gränsar till idaho
+(answer (state (loc_1 (lowest (place (loc_2 (next_to_2 (stateid idaho:e))))))))
+
+vilken är huvudstaden i den minsta staten
+(answer (capital (loc_2 (smallest (state all:e)))))
+
+vad är folkmängden i washington
+(answer (population_1 (stateid washington:e)))
+
+iowa gränsar till hur många stater
+(answer (count (state (next_to_1 (stateid iowa:e)))))
+
+vilka stater har städer som heter austin
+(answer (state (loc_1 (city (cityid austin:e _:e)))))
+
+hur många floder har den stat som har högst antal floder
+(answer (count (river (loc_2 (most (state (loc_1 (river all:e))))))))
+
+floder i new york
+(answer (river (loc_2 (stateid new_york:e))))
+
+vad är befolkningstätheten i maine
+(answer (density_1 (stateid maine:e)))
+
+vad är längden på floden som flyter genom flest antal stater
+(answer (len (most (river (traverse_2 (state all:e))))))
+
+vilken är huvudstad i texas
+(answer (capital (city (loc_2 (stateid texas:e)))))
+
+vilka stater rinner missouri genom
+(answer (state (traverse_1 (riverid missouri:e))))
+
+vilken stat har den största arean
+(answer (largest_one (area_1 (state all:e))))
+
+genom vilka stater löper den längsta floden i texas genom
+(answer (state (traverse_1 (longest (river (loc_2 (stateid texas:e)))))))
+
+vad är folkmängden i new mexico
+(answer (population_1 (stateid new_mexico:e)))
+
+vilka floder är i stater som gränsar texas
+(answer (river (loc_2 (state (next_to_2 (stateid texas:e))))))
+
+vilka stater gränsar till missourifloden
+(answer (state (next_to_2 (riverid missouri:e))))
+
+vad är den minsta staden i usa
+(answer (smallest (city (loc_2 (countryid usa:e)))))
+
+hur hög är mount mckinley
+(answer (elevation_1 (placeid mount_mckinley:e)))
+
+vad är den högsta punkten i delaware
+(answer (highest (place (loc_2 (stateid delaware:e)))))
+
+vad är den lägsta punkten i mississippi
+(answer (lowest (place (loc_2 (stateid mississippi:e)))))
+
+vilken stat ligger miami i
+(answer (state (loc_1 (cityid miami:e _:e))))
+
+vad är de lägsta punkterna i alla stater genom vilka coloradofloden rinner genom
+(answer (lowest (place (loc_2 (state (traverse_1 (riverid colorado:e)))))))
+
+vilka stater har minst en stor flod
+(answer (state (loc_1 (major (river all:e)))))
+
+vilken är den största staden i louisiana
+(answer (largest (city (loc_2 (stateid louisiana:e)))))
+
+vilken är mest tätbefolkade staten i usa
+(answer (largest_one (density_1 (state (loc_2 (countryid usa:e))))))
+
+vad är den längsta floden i florida
+(answer (longest (river (loc_2 (stateid florida:e)))))
+
+vad är folkmängden i tempe arizona
+(answer (population_1 (cityid tempe:e az:e)))
+
+vad är den största staden i den minsta staten i usa
+(answer (largest (city (loc_2 (smallest (state (loc_2 (countryid usa:e))))))))
+
+vad är folkmängden i alaska
+(answer (population_1 (stateid alaska:e)))
+
+vad är den högsta punkten i nevada i meter
+(answer (highest (place (loc_2 (stateid nevada:e)))))
+
+vilka stora städer ligger i pennsylvania
+(answer (major (city (loc_2 (stateid pennsylvania:e)))))
+
+vilka är floderna i alaska
+(answer (river (loc_2 (stateid alaska:e))))
+
+vilken stats huvudstad är den största
+(answer (state (loc_1 (largest (city (capital_1 (state all:e)))))))
+
+vart finns det berg
+(answer (loc_1 (mountain all:e)))
+
+vilken stat gränsar flest stater
+(answer (most (state (next_to_2 (state all:e)))))
+
+vilka är städerna i staten med den högsta punkten
+(answer (city (loc_2 (state (loc_1 (highest (place all:e)))))))
+
+hur stor befolkning har texas
+(answer (population_1 (stateid texas:e)))
+
+vilka är de stora städerna i new york
+(answer (major (city (loc_2 (stateid new_york:e)))))
+
+vad är usa : s högsta berg
+(answer (highest (mountain (loc_2 (countryid usa:e)))))
+
+vilken stat har den högsta punkten av de som coloradofloden korsar
+(answer (state (loc_1 (highest (place (traverse_1 (riverid colorado:e)))))))
+//(answer (state (loc_1 (highest (place (loc_2 (state (traverse_1 (riverid colorado:e)))))))))
+
+vart är dallas
+(answer (loc_1 (cityid dallas:e _:e)))
+
+vart ligger det högsta berget i usa
+(answer (loc_1 (highest (mountain (loc_2 (countryid usa:e))))))
+//(answer (highest (mountain (loc_2 (countryid usa:e)))))
+
+vilka stater rinner delawarefloden genom
+(answer (state (traverse_1 (riverid delaware:e))))
+
+hur hög är den högsta punkten i amerika
+(answer (elevation_1 (highest (place (loc_2 (countryid usa:e))))))
+
+vilken stad har flest människor
+(answer (largest_one (population_1 (city all:e))))
+
+vad är tätheten av new york
+(answer (density_1 (stateid new_york:e)))
+
+vad är den maximala höjden av san francisco
+(answer (highest (place (loc_2 (cityid san_francisco:e _:e)))))
+
+hur många huvudstäder har rhode island
+(answer (count (capital (loc_2 (stateid rhode_island:e)))))
+
+vad är den högsta punkten i virginia
+(answer (highest (place (loc_2 (stateid virginia:e)))))
+
+hur lång är ohiofloden
+(answer (len (riverid ohio:e)))
+
+hur lång är den längsta floden i kalifornien
+(answer (len (longest (river (loc_2 (stateid california:e))))))
+
+vilken stat har den minsta arean
+(answer (smallest_one (area_1 (state all:e))))
+
+vilka floder rinner inte genom texas
+(answer (exclude (river all:e) (traverse_2 (stateid texas:e))))
+
+vilken stat har flest stora floder som rinner genom den
+(answer (most (state (traverse_1 (major (river all:e))))))
+
+vad är den lägsta punkten i usa
+(answer (lowest (place (loc_2 (countryid usa:e)))))
+
+vad är folkmängden i new york city
+(answer (population_1 (cityid new_york:e _:e)))
+
+vilken stat har den största befolkningen
+(answer (largest_one (population_1 (state all:e))))
+
+vilken är den största delstaten som gränsar till texas
+(answer (largest (state (next_to_2 (stateid texas:e)))))
+
+vad är den största staden i rhode island
+(answer (largest (city (loc_2 (stateid rhode_island:e)))))
+
+vad är folkmängden i tucson
+(answer (population_1 (cityid tucson:e _:e)))
+
+vad är den högsta punkten i maine
+(answer (highest (place (loc_2 (stateid maine:e)))))
+
+hur många människor bor i minneapolis minnesota
+(answer (population_1 (cityid minneapolis:e mn:e)))
+
+vilka floder rinner inte genom usa
+(answer (exclude (river all:e) (traverse_2 (countryid usa:e))))
+
+namnge alla floder i colorado
+(answer (river (loc_2 (stateid colorado:e))))
+
+vad är den längsta floden i den största staten
+(answer (longest (river (loc_2 (largest (state all:e))))))
+
+vilken stat har den minsta befolkningstätheten
+(answer (smallest_one (density_1 (state all:e))))
+
+vilken är huvudstaden i delstaten med den lägsta punkten
+(answer (capital (loc_2 (state (loc_1 (lowest (place all:e)))))))
+
+hur lång är den längsta floden i usa
+(answer (len (longest (river (loc_2 (countryid usa:e))))))
+
+hur många stater gränsar till iowa
+(answer (count (state (next_to_2 (stateid iowa:e)))))
+
+vad är den högsta punkten i delstater som gränsar till georgia
+(answer (highest (place (loc_2 (state (next_to_2 (stateid georgia:e)))))))
+
+san antonio ligger i vilken stat
+(answer (state (loc_1 (cityid san_antonio:e _:e))))
+
+vilken flod korsar flest stater
+(answer (most (river (traverse_2 (state all:e)))))
+
+vad är ohios area
+(answer (area_1 (stateid ohio:e)))
+
+vad är den längsta floden i staten med flest stora städer
+(answer (longest (river (loc_2 (most (state (loc_1 (major (city all:e)))))))))
+
+vilka stater löper den längsta floden genom
+(answer (state (traverse_1 (longest (river all:e)))))
+
+hur många stater har usa
+(answer (count (state (loc_2 (countryid usa:e)))))
+
+vad är folkmängden i den största staden i staten med den största arean
+(answer (population_1 (largest (city (loc_2 (largest_one (area_1 (state all:e))))))))
+
+vad är den högsta punkten i wyoming
+(answer (high_point_1 (stateid wyoming:e)))
+
+vad är det högsta berget i usa
+(answer (highest (mountain (loc_2 (countryid usa:e)))))
+
+hur många invånare bor i texas
+(answer (population_1 (stateid texas:e)))
+
+vilka är de stora städerna i alabama
+(answer (major (city (loc_2 (stateid alabama:e)))))
+
+vilken är det minsta staten som gränsar till flest stater
+(answer (smallest (most (state (next_to_2 (state all:e))))))
+
+vilka är alla floderna i texas
+(answer (river (loc_2 (stateid texas:e))))
+
+vilken är den minst befolkade staten
+(answer (smallest_one (population_1 (state all:e))))
+
+vad är befolkningstätheten i den största staten
+(answer (density_1 (largest (state all:e))))
+
+vilken flod rinner genom flest stater
+(answer (most (river (traverse_2 (state all:e)))))
+
+vilken stat är mount mckinley i
+(answer (state (loc_1 (placeid mount_mckinley:e))))
+
+vilken flod går genom flest stater
+(answer (most (river (traverse_2 (state all:e)))))
+
+vilka är de stora städerna i de stater genom vilka mississippifloden löper
+(answer (major (city (loc_2 (state (traverse_1 (riverid mississippi:e)))))))
+
+vad är den högsta höjden i texas
+(answer (highest (place (loc_2 (stateid texas:e)))))
+
+vilka stater gränsar illinois
+(answer (state (next_to_2 (stateid illinois:e))))
+
+hur många stater gränasr tennessee till
+(answer (count (state (next_to_1 (stateid tennessee:e)))))
+
+hur många människor bor i rhode island
+(answer (population_1 (stateid rhode_island:e)))
+
+antal personer i boulder
+(answer (population_1 (cityid boulder:e _:e)))
+
+berätta vilka städer som ligger i texas
+(answer (city (loc_2 (stateid texas:e))))
+
+vilken flod rinner genom staten med flest städer
+(answer (river (traverse_2 (most (state (loc_1 (city all:e)))))))
+
+vilka stater gränsar till staten med minsta arean
+(answer (state (next_to_2 (smallest_one (area_1 (state all:e))))))
+
+vilka stater gränsar till michigan
+(answer (state (next_to_2 (stateid michigan:e))))
+
+vilken är den största delstaten som gränsar till arkansas
+(answer (largest (state (next_to_2 (stateid arkansas:e)))))
+
+hur lång är north platte floden
+(answer (len (riverid north_platte:e)))
+
+vilken stat som gränsar till nevada har den största befolkningen
+(answer (largest_one (population_1 (state (next_to_2 (stateid nevada:e))))))
+
+vilken är huvudstaden i new york
+(answer (capital (loc_2 (stateid new_york:e))))
+
+vilka floder löper genom stater med minst antal städer
+(answer (river (traverse_2 (fewest (state (loc_1 (city all:e)))))))
+
+vad är folkmängden i de stora städerna i texas
+(answer (population_1 (major (city (loc_2 (stateid texas:e))))))
+
+vilken är huvudstaden i delstaten med den längsta floden
+(answer (capital (loc_2 (state (loc_1 (longest (river all:e)))))))
+
+vilken stat har flest floder
+(answer (most (state (loc_1 (river all:e)))))
+
+hur många människor bor i huvudstaden av texas
+(answer (population_1 (capital (loc_2 (stateid texas:e)))))
+
+vart är det mest befolkade området i new mexico
+(answer (loc_1 (largest_one (population_1 (city (loc_2 (stateid new_mexico:e)))))))
+//(answer (largest_one (population_1 (city (loc_2 (stateid new_mexico:e))))))
+
+hur många stater har en högre punkt än den högsta punkten i staten med den största huvudstaden i usa
+(answer (count (state (loc_1 (place (higher_2 (highest (place (loc_2 (state (loc_1 (largest (capital (city (loc_2 (countryid usa:e))))))))))))))))
+
+hur många människor bor i mississippi
+(answer (population_1 (stateid mississippi:e)))
+
+vad är den största staden i den minsta staten genom vilken mississippi rinner
+(answer (largest (city (loc_2 (smallest (state (traverse_1 (riverid mississippi:e))))))))
+
+vilka stater har städer som heter salt lake city
+(answer (state (loc_1 (city (cityid salt_lake_city:e _:e)))))
+
+vilken stat har den minsta stadsbefolkningen
+(answer (smallest_one (population_1 (state all:e))))
+
+hur hög är den högsta punkten i montana
+(answer (elevation_1 (highest (place (loc_2 (stateid montana:e))))))
+
+vilken är den minsta staten som mississippifloden rinner genom
+(answer (smallest (state (traverse_1 (riverid mississippi:e)))))
+
+vad är arean av staten texas
+(answer (area_1 (stateid texas:e)))
+
+vilka är de stora städerna i vermont
+(answer (major (city (loc_2 (stateid vermont:e)))))
+
+vilken är den största huvudstaden i usa
+(answer (largest (capital (city (loc_2 (countryid usa:e))))))
+
+vart ligger chattahoochee floden
+(answer (loc_1 (riverid chattahoochee:e)))
+
+vad är folkmängden i utah
+(answer (population_1 (stateid utah:e)))
+
+hur många stater finns det i usa
+(answer (count (state (loc_2 (countryid usa:e)))))
+
+vilka stater ligger bredvid arizona
+(answer (state (next_to_2 (stateid arizona:e))))
+
+vad är den lägsta punkten i arkansas
+(answer (lowest (place (loc_2 (stateid arkansas:e)))))
+
+vilken är den folkrikaste staten
+(answer (largest_one (population_1 (state all:e))))
+
+vad är folkmängden i mississippi
+(answer (population_1 (stateid mississippi:e)))
+
+vilken stat gränsar till flest antal stater
+(answer (most (state (next_to_2 (state all:e)))))
+
+vilken amerikansk stad har den högsta befolkningstätheten
+(answer (largest_one (density_1 (city (loc_2 (countryid usa:e))))))
+//(answer (largest_one (density_1 (city all:e))))
+
+vad är wisconsins area
+(answer (area_1 (stateid wisconsin:e)))
+
+hur stort är texas
+(answer (size (stateid texas:e)))
+
+vad är folkmängden i den minsta staten
+(answer (population_1 (smallest (state all:e))))
+//(answer (smallest (population_1 (state all:e))))
+
+vad är tätheten av den stat som den största floden i usa rinner genom
+(answer (density_1 (state (traverse_1 (longest (river (loc_2 (countryid usa:e))))))))
+
+

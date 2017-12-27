@@ -1,0 +1,851 @@
+รัฐ ใด เป็น รัฐ ที่ มี ขนาด เล็ก ที่สุด
+(answer (smallest (state all:e)))
+
+แม่น้ำ สาย ใด ยาว ที่สุด ใน อเมริกา
+(answer (longest (river (loc_2 (countryid usa:e)))))
+
+จุด สูง สุด ของ แต่ละ รัฐ มี อะไร บ้าง
+(answer (highest (place (loc_2 (state all:e)))))
+
+แม่น้ำ สาย หลัก ใน รัฐ โอไฮโอ มี อะไร บ้าง
+(answer (major (river (loc_2 (stateid ohio:e)))))
+
+จง บอก ชื่อ แม่น้ำ สาย หลัก ใน รัฐ ฟลอริดา
+(answer (major (river (loc_2 (stateid florida:e)))))
+
+เมือง อีรี รัฐ เพ็นซิลเวเนีย มี ประชากร เท่าใด
+(answer (population_1 (cityid erie:e pa:e)))
+
+รัฐ ใด มี ความ หนาแน่น ของ ประชากร ต่ำ ที่สุด
+(answer (smallest_one (density_1 (state all:e))))
+
+เมือง ใด เป็น เมือง ที่ เล็ก ที่สุด
+(answer (loc_1 (smallest (city all:e))))
+
+แม่น้ำ สาย ใด ไหล ผ่าน รัฐ ที่ อยู่ ติด กับ รัฐ ที่ มี เมืองหลวง ชื่อ ออสติน
+(answer (river (traverse_2 (state (next_to_2 (state (loc_1 (capital (cityid austin:e _:e)))))))))
+
+จุด ต่ำ สุด ของ รัฐ แมสซาชูเซ็ตต์ อยู่ ที่ไหน
+(answer (lowest (place (loc_2 (stateid massachusetts:e)))))
+
+รัฐ แมรีแลนด์ มี ประชากร กี่ คน
+(answer (population_1 (stateid maryland:e)))
+
+แม่น้ำ มิสซิสซิปปี ไหล ผ่าน รัฐ อะไร บ้าง
+(answer (state (traverse_1 (riverid mississippi:e))))
+
+เมือง พอร์ตแลนด์ ตั้ง อยู่ ที่ไหน
+(answer (loc_1 (cityid portland:e _:e)))
+
+รัฐ ที่ แม่น้ำ มิสซิสซิปปี ไหล ผ่าน มี เมือง อะไร บ้าง
+(answer (city (loc_2 (state (traverse_1 (riverid mississippi:e))))))
+
+เมือง ฮุสตัน มี พลเมือง เท่าไหร่
+(answer (population_1 (cityid houston:e _:e)))
+
+รัฐ ที่ แม่น้ำ มิสซิสซิปปี ไหล ผ่าน มี ประชากร กี่ คน บ้าง
+(answer (population_1 (state (traverse_1 (riverid mississippi:e)))))
+
+แม่น้ำ โอไฮโอ ไหล ผ่าน รัฐ ใด บ้าง
+(answer (state (traverse_1 (riverid ohio:e))))
+
+รัฐ ใด เป็น รัฐ ที่ มี ประชากร มาก ที่สุด
+(answer (largest_one (population_1 (state all:e))))
+
+มี รัฐ ใด บ้าง ที่ ล้อมรอบ รัฐ เคนตักกี้
+(answer (state (next_to_2 (stateid kentucky:e))))
+
+เมืองหลวง ของ รัฐ นอร์ธดาโกตา ชื่อ ว่า อะไร
+(answer (capital (loc_2 (stateid north_dakota:e))))
+
+สหรัฐอเมริกา มี เมือง ทั้ง สิ้น กี่ เมือง
+(answer (count (city (loc_2 (countryid usa:e)))))
+
+เมืองหลวง ใด ใหญ่ ที่สุด ใน สหรัฐ
+(answer (largest (capital (city (loc_2 (countryid usa:e))))))
+
+รัฐ ที่ อยู่ ติด กับ รัฐ เท็กซัส มี ประชากร เท่าไหร่ บ้าง
+(answer (population_1 (state (next_to_2 (stateid texas:e)))))
+
+รัฐ ที่ มี เมือง ชื่อ เดอแรม มี เมืองหลวง ชื่อ อะไร
+(answer (capital (loc_2 (state (loc_1 (city (cityid durham:e _:e)))))))
+
+เมือง ที่ ใหญ่ ที่สุด ของ รัฐ แคนซัส คือ เมือง ใด
+(answer (largest (city (loc_2 (stateid kansas:e)))))
+
+จง บอก จำนวน พลเมือง ใน เมือง โบลเดอร์
+(answer (population_1 (cityid boulder:e _:e)))
+
+รัฐ ใด มี ประชากร มาก ที่สุด
+(answer (largest_one (population_1 (state all:e))))
+
+เมือง ฮุสตัน มี พลเมือง อาศัย อยู่ กี่ คน
+(answer (population_1 (cityid houston:e _:e)))
+
+มี รัฐ อยู่ ทั้งหมด กี่ รัฐ
+(answer (count (state all:e)))
+
+รัฐ ใด อยู่ ติด กับ รัฐ ที่ มี พื้นที่ เล็ก ที่สุด
+(answer (state (next_to_2 (smallest_one (area_1 (state all:e))))))
+
+แม่น้ำ สาย ที่ ยาว ที่สุด ที่ ไหล ผ่าน รัฐ ที่ ติด กับ รัฐ อินเดียนา คือ แม่น้ำ ใด
+(answer (longest (river (traverse_2 (state (next_to_2 (stateid indiana:e)))))))
+
+รัฐ ใด อยู่ ติด กับ รัฐ ที่ มี ประชากร มาก ที่สุด
+(answer (state (next_to_2 (largest_one (population_1 (state all:e))))))
+
+เมือง ใด ใหญ่ ที่สุด ใน รัฐ แคลิฟอร์เนีย
+(answer (largest (city (loc_2 (stateid california:e)))))
+
+แม่น้ำ ใด ยาว ที่สุด ใน บรรดา รัฐ ที่ อยู่ ติด กับ รัฐ เนบราสกา
+(answer (longest (river (loc_2 (state (next_to_2 (stateid nebraska:e)))))))
+
+เมืองหลวง ของ รัฐ นิวเจอร์ซี ชื่อ ว่า อะไร
+(answer (capital (loc_2 (stateid new_jersey:e))))
+
+รัฐ ใด มี เมือง เอก มาก ที่สุด
+(answer (most (state (loc_1 (major (city all:e))))))
+
+มี แม่น้ำ โคโลราโด อยู่ กี่ สาย
+(answer (count (riverid colorado:e)))
+
+ที่ใด จุด สูง ที่สุด ใน สหรัฐอเมริกา
+(answer (highest (place (loc_2 (countryid usa:e)))))
+
+เมือง ใหญ่ ที่สุด ของ รัฐ นิวยอร์ค มี ประชากร กี่ คน
+(answer (population_1 (largest (city (loc_2 (stateid new_york:e))))))
+
+รัฐ ที่ ล้อมรอบ รัฐ มิสซูรี มี เมืองหลวง ชื่อ อะไร บ้าง
+(answer (capital (loc_2 (state (next_to_2 (stateid missouri:e))))))
+
+แม่น้ำ สาย ที่ ไหล ผ่าน จำนวน รัฐ มาก ที่สุด มี ความ ยาว เท่าไหร่
+(answer (len (most (river (traverse_2 (state all:e))))))
+
+จุด สูง สุด ของ รัฐ ที่ มี เมืองหลวง ชื่อ ออสติน อยู่ ที่ใด
+(answer (highest (place (loc_2 (state (loc_1 (capital (cityid austin:e _:e))))))))
+
+รัฐ ใด มี เมืองหลวง ใหญ่ ที่สุด
+(answer (state (loc_1 (largest (capital all:e)))))
+
+เมืองหลวง ของ รัฐ แมสซาชูเซ็ตต์ ชื่อ อะไร
+(answer (capital (loc_2 (stateid massachusetts:e))))
+
+รัฐ ใด บ้าง อยู่ ติด กับ รัฐ นิวเจอร์ซี
+(answer (state (next_to_2 (stateid new_jersey:e))))
+
+รัฐ ใด บ้าง อยู่ ติด กับ รัฐ ที่ แม่น้ำ โอไฮโอ ไหล ผ่าน
+(answer (state (next_to_2 (state (traverse_1 (riverid ohio:e))))))
+
+รัฐ ใด มี จุด สูง สุด ของ ประเทศ อยู่
+(answer (state (loc_1 (highest (place all:e)))))
+
+รัฐ ใด มี แม่น้ำ มิสซิสซิปปี ไหล ผ่าน และ มี ประชากร มาก ที่สุด
+(answer (largest_one (population_1 (state (traverse_1 (riverid mississippi:e))))))
+
+ยอดเขา ใด เป็น ยอดเขา ที่ สูง ที่สุด ที่ ไม่ได้ อยู่ ใน รัฐ อลาสกา
+(answer (highest (exclude (mountain all:e) (loc_2 (stateid alaska:e)))))
+
+รัฐ ใด มี เมือง เอก มาก ที่สุด
+(answer (most (state (loc_1 (major (city all:e))))))
+
+รัฐ ใด บ้าง มี เมือง ชื่อ ว่า พอร์ตแลนด์
+(answer (state (loc_1 (city (cityid portland:e _:e)))))
+
+รัฐ ที่ มี ความ หนาแน่น ของ ประชากร น้อย ที่สุด มี จุด สูง สุด อยู่ ที่ ใด
+(answer (highest (place (loc_2 (smallest_one (density_1 (state all:e)))))))
+
+รัฐ ใด อยู่ ติด กับ รัฐ ที่ มี เมือง เอก มาก ที่สุด
+(answer (state (next_to_2 (most (state (loc_1 (major (city all:e))))))))
+
+เมือง ที่ เล็ก ที่สุด ใน สหรัฐ คือ เมือง ใด
+(answer (smallest (city (loc_2 (countryid usa:e)))))
+
+รัฐ ฮาวาย มี ประชากร เท่าไหร่
+(answer (population_1 (stateid hawaii:e)))
+
+รัฐ ใด บ้าง อยู่ ติด กับ รัฐ อินเดียนา
+(answer (state (next_to_2 (stateid indiana:e))))
+
+สหรัฐอเมริกา มี รัฐ ทั้งหมด กี่ รัฐ
+(answer (count (state (loc_2 (countryid usa:e)))))
+
+เมืองหลวง ของ รัฐ อิลลินอยส์ ชื่อ ว่า อะไร
+(answer (capital (loc_2 (stateid illinois:e))))
+
+แม่น้ำ ใด ไหล ผ่าน รัฐ ที่ อยู่ ติด กับ รัฐ อื่น มาก ที่สุด
+(answer (river (traverse_2 (most (state (next_to_2 (state all:e)))))))
+
+รัฐ ใด อยู่ ติด กับ รัฐ ที่ อยู่ ติด กับ รัฐ อื่น มาก ที่สุด
+(answer (state (next_to_2 (most (state (next_to_2 (state all:e)))))))
+
+แม่น้ำ โคโลราโด มี ความ ยาว เท่าไหร่
+(answer (len (riverid colorado:e)))
+
+รัฐ ใด ที่ มี แม่น้ำ ที่ ยาว ที่สุด ไหล ผ่าน
+(answer (state (loc_1 (longest (river all:e)))))
+
+รัฐ ใด อยู่ ติด กับ รัฐ เคนตักกี
+(answer (state (next_to_2 (stateid kentucky:e))))
+
+จง บอก ชื่อ รัฐ ที่ อยู่ ติด กับ รัฐ ยูทาห์
+(answer (state (next_to_2 (stateid utah:e))))
+
+รัฐ ที่ มี ความ หนาแน่น ของ ประชากร มาก ที่สุด มี เมืองหลวง ชื่อ อะไร
+(answer (capital (loc_2 (largest_one (density_1 (state all:e))))))
+
+รัฐ ใด มี เมือง ชื่อ ว่า พลาโน
+(answer (state (loc_1 (city (cityid plano:e _:e)))))
+
+รัฐ ใด บ้าง อยู่ ติด กับ รัฐ ที่ มี เมือง มาก ที่สุด
+(answer (state (next_to_2 (most (state (loc_1 (city all:e)))))))
+
+เมือง ที่ ใหญ่ ที่สุด ใน อเมริกา มี ประชากร เท่าไหร่
+(answer (population_1 (largest (city (loc_2 (countryid usa:e))))))
+//(answer (population_1 (largest (city all:e))))
+
+มี ผู้คน อาศัย อยู่ ใน รัฐ ยูทาห์ มากน้อย แค่ไหน
+(answer (population_1 (stateid utah:e)))
+
+รัฐ ใด อยู่ ติด กับ รัฐ มอนตานา
+(answer (state (next_to_2 (stateid montana:e))))
+
+จง บอก รายชื่อ แม่น้ำ ใน รัฐ นิวยอร์ค มา
+(answer (river (traverse_2 (stateid new_york:e))))
+
+แม่น้ำ ใด ไหล ผ่าน รัฐ ที่ อยู่ ติด กับ รัฐ อื่น มาก ที่สุด
+(answer (river (traverse_2 (most (state (next_to_2 (state all:e)))))))
+
+จง นับ จำนวน รัฐ ที่ มี ที่สูง ต่ำ กว่า ที่สูง ของ รัฐ อลาบามา
+(answer (count (state (low_point_2 (lower_2 (low_point_1 (stateid alabama:e)))))))
+
+แม่น้ำ ใด ไหล ผ่าน รัฐ ต่างๆ มาก ที่สุด
+(answer (most (river (traverse_2 (state all:e)))))
+
+รัฐ เท็กซัส มี แม่น้ำ อะไร บ้าง
+(answer (river (loc_2 (stateid texas:e))))
+
+รัฐ ใด มี ภูเขา ที่ สูง ที่สุด
+(answer (state (loc_1 (highest (place all:e)))))
+
+รัฐ ใด มี เมือง ชื่อ ออสติน อยู่
+(answer (state (loc_1 (cityid austin:e _:e))))
+
+จุด สูง สุด ของ รัฐ อลาบามา มี ความ สูง เท่าไหร่
+(answer (elevation_1 (highest (place (loc_2 (stateid alabama:e))))))
+
+แม่น้ำ มิสซิสซิปปี มี ความ ยาว เท่าไหร่
+(answer (len (riverid mississippi:e)))
+
+รัฐ โคโลราโด มี แม่น้ำ กี่ สาย
+(answer (count (river (loc_2 (stateid colorado:e)))))
+
+แม่น้ำ มิสซิสซิปปี มี ความ ยาว เท่าไหร่
+(answer (len (riverid mississippi:e)))
+
+รัฐ ใด มี แม่น้ำ เยอะ ที่สุด
+(answer (most (state (loc_1 (river all:e)))))
+
+เมือง ออสติน มี ประชากร กี่ คน
+(answer (population_1 (cityid austin:e _:e)))
+
+เมือง ใด ใน สหรัฐอเมริกา มี ความ หนาแน่น ของ ประชากร สูง สุด
+(answer (largest_one (density_1 (city (loc_2 (countryid usa:e))))))
+
+รัฐ ใด มี แม่น้ำ บ้าง
+(answer (state (loc_1 (river all:e))))
+
+จุด สูง สุด ของ อเมริกา อยู่ ตรงไหน
+(answer (highest (place (loc_2 (countryid usa:e)))))
+
+รัฐ ฟลอริดา มี พื้นที่ เท่าไหร่
+(answer (area_1 (stateid florida:e)))
+
+เมืองหลวง ของ รัฐ แคลิฟอร์เนีย ชื่อ อะไร
+(answer (capital (loc_2 (stateid california:e))))
+
+รัฐ ที่ มี ประชากร มาก ที่สุด มี เมืองหลวง ชื่อ อะไร
+(answer (capital (loc_2 (largest_one (population_1 (state all:e))))))
+
+รัฐ ใด มี แม่น้ำ สาย หลัก มาก ที่สุด
+(answer (most (state (loc_1 (major (river all:e))))))
+
+เมืองหลวง ใด มี ประชากร มาก ที่สุด
+(answer (capital (loc_2 (largest_one (population_1 (state all:e))))))
+
+รัฐ โอไฮโอ มี เมืองหลวง ชื่อ อะไร
+(answer (capital (loc_2 (stateid ohio:e))))
+
+รัฐ ใด มี ที่สูง ต่ำ ที่สุด
+(answer (state (loc_1 (lowest (place all:e)))))
+
+ประชากร ของ เมือง ซานอันโตนิโอ มี เท่าไหร่
+(answer (population_1 (cityid san_antonio:e _:e)))
+
+มี รัฐ ติด อยู่ กับ รัฐ ไอโอวา อยู่ กี่ รัฐ
+(answer (count (state (next_to_2 (stateid iowa:e)))))
+
+รัฐ ใด บ้าง ที่ แม่น้ำ แชตตาฮูชี ไหล ผ่าน
+(answer (state (traverse_1 (riverid chattahoochee:e))))
+
+เมือง ดีทรอยท์ มี ประชากร อาศัย อยู่ เท่าไหร่
+(answer (population_1 (cityid detroit:e _:e)))
+
+มี กี่ รัฐ ที่ ไม่มี แม่น้ำ เลย
+(answer (count (exclude (state all:e) (loc_1 (river all:e)))))
+
+รัฐ ใด อยู่ ติด กับ รัฐ ที่ ติด กับ รัฐ มิสซิสซิปปี
+(answer (state (next_to_2 (state (next_to_2 (stateid mississippi:e))))))
+
+เมือง เอก ของ อเมริกา มี อะไรบ้าง
+(answer (major (city (loc_2 (countryid usa:e)))))
+
+เมือง ใด มี ประชากร มาก ที่สุด
+(answer (largest_one (population_1 (city all:e))))
+
+แม่น้ำ สาย ที่ ยาว ที่สุด ที่ ไหล ผ่าน รัฐ เท็กซัส มี ความ ยาว เท่าไหร่
+(answer (len (longest (river (traverse_2 (stateid texas:e))))))
+
+ยอดเขา แมคคินลีย์ มี ความ สูง เท่าไหร่
+(answer (elevation_1 (placeid mount_mckinley:e)))
+
+รัฐ ใด มี ความ หนาแน่น ของ ประชากร น้อย ที่สุด
+(answer (smallest_one (density_1 (state all:e))))
+
+จง บอก จำนวน แม่น้ำ ใน รัฐ แคลิฟอร์เนีย
+(answer (count (river (loc_2 (stateid california:e)))))
+
+แม่น้ำ สาย ใด เป็น แม่น้ำ สาย ที่ ใหญ่ ที่สุด ใน รัฐ วอชิงตัน
+(answer (longest (river (loc_2 (stateid washington:e)))))
+
+เมืองหลวง ของ รัฐ ฟลอริดา ชื่อ อะไร
+(answer (capital (loc_2 (stateid florida:e))))
+
+เมือง ใด ใน รัฐ แคลิฟอร์เนีย มี ประชากร มาก ที่สุด
+(answer (largest_one (population_1 (city (loc_2 (stateid california:e))))))
+
+จุด สูง สุด ของ รัฐ มอนตานา คือ ที่ใด
+(answer (highest (place (loc_2 (stateid montana:e)))))
+
+จุด ต่ำ สุด ของ รัฐ แคลิฟอร์เนีย คือ จุด ไหน
+(answer (lowest (place (loc_2 (stateid california:e)))))
+
+เมือง หลัก ของ รัฐ อลาสกา มี อะไร บ้าง
+(answer (major (city (loc_2 (stateid alaska:e)))))
+
+เมื่อ นำ รัฐ ทั้ง 50 รัฐ มา รวม กัน จะ มี พื้นที่ เท่าไหร่
+(answer (sum (area_1 (state all:e))))
+
+จุด ต่ำ สุด ของ รัฐ เนบราสกา คือ จุด ใด เมื่อ วัด ใน หน่วย เมตร
+(answer (lowest (place (loc_2 (stateid nebraska:e)))))
+
+รัฐ ใด มี ขนาด เล็ก ที่สุด
+(answer (smallest (state all:e)))
+
+รัฐ ไอโอวา มี แม่น้ำ กี่ สาย
+(answer (count (river (loc_2 (stateid iowa:e)))))
+
+รัฐ ใด อยู่ ติด กับ รัฐ ฟลอริดา
+(answer (state (next_to_2 (stateid florida:e))))
+
+รัฐ เท็กซัส มี แม่น้ำ อะไร บ้าง
+(answer (river (loc_2 (stateid texas:e))))
+
+เมือง เอก ของ รัฐ แคลิฟอร์เนีย มี อะไร บ้าง
+(answer (major (city (loc_2 (stateid california:e)))))
+
+รัฐ ใด มี ประชากร มาก ที่สุด
+(answer (largest_one (population_1 (state all:e))))
+
+จุด สูง สุด ของ รัฐ ที่ อยู่ ติด กับ รัฐ โคโลราโด คือ จุด ไหน
+(answer (highest (place (loc_2 (state (next_to_2 (stateid colorado:e)))))))
+
+จุด สูง สุด ของ รัฐ ฮาวาย อยู่ ตรงไหน
+(answer (loc_1 (highest (place (loc_2 (stateid hawaii:e))))))
+//(answer (highest (place (loc_2 (stateid hawaii:e)))))
+
+รัฐ ไอโอวา มี จุด สูง สุด ที่ไหน
+(answer (highest (place (loc_2 (stateid iowa:e)))))
+
+รัฐ ที่ แม่น้ำ มิสซิสซิปปี ไหล ผ่าน มี ประชากร เท่าใด
+(answer (population_1 (state (traverse_1 (riverid mississippi:e)))))
+
+เมือง หลวง ของ รัฐ ไอโอวา ชื่อ ว่า อะไร
+(answer (capital (loc_2 (stateid iowa:e))))
+
+เมืองหลวง ใด มี ประชากร น้อย ที่สุด
+(answer (smallest_one (population_1 (capital all:e))))
+
+เมือง ใด เป็น เมือง ที่ ใหญ่ ที่สุด ใน รัฐ ที่ มี แม่น้ำ ด้วย
+(answer (largest (city (loc_2 (state (loc_1 (river all:e)))))))
+
+รัฐ ใด บ้าง อยู่ ติด กับ รัฐ ฮาวาย
+(answer (state (next_to_2 (stateid hawaii:e))))
+
+รัฐ อลาสกา มี พื้นที่ เท่าไหร่
+(answer (size (stateid alaska:e)))
+
+รัฐ ใด เป็น รัฐ ที่ เล็ก ที่สุด ที่ อยู่ ติด กับ รัฐ ไวโอมิง
+(answer (smallest (state (next_to_2 (stateid wyoming:e)))))
+
+รัฐ ใด มี ความ หนาแน่น ของ ประชากร สูง สุด
+(answer (largest_one (density_1 (state all:e))))
+
+รัฐ ที่ อยู่ ติด กับ รัฐ เพ็นซิลเวเนีย รัฐ ใด มี ประชากร มาก ที่สุด
+(answer (largest_one (population_1 (state (next_to_2 (stateid pennsylvania:e))))))
+
+นิวยอร์ค อยู่ ติด กับ รัฐ ใด บ้าง
+(answer (state (next_to_2 (stateid new_york:e))))
+
+จุด สูง สุด ของ อเมริกา อยู่ ที่ไหน
+(answer (highest (place (loc_2 (countryid usa:e)))))
+
+มี พลเมือง จำนวน เท่าไหร่ อาศัย อยู่ ใน ประเทศ สหรัฐอเมริกา
+(answer (population_1 (countryid usa:e)))
+
+รัฐ ใด อยู่ ติด กับ รัฐ เท็กซัส และ มี แม่น้ำ สาย หลัก
+(answer (state (intersection (next_to_2 (stateid texas:e)) (loc_1 (major (river all:e))))))
+//(answer (intersection (state (next_to_2 (stateid texas:e))) (loc_1 (major (river all:e)))))
+
+จุด ต่ำ สุด ของ รัฐ แมรีแลนด์ อยู่ ที่ไหน
+(answer (loc_1 (lowest (place (loc_2 (stateid maryland:e))))))
+//(answer (lowest (place (loc_2 (stateid maryland:e)))))
+
+รัฐ ที่ มี ความ หนาแน่น ของ ประชากร มาก ที่สุด มี ประชากร กี่ คน
+(answer (population_1 (largest_one (density_1 (state all:e)))))
+
+รัฐ ใด มี เมือง ชื่อ ว่า ดัลลัส
+(answer (state (loc_1 (city (cityid dallas:e _:e)))))
+
+รัฐ ที่ อยู่ ติด กับ รัฐ ที่ ติด กับ รัฐ อื่น มาก ที่สุด มี ประชากร กี่ คน
+(answer (population_1 (most (state (next_to_2 (state all:e))))))
+
+มี กี่ รัฐ บ้าง ที่ อยู่ ติด กับ รัฐ ที่ มี ประชากร มาก ที่สุด
+(answer (count (state (next_to_2 (largest_one (population_1 (state all:e)))))))
+
+รัฐ ใด มี พื้นที่ ใหญ่ ที่สุด
+(answer (largest_one (area_1 (state all:e))))
+
+รัฐ ใด บ้าง มี แม่น้ำ มิสซิสซิปปี ไหล ผ่าน
+(answer (state (traverse_1 (riverid mississippi:e))))
+
+แม่น้ำ ทุก สาย ของ อเมริกา มี ความ ยาว รวม กัน เท่าไหร่
+(answer (sum (len (river (loc_2 (countryid usa:e))))))
+//(answer (sum (len (river all:e))))
+
+แม่น้ำ เดลาแวร์ มี ความ ยาว เท่าไหร่
+(answer (len (riverid delaware:e)))
+
+รัฐ โคโลราโด มี เมืองหลวง ชื่อ อะไร
+(answer (capital (loc_2 (stateid colorado:e))))
+
+แม่น้ำ โคโลราโด ยาว เท่าไหร่
+(answer (len (riverid colorado:e)))
+
+รัฐ แต่ละ รัฐ มี ความ หนาแน่น ของ ประชากร เท่าไหร่ บ้าง
+(answer (density_1 (state all:e)))
+
+รัฐ ใด มี ความ หนาแน่น ของ ประชากร ต่ำ ที่สุด
+(answer (smallest_one (density_1 (state all:e))))
+
+รัฐ ใด บ้าง มี เมือง ชื่อ ว่า โรเชสเตอร์
+(answer (state (loc_1 (city (cityid rochester:e _:e)))))
+
+รัฐ ใด มี จุด ต่ำ สุด อยู่ ติด กับ รัฐ ไอดาโฮ
+(answer (state (loc_1 (lowest (place (loc_2 (next_to_2 (stateid idaho:e))))))))
+
+รัฐ ที่ มี ขนาด เล็ก ที่สุด มี เมืองหลวง ชื่อ อะไร
+(answer (capital (loc_2 (smallest (state all:e)))))
+
+รัฐ วอชิงตัน มี ประชากร เท่าไหร่
+(answer (population_1 (stateid washington:e)))
+
+รัฐ ไอโอวา อยู่ ติด กับ รัฐ ทั้งหมด กี่ รัฐ
+(answer (count (state (next_to_1 (stateid iowa:e)))))
+
+รัฐ ใด มี เมือง ชื่อ ว่า ออสติน บ้าง
+(answer (state (loc_1 (city (cityid austin:e _:e)))))
+
+รัฐ ที่ มี แม่น้ำ อยู่ มาก ที่สุด มี แม่น้ำ อยู่ กี่ สาย
+(answer (count (river (loc_2 (most (state (loc_1 (river all:e))))))))
+
+แม่น้ำ สาย ใด ไหล ผ่าน รัฐ นิวยอร์ค
+(answer (river (loc_2 (stateid new_york:e))))
+
+รัฐ เมน มี ความ หนาแน่น ของ ประชากร เท่าไหร่
+(answer (density_1 (stateid maine:e)))
+
+แม่น้ำ ที่ ไหล ผ่าน จำนวน รัฐ มาก ที่สุด มี ความ ยาว เท่าไหร่
+(answer (len (most (river (traverse_2 (state all:e))))))
+
+เมืองหลวง ของ รัฐ เท็กซัส ชื่อ ว่า อะไร
+(answer (capital (city (loc_2 (stateid texas:e)))))
+
+รัฐ ใด บ้าง ที่ แม่น้ำ มิสซูรี ไหล ผ่าน
+(answer (state (traverse_1 (riverid missouri:e))))
+
+รัฐ ใด มี พื้นที่ ใหญ่ ที่สุด
+(answer (largest_one (area_1 (state all:e))))
+
+แม่น้ำ สาย ที่ ยาว ที่สุด ใน รัฐ เท็กซัส ไหล ผ่าน รัฐ ใด บ้าง
+(answer (state (traverse_1 (longest (river (loc_2 (stateid texas:e)))))))
+
+รัฐ นิวเม็กซิโก มี ประชากร เท่าไหร่
+(answer (population_1 (stateid new_mexico:e)))
+
+รัฐ ที่ อยู่ ติด กับ รัฐ เท็กซัส มี แม่น้ำ อะไร บ้าง
+(answer (river (loc_2 (state (next_to_2 (stateid texas:e))))))
+
+รัฐ ใด อยู่ ติด กับ แม่น้ำ มิสซูรี บ้าง
+(answer (state (next_to_2 (riverid missouri:e))))
+
+เมือง ที่ เล็ก ที่สุด ใน สหรัฐ คือ เมือง ใด
+(answer (smallest (city (loc_2 (countryid usa:e)))))
+
+ภูเขา แมคคินลีย์ มี ความ สูง เท่าไหร่
+(answer (elevation_1 (placeid mount_mckinley:e)))
+
+จุด สูง สุด ของ รัฐ เดลาแวร์ อยู่ ตรงไหน
+(answer (highest (place (loc_2 (stateid delaware:e)))))
+
+จุด ต่ำ สุด ของ รัฐ มิสซิสซิปปี อยู่ ที่ไหน
+(answer (lowest (place (loc_2 (stateid mississippi:e)))))
+
+เมือง ไมอามี อยู่ ใน รัฐ ใด
+(answer (state (loc_1 (cityid miami:e _:e))))
+
+รัฐ ที่ แม่น้ำ โคโลราโด ไหล ผ่าน มี จุด ต่ำ สุด ที่ใด บ้าง
+(answer (lowest (place (loc_2 (state (traverse_1 (riverid colorado:e)))))))
+
+รัฐ ใด มี แม่น้ำ สาย หลัก อย่างน้อย หนึ่ง สาย
+(answer (state (loc_1 (major (river all:e)))))
+
+เมือง ใด เป็น เมือง ใหญ่ ที่สุด ใน รัฐ หลุยเซียนา
+(answer (largest (city (loc_2 (stateid louisiana:e)))))
+
+รัฐ ใด ใน อเมริกา ที่ มี ประชากร หนาแน่น ที่สุด
+(answer (largest_one (density_1 (state (loc_2 (countryid usa:e))))))
+
+แม่น้ำ สาย ใด ยาว ที่สุด ใน รัฐ ฟลอริดา
+(answer (longest (river (loc_2 (stateid florida:e)))))
+
+เมือง เทมเป้ รัฐ แอริโซนา มี ประชากร กี่ คน
+(answer (population_1 (cityid tempe:e az:e)))
+
+เมือง ใด เป็น เมือง ใหญ่ ที่สุด ใน รัฐ ที่ เล็ก ที่สุด ใน อเมริกา
+(answer (largest (city (loc_2 (smallest (state (loc_2 (countryid usa:e))))))))
+
+ประชากร ของ รัฐ อลาสกา มี เท่าไหร่
+(answer (population_1 (stateid alaska:e)))
+
+จุด สูง สุด ของ รัฐ เนวาดา คือ จุด ใด วัด ใน หน่วย เมตร
+(answer (highest (place (loc_2 (stateid nevada:e)))))
+
+มี เมือง หลัก ใด บ้าง ที่ ตั้ง อยู่ ใน รัฐ เพนซิลเวเนีย
+(answer (major (city (loc_2 (stateid pennsylvania:e)))))
+
+รัฐ อลาสกา มี แม่น้ำ กี่ สาย
+(answer (river (loc_2 (stateid alaska:e))))
+
+รัฐ ใด มี เมืองหลวง ใหญ่ ที่สุด
+(answer (state (loc_1 (largest (city (capital_1 (state all:e)))))))
+
+ภูเขา อยู่ ตรงไหน บ้าง
+(answer (loc_1 (mountain all:e)))
+
+รัฐ ใด อยู่ ติด กับ รัฐ อื่น มาก ที่สุด
+(answer (most (state (next_to_2 (state all:e)))))
+
+รัฐ ที่ มี จุด สูง สุด มี เมือง อะไร บ้าง
+(answer (city (loc_2 (state (loc_1 (highest (place all:e)))))))
+
+รัฐ เท็กซัส มี ประชากร เท่าไหร่
+(answer (population_1 (stateid texas:e)))
+
+รัฐ นิวยอร์ค มี เมือง เอก อะไร บ้าง
+(answer (major (city (loc_2 (stateid new_york:e)))))
+
+ภูเขา ที่ สูง ที่สุด ใน สหรัฐอเมริกา มี ชื่อ ว่า อะไร
+(answer (highest (mountain (loc_2 (countryid usa:e)))))
+
+ใน บรรดา รัฐ ที่ แม่น้ำ โคโลราโด ไหล ผ่าน รัฐ ใด มี จุด ที่ สูง ที่สุด
+(answer (state (loc_1 (highest (place (traverse_1 (riverid colorado:e)))))))
+//(answer (state (loc_1 (highest (place (loc_2 (state (traverse_1 (riverid colorado:e)))))))))
+
+เมือง ดัลลัส อยู่ ที่ไหน
+(answer (loc_1 (cityid dallas:e _:e)))
+
+ภูเขา ใด เป็น ภูเขา ที่ สูง ที่สุด ใน สหรัฐอเมริกา
+(answer (loc_1 (highest (mountain (loc_2 (countryid usa:e))))))
+//(answer (highest (mountain (loc_2 (countryid usa:e)))))
+
+แม่น้ำ เดลาแวร์ ไหล ผ่าน รัฐ ใด บ้าง
+(answer (state (traverse_1 (riverid delaware:e))))
+
+จุด ที่ สูง ที่สุด ของ สหรัฐอเมริกา มี ความ สูง เท่าไหร่
+(answer (elevation_1 (highest (place (loc_2 (countryid usa:e))))))
+
+เมือง ใด มี ประชากร มาก ที่สุด
+(answer (largest_one (population_1 (city all:e))))
+
+รัฐ นิวยอร์ค มี ความ หนาแน่น ประชากร เท่าใด
+(answer (density_1 (stateid new_york:e)))
+
+เมือง ซานฟรานซิสโก มี สูง สุด ที่ ใด
+(answer (highest (place (loc_2 (cityid san_francisco:e _:e)))))
+
+รัฐ โรดไอแลนด์ มี เมืองหลวง กี่ เมือง
+(answer (count (capital (loc_2 (stateid rhode_island:e)))))
+
+จุด ใด เป็น จุด สูง สุด ของ รัฐ เวอร์จิเนีย
+(answer (highest (place (loc_2 (stateid virginia:e)))))
+
+แม่น้ำ โอไฮโฮ ยาว เท่าไหร่
+(answer (len (riverid ohio:e)))
+
+แม่น้ำ สาย ที่ ยาว ที่สุด ใน รัฐ แคลิฟอร์เนีย ยาว เท่าไหร่
+(answer (len (longest (river (loc_2 (stateid california:e))))))
+
+รัฐ ใด มี พื้นที่ น้อย ที่สุด
+(answer (smallest_one (area_1 (state all:e))))
+
+แม่น้ำ สาย ใด ไม่ได้ ไหล ผ่าน รัฐ เท็กซัส
+(answer (exclude (river all:e) (traverse_2 (stateid texas:e))))
+
+รัฐ ใด มี แม่น้ำ สาย หลัก ไหล ผ่าน มาก ที่สุด
+(answer (most (state (traverse_1 (major (river all:e))))))
+
+ที่ ใด เป็น จุด ต่ำ สุด ของ สหรัฐ
+(answer (lowest (place (loc_2 (countryid usa:e)))))
+
+ประชากร ของ เมือง นิวยอร์ค มี เท่าไหร่
+(answer (population_1 (cityid new_york:e _:e)))
+
+รัฐ ใด มี จำนวน ประชากร มาก ที่สุด
+(answer (largest_one (population_1 (state all:e))))
+
+รัฐ ใด เป็น รัฐ ใหญ่ ที่สุด ที่ ติด กับ รัฐ เท็กซัส
+(answer (largest (state (next_to_2 (stateid texas:e)))))
+
+เมือง ใด เป็น เมือง ที่ ใหญ่ ที่สุด ใน รัฐ โรดไอแลนด์
+(answer (largest (city (loc_2 (stateid rhode_island:e)))))
+
+เมือง ทูซอน มี ประชากร กี่ คน
+(answer (population_1 (cityid tucson:e _:e)))
+
+จุด สูง สุด ของ รัฐ เมน อยู่ ที่ใด
+(answer (highest (place (loc_2 (stateid maine:e)))))
+
+มี ประชากร กี่ คน อาศัย อยู่ ใน เมือง มินเนอาโพลิส รัฐ มินเนโซตา
+(answer (population_1 (cityid minneapolis:e mn:e)))
+
+แม่น้ำ สาย ใด ไม่ได้ ไหล ผ่าน ประเทศ สหรัฐอเมริกา
+(answer (exclude (river all:e) (traverse_2 (countryid usa:e))))
+
+แม่น้ำ ของ รัฐ โคโลราโด มี อะไร บ้าง
+(answer (river (loc_2 (stateid colorado:e))))
+
+แม่น้ำ สาย ใด เป็น แม่น้ำ สาย ที่ ยาว ที่สุด ใน รัฐ ที่ ใหญ่ ที่สุด
+(answer (longest (river (loc_2 (largest (state all:e))))))
+
+รัฐ ใด มี จำนวน ประชากร เฉลี่ย ใน เมือง น้อย ที่สุด
+(answer (smallest_one (density_1 (state all:e))))
+
+เมืองหลวง ของ รัฐ ที่ มี จุด ต่ำ สุด ชื่อ ว่า อะไร
+(answer (capital (loc_2 (state (loc_1 (lowest (place all:e)))))))
+
+แม่น้ำ ที่ ยาว ที่สุด ใน สหรัฐอเมริกา มี ความ ยาว เท่าไหร่
+(answer (len (longest (river (loc_2 (countryid usa:e))))))
+
+จง บอก จำนวน รัฐ ที่ อยู่ ติด กับ รัฐ ไอโอวา
+(answer (count (state (next_to_2 (stateid iowa:e)))))
+
+จุด ที่ สูง ที่สุด ของ รัฐ ที่ อยู่ ติด กับ รัฐ จอร์เจีย อยู่ ที่ใด
+(answer (highest (place (loc_2 (state (next_to_2 (stateid georgia:e)))))))
+
+เมือง ซานอันโตนิโอ อยู่ ใน รัฐ ใด
+(answer (state (loc_1 (cityid san_antonio:e _:e))))
+
+แม่น้ำ สาย ใด ไหล ผ่าน รัฐ จำนวน มาก ที่สุด
+(answer (most (river (traverse_2 (state all:e)))))
+
+รัฐ โอไฮโฮ มี พื้นที่ เท่าไหร่
+(answer (area_1 (stateid ohio:e)))
+
+รัฐ ที่ มี เมือง หลัก มาก ที่สุด มี แม่น้ำ สาย ยาว ที่สุด ชื่อ อะไร
+(answer (longest (river (loc_2 (most (state (loc_1 (major (city all:e)))))))))
+
+รัฐ ใด บ้าง ที่ แม่น้ำ สาย ที่ ยาว ที่สุด ไหล ผ่าน
+(answer (state (traverse_1 (longest (river all:e)))))
+
+ประเทศ อเมริกา มี รัฐ กี่ รัฐ
+(answer (count (state (loc_2 (countryid usa:e)))))
+
+เมือง ใหญ่ ที่สุด ของ รัฐ ที่ มี พื้นที่ มาก ที่สุด มี ประชากร เท่าไหร่
+(answer (population_1 (largest (city (loc_2 (largest_one (area_1 (state all:e))))))))
+
+จุด สูง สุด ของ รัฐ ไวโอมิง อยู่ ที่ไหน
+(answer (high_point_1 (stateid wyoming:e)))
+
+ภูเขา ไหน สูง ที่สุด ใน สหรัฐอเมริกา
+(answer (highest (mountain (loc_2 (countryid usa:e)))))
+
+รัฐ เท็กซัส มี ประชากร กี่ คน
+(answer (population_1 (stateid texas:e)))
+
+เมือง หลัก ของ รัฐ อลาบามา มี อะไร บ้าง
+(answer (major (city (loc_2 (stateid alabama:e)))))
+
+รัฐ ใด เป็น รัฐ ที่ เล็ก ที่สุด และ อยู่ ติด กับ รัฐ อื่น มาก ที่สุด
+(answer (smallest (most (state (next_to_2 (state all:e))))))
+
+แม่น้ำ ใด ไหล ผ่าน รัฐ เท็กซัส
+(answer (river (loc_2 (stateid texas:e))))
+
+รัฐ ใด มี ประชากร น้อย ที่สุด
+(answer (smallest_one (population_1 (state all:e))))
+
+รัฐ ที่ ใหญ่ ที่สุด มี ความ หนาแน่น ของ ประชากร เท่าไหร่
+(answer (density_1 (largest (state all:e))))
+
+แม่น้ำ สาย ใด ไหล ผ่าน รัฐ มาก ที่สุด
+(answer (most (river (traverse_2 (state all:e)))))
+
+ภูเขา แมคคินลีย์ อยู่ ใน รัฐ ใด
+(answer (state (loc_1 (placeid mount_mckinley:e))))
+
+แม่น้ำ ใด ไหล ผ่าน จำนวน รัฐ มาก ที่สุด
+(answer (most (river (traverse_2 (state all:e)))))
+
+รัฐ ต่างๆ ที่ แม่น้ำ มิสซิสซิปปี ไหล ผ่าน มี เมือง หลัก อะไร บ้าง
+(answer (major (city (loc_2 (state (traverse_1 (riverid mississippi:e)))))))
+
+จุด สูง สุด ของ รัฐ เท็กซัส อยู่ ตรงไหน
+(answer (highest (place (loc_2 (stateid texas:e)))))
+
+รัฐ ใด อยู่ ติด กับ รัฐ อิลลินอยส์ บ้าง
+(answer (state (next_to_2 (stateid illinois:e))))
+
+รัฐ เทนเนสซี อยู่ ติด กับ กี่ รัฐ
+(answer (count (state (next_to_1 (stateid tennessee:e)))))
+
+รัฐ โรดไอแลนด์ มี ประชากร เท่าไหร่
+(answer (population_1 (stateid rhode_island:e)))
+
+จำนวน ประชากร ใน เมือง โบลเดอร์
+(answer (population_1 (cityid boulder:e _:e)))
+
+จง บอก ชื่อ เมือง ที่ อยู่ ใน รัฐ เท็กซัส
+(answer (city (loc_2 (stateid texas:e))))
+
+แม่น้ำ สาย ใด บ้าง ที่ ไหล ผ่าน รัฐ ที่ มี จำนวน เมือง มาก ที่สุด
+(answer (river (traverse_2 (most (state (loc_1 (city all:e)))))))
+
+รัฐ ใด อยู่ ติด กับ รัฐ ที่ มี พื้นที่ น้อย ที่สุด
+(answer (state (next_to_2 (smallest_one (area_1 (state all:e))))))
+
+รัฐ ใด อยู่ ติด กับ รัฐ มิชิแกน
+(answer (state (next_to_2 (stateid michigan:e))))
+
+รัฐ ใด เป็น รัฐ ที่ ใหญ่ ที่สุด ที่ อยู่ ติด กับ รัฐ อาร์คันซอ
+(answer (largest (state (next_to_2 (stateid arkansas:e)))))
+
+แม่น้ำ นอร์ธเพลต มี ความ ยาว เท่าไหร่
+(answer (len (riverid north_platte:e)))
+
+ใน บรรดา รัฐ ที่ อยู่ ติด กับ รัฐ เนวาดา รัฐ ใด มี ประชากร มาก ที่สุด
+(answer (largest_one (population_1 (state (next_to_2 (stateid nevada:e))))))
+
+เมืองหลวง ของ รัฐ นิวยอร์ค ชื่อ อะไร
+(answer (capital (loc_2 (stateid new_york:e))))
+
+แม่น้ำ ใด ไหล ผ่าน รัฐ ที่ มี จำนวน เมือง น้อย ที่สุด
+(answer (river (traverse_2 (fewest (state (loc_1 (city all:e)))))))
+
+เมือง หลัก ของ รัฐ เท็กซัส มี ประชากร เท่าไร บ้าง
+(answer (population_1 (major (city (loc_2 (stateid texas:e))))))
+
+เมือง หลวง ของ รัฐ ที่ มี แม่น้ำ สาย ที่ ยาว ที่สุด มี ชื่อ ว่า อะไร
+(answer (capital (loc_2 (state (loc_1 (longest (river all:e)))))))
+
+รัฐ ใด มี แม่น้ำ มาก ที่สุด
+(answer (most (state (loc_1 (river all:e)))))
+
+เมืองหลวง ของ รัฐ เท็กซัส มี ประชากร เท่าไหร่
+(answer (population_1 (capital (loc_2 (stateid texas:e)))))
+
+พื้นที่ ใด เป็น พื้นที่ ที่ มี ประชากร มาก ที่สุด ใน รัฐ นิวเม็กซิโก
+(answer (loc_1 (largest_one (population_1 (city (loc_2 (stateid new_mexico:e)))))))
+//(answer (largest_one (population_1 (city (loc_2 (stateid new_mexico:e))))))
+
+รัฐ ใด บ้าง ที่ มี จุด สูง กว่า จุด สูง สุด ของ รัฐ ที่ มี เมืองหลวง ใหญ่ ที่สุด ใน สหรัฐ
+(answer (count (state (loc_1 (place (higher_2 (highest (place (loc_2 (state (loc_1 (largest (capital (city (loc_2 (countryid usa:e))))))))))))))))
+
+รัฐ มิสซิสซิปปี มี พลเมือง อาศัย อยู่ เท่าใด
+(answer (population_1 (stateid mississippi:e)))
+
+เมือง ใหญ่ ที่สุด ใน รัฐ ที่ เล็ก ที่สุด ที่ แม่น้ำ มิสซิสซิปปี ไหล ผ่าน ชื่อ ว่า อะไร
+(answer (largest (city (loc_2 (smallest (state (traverse_1 (riverid mississippi:e))))))))
+
+รัฐ ใด มี เมือง ชื่อ ว่า ซอลท์เลคซิตี
+(answer (state (loc_1 (city (cityid salt_lake_city:e _:e)))))
+
+รัฐ ใด มี ประชากร อาศัย อยู่ ใน เมือง น้อย ที่สุด
+(answer (smallest_one (population_1 (state all:e))))
+
+จุด สูง สุด ของ รัฐ มอนตานา มี ความ สูง เท่าไหร่
+(answer (elevation_1 (highest (place (loc_2 (stateid montana:e))))))
+
+รัฐ ใด เป็น รัฐ ที่ เล็ก ที่สุด ที่ แม่น้ำ มิสซิสซิปปี ไหล ผ่าน
+(answer (smallest (state (traverse_1 (riverid mississippi:e)))))
+
+รัฐ เท็กซัส มี พื้นที่ เท่าไหร่
+(answer (area_1 (stateid texas:e)))
+
+เมืองหลัก ของ รัฐ เวอร์มอนต์ มี อะไร บ้าง
+(answer (major (city (loc_2 (stateid vermont:e)))))
+
+เมืองหลวง ใด เป็น เมืองหลวง ที่ ใหญ่ ที่สุด ใน อเมริกา
+(answer (largest (capital (city (loc_2 (countryid usa:e))))))
+
+แม่น้ำ แช็ตตาฮูชี อยู่ ตรงไหน
+(answer (loc_1 (riverid chattahoochee:e)))
+
+รัฐ ยูทาห์ มี ประชากร กี่ คน
+(answer (population_1 (stateid utah:e)))
+
+อเมริกา มี รัฐ ทั้งหมด กี่ รัฐ
+(answer (count (state (loc_2 (countryid usa:e)))))
+
+รัฐ ใด บ้าง อยู่ ติด กับ รัฐ แอริโซนา
+(answer (state (next_to_2 (stateid arizona:e))))
+
+จุด ต่ำ สุด ของ รัฐ อาร์คันซอ คือ จุด ไหน
+(answer (lowest (place (loc_2 (stateid arkansas:e)))))
+
+รัฐ ใด มี ประชากร อาศัย อยู่ ใน เมือง มาก ที่สุด
+(answer (largest_one (population_1 (state all:e))))
+
+รัฐ มิสซิสซิปปี มี ประชากร เท่าไหร่
+(answer (population_1 (stateid mississippi:e)))
+
+รัฐ ใด อยู่ ติด กับ รัฐ อื่น มาก ที่สุด
+(answer (most (state (next_to_2 (state all:e)))))
+
+เมือง ใด มี ความ หนาแน่น ของ ประชากร สูง ที่สุด
+(answer (largest_one (density_1 (city (loc_2 (countryid usa:e))))))
+//(answer (largest_one (density_1 (city all:e))))
+
+รัฐ วิสคอนซิน มี พื้นที่ เท่าใด
+(answer (area_1 (stateid wisconsin:e)))
+
+รัฐ เท็กซัส มี พื้นที่ เท่าไหร่
+(answer (size (stateid texas:e)))
+
+รัฐ ที่ เล็ก ที่สุด มี ประชากร กี่ คน
+(answer (population_1 (smallest (state all:e))))
+//(answer (smallest (population_1 (state all:e))))
+
+รัฐ ที่ แม่น้ำ สาย ที่ ใหญ่ ที่สุด ใน สหรัฐอเมริกา ไหล ผ่าน มี ความ หนาแน่น ของ ประชากร เท่าไหร่
+(answer (density_1 (state (traverse_1 (longest (river (loc_2 (countryid usa:e))))))))
+
+

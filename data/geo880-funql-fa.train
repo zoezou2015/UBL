@@ -1,0 +1,1807 @@
+همه دریاچه های ایالات متحده را نام ببر
+(answer (lake (loc_2 (countryid usa:e))))
+
+بلندترین نقطه در فلوریدا کجاست ؟
+(answer (highest (place (loc_2 (stateid florida:e)))))
+
+بلند ترین نقاط اطراف میسیسیپی کدامند ؟
+(answer (high_point_1 (state (next_to_2 (stateid mississippi:e)))))
+
+کوتاهترین رودخانه از کدام ایالت میگذرد ؟
+(answer (state (loc_1 (shortest (river all:e)))))
+
+بلندترین کوه در ایالات متحده کدام است ؟
+(answer (highest (mountain (loc_2 (countryid usa:e)))))
+
+مرکز ایالت ماین کجاست ؟
+(answer (capital (loc_2 (stateid maine:e))))
+
+جمعیت های همه ایالت های عمده ای که میسیسیپی از آنها عبور میکند را به من بگو
+(answer (population_1 (state (traverse_1 (riverid mississippi:e)))))
+
+همه دریاچه های ایالات متحده را نام ببر
+(answer (lake (loc_2 (countryid usa:e))))
+
+کدام ایالت ها هم مرز ایالت هایی هستند که میسیسیپی از آنها عبور میکند ؟
+(answer (state (next_to_2 (state (traverse_1 (riverid mississippi:e))))))
+
+بلند ترین کوه در آلاسکا کجاست ؟
+(answer (highest (mountain (loc_2 (stateid alaska:e)))))
+
+جمعیت ایلینوی چقدر است ؟
+(answer (population_1 (stateid illinois:e)))
+
+همه رودخانه های کلرادو را نام ببر
+(answer (river (loc_2 (stateid colorado:e))))
+
+بلندترین نقطه ایالات متحده در کدام ایالت واقع شده است ؟
+(answer (state (loc_1 (highest (place (loc_2 (countryid usa:e)))))))
+
+شهر دنور در کدام ایالت واقع شده است ؟
+(answer (state (loc_1 (cityid denver:e _:e))))
+
+نام پایین ترین نقطه تگزاس چیست ؟
+(answer (lowest (place (loc_2 (stateid texas:e)))))
+
+چند ایلات شهری به نام روچستر دارند ؟
+(answer (count (state (loc_1 (city (cityid rochester:e _:e))))))
+
+مراکز ایالت هایی که با تگزاس همجوار هستند کدامند ؟
+(answer (capital (loc_2 (state (next_to_2 (stateid texas:e))))))
+
+چند نفر در آستین زندگی میکنند ؟
+(answer (population_1 (cityid austin:e _:e)))
+
+کدام ایالت ها رودخانه ای به نام کلرادو دارند ؟
+(answer (state (loc_1 (river (riverid colorado:e)))))
+
+به اندازه ایالت تگزاس چقدر است
+(answer (size (stateid texas:e)))
+
+کوتاه ترین رودخانه در ایالات متحده کدامست ؟
+(answer (shortest (river (loc_2 (countryid usa:e)))))
+
+چند شهر عمده در ایالات متحده وجود دارد ؟
+(answer (major (city (loc_2 (countryid usa:e)))))
+
+کدام ایالت همجوار کنتاکی است ؟
+(answer (state (next_to_2 (stateid kentucky:e))))
+
+جمعیت اورگان چقدر است ؟
+(answer (population_1 (stateid oregon:e)))
+
+کدام ایالت ها شهری به نام آستین دارند ؟
+(answer (state (loc_1 (city (cityid austin:e _:e)))))
+
+بلندترین ارتفاع در کالیفرنیای جنوبی کجاست ؟
+(answer (highest (place (loc_2 (stateid south_carolina:e)))))
+
+چند نفر در تگزاس آستین زندگی میکنند ؟
+(answer (population_1 (cityid austin:e tx:e)))
+
+رودخانه های ایالت تگزاس کدامند ؟
+(answer (river (loc_2 (stateid texas:e))))
+
+نام پایینترین نقطه کلرادو چیست ؟
+(answer (lowest (place (loc_2 (stateid colorado:e)))))
+
+جمعیت آتلانتا چقدر است ؟
+(answer (population_1 (cityid atlanta:e _:e)))
+
+چه رودخانه هایی در یوتاه هستند ؟
+(answer (river (loc_2 (stateid utah:e))))
+
+چه رودخانه ای از بیشتر ایالات میگذرد ؟
+(answer (most (river (traverse_2 (state all:e)))))
+
+جمعیت ساکرامنتو چقدر است ؟
+(answer (population_1 (cityid sacramento:e _:e)))
+
+میتوانی به من بگویی بلند ترین نقطه ایالت ارگون کدامست ؟
+(answer (highest (place (loc_2 (stateid oregon:e)))))
+
+رود میسیسیپی از کدام ایالت ها عبور میکند ؟
+(answer (state (traverse_1 (riverid mississippi:e))))
+
+شهرهای عمده کوچکترین ایالت کدامند ؟
+(answer (major (city (loc_2 (smallest (state (loc_2 (countryid usa:e))))))))
+
+ارتفاع قله گوادالوپ چقدر است ؟
+(answer (elevation_1 (placeid guadalupe_peak:e)))
+
+چه رودخانه ای از ایلینوی میگذرد ؟
+(answer (river (traverse_2 (stateid illinois:e))))
+
+طول رودخانه میسیسیپی چقدر است ؟
+(answer (len (riverid mississippi:e)))
+
+بلند ترین نقطه بزرگترین ایالت چقدر ارتفاع دارد ؟
+(answer (elevation_1 (highest (place (loc_2 (largest (state all:e)))))))
+
+مساحت کالیفرنیای جنوبی چقدر است ؟
+(answer (area_1 (stateid south_carolina:e)))
+
+بلندترین رود از چه ایالت هایی میگذرد ؟
+(answer (state (traverse_1 (longest (river all:e)))))
+
+نیو اورلئان در کجاست ؟
+(answer (loc_1 (cityid new_orleans:e _:e)))
+
+مونت مک کینلی در کدام ایالت واقع شده است ؟
+(answer (state (loc_1 (placeid mount_mckinley:e))))
+
+چه ایالتی بیشترین ارتفاع را داراست ؟
+(answer (state (loc_1 (highest (place all:e)))))
+
+اندازه کالیفرنیا چقدر است ؟
+(answer (size (stateid california:e)))
+
+نام کوچکترین ایالت همجوار تگزاس چیست ؟
+(answer (smallest (state (next_to_2 (stateid texas:e)))))
+
+آلاباما چند شهروند دارد ؟
+(answer (population_1 (stateid alabama:e)))
+
+روچستر در کدام ایالت واقع شده است ؟
+(answer (state (loc_1 (cityid rochester:e _:e))))
+
+کوتاهترین رود از چند ایالت در ایالات متحده میگذرد ؟
+(answer (count (intersection (state (loc_2 (countryid usa:e))) (traverse_1 (shortest (river all:e))))))
+
+بزرگترین ایالت در قاره امریکا کدام است ؟
+(answer (largest (state (loc_2 (countryid usa:e)))))
+
+مساحت بزرگترین ایالت چقدر است ؟
+(answer (area_1 (largest (state all:e))))
+
+مونت ویتنی در کجا واقع شده است ؟
+(answer (loc_1 (placeid mount_whitney:e)))
+
+چند ایالت همجوار آیووا هستند ؟
+(answer (count (state (next_to_1 (stateid iowa:e)))))
+
+بلندترین رود از کدام ایالت ها میگذرد ؟
+(answer (state (traverse_1 (longest (river all:e)))))
+
+چه رودخانه ای از کانزاس میگذرد ؟
+(answer (river (traverse_2 (stateid kansas:e))))
+
+جمعیت آستین تگزاس چقدر است ؟
+(answer (population_1 (cityid austin:e tx:e)))
+
+مرکز ورمونت کجاست ؟
+(answer (capital (loc_2 (stateid vermont:e))))
+
+کدام ایالت ها هم مرز کلرادو هستند ؟
+(answer (state (next_to_2 (stateid colorado:e))))
+
+طول میسیسیپی چقدر است ؟
+(answer (len (riverid mississippi:e)))
+
+کدام ایالت بیشترین تراکم جمعیت را دارد ؟
+(answer (largest_one (density_1 (state all:e))))
+
+کدام ایالات همجوار جورجیا هستند ؟
+(answer (state (next_to_2 (stateid georgia:e))))
+
+مرکز ایالت پنسیلوانیا کجاست ؟
+(answer (capital (loc_2 (stateid pennsylvania:e))))
+
+بزرگترین رودخانه های تگزاس کدامند ؟
+(answer (longest (river (loc_2 (stateid texas:e)))))
+
+بلندترین رودخانه ایالات متحده کدامست ؟
+(answer (longest (river (loc_2 (countryid usa:e)))))
+
+مرکز یوتاه کجاست ؟
+(answer (capital (loc_2 (stateid utah:e))))
+
+کدام ایالت تراکم جمعیت کمتری دارد ؟
+(answer (smallest_one (density_1 (state all:e))))
+
+کدام مراکز ایالات شهر عمده ای نیستند ؟
+(answer (exclude (capital all:e) (major (city all:e))))
+
+بزرگترین شهر نبراسکا کدام است ؟
+(answer (largest (city (loc_2 (stateid nebraska:e)))))
+
+جمعیت تگزاس چقدر است ؟
+(answer (population_1 (stateid texas:e)))
+
+کوتاه ترین رودخانه ایالات متحده کدامست ؟
+(answer (shortest (river (loc_2 (countryid usa:e)))))
+
+جمعیت رود آیلند چقدر است ؟
+(answer (population_1 (stateid rhode_island:e)))
+
+ایالتی که کم ارتفاع ترین نقطه در آن واقع شده است کدام است ؟
+(answer (state (loc_1 (lowest (place all:e)))))
+
+طولانی ترین رودخانه در نیویورک کدامست ؟
+(answer (longest (river (loc_2 (stateid new_york:e)))))
+
+نام بلندترین رودخانه که از ایالتی که هم مرز تنسی میگذرد کدامست ؟
+(answer (longest (river (traverse_2 (state (next_to_2 (stateid tennessee:e)))))))
+
+آریزونا چند شهر عمده دارد ؟
+(answer (count (major (city (loc_2 (stateid arizona:e))))))
+
+ایالات مجاور میشیگان کدامند ؟
+(answer (state (next_to_2 (stateid michigan:e))))
+
+کدام ایالت همجوار تگزاس بزرگتر است ؟
+(answer (largest (state (next_to_2 (stateid texas:e)))))
+
+کوتاه ترین رودخانه چه نام دارد ؟
+(answer (shortest (river all:e)))
+
+چند ایالت همجوار ایالتی هستند که همجوار ایالات بیشتری است ؟
+(answer (count (state (next_to_2 (most (state (next_to_2 (state all:e))))))))
+
+بزرگترین شهر مونتانا در کدام ایالت واقع شده است ؟
+(answer (state (loc_1 (largest (city (loc_2 (stateid montana:e)))))))
+
+جمعیت واشنگتن دی سی چقدر است ؟
+(answer (population_1 (cityid washington:e dc:e)))
+
+پرجمعیت ترین شهر تگزاس کدام است ؟
+(answer (largest_one (population_1 (city (loc_2 (stateid texas:e))))))
+
+مرکز هاوایی کجاست ؟
+(answer (capital (loc_2 (stateid hawaii:e))))
+
+مرکز ایالت آیووا کجاست ؟
+(answer (capital (loc_2 (stateid iowa:e))))
+
+سن دیگو در کجا است ؟
+(answer (loc_1 (cityid san_diego:e _:e)))
+
+شهرهای عمده دلاور کدامند ؟
+(answer (major (city (loc_2 (stateid delaware:e)))))
+
+پایین ترین نقطه در لوئیزیانا کدامست ؟
+(answer (lowest (place (loc_2 (stateid louisiana:e)))))
+
+کدام ایالت بلند ترین قله را در کشور دارد ؟
+(answer (state (loc_1 (highest (place all:e)))))
+
+کدام شهر تگزاس دارای بیشترین جمعیت است ؟
+(answer (largest_one (population_1 (city (loc_2 (stateid texas:e))))))
+
+بزگترین مرکز استان در ایالات متحده کدام است ؟
+(answer (largest (capital (loc_2 (countryid usa:e)))))
+
+جمعیت نیویورک چقدر است ؟
+(answer (population_1 (stateid new_york:e)))
+
+جمعیت پایتخت کوچکترین ایالت چقدر است ؟
+(answer (population_1 (capital (loc_2 (smallest (state all:e))))))
+
+مساحت آلاسکا چقدر است ؟
+(answer (area_1 (stateid alaska:e)))
+
+جمعیت کالیفرنیا چقدر است ؟
+(answer (population_1 (stateid california:e)))
+
+کدام ایالت بلند ترین رود را دارد ؟
+(answer (state (loc_1 (longest (river all:e)))))
+
+مرکز ایالت تگزاس کجاست ؟
+(answer (capital (loc_2 (stateid texas:e))))
+
+شهرهایی را که در تگزاس هستند را به من بده
+(answer (city (loc_2 (stateid texas:e))))
+
+کدام ایالت ها هم مرز کنتاکی هستند ؟
+(answer (state (next_to_2 (stateid kentucky:e))))
+
+بلند ترین نقطه فلوریدا چقدر ارتفاع دارد ؟
+(answer (elevation_1 (highest (place (loc_2 (stateid florida:e))))))
+
+شهرهای عمده نورث کارولینا کدامند ؟
+(answer (major (city (loc_2 (stateid north_carolina:e)))))
+
+بلندترین نقطه در ایالتی مرکز آن دس موینز است کجاست ؟
+(answer (highest (place (loc_2 (state (loc_1 (capital (cityid des_moines:e _:e))))))))
+
+پایین ترین نقطه کالیفرنیا کدامست ؟
+(answer (lowest (place (loc_2 (stateid california:e)))))
+
+بزرگترین شهر وایومینگ کدام است ؟
+(answer (largest (city (loc_2 (stateid wyoming:e)))))
+
+بزرگترین ایالت همجوار تگزاس کجاست ؟
+(answer (largest (state (next_to_2 (stateid texas:e)))))
+
+نام کوچکترین شهرستان در هاوایی چیست ؟
+(answer (smallest (city (loc_2 (stateid hawaii:e)))))
+
+مساحت همه ایالات چقدر است ؟
+(answer (area_1 (state all:e)))
+
+مساحت آیداهو چقدر است ؟
+(answer (area_1 (stateid idaho:e)))
+
+بیشترین رودخانه ها از کدام ایالت میگذرند ؟
+(answer (most (state (traverse_1 (river all:e)))))
+
+جمعیت اسپرینگفیلد میسوری چقدر است ؟
+(answer (population_1 (cityid springfield:e mo:e)))
+
+پرجمعیت ترین استان هم مرز اکلاهما کجاست ؟
+(answer (largest_one (population_1 (state (next_to_2 (stateid oklahoma:e))))))
+
+تعداد ایالات همسایه کنتاکی چند تاست ؟
+(answer (count (state (next_to_2 (stateid kentucky:e)))))
+
+میانگین جمعیت بر کیلومتر مربع در پنسیلوانیا چقدر است ؟
+(answer (density_1 (stateid pennsylvania:e)))
+
+کدام ایالت بیشترین تراکم جمعیت را دارد ؟
+(answer (largest_one (density_1 (state all:e))))
+
+بلندترین کوه در آمریکا چقدر ارتفاع دارد ؟
+(answer (highest (mountain (loc_2 (countryid usa:e)))))
+
+بلندترین نقطه در ایالتی که بیشترین مساحت را دارد کجاست ؟
+(answer (highest (place (loc_2 (largest_one (area_1 (state all:e)))))))
+
+ایالت ها را نام ببر
+(answer (state all:e))
+
+چند رودخانه در واشنگتن هست ؟
+(answer (count (river (loc_2 (stateid washington:e)))))
+
+جمعیت های همه ایالت های عمده ای که میسیسیپی از آنها عبور میکند را به من بگو
+(answer (population_1 (state (traverse_1 (riverid mississippi:e)))))
+
+بزرگترین رودخانه ایلینوی کدام است ؟
+(answer (longest (river (loc_2 (stateid illinois:e)))))
+
+مرکز ایالت میشیگان کجاست ؟
+(answer (capital (loc_2 (stateid michigan:e))))
+
+مجموع جمعیت ایالات همجوار تگزاس چقدر است ؟
+(answer (sum (population_1 (state (next_to_2 (stateid texas:e))))))
+
+کدام ایالات همجوار رودایلند هستند ؟
+(answer (state (next_to_2 (stateid rhode_island:e))))
+
+بزرگترین شهر اورگان کدام است ؟
+(answer (largest (city (loc_2 (stateid oregon:e)))))
+
+نام پایینترین نقطه ویسکانسین چیست ؟
+(answer (lowest (place (loc_2 (stateid wisconsin:e)))))
+
+رودخانه های ایالت ایندیانا کدامند ؟
+(answer (river (loc_2 (stateid indiana:e))))
+
+جمعیت آستین چقدر است ؟
+(answer (population_1 (cityid austin:e _:e)))
+
+نام کوچکترین شهرستان در آرکانزاس چیست ؟
+(answer (smallest (city (loc_2 (stateid arkansas:e)))))
+
+بلند ترین رودخانه ای که از ایالات متحده میگذرد را به من بده
+(answer (longest (river (traverse_2 (countryid usa:e)))))
+
+طول روخانه میسوری چقدر است ؟
+(answer (len (riverid missouri:e)))
+
+بزرگترین شهر در کدام ایالت واقع شده است ؟
+(answer (state (loc_1 (largest (city all:e)))))
+
+کمترین ارتفاع در پنسیلوانیا چقدر است ؟
+(answer (lowest (place (loc_2 (stateid pennsylvania:e)))))
+
+بزگترین رودخانه در ایالتی که بلندترین نقطه در آن واقع شده است ؟
+(answer (longest (river (loc_2 (state (loc_1 (highest (place all:e))))))))
+
+رودخانه کلرادو از کدام ایالت ها عبور میکند ؟
+(answer (state (traverse_1 (riverid colorado:e))))
+
+پوتوماک از چه ایالت هایی میگذرد ؟
+(answer (state (traverse_1 (riverid potomac:e))))
+
+بزرگترین شهر ایالات متحده کدام است ؟
+(answer (largest (city (loc_2 (countryid usa:e)))))
+
+کدام ایالت هیچ رودخانه ای ندارد ؟
+(answer (exclude (state all:e) (loc_1 (river all:e))))
+
+بلندترین نقطه در رودایلند کجاست ؟
+(answer (highest (place (loc_2 (stateid rhode_island:e)))))
+
+ایالت هایی که ایالت همجواری ندارد را نام ببر
+(answer (exclude (state all:e) (next_to_2 (state all:e))))
+
+جمعیت آتلانتا ga چقدر است ؟
+(answer (population_1 (cityid atlanta:e ga:e)))
+
+ایالات متحد چند کیلومتر مربع وسعت دارد ؟
+(answer (area_1 (countryid usa:e)))
+
+جمعیت آیداهو چقدر است ؟
+(answer (population_1 (stateid idaho:e)))
+
+ایالت مجاور کالیفرنیا چیست ؟
+(answer (state (next_to_2 (stateid california:e))))
+
+کوچکترین ایالتی که طولانی ترین رود از آن عبور میکند کدام است ؟
+(answer (smallest (state (traverse_1 (longest (river all:e))))))
+
+نام شهرهای عمده ایلینویز چیست ؟
+(answer (major (city (loc_2 (stateid illinois:e)))))
+
+رودخانه کلرادو از چند ایالت میگذرد ؟
+(answer (count (state (traverse_1 (riverid colorado:e)))))
+
+رودخانه کلرادو از چند ایالت عبور میکند ؟
+(answer (count (state (traverse_1 (riverid colorado:e)))))
+
+شهرهای عمده کانزاس کدامند ؟
+(answer (major (city (loc_2 (stateid kansas:e)))))
+
+کدام ایالت ها همجوار تگزاس هستند ؟
+(answer (state (next_to_2 (stateid texas:e))))
+
+چند نفر در نیویورک زندگی میکنند ؟
+(answer (population_1 (stateid new_york:e)))
+
+بزگترین شهر های ایالت های مجاور بزرگترین ایالت کدامند ؟
+(answer (largest (city (loc_2 (state (next_to_2 (largest (state all:e))))))))
+
+کدام ایالت ها نقطه ای بلند تر از بلندترین نقطه تگزاس دارند ؟
+(answer (state (loc_1 (place (higher_2 (highest (place (loc_2 (stateid texas:e)))))))))
+
+رودخانه ایی که از اوهایو عبور میکند چه نام دارد ؟
+(answer (river (traverse_2 (stateid ohio:e))))
+
+بزرگترین شهر در میشیگان کجاست ؟
+(answer (largest (city (loc_2 (stateid michigan:e)))))
+
+چند رودخانه درشهری که بیشترین رودخانه ها را دارد هست ؟
+(answer (count (river (loc_2 (state (loc_1 (highest (place all:e))))))))
+
+چه شهرهایی در پنسیلوانیا واقع شده اند ؟
+(answer (city (loc_2 (stateid pennsylvania:e))))
+
+نام کم جمعیت ترین ایالت چیست ؟
+(answer (smallest_one (population_1 (state all:e))))
+
+بلندترین نقاط همه ایالت هایی که کمترین ارتفاع آنها سطح دریاست نام ببر
+(answer (highest (place (loc_2 (state (loc_1 (lowest (place (elevation_2 0:e)))))))))
+//(answer (highest (place (loc_2 (state (loc_1 (place (elevation_2 0:e))))))))
+
+شهرهای ایالات متحده را به من بده
+(answer (city (loc_2 (countryid usa:e))))
+
+رودخانه میسوری از چند ایالت میگذرد ؟
+(answer (count (state (traverse_1 (riverid missouri:e)))))
+
+کدام ایالت شهری با بیشترین جمعیت دارد ؟
+(answer (state (loc_1 (largest_one (population_1 (city all:e))))))
+
+کوتاهترین رودخانه کدام است ؟
+(answer (shortest (river all:e)))
+
+چند ایالته همجوار آلاسکا هستند ؟
+(answer (count (state (next_to_2 (stateid alaska:e)))))
+
+جمعیت دالاس چقدر است ؟
+(answer (population_1 (cityid dallas:e _:e)))
+
+سن خوزه در کجا است ؟
+(answer (loc_1 (cityid san_jose:e _:e)))
+
+کدام ایالات همجوار ایالت هایی هستند که با کلرادو هم مرز هستند ؟
+(answer (state (next_to_2 (state (next_to_2 (stateid colorado:e))))))
+
+کدام رودخانه ها از ایالتی با بیشترین جمعیت میگذرند ؟
+(answer (river (traverse_2 (largest_one (population_1 (state all:e))))))
+
+بزرگترین شهر کدام است ؟
+(answer (largest (city all:e)))
+
+مرکز ایالت آلاباما کجاست ؟
+(answer (capital (loc_2 (stateid alabama:e))))
+
+کدام ایالات با آرکانزاس هم مرز هستند ؟
+(answer (state (next_to_2 (stateid arkansas:e))))
+
+جمعیت دنور چقدر است ؟
+(answer (population_1 (cityid denver:e _:e)))
+
+طولانی ترین رودخانه آمریکا کدامست ؟
+(answer (longest (river (loc_2 (countryid usa:e)))))
+
+ماساچوست در کجا واقع شده است ؟
+(answer (loc_1 (stateid massachusetts:e)))
+
+کدام ایالت کمترین مساحت را دارد ؟
+(answer (smallest_one (area_1 (state all:e))))
+
+چه شهرهای عمده ای از ایلینوی میگذرند ؟
+(answer (major (river (traverse_2 (stateid illinois:e)))))
+
+ایالات متحده چند شهر دارد ؟
+(answer (count (city (loc_2 (countryid usa:e)))))
+
+چند نفر در کالیفرنیا زندگی میکنند ؟
+(answer (population_1 (stateid california:e)))
+
+رودخانه های عمده ایالات متحده کدامند ؟
+(answer (major (river (loc_2 (countryid usa:e)))))
+
+رودخانه میسیسیپی از چند ایالت میگذرد ؟
+(answer (count (state (traverse_1 (riverid mississippi:e)))))
+
+مساحت تگزاس چقدر است ؟
+(answer (area_1 (stateid texas:e)))
+
+بلندی رودخانه ای که از بیشتر ایالات عبور میکند چقدر است ؟
+(answer (len (most (river (traverse_2 (state all:e))))))
+
+طول بلند ترین رودخانه ایالات متحده کدامست ؟
+(answer (len (longest (river (loc_2 (countryid usa:e))))))
+
+میتوانی به من بگویی مرکز تگزاس کجاست ؟
+(answer (capital (loc_2 (stateid texas:e))))
+
+بزرگترین شهر در مینه سوتا کجاست ؟
+(answer (largest_one (population_1 (city (loc_2 (stateid minnesota:e))))))
+
+کوچکترین ایالت در ایالات متحده امریکا کدام است ؟
+(answer (smallest (state (loc_2 (countryid usa:e)))))
+
+کدام ایالات با مین همسایه اند ؟
+(answer (state (next_to_2 (stateid maine:e))))
+
+بلند ترین نقطه کدام ایالت از بلندترین نقطه کلرادو بلند تر است ؟
+(answer (state (high_point_2 (higher_2 (high_point_1 (stateid colorado:e))))))
+
+بلندترین کوه در تگزاس کجاست ؟
+(answer (highest (mountain (loc_2 (stateid texas:e)))))
+
+شهرهای عمده تگزاس کدامند ؟
+(answer (major (city (loc_2 (stateid texas:e)))))
+
+چه ایالت هایی با پرجمعیت ترین ایالت مجاور هستند ؟
+(answer (state (next_to_2 (largest_one (population_1 (state all:e))))))
+
+کدام رودخانه ها از کلرادو میگذرند ؟
+(answer (river (traverse_2 (stateid colorado:e))))
+
+چند رودخانه در ایالات متحده وجود دارد ؟
+(answer (count (river (loc_2 (countryid usa:e)))))
+
+چند رودخانه در نیویورک وجود دارد ؟
+(answer (count (river (loc_2 (stateid new_york:e)))))
+
+کدام رودخانه ها در آلاسکا واقع شده اند ؟
+(answer (river (loc_2 (stateid alaska:e))))
+
+بلندترین رودخانه ای که از از نیویورک میگذرد کدامست ؟
+(answer (longest (river (traverse_2 (stateid new_york:e)))))
+
+کدام رودخانه ها از وست ویرجینیا میگذرند ؟
+(answer (river (traverse_2 (stateid west_virginia:e))))
+
+مرکز ایالت های همجوار تگزاس کدامند ؟
+(answer (capital (loc_2 (state (next_to_2 (stateid texas:e))))))
+
+مساحت کالیفرنیا چقدر است ؟
+(answer (area_1 (stateid california:e)))
+
+چند ایلات شهری به نام اسپرینگفیلد دارند ؟
+(answer (count (state (loc_1 (city (cityid springfield:e _:e))))))
+
+بزرگترین شهر در تگزاس کدام است ؟
+(answer (largest (city (loc_2 (stateid texas:e)))))
+
+چند شهر به نام آستین در ایالات متحده هست ؟
+(answer (count (intersection (city (cityid austin:e _:e)) (loc_2 (countryid usa:e)))))
+
+شهرهای عمده بزرگترین ایالت کدامند ؟
+(answer (major (city (loc_2 (largest (state all:e))))))
+
+رود کلرادو از کدام ایالت ها میگذرد ؟
+(answer (state (traverse_1 (riverid colorado:e))))
+
+بزرگترین شهر در ویسکونسین کجاست ؟
+(answer (largest (city (loc_2 (stateid wisconsin:e)))))
+
+وسعت آلاسکا چقدر است ؟
+(answer (size (stateid alaska:e)))
+
+بلند ترین نقطه ایالات متحده در کدام ایالت واقع شده است ؟
+(answer (state (loc_1 (highest (place (loc_2 (countryid usa:e)))))))
+
+وسعت نورث داکوتا چقدر است ؟
+(answer (size (stateid north_dakota:e)))
+
+کدام رودخانه ها از آلاسکا میگذرند ؟
+(answer (river (traverse_2 (stateid alaska:e))))
+
+بلندترین نقطه در ایالات متحده کجاست ؟
+(answer (highest (place (loc_2 (countryid usa:e)))))
+
+کوتاه ترین رودخانه در تگزاس چه نام دارد ؟
+(answer (shortest (river (loc_2 (stateid texas:e)))))
+
+شهرهای عمده ایالت هایی که رود عمده ای در ویرجینیا از آنها میگذرد کدامند ؟
+(answer (major (city (loc_2 (state (traverse_1 (major (river (loc_2 (stateid virginia:e))))))))))
+
+رودخانه های اورگان کدامند ؟
+(answer (river (loc_2 (stateid oregon:e))))
+
+نام پایینترین نقطه در ایالات متحده چیست ؟
+(answer (lowest (place (loc_2 (countryid usa:e)))))
+
+چند ایالت شهر یا دهکده ای به نام اسپرینگفیلد دارند ؟
+(answer (count (state (loc_1 (city (cityid springfield:e _:e))))))
+
+جمعیت داکوتای جنوبی چقدر است ؟
+(answer (population_1 (stateid south_dakota:e)))
+
+مرکز ایالتی که بلندترین نقطه در آن واقع شده است کجاست ؟
+(answer (capital (loc_2 (state (loc_1 (highest (place all:e)))))))
+
+کدام ایالت دارای بالاترین ارتفاع است ؟
+(answer (state (loc_1 (highest (place all:e)))))
+
+کدام ایالات همجوار تگزاس هستند ؟
+(answer (state (next_to_2 (stateid texas:e))))
+
+نام بلندترین رودخانه ای که از ایالت همجوار ایالتی که با بیشترین ایالات هم مرز میگذرد چیست ؟
+(answer (longest (river (traverse_2 (state (next_to_2 (most (state (next_to_2 (state all:e))))))))))
+
+کدام ایالت ها هم مرز هاوایی هستند ؟
+(answer (state (next_to_2 (stateid hawaii:e))))
+
+چند شهر عمده در اورگان هست ؟
+(answer (count (major (city (loc_2 (stateid oregon:e))))))
+
+جمعیت اسپرینگفیلد داکوتای جنوبی چقدر است ؟
+(answer (population_1 (cityid springfield:e sd:e)))
+
+چند رودخانه از تگزاس میگذرند ؟
+(answer (count (river (traverse_2 (stateid texas:e)))))
+
+بیشترین رودهای عمده از کدام ایالت میگذرند ؟
+(answer (most (state (traverse_1 (major (river all:e))))))
+
+دریاچه های ایالت های مجاور تگزاس کدامند ؟
+(answer (lake (loc_2 (state (next_to_2 (stateid texas:e))))))
+
+جمعیت بولدر ؟
+(answer (population_1 (cityid boulder:e _:e)))
+
+رودخانه های نبراسکا کدامند ؟
+(answer (river (loc_2 (stateid nevada:e))))
+
+فورت واین درکجا واقع شده است ؟
+(answer (loc_1 (cityid fort_wayne:e _:e)))
+
+ایندیاناپولیس در کجا واقع شده است ؟
+(answer (loc_1 (cityid indianapolis:e _:e)))
+
+کدام ایالت ها همسایه ایالت هایی هست که همر مرز ایالاتی هساند که همجوار ایالت هایی هستند که با تکزاس مرز مشترک دارند ؟
+(answer (state (next_to_2 (state (next_to_2 (state (next_to_2 (state (next_to_2 (stateid texas:e))))))))))
+
+جمعیت بولدر ؟
+(answer (population_1 (cityid boulder:e _:e)))
+
+شهرهای عمده ایالات متحده کدامند ؟
+(answer (major (city (loc_2 (countryid usa:e)))))
+
+شهرهای عمده کلرادو را نشان بده
+(answer (major (city (loc_2 (stateid colorado:e)))))
+
+کلمبوس پایتخت کدام ایالت است ؟
+(answer (state (loc_1 (capital (cityid columbus:e _:e)))))
+
+مجموع مساحت همه ایالت ها چقدر است ؟
+(answer (sum (area_1 (state all:e))))
+
+میانگین جمعیت بر کیلومتر مربع در ایالات متحده چقدر است ؟
+(answer (density_1 (countryid usa:e)))
+
+بزرگترین ایالت همجوار کالیفرنیا کدامست ؟
+(answer (largest (state (next_to_2 (stateid california:e)))))
+
+جمعیت مونتانا چقدر است ؟
+(answer (population_1 (stateid montana:e)))
+
+جمعیت همه شهرهای عمده مونتانا را به من بگو
+(answer (population_1 (major (city (loc_2 (stateid montana:e))))))
+
+کدام رودخانه ها از ایالتی که کمترین ارتفاع را در ایالات متحده آمریکا دارد میگذرند ؟
+(answer (river (traverse_2 (state (loc_1 (lowest (place (loc_2 (countryid usa:e)))))))))
+
+کدام رودخانه ها از میان بزرگترین ایالت جریان دارند ؟
+(answer (river (traverse_2 (largest (state all:e)))))
+
+مساحت ماین چقدر است ؟
+(answer (area_1 (stateid maine:e)))
+
+رودخانه های عمده تگزاس کدامند ؟
+(answer (major (river (loc_2 (stateid texas:e)))))
+
+چگالی جمعیت ایالتی که کمترین جمعیت را دارد چقدر است ؟
+(answer (density_1 (smallest_one (population_1 (state all:e)))))
+
+بلندترین نقطه در ویومینگ کجاست ؟
+(answer (highest (place (loc_2 (stateid wyoming:e)))))
+
+کدام ایالت ها هم مرز دلاور هستند ؟
+(answer (state (next_to_2 (stateid delaware:e))))
+
+از کدام ایالت رودهای بیشتری میگذرند ؟
+(answer (most (state (traverse_1 (river all:e)))))
+
+بزرگترین مرکز استان کدام است ؟
+(answer (largest (capital all:e)))
+
+کدام ایالت بیشترین تراکم جمعیت را داراست ؟
+(answer (largest_one (density_1 (state all:e))))
+
+کدام ایالت ها شهری به نام اسپرینگفیلد دارند ؟
+(answer (state (loc_1 (city (cityid springfield:e _:e)))))
+
+نام کوچکترین شهرستان در بزرگترین ایالت چیست ؟
+(answer (smallest (city (loc_2 (largest (state all:e))))))
+
+چه کوه هایی در آلاسکا وجود دارند ؟
+(answer (mountain (loc_2 (stateid alaska:e))))
+
+کدام ایالت کمترین تمرکز جمعیت را دارد ؟
+(answer (smallest_one (density_1 (state all:e))))
+
+چه تعداد در مونتگمری سکونت دارند ؟
+(answer (population_1 (cityid montgomery:e _:e)))
+
+کدام شهرهای تگزاس بیشترین جمعیت را دارند ؟
+(answer (largest_one (population_1 (city all:e))))
+
+بزگترین ایالت کجاست ؟
+(answer (largest (state all:e)))
+
+در میان ایالت هایی که رودخانه میسیسیپی از آنها عبور میکند کدام یک کم ارتفاع تر هستند ؟
+(answer (state (loc_1 (lowest (place (loc_2 (state (traverse_1 (riverid mississippi:e)))))))))
+
+مساحت ایالتی که کمترین چگالی جمعیت را دارد چقدر است ؟
+(answer (area_1 (smallest_one (density_1 (state all:e)))))
+
+کدام ایالت بیشترین رودخانه ها را دارد ؟
+(answer (most (state (loc_1 (river all:e)))))
+
+طولانی ترین رودخانه در می سی سی پی کدامست ؟
+(answer (longest (river (loc_2 (stateid mississippi:e)))))
+
+مرکز بزرگترین ایالت کجاست ؟
+(answer (capital (loc_2 (largest (state all:e)))))
+
+کدام ایالت دارای بزرگترین جمعیت است ؟
+(answer (largest_one (population_1 (state all:e))))
+
+رودخانه های آرکانزاس را نام ببر
+(answer (river (loc_2 (stateid arkansas:e))))
+
+جمعیت های همه ایالت های عمده ای که میسیسیپی از آنها عبور میکند را به من بگو
+(answer (population_1 (state (traverse_1 (riverid mississippi:e)))))
+
+جمعیت آریزونا چقدر است ؟
+(answer (population_1 (stateid arizona:e)))
+
+کدام ایالت ها با ایالتی با کمترین جمعیت همجوار هستند ؟
+(answer (state (next_to_2 (smallest_one (population_1 (state all:e))))))
+
+مجموع مساحت ایالات متحده آمریکا چقدر است ؟
+(answer (area_1 (countryid usa:e)))
+
+جمعیت سیاتل واشنگتن چقدر است ؟
+(answer (population_1 (cityid seattle:e wa:e)))
+
+اندازه بزرگترین ایالت در ایالات متحده آمریکا چقدر است ؟
+(answer (size (largest (state (loc_2 (countryid usa:e))))))
+
+سالم مرکز کدام ایالت است ؟
+(answer (state (loc_1 (capital (cityid salem:e _:e)))))
+
+پایین نقطه ایالتهایی که میسیسیپی از آنها عبور میکند کجاست ؟
+(answer (lowest (place (loc_2 (state (traverse_1 (riverid mississippi:e)))))))
+
+تگزاس چند شهر عمده دارد ؟
+(answer (count (major (city (loc_2 (stateid texas:e))))))
+
+مرکز بزرگترین ایالت آمریکا کدام است ؟
+(answer (capital (city (loc_2 (largest (state (loc_2 (countryid usa:e))))))))
+
+شهرهای عمده اکلاهما کدامند ؟
+(answer (major (city (loc_2 (stateid rhode_island:e)))))
+
+کدام ایالت جمعیت بیشتری دارد ؟
+(answer (largest_one (population_1 (state all:e))))
+
+بزرگترین شهر کانزاس کجاست ؟
+(answer (largest (city (loc_2 (stateid kansas:e)))))
+
+مساحت ایالتی که مرکز آن آلبانی است چقدر است ؟
+(answer (area_1 (state (loc_1 (capital (cityid albany:e _:e))))))
+
+نام بلندترین رودخانه ای که از کلرادو میگذرد چیست ؟
+(answer (longest (river (traverse_2 (stateid colorado:e)))))
+
+آلاسکا چند رودخانه دارد ؟
+(answer (count (river (loc_2 (stateid alaska:e)))))
+
+وسعت ماساچوست چقدر است ؟
+(answer (size (stateid massachusetts:e)))
+
+وسعت بزگترین شهر آلاسکا چقدر است ؟
+(answer (size (largest (city (loc_2 (stateid alaska:e))))))
+
+چند شهر در ایالات متحده هست ؟
+(answer (count (city (loc_2 (countryid usa:e)))))
+
+دوور مرکز کدام ایالت است ؟
+(answer (state (capital_2 (cityid dover:e _:e))))
+
+کدام ایالات همجوار نیوهمپشایر هستند ؟
+(answer (state (next_to_2 (stateid new_hampshire:e))))
+
+کوتاه ترین رودخانه در نبراسکا چه نام دارد ؟
+(answer (shortest (river (loc_2 (stateid nebraska:e)))))
+
+چند ایالت همجوار هاوایی هستند ؟
+(answer (count (state (next_to_2 (stateid hawaii:e)))))
+
+دالاس در کدام ایالت است ؟
+(answer (state (loc_1 (cityid dallas:e _:e))))
+
+کدام شهر بیشترین جمعیت را دارد ؟
+(answer (smallest_one (population_1 (city all:e))))
+
+چند نفر در یوتاه زندگی میکنند ؟
+(answer (population_1 (stateid utah:e)))
+
+کدام ایالت پراکنده ترین جمعیت را دارد ؟
+(answer (smallest_one (density_1 (state all:e))))
+
+بزرگترین ایالت همجوار ایالتی که پایین ترین نقطه در ایالات را دارد کجاست ؟
+(answer (largest (state (next_to_2 (state (loc_1 (lowest (place (loc_2 (countryid usa:e))))))))))
+
+بزرگترین شهر در تگزاس کجاست ؟
+(answer (largest (city (loc_2 (stateid texas:e)))))
+
+بزرگترین ایالت آمریکا کجاست ؟
+(answer (largest (state (loc_2 (countryid usa:e)))))
+
+کدام ایالت بیشترین جمعیت را دارد ؟
+(answer (largest_one (population_1 (state all:e))))
+
+رودخانه های نیومکزیکو کدامند ؟
+(answer (river (loc_2 (stateid new_mexico:e))))
+
+مساحت مریلند برحسب کیلومتر مربع چقدر است ؟
+(answer (area_1 (stateid maryland:e)))
+
+چند ایالت در ایالات متحده هست ؟
+(answer (count (state (loc_2 (countryid usa:e)))))
+
+استانهای همجوار نبراسکا چند شهر عمده دارند ؟
+(answer (count (major (city (loc_2 (state (next_to_2 (stateid nebraska:e))))))))
+
+جمعیت بزرگترین ایالت چقدر است ؟
+(answer (population_1 (largest (state all:e))))
+
+اندازه فلوریدا چقدر است ؟
+(answer (size (stateid florida:e)))
+
+چند رودخانه در میسوری وجود دارد ؟
+(answer (count (river (loc_2 (stateid missouri:e)))))
+
+چند رودخانه در تگزاس وجود دارد ؟
+(answer (count (river (loc_2 (stateid texas:e)))))
+
+بلندترین نقطه در ایالتی که مرکز آن دس موینز است کجاست ؟
+(answer (highest (place (loc_2 (state (loc_1 (capital (cityid des_moines:e _:e))))))))
+
+جمعیت سیاتل چقدر است ؟
+(answer (population_1 (cityid seattle:e _:e)))
+
+بلندترین نقطه در کلرادو کجاست ؟
+(answer (highest (place (loc_2 (stateid colorado:e)))))
+
+کدام ایالت ها هم مرز آریزونا هستند ؟
+(answer (state (next_to_2 (stateid arizona:e))))
+
+کدام رودخانه ها در ایالات متحده از ایالتی که پایینترین نقطه در آن واقع شده است میگذرند ؟
+(answer (river (traverse_2 (state (loc_1 (lowest (place (loc_2 (countryid usa:e)))))))))
+
+جمعیت مینه سوتا چقدر است ؟
+(answer (population_1 (stateid minnesota:e)))
+
+کدام ایالت شهری با بیشترین جمعیت را دارد ؟
+(answer (state (loc_1 (largest_one (population_1 (city all:e))))))
+
+کدام ایالت ها شهر عمده ای به نام آستین دارند ؟
+(answer (state (loc_1 (major (city (cityid austin:e _:e))))))
+
+کدان ایالت ها نقطه ای بلند تر از بلندترین نقطه کلرادو دارند ؟
+(answer (state (loc_1 (place (higher_2 (highest (place (loc_2 (stateid colorado:e)))))))))
+
+بلندترین نقطه در ایالتی که کمترین جمعیت را دارد کجاست ؟
+(answer (highest (place (loc_2 (smallest_one (population_1 (state all:e)))))))
+
+نیو همپشایر در کجاست ؟
+(answer (loc_1 (stateid new_hampshire:e)))
+
+کدام ایالت همجوار فلوریدا است ؟
+(answer (state (next_to_2 (stateid florida:e))))
+
+چند رودخانه در تگزاس بلند تر از رد هست ؟
+(answer (count (intersection (river (loc_2 (stateid texas:e))) (longer (riverid red:e)))))
+
+چند رودخانه از ایالتی که مرکزش آلبانی است نمیگذرند ؟
+(answer (count (exclude (river all:e) (traverse_2 (state (loc_1 (capital (cityid albany:e _:e))))))))
+
+جمعیت های همه ایالت های عمده ای که میسیسیپی از آنها عبور میکند را به من بگو
+(answer (population_1 (state (traverse_1 (riverid mississippi:e)))))
+
+میسیسیپی از کدام ایالت ها عبور میکند ؟
+(answer (state (traverse_1 (riverid mississippi:e))))
+
+کدام ایالات همجوار میسیسیپی هستند ؟
+(answer (state (next_to_2 (riverid mississippi:e))))
+//(answer (state (next_to_2 (stateid mississippi:e))))
+
+شهرهای ویرجینیا را به من بده
+(answer (city (loc_2 (stateid virginia:e))))
+
+مرکز شهرهایی همجوار تگزاس کدامند ؟
+(answer (capital (city (loc_2 (state (next_to_2 (stateid texas:e)))))))
+
+کدام ایالت همجوار تگزاس دارای بیشترین جمعیت است ؟
+(answer (largest_one (population_1 (state (next_to_2 (stateid texas:e))))))
+
+کدام ایالت دارای بیشترین رودخانه هاست ؟
+(answer (state (most (state (loc_1 (river all:e))))))
+
+کدام ایالت بیشترین چگالی جمعیت را دارد ؟
+(answer (smallest_one (density_1 (state all:e))))
+
+شهرهای عمده اوهایو کدامند ؟
+(answer (major (city (loc_2 (stateid ohio:e)))))
+
+رود میسوری از کدام ایالت ها عبور میکند ؟
+(answer (state (traverse_1 (riverid missouri:e))))
+
+بزرگترین شهر آریزونا کدام است ؟
+(answer (largest (city (loc_2 (stateid arizona:e)))))
+
+چند نفر در هاوایی زندگی میکنند ؟
+(answer (population_1 (stateid hawaii:e)))
+
+چند نفر در کوچکترین ایالت مجاور وایومینگ زندگی میکنند ؟
+(answer (population_1 (smallest (state (next_to_2 (stateid wyoming:e))))))
+
+ایالتی که پایین ترین نقطه را دارد چه نام دارد ؟
+(answer (state (loc_1 (lowest (place all:e)))))
+
+کدام رودخانه ها از طریق میسوری جریان دارند ؟
+(answer (river (traverse_2 (stateid missouri:e))))
+
+ارتفاع دث ولی چقدر است ؟
+(answer (elevation_1 (placeid death_valley:e)))
+
+چه رودخانه ای از تگزاس میگذرد ؟
+(answer (river (traverse_2 (stateid texas:e))))
+
+ارتفاع بلندترین نقطه در میان همه ایالت ها کدامست ؟
+(answer (elevation_1 (highest (place (loc_2 (state all:e))))))
+
+مرکز ایالت نیوهمپشایر کجاست ؟
+(answer (capital (loc_2 (stateid new_hampshire:e))))
+
+طول ریوگرانده اوهایو چقدر است ؟
+(answer (len (riverid rio_grande:e)))
+
+کدام ایالت با بیشتر ایالت ها همجوار است ؟
+(answer (most (state (next_to_2 (state all:e)))))
+
+چند ایالت همجوار میسوری هستند ؟
+(answer (count (state (next_to_1 (stateid missouri:e)))))
+
+آسیتن در کجا واقع شده است ؟
+(answer (loc_1 (cityid austin:e _:e)))
+
+بلند ترین نقطه دلاور شهر چقدر ارتفاع دارد ؟
+(answer (elevation_1 (highest (place (loc_2 (stateid delaware:e))))))
+
+بالاترین نقطه در مونتانا کجا است ؟
+(answer (loc_1 (highest (place (loc_2 (stateid montana:e))))))
+//(answer (highest (place (loc_2 (stateid montana:e)))))
+
+کدام ایالت ها هم مرز ایالات هم مرز پر جمعیت ترین ایالت هستند ؟
+(answer (state (next_to_2 (state (next_to_2 (largest_one (population_1 (state all:e))))))))
+
+ارتفاع بلند ترین کوه در تگزاس چقدر است ؟
+(answer (elevation_1 (highest (mountain (loc_2 (stateid texas:e))))))
+
+فلینت متعلق به کدام ایالت است ؟
+(answer (state (loc_1 (cityid flint:e _:e))))
+
+کدام ایالت بیشترین چگالی جمعیت را در ایالات متحده دارد ؟
+(answer (largest_one (density_1 (state (loc_2 (countryid usa:e))))))
+
+کدامیک از شهرهای تگزاس بیشرین تعداد شهروند را دارند ؟
+(answer (largest_one (population_1 (city (loc_2 (stateid texas:e))))))
+
+کدام ایالات با مسیوری همجوار هستند ؟
+(answer (state (next_to_2 (stateid missouri:e))))
+
+بزرگترین استان را به من بده
+(answer (largest (state all:e)))
+
+کدام ایالت غیر متمرکز ترین جمعیت شهری را دارد ؟
+(answer (smallest_one (density_1 (state all:e))))
+
+کدام ایالت ها هم مرز آلاباما هستند ؟
+(answer (state (next_to_2 (stateid alabama:e))))
+
+کدام رودخانه ها از ایالت هایی میگذرند که با آلاباما همجوار هستند ؟
+(answer (river (traverse_2 (state (next_to_1 (stateid alabama:e))))))
+
+شهرهای عمده وایومینگ کدامند ؟
+(answer (major (city (loc_2 (stateid wyoming:e)))))
+
+بلندترین نقاط ایالت های همجوار میسیسیپی کدامند ؟
+(answer (highest (place (loc_2 (state (next_to_2 (stateid mississippi:e)))))))
+
+میسیپی از میان کدام ایالت ها میگذرد ؟
+(answer (state (traverse_1 (riverid mississippi:e))))
+
+اسکاتس ولی در کجا است ؟
+(answer (loc_1 (cityid scotts_valley:e _:e)))
+
+چند دریاچه عمده در ایالات متحده وجود دارد ؟
+(answer (major (lake (loc_2 (countryid usa:e)))))
+
+بزرگترین شهر در میسوری کجاست ؟
+(answer (largest (city (loc_2 (stateid missouri:e)))))
+
+کدام ایالات با آلاسکا هم مرزند ؟
+(answer (state (next_to_2 (stateid alaska:e))))
+
+بزرگترین شهر در کدام ایالت واقع شده است ؟
+(answer (state (loc_1 (largest (city all:e)))))
+
+کدام رودخانه ها از مین میگذرند ؟
+(answer (river (traverse_2 (stateid maine:e))))
+
+دریاچه های کالیفرنیا را به من بده
+(answer (lake (loc_2 (stateid california:e))))
+
+جمعیت 50 ایالت با هم چقدر است ؟
+(answer (sum (population_1 (state all:e))))
+
+بلند ترین نقطه لوزانیا چقدر ارتفاع دارد ؟
+(answer (elevation_1 (highest (place (loc_2 (stateid louisiana:e))))))
+
+طولانی ترین رودخانه در پنسیلوانیا کدامست ؟
+(answer (longest (river (loc_2 (stateid pennsylvania:e)))))
+
+مرکز ایالت مریلند کجاست ؟
+(answer (capital (loc_2 (stateid maryland:e))))
+
+بزرگترین ایالت کدامست ؟
+(answer (largest (state all:e)))
+
+کدام ایالت ها همجوار آیووا هستند ؟
+(answer (state (next_to_2 (stateid iowa:e))))
+
+کدام ایالت ها هم مرز آلاسکا هستند ؟
+(answer (state (next_to_2 (stateid alaska:e))))
+
+بزگترین ایالت آمریکا کجاست ؟
+(answer (largest (state (loc_2 (countryid usa:e)))))
+
+شهرهای عمده کالیفرنیا کدامند ؟
+(answer (major (city (loc_2 (stateid california:e)))))
+
+بزرگترین ایالتی که میسیسیپی از آن عبور میکند کدامست ؟
+(answer (largest (state (traverse_1 (riverid mississippi:e)))))
+
+کدام رودخانه ها از ایالت هایی میگذرند که با نیومکزیکو همجوار هستند ؟
+(answer (river (traverse_2 (state (next_to_2 (stateid new_mexico:e))))))
+
+پایین ترین نقطه در ایالت تگزاس کجاست ؟
+(answer (lowest (place (loc_2 (stateid texas:e)))))
+
+کوچکترین ایالت همجوار اوهایو چیست ؟
+(answer (smallest (state (next_to_2 (stateid ohio:e)))))
+
+چند ایالت همجوار رودهای عمده هستند ؟
+(answer (count (state (next_to_2 (major (river all:e))))))
+
+پایینترین نقطه در ایالات متحده کجاست ؟
+(answer (lowest (place (loc_2 (countryid usa:e)))))
+
+کدام ایالت بیشترین تراکم جمعیت را دارد ؟
+(answer (largest_one (density_1 (state all:e))))
+
+چند ایالت همجوار بزگترین ایالت هستند ؟
+(answer (count (state (next_to_2 (largest (state all:e))))))
+
+نام بلندترین رودخانه ای که از تگزاس نمیگذرد چیست ؟
+(answer (longest (exclude (river all:e) (traverse_2 (stateid texas:e)))))
+
+تمام ایالتهای ایالات متحده را نام ببر
+(answer (state (loc_2 (countryid usa:e))))
+
+چگالی جمعیتی تگزاس چقدر است ؟
+(answer (density_1 (stateid texas:e)))
+
+نام کوچکترین شهرستان در کوچکترین ایالت در ایالات متحده چیست ؟
+(answer (smallest (city (loc_2 (smallest (state (loc_2 (countryid usa:e))))))))
+
+بلندترین نقطه در کانزاس کجاست ؟
+(answer (highest (place (loc_2 (stateid kansas:e)))))
+
+جمعیت بوستون چقدر است ؟
+(answer (population_1 (cityid boston:e _:e)))
+
+چند نفر در ایالت نوادا زندگی میکنند ؟
+(answer (population_1 (stateid nevada:e)))
+
+چگالی جمعیت تگزاس چقدر است ؟
+(answer (density_1 (stateid texas:e)))
+
+چند نفر در وایومینگ دی سی زندگی میکنند ؟
+(answer (population_1 (cityid washington:e dc:e)))
+
+شهرهای تگزاس را به من بده
+(answer (city (loc_2 (stateid texas:e))))
+
+کوتاه ترین رودخانه آمریکا چقدر طول دارد ؟
+(answer (len (shortest (river (loc_2 (countryid usa:e))))))
+
+چند ایالت رودخانه عمده ای دارند ؟
+(answer (count (state (loc_1 (major (river all:e))))))
+
+چگالی جمعیت کوچکترین ایالت چقدر است ؟
+(answer (density_1 (smallest (state all:e))))
+
+کدام ایالت ها هم مرز میشیگان هستند ؟
+(answer (state (next_to_2 (stateid michigan:e))))
+
+کدامیک از شهرهای تگزاس بیشرین تعداد شهروند را دارند ؟
+(answer (largest_one (population_1 (city (loc_2 (stateid texas:e))))))
+
+کدام رودخانه ها از ایالاتی میگذرند که با ایالتی که دارای مرکز استان آتلانتاست مرز مشترک دارند ؟
+(answer (river (traverse_2 (state (next_to_2 (state (loc_1 (capital (cityid atlanta:e _:e)))))))))
+
+بلندترین نقطه در کشور کجاست ؟
+(answer (highest (place (loc_2 (countryid usa:e)))))
+
+چند نفر در کالامازو زندگی میکنند ؟
+(answer (population_1 (cityid kalamazoo:e _:e)))
+
+چند شهر عمده در فلوریدا هست ؟
+(answer (count (major (city (loc_2 (stateid florida:e))))))
+
+کدام ایالت بیشترین تمرکز جمعیت را داراست ؟
+(answer (largest_one (density_1 (state all:e))))
+
+چند رودخانه در کلرادو هست ؟
+(answer (count (river (loc_2 (stateid colorado:e)))))
+
+نام کم ارتفاع ترین نقطه ایالتی که بیشترین مساحت را دارد چیست ؟
+(answer (lowest (place (loc_2 (largest_one (area_1 (state all:e)))))))
+
+کدام ایالت ها همجوار تگزاس هستند ؟
+(answer (state (next_to_2 (stateid texas:e))))
+
+چند ایالت حداقل یک ایالت هم جوار دارند ؟
+(answer (count (state (next_to_2 (state all:e)))))
+
+کدام ایالت ها با هیچ ایالتی هم مرز نیستند ؟
+(answer (exclude (state all:e) (next_to_2 (state all:e))))
+
+کدام رودخانه ها از تگزاس آستین میگذرند ؟
+(answer (river (traverse_2 (cityid austin:e tx:e))))
+
+چند نفر در نیوهمپشایر زندگی میکنند ؟
+(answer (population_1 (stateid new_hampshire:e)))
+
+مرکز ایالت ایندیانا کجاست ؟
+(answer (capital (loc_2 (stateid indiana:e))))
+
+کدام ایالت ها با ایالتی با بیشترین تعداد شهرها هم مرز هستند ؟
+(answer (state (next_to_2 (most (state (loc_1 (city all:e)))))))
+
+مساحت کوچکترین ایالت چقدر است ؟
+(answer (area_1 (smallest (state all:e))))
+
+کدام ایالت ها هم مرز نیویورک هستند ؟
+(answer (state (next_to_2 (stateid new_york:e))))
+
+جمعیت مین چقدر است ؟
+(answer (population_1 (stateid maine:e)))
+
+بزرگترین شهر کوچکترین ایالت کدام است ؟
+(answer (largest (city (loc_2 (smallest (state all:e))))))
+
+ارتفاع بلند ترین نقطه در آمریکا چقدر است ؟
+(answer (elevation_1 (highest (place (loc_2 (countryid usa:e))))))
+
+چه ایالت هایی همجوار کمترین ایالت ها به غیر از آلاسکا و هاوایی هستند ؟
+(answer (fewest (state (next_to_2 (exclude (exclude (state all:e) (stateid alaska:e)) (stateid hawaii:e))))))
+
+بلندترین نقطه در نیومکزیکو کجاست ؟
+(answer (highest (place (loc_2 (stateid new_mexico:e)))))
+
+بزرگترین ایالت کدام است ؟
+(answer (largest (state all:e)))
+
+چند نفر در اسپوکین واشنگتن زندگی میکنند ؟
+(answer (population_1 (cityid spokane:e wa:e)))
+
+کوتاه ترین رود از کدام ایالت ها میگذرد ؟
+(answer (state (traverse_1 (shortest (river all:e)))))
+
+طول ریوگرانده چقدر است ؟
+(answer (len (riverid rio_grande:e)))
+
+چند نفر در تگزاس زندگی میکنند ؟
+(answer (population_1 (stateid texas:e)))
+
+پایین ترین نقطه در آیووا کجا است ؟
+(answer (loc_1 (lowest (place (loc_2 (stateid iowa:e))))))
+//(answer (lowest (place (loc_2 (stateid iowa:e)))))
+
+جمعیت های همه شهرهای عمده تگزاس را به من بگو
+(answer (population_1 (state (traverse_1 (riverid mississippi:e)))))
+
+نام پایین ترین نقطه اورگان چیست ؟
+(answer (lowest (place (loc_2 (stateid oregon:e)))))
+
+کوتاه ترین رودخانه در آلاسکا چه نام دارد ؟
+(answer (shortest (river (loc_2 (stateid alaska:e)))))
+
+چند ایالت همجوار میسیسیپی هستند ؟
+(answer (count (state (next_to_2 (riverid mississippi:e)))))
+
+پرجمعیت ترین مرکز ایالت در ایالات متحده کجاست ؟
+(answer (largest_one (population_1 (capital (loc_2 (countryid usa:e))))))
+
+بلندترین نقطه در اوهایو کجاست ؟
+(answer (highest (place (loc_2 (stateid ohio:e)))))
+
+کدام ایالت ها با ویسکنسین هم مرز هستند ؟
+(answer (state (next_to_2 (stateid wisconsin:e))))
+
+کدام ایالت ها دارای مرکز ایالتی هستند که بلندترین نقطه در آن ایالت است ؟
+(answer (state (loc_1 (capital (highest (place all:e))))))
+
+چند ایالت همجوار کلرادو و نیومکزیکو هستند ؟
+(answer (count (state (intersection (next_to_2 (stateid colorado:e)) (next_to_2 (stateid new_mexico:e))))))
+
+شهرهای عمده میسوری کدامند ؟
+(answer (major (city (loc_2 (stateid missouri:e)))))
+
+شهرهای عمده تگزاس کدامند ؟
+(answer (major (city (loc_2 (stateid texas:e)))))
+
+چند رودخانه کلرادو نامیده میشوند ؟
+(answer (count (river (riverid colorado:e))))
+//(answer (count (riverid colorado:e)))
+
+بلند ترین نقطه مونتانا چقدر ارتفاع دارد ؟
+(answer (elevation_1 (highest (place (loc_2 (stateid montana:e))))))
+
+چند ایالت شهر یا دهکده ای به نام آستین دارند ؟
+(answer (count (state (loc_1 (city (cityid austin:e _:e))))))
+
+رود میسوری از کدام ایالت ها عبور میکند ؟
+(answer (state (traverse_1 (riverid missouri:e))))
+
+بزرگترین شهر ایالات متحده کدام است ؟
+(answer (largest (city (loc_2 (countryid usa:e)))))
+
+وسعت نیومکزیکو چقدر است ؟
+(answer (size (stateid new_mexico:e)))
+
+چند نفر در داکوتای جنوبی زندگی میکنند ؟
+(answer (population_1 (stateid south_dakota:e)))
+
+پطزبورگ در کدام ایالت است ؟
+(answer (state (loc_1 (cityid pittsburgh:e _:e))))
+
+کدام رودخانه ها از آریزونا میگذرند ؟
+(answer (river (traverse_2 (stateid arizona:e))))
+
+چند رودخانه بزرگ از اوهایو میگذرند ؟
+(answer (count (major (river (traverse_2 (stateid ohio:e))))))
+
+چند نفر در بولدر زندگی میکنند ؟
+(answer (population_1 (cityid boulder:e _:e)))
+
+چند رودخانه در آیداهو وجود دارد ؟
+(answer (count (river (loc_2 (stateid idaho:e)))))
+
+ساکرامنتو مرکز کدام ایالت است ؟
+(answer (state (loc_1 (capital (cityid sacramento:e _:e)))))
+
+چند شهر در ایالات متحده هست ؟
+(answer (count (city (loc_2 (countryid usa:e)))))
+
+کالیفرنیا چند شهروند دارد ؟
+(answer (population_1 (stateid california:e)))
+
+کدام ایالت بیشترین جمعیت شهری را دارد ؟
+(answer (largest_one (population_1 (state all:e))))
+
+کدام ایالات هم مرز رودخانه میسیسیپی هستند ؟
+(answer (state (next_to_2 (riverid mississippi:e))))
+
+در مورد جمعیت میسوری چه میتوانی به من بگویی ؟
+(answer (population_1 (stateid missouri:e)))
+
+چه رودخانه هایی از تنسی نمیگذرند ؟
+(answer (exclude (river all:e) (traverse_2 (stateid tennessee:e))))
+
+بزرگترین شهر در ایالت مجاور تگزاس کجاست ؟
+(answer (largest (city (loc_2 (state (next_to_2 (stateid texas:e)))))))
+
+بلندترین رودخانه ایالات متحده را نام ببر
+(answer (longest (river (loc_2 (countryid usa:e)))))
+
+رودخانه میسیسیپی از چند ایالت عبور میکند ؟
+(answer (count (state (traverse_1 (riverid mississippi:e)))))
+
+بزرگترین ایالتی که ریوگرانده از آن میگذرد کجاست ؟
+(answer (largest (state (traverse_1 (riverid rio_grande:e)))))
+
+اندازه شهر مرکزی تگزاس چقدر است ؟
+(answer (size (capital (loc_2 (stateid texas:e)))))
+
+از میان کدام ایالت ها رودخانه ای میگذرد ؟
+(answer (state (traverse_1 (river all:e))))
+
+کدام ایالات همجوار هاوایی هستند ؟
+(answer (state (next_to_2 (stateid hawaii:e))))
+
+بولدر چند شهروند دارد ؟
+(answer (population_1 (cityid boulder:e _:e)))
+
+کدام ایالات همجوار ایالات هایی هستند که با ایالت های هم مرز فلوریدا همسایه هستند ؟
+(answer (state (next_to_2 (state (next_to_2 (state (next_to_2 (stateid florida:e))))))))
+
+کدام ایالت ها همجوار بلندترین رود ایالات متحده آمریکا هستند ؟
+(answer (state (next_to_2 (longest (river (loc_2 (countryid usa:e)))))))
+
+تراکم جمعیت وایومینگ چقدر است ؟
+(answer (density_1 (stateid wyoming:e)))
+
+چند نفر در آیووا زندگی میکنند ؟
+(answer (population_1 (stateid iowa:e)))
+
+بلندترین نقطه در ایالتی که بیشترین تعداد رودها را دارد کجاست ؟
+(answer (highest (place (loc_2 (most (state (traverse_1 (river all:e))))))))
+
+در بولدر چند شهروند سکونت دارند ؟
+(answer (population_1 (cityid boulder:e _:e)))
+
+رودخانه های ایالت مونتانا کدامند ؟
+(answer (river (loc_2 (stateid montana:e))))
+
+چند ایالت همجاور ایالاتی هستند که مرکز آنها بوستون است ؟
+(answer (count (state (next_to_2 (state (loc_1 (capital (cityid boston:e _:e))))))))
+
+چند نفر در واشنگتن زندگی میکنند ؟
+(answer (population_1 (stateid washington:e)))
+
+کدام مرکز استان دارای بیشترین جمعیت است ؟
+(answer (largest_one (population_1 (capital_1 (state all:e)))))
+
+بزرگترین شهر در ایالت های همجوار کالیفرنیا کجاست ؟
+(answer (largest (city (loc_2 (state (next_to_2 (stateid california:e)))))))
+
+نام پرجمعیت ترین شهر در وایومینگ چیست ؟
+(answer (largest_one (population_1 (city (loc_2 (stateid wyoming:e))))))
+
+چگالی جمعیت در ایالت به مرکزیت آستین چقدر است ؟
+(answer (density_1 (state (loc_1 (capital (cityid austin:e _:e))))))
+
+جمعیت پورتلند مین چقدر است ؟
+(answer (population_1 (cityid portland:e me:e)))
+
+کالامازو در کدام ایالت واقع شده است ؟
+(answer (state (loc_1 (cityid kalamazoo:e _:e))))
+
+جمعیت بزرگترین ایالت هم مرز تگزاس چیست ؟
+(answer (population_1 (largest (state (next_to_2 (stateid texas:e))))))
+
+کدام ایالات همجوار اوهایو هستند ؟
+(answer (state (next_to_2 (stateid ohio:e))))
+
+چه رودخانه ای در ایالات متحده بلندترین است ؟
+(answer (longest (river (loc_2 (countryid usa:e)))))
+
+چگالی جمعیت ایالتی که کمترین مساحت را دارد چقدر است ؟
+(answer (density_1 (smallest_one (area_1 (state all:e)))))
+
+بزرگترین مرکز ایالت کجاست ؟
+(answer (largest (capital all:e)))
+
+کدام ایالت کوچکترین مرکز ایالت را دارد ؟
+(answer (state (loc_1 (smallest (capital all:e)))))
+
+چند شهر بزرگ در پنلسیلوانیا هست ؟
+(answer (count (major (city (loc_2 (stateid pennsylvania:e))))))
+
+کدام ایالت ها بر بزرگترین رودخانه ایالات متحده واقع شده اند ؟
+(answer (state (traverse_1 (longest (river (loc_2 (countryid usa:e)))))))
+
+هوستون در کجا واقع شده است ؟
+(answer (loc_1 (cityid houston:e _:e)))
+
+کدام رودخانه ها از ایالت هایی میگذرند که با ایالتی که دارای بیشترین جمعیت است همجوارند ؟
+(answer (river (traverse_2 (state (next_to_2 (largest_one (population_1 (state all:e))))))))
+
+بلندترین نقطه در کوچکترین ایالت کجاست ؟
+(answer (highest (place (loc_2 (smallest (state all:e))))))
+
+چه رودخانه ای از ویرجینیا میگذرد ؟
+(answer (river (traverse_2 (stateid virginia:e))))
+
+کدام ایالت همجوار میشیگان است ؟
+(answer (state (next_to_2 (stateid michigan:e))))
+
+دریاچه های عمده میشیگان را نام ببر
+(answer (major (lake (loc_2 (stateid michigan:e)))))
+
+شهرهای ویرجینیا را به من بده
+(answer (city (loc_2 (stateid virginia:e))))
+
+کدام رودخانه از بیشتر ایالت ها میگذرد ؟
+(answer (most (river (traverse_2 (state all:e)))))
+
+چند نفر در نیومکزیکو زندگی میکنند ؟
+(answer (population_1 (stateid new_mexico:e)))
+
+بزرگترین شهر در آلاباما کجاست ؟
+(answer (largest (city (loc_2 (stateid alabama:e)))))
+
+چند نفر در سانفرانسیسکو زندگی میکنند ؟
+(answer (population_1 (cityid san_francisco:e _:e)))
+
+جمعیت پایتخت بزرگترین ایالت چقدر است ؟
+(answer (population_1 (capital (loc_2 (largest (state all:e))))))
+
+نام بلندترین رودخانه ایالات متحده چیست ؟
+(answer (longest (river (loc_2 (countryid usa:e)))))
+
+بزگترین استان همرمز ایالت دارای بیشترین جمعیت کدامست ؟
+(answer (largest (state (next_to_2 (largest_one (population_1 (state all:e)))))))
+
+همه دریاچه های عمده ایالات متحده را نشان بده
+(answer (major (lake (loc_2 (countryid usa:e)))))
+
+اسپرینگفیلد کجا واقع شده است ؟
+(answer (loc_1 (cityid springfield:e _:e)))
+
+دس موییز در کدام ایالت واقع شده است ؟
+(answer (state (loc_1 (cityid des_moines:e _:e))))
+
+تگزاس چند شهر دارد ؟
+(answer (count (city (loc_2 (stateid texas:e)))))
+
+بوستون در کدام ایالت است ؟
+(answer (state (loc_1 (cityid boston:e _:e))))
+
+کدام رودخانه ها از ایالتی که بزرگترین شهر آمریکا در آن واقع شده است میگذرند ؟
+(answer (river (traverse_2 (state (loc_1 (largest (city (loc_2 (countryid usa:e)))))))))
+
+ایالت های همجوار آیووا کدامند ؟
+(answer (state (next_to_2 (stateid iowa:e))))
+
+کدام ایالت ها با هیچ ایالتی هم مرز نیستند ؟
+(answer (exclude (state all:e) (next_to_2 (state all:e))))
+
+پایین ترین نقطه در ایالات متحده کجاست ؟
+(answer (loc_1 (lowest (place (loc_2 (countryid usa:e))))))
+//(answer (lowest (place (loc_2 (countryid usa:e)))))
+
+شهرهای عمده اکلاهما کدامند ؟
+(answer (major (city (loc_2 (stateid oklahoma:e)))))
+
+کدام ایالت همجوار تگزاس کمترین مساحت را دارد ؟
+(answer (smallest_one (area_1 (state (next_to_2 (stateid texas:e))))))
+
+مرکز ایالتی که بلندترین ارتفاع را دارد کجاست ؟
+(answer (capital (loc_2 (state (loc_1 (highest (place all:e)))))))
+
+رود میسیسیپی از کدام ایالت ها میگذرد ؟
+(answer (state (traverse_1 (riverid mississippi:e))))
+
+مونت ویتنی در کجا واقع شده است ؟
+(answer (loc_1 (placeid mount_whitney:e)))
+
+کدام ایالت بیشترین چگالی جمعیت را دارد ؟
+(answer (largest_one (density_1 (state all:e))))
+
+نام کوچکترین شهرستان در واشنگتن چیست ؟
+(answer (smallest (city (loc_2 (stateid washington:e)))))
+
+شهرهای عمده نیومکزیکو کدامند ؟
+(answer (major (city (loc_2 (stateid new_mexico:e)))))
+
+چند نفر در مرکز جورجیا زندگی میکنند ؟
+(answer (population_1 (capital (loc_2 (stateid georgia:e)))))
+
+کدام ایالتی که میسیسیپی از آن عبور میکند دارای بیشترین جمعیت است ؟
+(answer (largest_one (population_1 (state (traverse_1 (riverid mississippi:e))))))
+
+کدام ایالت بیشترین وسعت را داراست ؟
+(answer (largest_one (area_1 (state all:e))))
+
+چند نفر در رایورساید زندگی میکنند ؟
+(answer (population_1 (cityid riverside:e _:e)))
+
+مساحت سیاتل چقدر است ؟
+(answer (area_1 (cityid seattle:e _:e)))
+
+کدام مرکز استان ها دارای بیشترین جمعیت هستند ؟
+(answer (largest_one (population_1 (capital all:e))))
+
+مرکز ایالتی که با بیشتر ایالات همجوار است کجاست ؟
+(answer (capital (loc_2 (most (state (next_to_2 (state all:e)))))))
+
+چند رودخانه از ایالات همجوار کلرادو میگذرند ؟
+(answer (count (river (traverse_2 (state (next_to_2 (stateid colorado:e)))))))
+
+شهر های کالیفرنیا کدامند ؟
+(answer (city (loc_2 (stateid california:e))))
+
+آستین پایتخت کدام ایالت است ؟
+(answer (state (loc_1 (capital (cityid austin:e _:e)))))
+
+چند نفر در کانزاس زندگی میکنند ؟
+(answer (population_1 (stateid kansas:e)))
+
+چه ایالتهایی با کمترین ایالت ها هم مرز هستند ؟
+(answer (fewest (state (next_to_2 (state all:e)))))
+
+کدام ایالت ها هم مرز سوت داکوتا هستند ؟
+(answer (state (next_to_2 (stateid south_dakota:e))))
+
+رودخانه های آرکانزاس را نام ببر
+(answer (river (loc_2 (stateid arkansas:e))))
+
+طول روخانه میسیسیپی به مایل چقدر است ؟
+(answer (len (riverid mississippi:e)))
+
+کوتاه ترین رودخانه در ایالات متحده چیست ؟
+(answer (shortest (river (loc_2 (countryid usa:e)))))
+
+بزرگترین شهر ایالات متحده کدام است ؟
+(answer (largest (city (loc_2 (countryid usa:e)))))
+
+مرکز واشنگتن کجاست ؟
+(answer (capital (loc_2 (stateid washington:e))))
+
+چند شهر در مونتانا هست ؟
+(answer (count (city (loc_2 (stateid montana:e)))))
+
+مرکزایالت تگزاس کجاست ؟
+(answer (capital (loc_2 (stateid texas:e))))
+
+ارتفاع مونت مک کینلی چقدر است ؟
+(answer (elevation_1 (placeid mount_mckinley:e)))
+
+کدام شهر کمترین جمعیت را دارد ؟
+(answer (smallest_one (population_1 (city all:e))))
+
+بزرگترین ایالت در ایالات متحده امریکا کدام است ؟
+(answer (largest (state (loc_2 (countryid usa:e)))))
+
+استانهای همجوار یوتاه چند شهر دارند ؟
+(answer (count (major (city (loc_2 (state (next_to_2 (stateid utah:e))))))))
+
+چند ایالت همجوار تنسی هستند ؟
+(answer (count (state (next_to_2 (stateid tennessee:e)))))
+
+رود اوهایو از کدام ایالت ها میگذرد ؟
+(answer (state (traverse_1 (riverid ohio:e))))
+
+بزگترین رودخانه در کوچکترین ایالت کدامست ؟
+(answer (longest (river (loc_2 (smallest (state (loc_2 (countryid usa:e))))))))
+
+کوچکترین ایالت بر مبنای مساحت کدام است ؟
+(answer (smallest_one (area_1 (state all:e))))
+
+جمعیت پایتخت بزرگترین ایالت که میسیسیپی از آن میگذرد چقدر است ؟
+(answer (population_1 (capital (loc_2 (largest (state (traverse_1 (riverid mississippi:e))))))))
+
+جمعیت بوستون ماساچوست چقدر است ؟
+(answer (population_1 (cityid boston:e ma:e)))
+
+کدام شهر ها در کالیفرنیا واقع شده ند ؟
+(answer (city (loc_2 (stateid california:e))))
+
+وسعت شهر نیویورک چقدر است ؟
+(answer (size (cityid new_york:e _:e)))
+
+کدام ایالت بیشترین تعداد شهرها را دارد ؟
+(answer (most (state (loc_1 (city all:e)))))
+
+نام بلندترین رودخانه ایالات متحده چیست ؟
+(answer (longest (river (loc_2 (countryid usa:e)))))
+
+50 مرکز ایالت در ایالات متحده نام ببر
+(answer (capital (loc_2 (countryid usa:e))))
+
+مرکز ایالت همجوار ایالت مجاور تگزاس کجاست ؟
+(answer (capital (loc_2 (state (next_to_2 (state (next_to_2 (stateid texas:e))))))))
+
+رودخانه رد در کدام ایالت واقع شده است ؟
+(answer (state (loc_1 (riverid red:e))))
+
+چند نفر در شیکاگو زندگی میکنند ؟
+(answer (population_1 (cityid chicago:e _:e)))
+
+نام کوچکترین شهرستان در آلاسکا چیست ؟
+(answer (smallest (city (loc_2 (stateid alaska:e)))))
+
+ایالت ها را فهرست کن
+(answer (state all:e))
+
+بزرگترین شهر جورجیا کدام است ؟
+(answer (largest (city (loc_2 (stateid georgia:e)))))
+
+کدام ایالت ها هم مرز ایالتی هستند که میسیسیپی از آن عبور میکند ؟
+(answer (state (next_to_2 (state (traverse_1 (riverid mississippi:e))))))
+
+چند شهر در ایالات متحده هست ؟
+(answer (count (city (loc_2 (countryid usa:e)))))
+
+وسعت تگزاس چقدر است ؟
+(answer (size (stateid texas:e)))
+
+ارتفاع بلندترین نقطه در آمریکا چقدر است ؟
+(answer (elevation_1 (highest (place (loc_2 (countryid usa:e))))))
+
+جمعیت های همه شهرهایی که میسیسیپی از آنها میگذرد را به من بگو
+(answer (population_1 (state (traverse_1 (riverid mississippi:e)))))
+
+کدام ایالت جمعیت کمتری دارد ؟
+(answer (smallest_one (population_1 (state all:e))))
+
+چند ایالت همجوار تگزاس هستند ؟
+(answer (count (state (next_to_2 (stateid texas:e)))))
+
+رود کلرادو از میان کدام ایالت ها عبور میکند ؟
+(answer (state (traverse_1 (riverid colorado:e))))
+
+بلندترین نقطه در تکزاس کجاست ؟
+(answer (highest (place (loc_2 (stateid texas:e)))))
+
+طولانی ترین رودخانه کالیفرنیا کدامست ؟
+(answer (longest (river (loc_2 (stateid california:e)))))
+
+طول رودخانه ای که از بیشترین تعداد ایالات میگذرد چقدر است ؟
+(answer (len (most (river (traverse_2 (state all:e))))))
+
+پرجمعیت ترین ایالت در ایالات متحده کجاست ؟
+(answer (largest_one (population_1 (state (loc_2 (countryid usa:e))))))
+
+مرکز جورجیا کجاست ؟
+(answer (capital (loc_2 (stateid georgia:e))))
+
+چگالی جمعیت در ایالات متحده چقدر است ؟
+(answer (density_1 (countryid usa:e)))
+
+مساحت نیومکزیکو چقدر است ؟
+(answer (area_1 (stateid new_mexico:e)))
+
+طولانی ترین رودخانه در تگزاس کدامست ؟
+(answer (longest (river (loc_2 (stateid texas:e)))))
+
+چند شهر عمده داریم ؟
+(answer (count (major (city all:e))))
+
+چند رودخانه در ایالتی که دارای بیشترین جمعیت است وجود دارد ؟
+(answer (count (river (loc_2 (largest_one (population_1 (state all:e)))))))
+
+شهرهای عمده مونتانا چیستند ؟
+(answer (major (city (loc_2 (stateid montana:e)))))
+
+جمعیت شهرهای عمده ویسکونسین چقدر است ؟
+(answer (population_1 (major (city (loc_2 (stateid wisconsin:e))))))
+
+کدام ایالت ها هم مرز تگزاس نیستند ؟
+(answer (exclude (state all:e) (next_to_2 (stateid texas:e))))
+
+کدام رودخانه از ایالت های بیشتری عبور میکند ؟
+(answer (most (river (traverse_2 (state all:e)))))
+
+کدام ایالت دارای کمترین تراکم جمعیت است ؟
+(answer (smallest_one (density_1 (state all:e))))
+
+رود میسوری از کدام ایالت ها عبور میکند ؟
+(answer (state (traverse_1 (riverid missouri:e))))
+
+چند رودخانه در کلرادو وجود دارد ؟
+(answer (count (river (loc_2 (stateid colorado:e)))))
+
+کوتاه ترین رودخانه در آیووا چه نام دارد ؟
+(answer (shortest (river (loc_2 (stateid iowa:e)))))
+
+کدام ایالت ها هم مرز ایالت هایی هستند که میسیسیپی از آنها عبور میکند ؟
+(answer (state (next_to_2 (state (traverse_1 (riverid mississippi:e))))))
+
+چند نفر در نیویورک زندگی میکنند ؟
+(answer (population_1 (stateid new_york:e)))
+
+کدام شهر تگزاس بیشترین جمعیت را دارد ؟
+(answer (largest_one (population_1 (city (loc_2 (stateid texas:e))))))
+
+بلندترین ارتفاع در نیومکزیکو چقدر است ؟
+(answer (highest (place (loc_2 (stateid new_mexico:e)))))
+
+بلندترین نقطه در ایالات متحده کجاست ؟
+(answer (highest (place (loc_2 (countryid usa:e)))))
+
+جمعیت ایالتی دارای بیشترین مساحت چقدر است ؟
+(answer (population_1 (largest_one (area_1 (state all:e)))))
+
+باتون راگ در کجا واقع شده است ؟
+(answer (loc_1 (cityid baton_rouge:e _:e)))
+
+کدام ایالات در ایالات متحده شهری به نام اسپرینگفیلد دارند ؟
+(answer (intersection (state (loc_2 (countryid usa:e))) (loc_1 (city (cityid springfield:e _:e)))))
+
+چند شهر در لوزانیا هست ؟
+(answer (count (city (loc_2 (stateid louisiana:e)))))
+
+ایالات متحده چند ایالت دارد ؟
+(answer (count (state (loc_2 (countryid usa:e)))))
+
+کدام رودخانه ها از لوئیزیانا میگذرند ؟
+(answer (river (traverse_2 (stateid louisiana:e))))
+
+چند نفر در ایالت با بیشترین چگالی جمعیتی زندگی میکنند ؟
+(answer (population_1 (largest_one (density_1 (state all:e)))))
+
+ایالتی که بالاترین ارتفاع را در ایالات متحده دارد کدام است ؟
+(answer (state (loc_1 (highest (place (loc_2 (countryid usa:e)))))))
+
+کدام ایالت با بیشترین ایالات همجوار است ؟
+(answer (most (state (next_to_2 (state all:e)))))
+
+کدام ایالت ها همجوار آلاباما هستند ؟
+(answer (state (next_to_2 (stateid alabama:e))))
+
+طول رودخانه کلرادو در تگزاس چقدر است ؟
+(answer (len (intersection (riverid colorado:e) (river (loc_2 (stateid texas:e))))))
+
+کدام ایالت بیشترین جمعیت را داراست ؟
+(answer (largest_one (population_1 (state all:e))))
+
+ایالتی که دارای بلندترین نقطه است کدام است ؟
+(answer (state (loc_1 (highest (place all:e)))))
+
+چگالی جمعیت داکوتای جنوبی چقدر است ؟
+(answer (density_1 (stateid south_dakota:e)))
+
+کدام آیالت ها شهری دارند که آستین نامیده میشود ؟
+(answer (state (loc_1 (city (cityid austin:e _:e)))))
+
+چند نفر در مونتانا زندگی میکنند ؟
+(answer (population_1 (stateid montana:e)))
+
+

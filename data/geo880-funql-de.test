@@ -1,0 +1,851 @@
+welcher staat ist am kleinsten
+(answer (smallest (state all:e)))
+
+wie lautet der laengste fluss der usa
+(answer (longest (river (loc_2 (countryid usa:e)))))
+
+wie lauten die hoechsten punkte aller staaten
+(answer (highest (place (loc_2 (state all:e)))))
+
+wie lauten die wichtigsten fluesse in ohio
+(answer (major (river (loc_2 (stateid ohio:e)))))
+
+nenne die wichtigsten fluesse in florida
+(answer (major (river (loc_2 (stateid florida:e)))))
+
+wie gross ist die bevoelkerung von erie in pennsylvania
+(answer (population_1 (cityid erie:e pa:e)))
+
+welcher staat hat die kleinste durchschnittliche urbane bevoelkerungzahl
+(answer (smallest_one (density_1 (state all:e))))
+
+wo liegt die kleinste stadt
+(answer (loc_1 (smallest (city all:e))))
+
+welcher fluss verlaeuft durch staaten welche dem staat mit der hauptstadt austin grenzen
+(answer (river (traverse_2 (state (next_to_2 (state (loc_1 (capital (cityid austin:e _:e)))))))))
+
+wie lautet der niedrigste punkt in massachusetts
+(answer (lowest (place (loc_2 (stateid massachusetts:e)))))
+
+wie gross ist die bevoelkerung von maryland
+(answer (population_1 (stateid maryland:e)))
+
+durch welche staaten verlaeuft der mississippi
+(answer (state (traverse_1 (riverid mississippi:e))))
+
+wo liegt portland
+(answer (loc_1 (cityid portland:e _:e)))
+
+wie lauten die staedte in den staaten durch welchder mississippi fluss verlaeuft
+(answer (city (loc_2 (state (traverse_1 (riverid mississippi:e))))))
+
+wie viele menschen leben in houston
+(answer (population_1 (cityid houston:e _:e)))
+
+wie hoch ist die bevoelkerung der staaten durch welche der mississippi fluss verlaeuft
+(answer (population_1 (state (traverse_1 (riverid mississippi:e)))))
+
+durch welche staaten fliesst der ohio fluss
+(answer (state (traverse_1 (riverid ohio:e))))
+
+welcher staat hat die hoechste bevoelkerung
+(answer (largest_one (population_1 (state all:e))))
+
+welche staaten grenzen an kentucky
+(answer (state (next_to_2 (stateid kentucky:e))))
+
+wie lautet die hauptstadt von north dakota
+(answer (capital (loc_2 (stateid north_dakota:e))))
+
+wie viele staedte gibt es in den usa
+(answer (count (city (loc_2 (countryid usa:e)))))
+
+wie lautet die groesste hauptstadt in den usa
+(answer (largest (capital (city (loc_2 (countryid usa:e))))))
+
+wie gross sind die bevoelkerungen der staaten welche an texas grenzen
+(answer (population_1 (state (next_to_2 (stateid texas:e)))))
+
+wie lauten die hauptstadte der staaten welche staedte mit dem namen durham haben
+(answer (capital (loc_2 (state (loc_1 (city (cityid durham:e _:e)))))))
+
+wie lautet die groesste stadt von kansas
+(answer (largest (city (loc_2 (stateid kansas:e)))))
+
+wie hoch ist die bevoelkerung von boulder
+(answer (population_1 (cityid boulder:e _:e)))
+
+welcher staat hat die meisten einwohner
+(answer (largest_one (population_1 (state all:e))))
+
+wie hoch ist die bevoelkerung von houston
+(answer (population_1 (cityid houston:e _:e)))
+
+wie viele staaten gibt es
+(answer (count (state all:e)))
+
+welcher staat grenzt an den staat mit der kleinsten flaeche
+(answer (state (next_to_2 (smallest_one (area_1 (state all:e))))))
+
+wie lautet der laengste fluss welcher durch einen staat verlaeuft der an indiana grenzt
+(answer (longest (river (traverse_2 (state (next_to_2 (stateid indiana:e)))))))
+
+welche staaten grenzen an den bevoelkerungsreichsten staat
+(answer (state (next_to_2 (largest_one (population_1 (state all:e))))))
+
+wie lautet die groesste stadt in california
+(answer (largest (city (loc_2 (stateid california:e)))))
+
+wie lautet der laengste fluss in den staaten welcher an nebraska grenzt
+(answer (longest (river (loc_2 (state (next_to_2 (stateid nebraska:e)))))))
+
+wie lautet die hauptstadt von new jersey
+(answer (capital (loc_2 (stateid new_jersey:e))))
+
+welcher staat hat die meisten wichtigsten staedte
+(answer (most (state (loc_1 (major (city all:e))))))
+
+wie viele fluesse mit dem namen colorado gibt es
+(answer (count (riverid colorado:e)))
+
+wie lautet die hoechste erhebung in den vereinigten staaten
+(answer (highest (place (loc_2 (countryid usa:e)))))
+
+wie wieviele menschen leben in der groessten stadt von new york state
+(answer (population_1 (largest (city (loc_2 (stateid new_york:e))))))
+
+wie lauten die hauptstaedte der staaten welche an missouri grenzen
+(answer (capital (loc_2 (state (next_to_2 (stateid missouri:e))))))
+
+was ist die laenge des flusses der durch die groessten anzahl staaten fliesst
+(answer (len (most (river (traverse_2 (state all:e))))))
+
+wie lautet der hoechste punkt in dem staat mit der hauptstadt austin
+(answer (highest (place (loc_2 (state (loc_1 (capital (cityid austin:e _:e))))))))
+
+welcher staat hat die groesste hauptstadt
+(answer (state (loc_1 (largest (capital all:e)))))
+
+wie lautet die hauptstadt von massachusetts
+(answer (capital (loc_2 (stateid massachusetts:e))))
+
+welche staaten grenzen an new jersey
+(answer (state (next_to_2 (stateid new_jersey:e))))
+
+welche staaten grenzen staaten durch welche der ohio fluss verlaeuft
+(answer (state (next_to_2 (state (traverse_1 (riverid ohio:e))))))
+
+welche staat hat die hoechste erhoehung
+(answer (state (loc_1 (highest (place all:e)))))
+
+welcher staat durch den der mississippi fliesst hat die groesste bevoelkerung
+(answer (largest_one (population_1 (state (traverse_1 (riverid mississippi:e))))))
+
+wie lautet der hoechste gipfel der nicht in alaska liegt
+(answer (highest (exclude (mountain all:e) (loc_2 (stateid alaska:e)))))
+
+welcher staat hat die meisten wichtigsten staedte
+(answer (most (state (loc_1 (major (city all:e))))))
+
+welche staaten haben staedte mit dem namen portland
+(answer (state (loc_1 (city (cityid portland:e _:e)))))
+
+wie lautet der hoechste punkt des staat mit der gerinsten bevoelkerungsdichte
+(answer (highest (place (loc_2 (smallest_one (density_1 (state all:e)))))))
+
+welche staaten grenzen dem staat mit den meisten wichtigsten staedten
+(answer (state (next_to_2 (most (state (loc_1 (major (city all:e))))))))
+
+welches ist die kleinste stadt der usa
+(answer (smallest (city (loc_2 (countryid usa:e)))))
+
+wieviel menschen laeben in hawaii
+(answer (population_1 (stateid hawaii:e)))
+
+welche staaten grenzen an indiana
+(answer (state (next_to_2 (stateid indiana:e))))
+
+wie viele staaten gibt es in den usa
+(answer (count (state (loc_2 (countryid usa:e)))))
+
+wie lautet die hauptstadt von illinois
+(answer (capital (loc_2 (stateid illinois:e))))
+
+welcher fluss verlaeuft durch den staat welcher an die meisten staaten grenzt
+(answer (river (traverse_2 (most (state (next_to_2 (state all:e)))))))
+
+welcher staat grenzt dem staat welche an die meisten staaten grenzt
+(answer (state (next_to_2 (most (state (next_to_2 (state all:e)))))))
+
+wie lang ist der colorado fluss
+(answer (len (riverid colorado:e)))
+
+welches sind die staaten welche vom laengsten fluss durchflossen werden
+(answer (state (loc_1 (longest (river all:e)))))
+
+welche staaten grenzen an kentucky
+(answer (state (next_to_2 (stateid kentucky:e))))
+
+nenne mir die staaten welche an utah grenzen
+(answer (state (next_to_2 (stateid utah:e))))
+
+wie lautet die hauptstadt des staat mit dem groessten bevoelkerungsdichte
+(answer (capital (loc_2 (largest_one (density_1 (state all:e))))))
+
+welche staaten haben staedte mit dem namen plano
+(answer (state (loc_1 (city (cityid plano:e _:e)))))
+
+welche staaten grenzen dem staat mit den meisten staedten
+(answer (state (next_to_2 (most (state (loc_1 (city all:e)))))))
+
+wie viele einwohner hat die groesste stadt in den usa
+(answer (population_1 (largest (city (loc_2 (countryid usa:e))))))
+//(answer (population_1 (largest (city all:e))))
+
+wie viele menschen leben in utah
+(answer (population_1 (stateid utah:e)))
+
+wie viele staaten grenzen an montana
+(answer (state (next_to_2 (stateid montana:e))))
+
+flüsse in new york
+(answer (river (traverse_2 (stateid new_york:e))))
+
+welcher fluss verlauft durch den staat welcher an die meisten staaten grenzt
+(answer (river (traverse_2 (most (state (next_to_2 (state all:e)))))))
+
+zahle die staaten welche erhebungen haben die niedriger liegen als jene in alabama
+(answer (count (state (low_point_2 (lower_2 (low_point_1 (stateid alabama:e)))))))
+
+welcher fluss fliesst durch die groesste anzahl an staaten
+(answer (most (river (traverse_2 (state all:e)))))
+
+welche fluesse fluesse gibt es in texas
+(answer (river (loc_2 (stateid texas:e))))
+
+welcher staat beinhaltet den hoechsten punkt
+(answer (state (loc_1 (highest (place all:e)))))
+
+welcher staat liegt in austin
+(answer (state (loc_1 (cityid austin:e _:e))))
+
+wie hoch liegt der hoechste punkt in alabama
+(answer (elevation_1 (highest (place (loc_2 (stateid alabama:e))))))
+
+wie lang ist der mississippi
+(answer (len (riverid mississippi:e)))
+
+wie viele fluesse gibt es in colorado
+(answer (count (river (loc_2 (stateid colorado:e)))))
+
+wie lang ist der mississippi
+(answer (len (riverid mississippi:e)))
+
+welcher staat hat die meisten fluesse
+(answer (most (state (loc_1 (river all:e)))))
+
+wie viele leute leben in austin
+(answer (population_1 (cityid austin:e _:e)))
+
+welche us stadt hat ide hoechste bevoelkerungsdichte
+(answer (largest_one (density_1 (city (loc_2 (countryid usa:e))))))
+
+durch welche staaten fliessen fluesse
+(answer (state (loc_1 (river all:e))))
+
+wie lautet der hoechste punkt in den usa
+(answer (highest (place (loc_2 (countryid usa:e)))))
+
+wie gross ist die flaeche von florida
+(answer (area_1 (stateid florida:e)))
+
+wie lautet die hauptstadt von california
+(answer (capital (loc_2 (stateid california:e))))
+
+wie lautet die hauptstadt des staat mit den meisten einwohnern
+(answer (capital (loc_2 (largest_one (population_1 (state all:e))))))
+
+durch welchen staat fliessen am meisten grosse flüsse
+(answer (most (state (loc_1 (major (river all:e))))))
+
+wie lautet die hauptstadt des staat mit der groessten bevoelkerung
+(answer (capital (loc_2 (largest_one (population_1 (state all:e))))))
+
+wie lautet die hauptstadt von ohio
+(answer (capital (loc_2 (stateid ohio:e))))
+
+in welchem staat liegt der tiefste punkt
+(answer (state (loc_1 (lowest (place all:e)))))
+
+wie lautet die bevoelkerung von san antonio
+(answer (population_1 (cityid san_antonio:e _:e)))
+
+wie viele staaten grenzen an iowa
+(answer (count (state (next_to_2 (stateid iowa:e)))))
+
+durch welchen staat querrt der chattahoochee fluss
+(answer (state (traverse_1 (riverid chattahoochee:e))))
+
+wie viele menschen leben in detroit
+(answer (population_1 (cityid detroit:e _:e)))
+
+wie viele staaten haben keine fluesse
+(answer (count (exclude (state all:e) (loc_1 (river all:e)))))
+
+welche staaten grenzen an staaten welche an mississippi grenzen
+(answer (state (next_to_2 (state (next_to_2 (stateid mississippi:e))))))
+
+wie lauten die wichtigen staedte der usa
+(answer (major (city (loc_2 (countryid usa:e)))))
+
+wie lautet die stadt mit der groessten bevoelkerung
+(answer (largest_one (population_1 (city all:e))))
+
+wie lautet die laenge des lanegsten fluesses der durch texas verlaeuft
+(answer (len (longest (river (traverse_2 (stateid texas:e))))))
+
+wie hoch ist mount mckinley
+(answer (elevation_1 (placeid mount_mckinley:e)))
+
+welcher staat hat die kleinste bevoelkerungsdichte
+(answer (smallest_one (density_1 (state all:e))))
+
+nenne mir die anzahl der fluesse in california
+(answer (count (river (loc_2 (stateid california:e)))))
+
+nenne mir die laenge des laengsten flusses in washington state
+(answer (longest (river (loc_2 (stateid washington:e)))))
+
+wie lautet die hauptstadt von florida state
+(answer (capital (loc_2 (stateid florida:e))))
+
+welche stadt in california hat die groesste bevoelkerung
+(answer (largest_one (population_1 (city (loc_2 (stateid california:e))))))
+
+wie lautet der hoechste punkt in montana
+(answer (highest (place (loc_2 (stateid montana:e)))))
+
+wie lautet der niedrigste punkt in dem staat california
+(answer (lowest (place (loc_2 (stateid california:e)))))
+
+wie lauten die wichtigsten staedte in alaska
+(answer (major (city (loc_2 (stateid alaska:e)))))
+
+wie gross ist die gesamte flaeche aller staaten
+(answer (sum (area_1 (state all:e))))
+
+wie hoch ist die niedrigste erhebung von nebraska
+(answer (lowest (place (loc_2 (stateid nebraska:e)))))
+
+wie lautet der kleinste staat
+(answer (smallest (state all:e)))
+
+wie viele fluesse gibt es in iowa
+(answer (count (river (loc_2 (stateid iowa:e)))))
+
+welche staaten grenzen an florida
+(answer (state (next_to_2 (stateid florida:e))))
+
+welche fluesse verlaufen durch texas
+(answer (river (loc_2 (stateid texas:e))))
+
+wie lauten die wichtigsten staedte in california
+(answer (major (city (loc_2 (stateid california:e)))))
+
+welcher staat hat die groesste bevoelkerung in den staedten
+(answer (largest_one (population_1 (state all:e))))
+
+wie lautet der hoechste punkt in den staaten welche an colorado grenzen
+(answer (highest (place (loc_2 (state (next_to_2 (stateid colorado:e)))))))
+
+woe liegt der hoechste punkt in hawaii
+(answer (loc_1 (highest (place (loc_2 (stateid hawaii:e))))))
+//(answer (highest (place (loc_2 (stateid hawaii:e)))))
+
+wie lautet der hoechste punkt in iowa
+(answer (highest (place (loc_2 (stateid iowa:e)))))
+
+was sind die bevoelkerungen der staaten durch deren den mississippi fluss fliesst
+(answer (population_1 (state (traverse_1 (riverid mississippi:e)))))
+
+welches ist die hauptstadt von iowa
+(answer (capital (loc_2 (stateid iowa:e))))
+
+welcher hauptstadt hat die kleinste bevoelkerung
+(answer (smallest_one (population_1 (capital all:e))))
+
+wie lautet die groesste amerikanische stadt in einem staat mit einem fluss
+(answer (largest (city (loc_2 (state (loc_1 (river all:e)))))))
+
+welche staaten grenzen an hawaii
+(answer (state (next_to_2 (stateid hawaii:e))))
+
+wie gross ist alaska
+(answer (size (stateid alaska:e)))
+
+wie lautet der kleinste staat welcher an wyoming grenzt
+(answer (smallest (state (next_to_2 (stateid wyoming:e)))))
+
+welcher staat hat die groesste dichte
+(answer (largest_one (density_1 (state all:e))))
+
+welcher der staaten welche an pennsylvania grenzt hat die groesste bevoelkerung
+(answer (largest_one (population_1 (state (next_to_2 (stateid pennsylvania:e))))))
+
+welche staaten grenzen an new york
+(answer (state (next_to_2 (stateid new_york:e))))
+
+wie lautet die hoechste erhebung der usa
+(answer (highest (place (loc_2 (countryid usa:e)))))
+
+wie viele menschen leben in den usa
+(answer (population_1 (countryid usa:e)))
+
+welche staaten grenzen texas und haben einen wichtigen fluss
+(answer (state (intersection (next_to_2 (stateid texas:e)) (loc_1 (major (river all:e))))))
+//(answer (intersection (state (next_to_2 (stateid texas:e))) (loc_1 (major (river all:e)))))
+
+wie lautet der niedrigste punkt in maryland
+(answer (loc_1 (lowest (place (loc_2 (stateid maryland:e))))))
+//(answer (lowest (place (loc_2 (stateid maryland:e)))))
+
+wie viele leute wohnen in den staat mit der groessten bevoelkerungsdichte
+(answer (population_1 (largest_one (density_1 (state all:e)))))
+
+welche staaten haben staedte mit dem namen dallas
+(answer (state (loc_1 (city (cityid dallas:e _:e)))))
+
+wie lautet die bevoelkerung des staat welche an die meisten staaten grenzt
+(answer (population_1 (most (state (next_to_2 (state all:e))))))
+
+wie viele staaten grenzen an den staat mit der groessten bevoelkerung
+(answer (count (state (next_to_2 (largest_one (population_1 (state all:e)))))))
+
+welches ist der staat mit der groessten flaeche
+(answer (largest_one (area_1 (state all:e))))
+
+durch welchen staat fliesst der mississippi
+(answer (state (traverse_1 (riverid mississippi:e))))
+
+welches ist die gesamtlaenge aller flüsse in den usa
+(answer (sum (len (river (loc_2 (countryid usa:e))))))
+//(answer (sum (len (river all:e))))
+
+wie lang ist der delaware river
+(answer (len (riverid delaware:e)))
+
+welches ist die hauptstadt von colorado
+(answer (capital (loc_2 (stateid colorado:e))))
+
+wie lang ist der fluss colorado
+(answer (len (riverid colorado:e)))
+
+welches sind die bevoelkerungsdichten der us staaten
+(answer (density_1 (state all:e)))
+
+welcher staat hat die geringste bevoelkerungsdichte
+(answer (smallest_one (density_1 (state all:e))))
+
+in welchen staaten gibt es staedte mit dem namen rochester
+(answer (state (loc_1 (city (cityid rochester:e _:e)))))
+
+in welchem stadt liegt der tiefste an idaho grenzende punkt
+(answer (state (loc_1 (lowest (place (loc_2 (next_to_2 (stateid idaho:e))))))))
+
+welches ist die hauptstadt des kleinsten staates
+(answer (capital (loc_2 (smallest (state all:e)))))
+
+wie viele leute wohnen in washington
+(answer (population_1 (stateid washington:e)))
+
+an wie viele staaten grenzt iowa
+(answer (count (state (next_to_1 (stateid iowa:e)))))
+
+in welchen staaten gibt es eine stadt namens austin
+(answer (state (loc_1 (city (cityid austin:e _:e)))))
+
+wie viele flüsse gibt es im staat mit den meisten flüssen
+(answer (count (river (loc_2 (most (state (loc_1 (river all:e))))))))
+
+wie viele fluesse verlaufen durch new york
+(answer (river (loc_2 (stateid new_york:e))))
+
+welches ist die bevoelkerungsdichte von maine
+(answer (density_1 (stateid maine:e)))
+
+wie lang ist der fluss welcher durch die misten staaten fliesst
+(answer (len (most (river (traverse_2 (state all:e))))))
+
+was ist die hauptstadt des staates texas
+(answer (capital (city (loc_2 (stateid texas:e)))))
+
+durch welche staaten fliesst der missouri fluss
+(answer (state (traverse_1 (riverid missouri:e))))
+
+welcher staat hat die groesste flaechenausdehnung
+(answer (largest_one (area_1 (state all:e))))
+
+durch welche staaten fliesst der laengste fluss in texas
+(answer (state (traverse_1 (longest (river (loc_2 (stateid texas:e)))))))
+
+vie viele leute wohnen in new mexico
+(answer (population_1 (stateid new_mexico:e)))
+
+welche flüsse gibt es in an texas grenzende staaten
+(answer (river (loc_2 (state (next_to_2 (stateid texas:e))))))
+
+welche staaten grenzen an den fluss missouri
+(answer (state (next_to_2 (riverid missouri:e))))
+
+wie lautet die kleinste stadt in den us
+(answer (smallest (city (loc_2 (countryid usa:e)))))
+
+wie hoch ist mount mckinley
+(answer (elevation_1 (placeid mount_mckinley:e)))
+
+welches ist der hoechste punkt von delaware
+(answer (highest (place (loc_2 (stateid delaware:e)))))
+
+welches ist der tiefste punkt in mississippi
+(answer (lowest (place (loc_2 (stateid mississippi:e)))))
+
+in welchem staat liegt miami
+(answer (state (loc_1 (cityid miami:e _:e))))
+
+welches ist der tiefste punkt aller staaten durch die der fluss colorado fliesst
+(answer (lowest (place (loc_2 (state (traverse_1 (riverid colorado:e)))))))
+
+durch welche staaten fliesst mindestens einer der hauptflüsse
+(answer (state (loc_1 (major (river all:e)))))
+
+welches ist die groesste stadt in louisiana
+(answer (largest (city (loc_2 (stateid louisiana:e)))))
+
+welches ist der dichteste staat in den usa
+(answer (largest_one (density_1 (state (loc_2 (countryid usa:e))))))
+
+welches ist der laengste fluss in florida
+(answer (longest (river (loc_2 (stateid florida:e)))))
+
+welches ist die bevoelkerungszahl von tempe arizona
+(answer (population_1 (cityid tempe:e az:e)))
+
+welches ist die groesste stadt des kleinsten staates in den usa
+(answer (largest (city (loc_2 (smallest (state (loc_2 (countryid usa:e))))))))
+
+welches ist die bevoelkerungszahl von alaska
+(answer (population_1 (stateid alaska:e)))
+
+welches ist der hoechstgelegene punkt in nevada gemessen in metern
+(answer (highest (place (loc_2 (stateid nevada:e)))))
+
+welche grossen staedte gibt es in pennsylvania
+(answer (major (city (loc_2 (stateid pennsylvania:e)))))
+
+welches sind die flüsse in alaska
+(answer (river (loc_2 (stateid alaska:e))))
+
+welcher staat hat die groesste hauptstadt
+(answer (state (loc_1 (largest (city (capital_1 (state all:e)))))))
+
+wo gibt es berge
+(answer (loc_1 (mountain all:e)))
+
+welcher staat grenzt an die meisten staaten
+(answer (most (state (next_to_2 (state all:e)))))
+
+welches sind die staedte des staates mit der hoechsten erhebung
+(answer (city (loc_2 (state (loc_1 (highest (place all:e)))))))
+
+wie viele leute wohnen in texas
+(answer (population_1 (stateid texas:e)))
+
+welches sind grosse staedte in new york
+(answer (major (city (loc_2 (stateid new_york:e)))))
+
+welches ist der hoechste berg in den usa
+(answer (highest (mountain (loc_2 (countryid usa:e)))))
+
+welcher der staaten durch die der colorado fliesst hat die hoechste erhebung
+(answer (state (loc_1 (highest (place (traverse_1 (riverid colorado:e)))))))
+//(answer (state (loc_1 (highest (place (loc_2 (state (traverse_1 (riverid colorado:e)))))))))
+
+wo liegt dallas
+(answer (loc_1 (cityid dallas:e _:e)))
+
+wo liegt der hoechste berg der usa
+(answer (loc_1 (highest (mountain (loc_2 (countryid usa:e))))))
+//(answer (highest (mountain (loc_2 (countryid usa:e)))))
+
+durch welche staaten fliesst der delaware
+(answer (state (traverse_1 (riverid delaware:e))))
+
+wie hoch liegt der hoechste punkt in amerika
+(answer (elevation_1 (highest (place (loc_2 (countryid usa:e))))))
+
+welche stadt hat die meisten leute
+(answer (largest_one (population_1 (city all:e))))
+
+welches ist die dichte von new york
+(answer (density_1 (stateid new_york:e)))
+
+welches ist die maximale erhoehung von san francisco
+(answer (highest (place (loc_2 (cityid san_francisco:e _:e)))))
+
+wie viele grosse staedte gibt es in rhode island
+(answer (count (capital (loc_2 (stateid rhode_island:e)))))
+
+welches ist der hoechstgelegene punkt in virginia
+(answer (highest (place (loc_2 (stateid virginia:e)))))
+
+wie lang ist der fluss ohio
+(answer (len (riverid ohio:e)))
+
+wie lang ist der laengste fluss kaliforniens
+(answer (len (longest (river (loc_2 (stateid california:e))))))
+
+welcher ist der kleinste staat nach flaeche
+(answer (smallest_one (area_1 (state all:e))))
+
+welche flüsse fliessen nicht durch texas
+(answer (exclude (river all:e) (traverse_2 (stateid texas:e))))
+
+welcher staat hat die meisten wichtigen fluesse
+(answer (most (state (traverse_1 (major (river all:e))))))
+
+wie lautet der niedrigste punkt in den usa
+(answer (lowest (place (loc_2 (countryid usa:e)))))
+
+wie gross ist die bevoelkerung von new york city
+(answer (population_1 (cityid new_york:e _:e)))
+
+welcher staat hat die groesste bevoelkerung
+(answer (largest_one (population_1 (state all:e))))
+
+welcher der an texas grenzenden staaten ist der groesste
+(answer (largest (state (next_to_2 (stateid texas:e)))))
+
+welches ist die groesste stadt in rhode island
+(answer (largest (city (loc_2 (stateid rhode_island:e)))))
+
+was ist die einwohnerzahl von tucson
+(answer (population_1 (cityid tucson:e _:e)))
+
+welches ist der hoechstgelegene punkt in maine
+(answer (highest (place (loc_2 (stateid maine:e)))))
+
+wie viele leute leben in minneapolis minnesota
+(answer (population_1 (cityid minneapolis:e mn:e)))
+
+welche flüsse fliessen durch die usa
+(answer (exclude (river all:e) (traverse_2 (countryid usa:e))))
+
+nenne alle flüsse in colorado
+(answer (river (loc_2 (stateid colorado:e))))
+
+welches ist der laengste fluss im groessten staat
+(answer (longest (river (loc_2 (largest (state all:e))))))
+
+welcher staat hat die geringste bevoelkerungsdichte
+(answer (smallest_one (density_1 (state all:e))))
+
+welches ist die hauptstadt des staates mit dem tiefstgelegenen punkt
+(answer (capital (loc_2 (state (loc_1 (lowest (place all:e)))))))
+
+wie lange ist der laengste fluss der usa
+(answer (len (longest (river (loc_2 (countryid usa:e))))))
+
+nenne die anzahl der staaten welche an iowa grenzen
+(answer (count (state (next_to_2 (stateid iowa:e)))))
+
+welches ist der hoechste punkt der an georgia grenzenden staaten
+(answer (highest (place (loc_2 (state (next_to_2 (stateid georgia:e)))))))
+
+in welchem staat liegt san antonio
+(answer (state (loc_1 (cityid san_antonio:e _:e))))
+
+welcher fluss durchquert die meisten staaten
+(answer (most (river (traverse_2 (state all:e)))))
+
+welches ist die flaechenausdehnung von ohio
+(answer (area_1 (stateid ohio:e)))
+
+welches ist der laengste fluss im staat mit der groessten anzahl grosser staedte
+(answer (longest (river (loc_2 (most (state (loc_1 (major (city all:e)))))))))
+
+welcher staat hat den laensten fluss
+(answer (state (traverse_1 (longest (river all:e)))))
+
+wie viele staaten sind in den vereinigten staaten
+(answer (count (state (loc_2 (countryid usa:e)))))
+
+was ist die bevoelkerungszahl der groessten stadt des staates mit der groessten flaechenausdehnung
+(answer (population_1 (largest (city (loc_2 (largest_one (area_1 (state all:e))))))))
+
+wie lautet der hoechste punkt in wyoming
+(answer (high_point_1 (stateid wyoming:e)))
+
+welches ist der hoechste berg der vereinigten staaten
+(answer (highest (mountain (loc_2 (countryid usa:e)))))
+
+wie viele einwohner leben in texas
+(answer (population_1 (stateid texas:e)))
+
+welches sind die grossen staedte in alabama
+(answer (major (city (loc_2 (stateid alabama:e)))))
+
+welches ist der kleinste staat der am meisten staaten angrenzt
+(answer (smallest (most (state (next_to_2 (state all:e))))))
+
+welche fluesse gibt es in texas
+(answer (river (loc_2 (stateid texas:e))))
+
+welches ist der staat mit der niedrigsten bevoelkerungszahl
+(answer (smallest_one (population_1 (state all:e))))
+
+welches ist die bevoelkerungsdichte des groessten staates
+(answer (density_1 (largest (state all:e))))
+
+welcher fluss fliesst durch die meisten staaten
+(answer (most (river (traverse_2 (state all:e)))))
+
+in welchem staat liegt mount mckinley
+(answer (state (loc_1 (placeid mount_mckinley:e))))
+
+welcher fluss fliesst durch die meisten staaten
+(answer (most (river (traverse_2 (state all:e)))))
+
+welches sind grosse staedte in den staaten durch die der mississippi fliesst
+(answer (major (city (loc_2 (state (traverse_1 (riverid mississippi:e)))))))
+
+was ist der hoechste punkt in texas
+(answer (highest (place (loc_2 (stateid texas:e)))))
+
+welche staaten grenzen an illinois
+(answer (state (next_to_2 (stateid illinois:e))))
+
+an wie viele staaten grenzt tennessee
+(answer (count (state (next_to_1 (stateid tennessee:e)))))
+
+wie viele leute leben in rhode island
+(answer (population_1 (stateid rhode_island:e)))
+
+wie viele leute in boulder
+(answer (population_1 (cityid boulder:e _:e)))
+
+nenne mir die staedte in texas
+(answer (city (loc_2 (stateid texas:e))))
+
+welcher fluss fliesst durch den staat mit den meisten staedten
+(answer (river (traverse_2 (most (state (loc_1 (city all:e)))))))
+
+welche staaten grenzen an den staat mit der kleinsten flaechenausdehnung
+(answer (state (next_to_2 (smallest_one (area_1 (state all:e))))))
+
+welche staaten grenzen an michigan
+(answer (state (next_to_2 (stateid michigan:e))))
+
+welches ist der groesste an arkansas grenzende staat
+(answer (largest (state (next_to_2 (stateid arkansas:e)))))
+
+wie lange ist der north platte fluss
+(answer (len (riverid north_platte:e)))
+
+welcher an nevada grenzende staat hat die groesste bevoelkerungszahl
+(answer (largest_one (population_1 (state (next_to_2 (stateid nevada:e))))))
+
+welches ist die hauptstadt von new york
+(answer (capital (loc_2 (stateid new_york:e))))
+
+welche flüsse gehen durch staaten mit am wenigsten staedten
+(answer (river (traverse_2 (fewest (state (loc_1 (city all:e)))))))
+
+welches sind die einwohnerzahlen der grossen staedte in texas
+(answer (population_1 (major (city (loc_2 (stateid texas:e))))))
+
+welches ist die hauptstadt des staates mit dem laengsten fluss
+(answer (capital (loc_2 (state (loc_1 (longest (river all:e)))))))
+
+durch welchen staat fliessen am meisten fluesse
+(answer (most (state (loc_1 (river all:e)))))
+
+wie viele leute leben in der hauptstadt von texas
+(answer (population_1 (capital (loc_2 (stateid texas:e)))))
+
+wo liegt die am meisten bevoelkerte gegend von neu mexiko
+(answer (loc_1 (largest_one (population_1 (city (loc_2 (stateid new_mexico:e)))))))
+//(answer (largest_one (population_1 (city (loc_2 (stateid new_mexico:e))))))
+
+wie viele staaten haben einen hoeher gelegenen punkt als der hoechstgelegene punkt des staates mit der groessten hauptstadt in den usa
+(answer (count (state (loc_1 (place (higher_2 (highest (place (loc_2 (state (loc_1 (largest (capital (city (loc_2 (countryid usa:e))))))))))))))))
+
+wie viele leute leben in mississippi
+(answer (population_1 (stateid mississippi:e)))
+
+welches ist die groesste stadt im kleinsten staat durch den der mississippi fliesst
+(answer (largest (city (loc_2 (smallest (state (traverse_1 (riverid mississippi:e))))))))
+
+welche staaten haben staedte mit dem namen salt lake city
+(answer (state (loc_1 (city (cityid salt_lake_city:e _:e)))))
+
+welches ist der bevoelkerungsaermste staat
+(answer (smallest_one (population_1 (state all:e))))
+
+wie hoch ist der hoechste punkt in montana
+(answer (elevation_1 (highest (place (loc_2 (stateid montana:e))))))
+
+welches ist der kleinste staat durch den der mississippi fliesst
+(answer (smallest (state (traverse_1 (riverid mississippi:e)))))
+
+welches ist die flaeche der staates texas
+(answer (area_1 (stateid texas:e)))
+
+welches sind grosse staedte in vermont
+(answer (major (city (loc_2 (stateid vermont:e)))))
+
+welches ist die groesste hauptstadt in den usa
+(answer (largest (capital (city (loc_2 (countryid usa:e))))))
+
+wo liegt der chattahoochee fluss
+(answer (loc_1 (riverid chattahoochee:e)))
+
+wie viele einwohner hat utah
+(answer (population_1 (stateid utah:e)))
+
+wie viele staaten hat die usa
+(answer (count (state (loc_2 (countryid usa:e)))))
+
+welche staaten sind neben arizona
+(answer (state (next_to_2 (stateid arizona:e))))
+
+welches ist der tiefstgelegene punkt in arkansas
+(answer (lowest (place (loc_2 (stateid arkansas:e)))))
+
+welcher staat hat die groesse bevoelkerung
+(answer (largest_one (population_1 (state all:e))))
+
+welches ist die einwohnerzahl von mississippi
+(answer (population_1 (stateid mississippi:e)))
+
+welcher staat grenzt an die meisten anderen staaten
+(answer (most (state (next_to_2 (state all:e)))))
+
+welche staat in den usa hat die hoechste bevoelkerungsdichte
+(answer (largest_one (density_1 (city (loc_2 (countryid usa:e))))))
+//(answer (largest_one (density_1 (city all:e))))
+
+welches ist die flaeche von wisconsin
+(answer (area_1 (stateid wisconsin:e)))
+
+wie gross ist texas
+(answer (size (stateid texas:e)))
+
+welches ist die einwohnerzahl des kleinsten staates
+(answer (population_1 (smallest (state all:e))))
+//(answer (smallest (population_1 (state all:e))))
+
+welches ist die dichte des staates durch den der groesste fluss der usa fliesst
+(answer (density_1 (state (traverse_1 (longest (river (loc_2 (countryid usa:e))))))))
+
+

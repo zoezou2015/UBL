@@ -1,0 +1,851 @@
+apa negara bagian terkecil
+(answer (smallest (state all:e)))
+
+apa sungai terpanjang di amerika serikat
+(answer (longest (river (loc_2 (countryid usa:e)))))
+
+apa saja titik tertinggi dari semua negara bagian
+(answer (highest (place (loc_2 (state all:e)))))
+
+apa sungai-sungai besar di ohio
+(answer (major (river (loc_2 (stateid ohio:e)))))
+
+nama sungai-sungai besar di florida
+(answer (major (river (loc_2 (stateid florida:e)))))
+
+berapa populasi erie pennsylvania
+(answer (population_1 (cityid erie:e pa:e)))
+
+apa negara bagian yang memiliki kepadatan penduduk terendah
+(answer (smallest_one (density_1 (state all:e))))
+
+di mana kota terkecil
+(answer (loc_1 (smallest (city all:e))))
+
+apa sungai-sungai yang mengalir melalui negara-negara bagian yang berbatasan dengan negara bagian dengan ibukota austin
+(answer (river (traverse_2 (state (next_to_2 (state (loc_1 (capital (cityid austin:e _:e)))))))))
+
+apa titik terendah di massachusetts
+(answer (lowest (place (loc_2 (stateid massachusetts:e)))))
+
+berapa populasi maryland
+(answer (population_1 (stateid maryland:e)))
+
+apa negara-negara bagian yang dilalui sungai mississippi
+(answer (state (traverse_1 (riverid mississippi:e))))
+
+di mana portland
+(answer (loc_1 (cityid portland:e _:e)))
+
+apa kota-kota di negara-negara bagian yang dilalui mississippi
+(answer (city (loc_2 (state (traverse_1 (riverid mississippi:e))))))
+
+berapa banyak orang tinggal di houston
+(answer (population_1 (cityid houston:e _:e)))
+
+berapa populasi negara-negara bagian yang dilalui sungai mississippi
+(answer (population_1 (state (traverse_1 (riverid mississippi:e)))))
+
+apa negara-negara bagian yang dilalui sungai ohio
+(answer (state (traverse_1 (riverid ohio:e))))
+
+apa negara bagian yang memiliki populasi tertinggi
+(answer (largest_one (population_1 (state all:e))))
+
+negara-negara bagian apa yang mengelilingi kentucky
+(answer (state (next_to_2 (stateid kentucky:e))))
+
+apa ibukota north dakota
+(answer (capital (loc_2 (stateid north_dakota:e))))
+
+berapa banyak kota yang ada di amerika serikat
+(answer (count (city (loc_2 (countryid usa:e)))))
+
+apa ibukota terbesar di amerika serikat
+(answer (largest (capital (city (loc_2 (countryid usa:e))))))
+
+berapa populasi negara-negara bagian yang berbatasan dengan texas
+(answer (population_1 (state (next_to_2 (stateid texas:e)))))
+
+apa ibukota negara-negara bagian yang memiliki kota bernama durham
+(answer (capital (loc_2 (state (loc_1 (city (cityid durham:e _:e)))))))
+
+apa kota terbesar di kansas
+(answer (largest (city (loc_2 (stateid kansas:e)))))
+
+berapa populasi boulder
+(answer (population_1 (cityid boulder:e _:e)))
+
+apa negara bagian yang memiliki populasi terbesar
+(answer (largest_one (population_1 (state all:e))))
+
+berapa populasi houston
+(answer (population_1 (cityid houston:e _:e)))
+
+berapa banyak negara bagian yang ada
+(answer (count (state all:e)))
+
+apa negara-negara bagian yang berbatasan dengan negara bagian dengan luas wilayah terkecil
+(answer (state (next_to_2 (smallest_one (area_1 (state all:e))))))
+
+apa sungai terpanjang yang mengalir melalui negara bagian yang berbatasan dengan indiana
+(answer (longest (river (traverse_2 (state (next_to_2 (stateid indiana:e)))))))
+
+apa negara-negara bagian yang berbatasan dengan negara bagian yang paling padat penduduknya
+(answer (state (next_to_2 (largest_one (population_1 (state all:e))))))
+
+apa kota terbesar di california
+(answer (largest (city (loc_2 (stateid california:e)))))
+
+apa sungai terpanjang di negara-negara bagian yang berbatasan dengan nebraska
+(answer (longest (river (loc_2 (state (next_to_2 (stateid nebraska:e)))))))
+
+apa ibukota new jersey
+(answer (capital (loc_2 (stateid new_jersey:e))))
+
+apa negara bagian yang memiliki paling banyak kota-kota besar
+(answer (most (state (loc_1 (major (city all:e))))))
+
+berapa banyak sungai colorado yang ada
+(answer (count (riverid colorado:e)))
+
+berapa elevasi tertinggi di amerika serikat
+(answer (highest (place (loc_2 (countryid usa:e)))))
+
+berapa banyak orang tinggal di kota terbesar di negara bagian new york
+(answer (population_1 (largest (city (loc_2 (stateid new_york:e))))))
+
+apa ibukota negara-negara bagian yang berbatasan dengan missouri
+(answer (capital (loc_2 (state (next_to_2 (stateid missouri:e))))))
+
+berapa panjang dari sungai yang melalui paling banyak negara bagian
+(answer (len (most (river (traverse_2 (state all:e))))))
+
+apa titik tertinggi di negara bagian dengan ibukota austin
+(answer (highest (place (loc_2 (state (loc_1 (capital (cityid austin:e _:e))))))))
+
+apa negara bagian yang memiliki ibukota terbesar
+(answer (state (loc_1 (largest (capital all:e)))))
+
+apa ibukota massachusetts
+(answer (capital (loc_2 (stateid massachusetts:e))))
+
+apa negara-negara bagian yang berbatasan dengan new jersey
+(answer (state (next_to_2 (stateid new_jersey:e))))
+
+apa negara-negara bagian yang berbatasan dengan negara-negara bagian yang dilalui ohio
+(answer (state (next_to_2 (state (traverse_1 (riverid ohio:e))))))
+
+apa negara bagian yang memiliki elevasi tertinggi
+(answer (state (loc_1 (highest (place all:e)))))
+
+apa negara bagian terpadat yang dilalui mississippi
+(answer (largest_one (population_1 (state (traverse_1 (riverid mississippi:e))))))
+
+apa puncak tertinggi yang tidak berada di alaska
+(answer (highest (exclude (mountain all:e) (loc_2 (stateid alaska:e)))))
+
+apa negara bagian yang memiliki paling banyak kota besar
+(answer (most (state (loc_1 (major (city all:e))))))
+
+apa negara-negara bagian yang memiliki kota-kota bernama portland
+(answer (state (loc_1 (city (cityid portland:e _:e)))))
+
+apa titik tertinggi negara bagian dengan kepadatan penduduk terkecil
+(answer (highest (place (loc_2 (smallest_one (density_1 (state all:e)))))))
+
+apa negara-negara bagian yang berbatasan dengan negara bagian dengan paling banyak kota besar
+(answer (state (next_to_2 (most (state (loc_1 (major (city all:e))))))))
+
+apa kota terkecil di as
+(answer (smallest (city (loc_2 (countryid usa:e)))))
+
+berapa populasi hawaii
+(answer (population_1 (stateid hawaii:e)))
+
+apa negara-negara bagian yang berbatasan dengan indiana
+(answer (state (next_to_2 (stateid indiana:e))))
+
+berapa banyak negara bagian di amerika serikat
+(answer (count (state (loc_2 (countryid usa:e)))))
+
+apa ibukota illinois
+(answer (capital (loc_2 (stateid illinois:e))))
+
+apa sungai yang melintasi negara bagian yang berbatasan dengan paling banyak negara bagian
+(answer (river (traverse_2 (most (state (next_to_2 (state all:e)))))))
+
+apa negara-negara bagian yang berbatasan dengan negara bagian yang berbatasan dengan paling banyak negara bagian
+(answer (state (next_to_2 (most (state (next_to_2 (state all:e)))))))
+
+seberapa panjangkah sungai colorado
+(answer (len (riverid colorado:e)))
+
+apa negara bagian yang memiliki sungai terpanjang
+(answer (state (loc_1 (longest (river all:e)))))
+
+apa negara-negara bagian yang berbatasan dengan kentucky
+(answer (state (next_to_2 (stateid kentucky:e))))
+
+berikan negara-negara bagian yang berbatasan dengan utah
+(answer (state (next_to_2 (stateid utah:e))))
+
+apa ibukota negara bagian dengan kepadatan penduduk terbesar
+(answer (capital (loc_2 (largest_one (density_1 (state all:e))))))
+
+apa negara-negara bagian yang memiliki kota-kota bernama plano
+(answer (state (loc_1 (city (cityid plano:e _:e)))))
+
+apa negara-negara bagian yang berbatasan dengan negara bagian dengan paling banyak kota
+(answer (state (next_to_2 (most (state (loc_1 (city all:e)))))))
+
+berapa banyak warga di kota terbesar di amerika serikat
+(answer (population_1 (largest (city (loc_2 (countryid usa:e))))))
+//(answer (population_1 (largest (city all:e))))
+
+berapa banyak orang tinggal di utah
+(answer (population_1 (stateid utah:e)))
+
+apa negara-negara bagian yang berbatasan dengan montana
+(answer (state (next_to_2 (stateid montana:e))))
+
+apa saja sungai-sungai yang melalui new york
+(answer (river (traverse_2 (stateid new_york:e))))
+
+apa saja sungai-sungai yang melintasi negara bagian yang berbatasan dengan paling banyak negara bagian
+(answer (river (traverse_2 (most (state (next_to_2 (state all:e)))))))
+
+hitung negara-negara bagian yang memiliki ketinggian lebih rendah dari alabama
+(answer (count (state (low_point_2 (lower_2 (low_point_1 (stateid alabama:e)))))))
+
+apa sungai yang mengalir melalui paling banyak negara bagian
+(answer (most (river (traverse_2 (state all:e)))))
+
+apa saja sungai-sungai yang ada di texas
+(answer (river (loc_2 (stateid texas:e))))
+
+apa negara bagian yang memiliki titik tertinggi
+(answer (state (loc_1 (highest (place all:e)))))
+
+di negara bagian manakah austin berada
+(answer (state (loc_1 (cityid austin:e _:e))))
+
+seberapa tinggikah titik tertinggi dari alabama
+(answer (elevation_1 (highest (place (loc_2 (stateid alabama:e))))))
+
+berapa panjang sungai mississippi
+(answer (len (riverid mississippi:e)))
+
+berapa banyak sungai yang dimiliki colorado
+(answer (count (river (loc_2 (stateid colorado:e)))))
+
+berapa panjang mississippi
+(answer (len (riverid mississippi:e)))
+
+apa negara bagian yang memiliki paling banyak sungai
+(answer (most (state (loc_1 (river all:e)))))
+
+berapa banyak orang tinggal di austin
+(answer (population_1 (cityid austin:e _:e)))
+
+apa kota di amerika serikat yang memiliki kepadatan penduduk tertinggi
+(answer (largest_one (density_1 (city (loc_2 (countryid usa:e))))))
+
+apa negara-negara bagian yang memiliki sungai
+(answer (state (loc_1 (river all:e))))
+
+apa titik tertinggi di amerika serikat
+(answer (highest (place (loc_2 (countryid usa:e)))))
+
+berapa luas dari florida
+(answer (area_1 (stateid florida:e)))
+
+apa ibukota california
+(answer (capital (loc_2 (stateid california:e))))
+
+apa ibukota negara bagian dengan populasi terbesar
+(answer (capital (loc_2 (largest_one (population_1 (state all:e))))))
+
+apa negara bagian yang memiliki paling banyak sungai-sungai besar
+(answer (most (state (loc_1 (major (river all:e))))))
+
+apa ibukota negara bagian dengan jumlah penduduk terbesar
+(answer (capital (loc_2 (largest_one (population_1 (state all:e))))))
+
+apa ibukota ohio
+(answer (capital (loc_2 (stateid ohio:e))))
+
+apa negara bagian yang memiliki elevasi terendah
+(answer (state (loc_1 (lowest (place all:e)))))
+
+berapa populasi san antonio
+(answer (population_1 (cityid san_antonio:e _:e)))
+
+jumlah negara yang berbatasan dengan iowa
+(answer (count (state (next_to_2 (stateid iowa:e)))))
+
+apa negara-negara bagian yang dilalui sungai chattahoochee
+(answer (state (traverse_1 (riverid chattahoochee:e))))
+
+berapa banyak orang tinggal di detroit
+(answer (population_1 (cityid detroit:e _:e)))
+
+berapa banyak negara bagian tidak memiliki sungai
+(answer (count (exclude (state all:e) (loc_1 (river all:e)))))
+
+apa negara-negara bagian yang berbatasan dengan negara-negara bagian yang berbatasan dengan mississippi
+(answer (state (next_to_2 (state (next_to_2 (stateid mississippi:e))))))
+
+apa kota-kota besar di amerika serikat
+(answer (major (city (loc_2 (countryid usa:e)))))
+
+apa kota terpadat
+(answer (largest_one (population_1 (city all:e))))
+
+berapa panjang dari sungai terpanjang yang melalui texas
+(answer (len (longest (river (traverse_2 (stateid texas:e))))))
+
+seberapa tinggikah gunung mckinley
+(answer (elevation_1 (placeid mount_mckinley:e)))
+
+apa negara bagian yang memiliki kepadatan penduduk terendah
+(answer (smallest_one (density_1 (state all:e))))
+
+berikan jumlah sungai di california
+(answer (count (river (loc_2 (stateid california:e)))))
+
+apa sungai terbesar di negara bagian washington
+(answer (longest (river (loc_2 (stateid washington:e)))))
+
+apa ibukota negara bagian florida
+(answer (capital (loc_2 (stateid florida:e))))
+
+apa kota di california yang memiliki populasi terbesar
+(answer (largest_one (population_1 (city (loc_2 (stateid california:e))))))
+
+apa titik tertinggi di montana
+(answer (highest (place (loc_2 (stateid montana:e)))))
+
+apa titik terendah di negara bagian california
+(answer (lowest (place (loc_2 (stateid california:e)))))
+
+apa kota-kota besar di alaska
+(answer (major (city (loc_2 (stateid alaska:e)))))
+
+berapa luas gabungan dari seluruh 50 negara bagian
+(answer (sum (area_1 (state all:e))))
+
+apa titik terendah di nebraska dalam meter
+(answer (lowest (place (loc_2 (stateid nebraska:e)))))
+
+apa negara bagian terkecil
+(answer (smallest (state all:e)))
+
+berapa banyak sungai di iowa
+(answer (count (river (loc_2 (stateid iowa:e)))))
+
+apa negara-negara bagian yang berbatasan dengan florida
+(answer (state (next_to_2 (stateid florida:e))))
+
+apa saja sungai-sungai di texas
+(answer (river (loc_2 (stateid texas:e))))
+
+apa kota-kota besar di negara bagian california
+(answer (major (city (loc_2 (stateid california:e)))))
+
+apa negara bagian terbesar menurut populasi
+(answer (largest_one (population_1 (state all:e))))
+
+apa titik tertinggi di negara-negara bagian yang berbatasan dengan colorado
+(answer (highest (place (loc_2 (state (next_to_2 (stateid colorado:e)))))))
+
+di mana titik tertinggi di hawaii
+(answer (loc_1 (highest (place (loc_2 (stateid hawaii:e))))))
+//(answer (highest (place (loc_2 (stateid hawaii:e)))))
+
+apa titik tertinggi di iowa
+(answer (highest (place (loc_2 (stateid iowa:e)))))
+
+berapa populasi negara-negara bagian yang dilalui mississippi
+(answer (population_1 (state (traverse_1 (riverid mississippi:e)))))
+
+apa ibukota iowa
+(answer (capital (loc_2 (stateid iowa:e))))
+
+apa ibukota negara bagian yang memiliki populasi terkecil
+(answer (smallest_one (population_1 (capital all:e))))
+
+apa kota amerika terbesar di negara bagian yang memiliki sungai
+(answer (largest (city (loc_2 (state (loc_1 (river all:e)))))))
+
+apa negara bagian yang berbatasan dengan hawaii
+(answer (state (next_to_2 (stateid hawaii:e))))
+
+seberapa besarkah alaska
+(answer (size (stateid alaska:e)))
+
+apa negara bagian terkecil yang berbatasan dengan wyoming
+(answer (smallest (state (next_to_2 (stateid wyoming:e)))))
+
+apa negara bagian yang memiliki kepadatan penduduk tertinggi
+(answer (largest_one (density_1 (state all:e))))
+
+apa negara-negara bagian yang berbatasan dengan pennsylvania yang memiliki populasi terbesar
+(answer (largest_one (population_1 (state (next_to_2 (stateid pennsylvania:e))))))
+
+apa negara bagian yang berbatasan dengan new york
+(answer (state (next_to_2 (stateid new_york:e))))
+
+apa titik tertinggi dari amerika serikat
+(answer (highest (place (loc_2 (countryid usa:e)))))
+
+berapa banyak orang tinggal di amerika serikat
+(answer (population_1 (countryid usa:e)))
+
+apa negara-negara bagian yang berbatasan dengan texas dan memiliki sungai besar
+(answer (state (intersection (next_to_2 (stateid texas:e)) (loc_1 (major (river all:e))))))
+//(answer (intersection (state (next_to_2 (stateid texas:e))) (loc_1 (major (river all:e)))))
+
+di mana titik terendah di maryland
+(answer (loc_1 (lowest (place (loc_2 (stateid maryland:e))))))
+//(answer (lowest (place (loc_2 (stateid maryland:e)))))
+
+berapa populasi dari negara bagian dengan kepadatan penduduk tertinggi
+(answer (population_1 (largest_one (density_1 (state all:e)))))
+
+apa negara-negara bagian yang memiliki kota-kota bernama dallas
+(answer (state (loc_1 (city (cityid dallas:e _:e)))))
+
+berapa populasi dari negara bagian yang berbatasan dengan paling banyak negara bagian
+(answer (population_1 (most (state (next_to_2 (state all:e))))))
+
+berapa banyak negara bagian yang berbatasan dengan negara bagian dengan populasi terbesar
+(answer (count (state (next_to_2 (largest_one (population_1 (state all:e)))))))
+
+apa negara bagian yang memiliki luas wilayah terbesar
+(answer (largest_one (area_1 (state all:e))))
+
+apa negara-negara bagian yang dilalui mississippi
+(answer (state (traverse_1 (riverid mississippi:e))))
+
+berapa panjang total dari semua sungai di amerika serikat
+(answer (sum (len (river (loc_2 (countryid usa:e))))))
+//(answer (sum (len (river all:e))))
+
+seberapa panjangkah sungai delaware
+(answer (len (riverid delaware:e)))
+
+apa ibukota colorado
+(answer (capital (loc_2 (stateid colorado:e))))
+
+berapa panjang sungai colorado
+(answer (len (riverid colorado:e)))
+
+berapa kepadatan penduduk masing-masing negara bagian as
+(answer (density_1 (state all:e)))
+
+apa negara bagian yang memiliki rata-rata penduduk perkotaan terkecil
+(answer (smallest_one (density_1 (state all:e))))
+
+apa negara-negara bagian yang memiliki kota-kota bernama rochester
+(answer (state (loc_1 (city (cityid rochester:e _:e)))))
+
+apa negara bagian yang memiliki titik terendah yang berbatasan dengan idaho
+(answer (state (loc_1 (lowest (place (loc_2 (next_to_2 (stateid idaho:e))))))))
+
+apa ibukota negara bagian terkecil
+(answer (capital (loc_2 (smallest (state all:e)))))
+
+berapa populasi washington
+(answer (population_1 (stateid washington:e)))
+
+iowa berbatasan dengan berapa banyak negara bagian
+(answer (count (state (next_to_1 (stateid iowa:e)))))
+
+apa negara-negara bagian yang memiliki kota-kota bernama austin
+(answer (state (loc_1 (city (cityid austin:e _:e)))))
+
+berapa banyak sungai di negara bagian yang memiliki paling banyak sungai
+(answer (count (river (loc_2 (most (state (loc_1 (river all:e))))))))
+
+sungai-sungai di new york
+(answer (river (loc_2 (stateid new_york:e))))
+
+berapa kepadatan penduduk dari maine
+(answer (density_1 (stateid maine:e)))
+
+berapa panjang dari sungai yang mengalir melalui paling banyak negara bagian
+(answer (len (most (river (traverse_2 (state all:e))))))
+
+apa ibukota di texas
+(answer (capital (city (loc_2 (stateid texas:e)))))
+
+apa negara-negara bagian yang dilalui missouri
+(answer (state (traverse_1 (riverid missouri:e))))
+
+apa negara bagian dengan luas terbesar
+(answer (largest_one (area_1 (state all:e))))
+
+negara-negara bagian manakah yang dilalui sungai terpanjang di texas
+(answer (state (traverse_1 (longest (river (loc_2 (stateid texas:e)))))))
+
+berapa populasi new mexico
+(answer (population_1 (stateid new_mexico:e)))
+
+apa saja sungai-sungai di negara-negara bagian yang berbatasan dengan texas
+(answer (river (loc_2 (state (next_to_2 (stateid texas:e))))))
+
+apa negara-negara bagian yang berbatasan dengan sungai missouri
+(answer (state (next_to_2 (riverid missouri:e))))
+
+apa kota terkecil di amerika serikat
+(answer (smallest (city (loc_2 (countryid usa:e)))))
+
+seberapa tinggi gunung mckinley
+(answer (elevation_1 (placeid mount_mckinley:e)))
+
+apa titik tertinggi di delaware
+(answer (highest (place (loc_2 (stateid delaware:e)))))
+
+apa titik terendah di mississippi
+(answer (lowest (place (loc_2 (stateid mississippi:e)))))
+
+di negara bagian manakah miami berada
+(answer (state (loc_1 (cityid miami:e _:e))))
+
+apa titik terendah dari semua negara bagian yang dilalui sungai colorado
+(answer (lowest (place (loc_2 (state (traverse_1 (riverid colorado:e)))))))
+
+apa negara-negara bagian yang memiliki setidaknya satu sungai besar
+(answer (state (loc_1 (major (river all:e)))))
+
+apa kota terbesar di louisiana
+(answer (largest (city (loc_2 (stateid louisiana:e)))))
+
+apa negara bagian paling padat di amerika serikat
+(answer (largest_one (density_1 (state (loc_2 (countryid usa:e))))))
+
+apa sungai terpanjang di florida
+(answer (longest (river (loc_2 (stateid florida:e)))))
+
+berapa populasi tempe arizona
+(answer (population_1 (cityid tempe:e az:e)))
+
+apa kota terbesar di negara bagian terkecil di amerika serikat
+(answer (largest (city (loc_2 (smallest (state (loc_2 (countryid usa:e))))))))
+
+berapa populasi alaska
+(answer (population_1 (stateid alaska:e)))
+
+apa titik tertinggi di nevada dalam meter
+(answer (highest (place (loc_2 (stateid nevada:e)))))
+
+apa kota-kota besar yang terletak di pennsylvania
+(answer (major (city (loc_2 (stateid pennsylvania:e)))))
+
+apa sungai-sungai di alaska
+(answer (river (loc_2 (stateid alaska:e))))
+
+apa negara bagian dengan ibukota terbesar
+(answer (state (loc_1 (largest (city (capital_1 (state all:e)))))))
+
+di mana gunung-gunung
+(answer (loc_1 (mountain all:e)))
+
+apa negara bagian yang berbatasan dengan paling banyak negara bagian
+(answer (most (state (next_to_2 (state all:e)))))
+
+apa kota-kota di negara bagian dengan titik tertinggi
+(answer (city (loc_2 (state (loc_1 (highest (place all:e)))))))
+
+berapa banyak penduduk yang dimiliki texas
+(answer (population_1 (stateid texas:e)))
+
+apa kota-kota besar di new york
+(answer (major (city (loc_2 (stateid new_york:e)))))
+
+apa gunung tertinggi di as
+(answer (highest (mountain (loc_2 (countryid usa:e)))))
+
+apa negara bagian yang memiliki titik tertinggi di mana sungai colorado melintas
+(answer (state (loc_1 (highest (place (traverse_1 (riverid colorado:e)))))))
+//(answer (state (loc_1 (highest (place (loc_2 (state (traverse_1 (riverid colorado:e)))))))))
+
+di mana dallas
+(answer (loc_1 (cityid dallas:e _:e)))
+
+di mana gunung tertinggi di amerika serikat
+(answer (loc_1 (highest (mountain (loc_2 (countryid usa:e))))))
+//(answer (highest (mountain (loc_2 (countryid usa:e)))))
+
+apa negara-negara bagian yang dilalui sungai delaware
+(answer (state (traverse_1 (riverid delaware:e))))
+
+seberapa tinggikah titik tertinggi di amerika
+(answer (elevation_1 (highest (place (loc_2 (countryid usa:e))))))
+
+apa kota yang memiliki jumlah orang terbanyak
+(answer (largest_one (population_1 (city all:e))))
+
+berapa kepadatan new york
+(answer (density_1 (stateid new_york:e)))
+
+berapa elevasi tertinggi di san francisco
+(answer (highest (place (loc_2 (cityid san_francisco:e _:e)))))
+
+berapa jumlah ibukota yang dimiliki oleh rhode island
+(answer (count (capital (loc_2 (stateid rhode_island:e)))))
+
+apa titik tertinggi di virginia
+(answer (highest (place (loc_2 (stateid virginia:e)))))
+
+seberapa panjangkah sungai ohio
+(answer (len (riverid ohio:e)))
+
+seberapa panjangkah sungai terpanjang di california
+(answer (len (longest (river (loc_2 (stateid california:e))))))
+
+apa negara bagian dengan luas wilayah terkecil
+(answer (smallest_one (area_1 (state all:e))))
+
+apa sungai-sungai yang tidak melalui texas
+(answer (exclude (river all:e) (traverse_2 (stateid texas:e))))
+
+apa negara bagian yang paling banyak dilalui sungai-sungai besar
+(answer (most (state (traverse_1 (major (river all:e))))))
+
+apa titik terendah di amerika serikat
+(answer (lowest (place (loc_2 (countryid usa:e)))))
+
+berapa populasi new york city
+(answer (population_1 (cityid new_york:e _:e)))
+
+apa negara bagian yang memiliki populasi terbesar
+(answer (largest_one (population_1 (state all:e))))
+
+apa negara bagian terbesar yang berbatasan dengan texas
+(answer (largest (state (next_to_2 (stateid texas:e)))))
+
+apa kota terbesar di rhode island
+(answer (largest (city (loc_2 (stateid rhode_island:e)))))
+
+berapa populasi tucson
+(answer (population_1 (cityid tucson:e _:e)))
+
+apa titik tertinggi di maine
+(answer (highest (place (loc_2 (stateid maine:e)))))
+
+berapa banyak orang tinggal di minneapolis minnesota
+(answer (population_1 (cityid minneapolis:e mn:e)))
+
+apa sungai-sungai yang tidak melalui amerika serikat
+(answer (exclude (river all:e) (traverse_2 (countryid usa:e))))
+
+nama semua sungai di colorado
+(answer (river (loc_2 (stateid colorado:e))))
+
+apa sungai terpanjang di negara bagian terbesar
+(answer (longest (river (loc_2 (largest (state all:e))))))
+
+apa negara bagian yang memiliki kepadatan penduduk terkecil
+(answer (smallest_one (density_1 (state all:e))))
+
+apa ibukota negara bagian dengan titik terendah
+(answer (capital (loc_2 (state (loc_1 (lowest (place all:e)))))))
+
+seberapa panjangkah sungai terpanjang di amerika serikat
+(answer (len (longest (river (loc_2 (countryid usa:e))))))
+
+berapa banyak negara bagian berbatasan dengan iowa
+(answer (count (state (next_to_2 (stateid iowa:e)))))
+
+apa titik tertinggi di negara-negara bagian yang berbatasan dengan georgia
+(answer (highest (place (loc_2 (state (next_to_2 (stateid georgia:e)))))))
+
+san antonio berada di negara bagian apa
+(answer (state (loc_1 (cityid san_antonio:e _:e))))
+
+apa sungai yang melintasi paling banyak negara bagian
+(answer (most (river (traverse_2 (state all:e)))))
+
+berapa luas dari ohio
+(answer (area_1 (stateid ohio:e)))
+
+apa sungai terpanjang di negara bagian dengan jumlah kota besar terbanyak
+(answer (longest (river (loc_2 (most (state (loc_1 (major (city all:e)))))))))
+
+apa negara-negara bagian yang dilalui sungai terpanjang
+(answer (state (traverse_1 (longest (river all:e)))))
+
+berapa banyak negara bagian yang dimiliki amerika serikat
+(answer (count (state (loc_2 (countryid usa:e)))))
+
+berapa populasi kota terbesar di negara bagian dengan luas wilayah terbesar
+(answer (population_1 (largest (city (loc_2 (largest_one (area_1 (state all:e))))))))
+
+apa titik tinggi dari wyoming
+(answer (high_point_1 (stateid wyoming:e)))
+
+apa gunung tertinggi di as
+(answer (highest (mountain (loc_2 (countryid usa:e)))))
+
+berapa banyak penduduk tinggal di texas
+(answer (population_1 (stateid texas:e)))
+
+apa kota-kota besar di alabama
+(answer (major (city (loc_2 (stateid alabama:e)))))
+
+apa negara bagian terkecil yang berbatasan dengan paling banyak negara bagian
+(answer (smallest (most (state (next_to_2 (state all:e))))))
+
+apa semua sungai di texas
+(answer (river (loc_2 (stateid texas:e))))
+
+apa negara bagian yang paling jarang penduduknya
+(answer (smallest_one (population_1 (state all:e))))
+
+berapa kepadatan penduduk dari negara bagian terbesar
+(answer (density_1 (largest (state all:e))))
+
+apa sungai yang melalui paling banyak negara bagian
+(answer (most (river (traverse_2 (state all:e)))))
+
+di negara bagian apakah gunung mckinley berada
+(answer (state (loc_1 (placeid mount_mckinley:e))))
+
+apa sungai yang melewati paling banyak negara bagian
+(answer (most (river (traverse_2 (state all:e)))))
+
+apa kota-kota besar di negara-negara bagian yang dilalui mississippi
+(answer (major (city (loc_2 (state (traverse_1 (riverid mississippi:e)))))))
+
+berapa elevasi tertinggi di texas
+(answer (highest (place (loc_2 (stateid texas:e)))))
+
+apa negara-negara bagian yang berbatasan dengan illinois
+(answer (state (next_to_2 (stateid illinois:e))))
+
+berapa banyak negara bagian yang berbatasan dengan tennessee
+(answer (count (state (next_to_1 (stateid tennessee:e)))))
+
+berapa banyak orang tinggal di rhode island
+(answer (population_1 (stateid rhode_island:e)))
+
+jumlah orang di boulder
+(answer (population_1 (cityid boulder:e _:e)))
+
+berikan kota-kota yang ada di texas
+(answer (city (loc_2 (stateid texas:e))))
+
+apa sungai yang melalui negara bagian dengan paling banyak kota
+(answer (river (traverse_2 (most (state (loc_1 (city all:e)))))))
+
+apa negara-negara bagian yang berbatasan dengan negara bagian dengan luas wilayah terkecil
+(answer (state (next_to_2 (smallest_one (area_1 (state all:e))))))
+
+apa negara-negara bagian yang berbatasan dengan michigan
+(answer (state (next_to_2 (stateid michigan:e))))
+
+apa negara bagian terbesar yang berbatasan dengan arkansas
+(answer (largest (state (next_to_2 (stateid arkansas:e)))))
+
+seberapa panjangkah sungai north platte
+(answer (len (riverid north_platte:e)))
+
+apa negara bagian yang berbatasan nevada yang memiliki populasi terbesar
+(answer (largest_one (population_1 (state (next_to_2 (stateid nevada:e))))))
+
+apa ibukota new york
+(answer (capital (loc_2 (stateid new_york:e))))
+
+apa sungai-sungai yang mengalir melalui negara-negara bagian dengan paling sedikit kota
+(answer (river (traverse_2 (fewest (state (loc_1 (city all:e)))))))
+
+berapa populasi kota-kota besar texas
+(answer (population_1 (major (city (loc_2 (stateid texas:e))))))
+
+apa ibukota negara bagian dengan sungai terpanjang
+(answer (capital (loc_2 (state (loc_1 (longest (river all:e)))))))
+
+apa negara bagian yang memiliki paling banyak sungai
+(answer (most (state (loc_1 (river all:e)))))
+
+berapa banyak orang tinggal di ibukota texas
+(answer (population_1 (capital (loc_2 (stateid texas:e)))))
+
+di mana daerah terpadat dari new mexico
+(answer (loc_1 (largest_one (population_1 (city (loc_2 (stateid new_mexico:e)))))))
+//(answer (largest_one (population_1 (city (loc_2 (stateid new_mexico:e))))))
+
+berapa banyak negara bagian memiliki titik lebih tinggi dari titik tertinggi dari negara bagian dengan ibukota terbesar di as
+(answer (count (state (loc_1 (place (higher_2 (highest (place (loc_2 (state (loc_1 (largest (capital (city (loc_2 (countryid usa:e))))))))))))))))
+
+berapa banyak orang tinggal di mississippi
+(answer (population_1 (stateid mississippi:e)))
+
+apa kota terbesar di negara bagian terkecil yang dilalui mississippi
+(answer (largest (city (loc_2 (smallest (state (traverse_1 (riverid mississippi:e))))))))
+
+apa negara-negara bagian yang memiliki kota-kota bernama salt lake city
+(answer (state (loc_1 (city (cityid salt_lake_city:e _:e)))))
+
+apa negara bagian yang memiliki penduduk perkotaan terkecil
+(answer (smallest_one (population_1 (state all:e))))
+
+seberapa tinggi titik tertinggi di montana
+(answer (elevation_1 (highest (place (loc_2 (stateid montana:e))))))
+
+apa negara bagian terkecil yang dilalui sungai mississippi
+(answer (smallest (state (traverse_1 (riverid mississippi:e)))))
+
+berapa luas dari negara bagian texas
+(answer (area_1 (stateid texas:e)))
+
+apa kota-kota besar di vermont
+(answer (major (city (loc_2 (stateid vermont:e)))))
+
+apa ibukota terbesar di as
+(answer (largest (capital (city (loc_2 (countryid usa:e))))))
+
+di mana sungai chattahoochee
+(answer (loc_1 (riverid chattahoochee:e)))
+
+berapa populasi utah
+(answer (population_1 (stateid utah:e)))
+
+berapa banyak negara bagian yang ada di amerika serikat
+(answer (count (state (loc_2 (countryid usa:e)))))
+
+apa negara-negara bagian di sebelah arizona
+(answer (state (next_to_2 (stateid arizona:e))))
+
+apa titik terendah di arkansas
+(answer (lowest (place (loc_2 (stateid arkansas:e)))))
+
+apa negara bagian terpadat
+(answer (largest_one (population_1 (state all:e))))
+
+berapa populasi mississippi
+(answer (population_1 (stateid mississippi:e)))
+
+apa negara bagian yang berbatasan dengan paling banyak negara bagian
+(answer (most (state (next_to_2 (state all:e)))))
+
+apa kota di as yang memiliki kepadatan penduduk tertinggi
+(answer (largest_one (density_1 (city (loc_2 (countryid usa:e))))))
+//(answer (largest_one (density_1 (city all:e))))
+
+berapa luas dari wisconsin
+(answer (area_1 (stateid wisconsin:e)))
+
+seberapa besarkah texas
+(answer (size (stateid texas:e)))
+
+berapa populasi negara bagian terkecil
+(answer (population_1 (smallest (state all:e))))
+//(answer (smallest (population_1 (state all:e))))
+
+berapa kepadatan penduduk negara bagian yang dilalui sungai terbesar di amerika serikat
+(answer (density_1 (state (traverse_1 (longest (river (loc_2 (countryid usa:e))))))))
+
+

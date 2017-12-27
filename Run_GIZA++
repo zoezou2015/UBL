@@ -1,0 +1,61 @@
+
+###################### fa ############### 
+
+#1. go to GIZA2++ directory, each line without ids
+./plain2snt.out ../data/source_corpus_fa ../data/target_corpus_fa
+
+#2. go to mkcls directory
+./mkcls -p../data/source_corpus_fa -V../data/source_corpus_fa.vcb
+./mkcls -p../data/target_corpus_fa -V../data/target_corpus_fa.vcb
+
+#3. go to GIZA2++ directory, run this command again, each line will be put unique id
+./plain2snt.out ../data/source_corpus_fa ../data/target_corpus_fa
+
+./GIZA++ -S ../data/target_corpus_fa.vcb -T ../data/source_corpus_fa.vcb -C ../data/target_corpus_fa_source_corpus_fa.snt -o geofunql_fa -outputpath ../data/output
+
+
+###################### zh ############### 
+./plain2snt.out ../data/source_corpus_zh ../data/target_corpus_zh
+
+./mkcls -p../data/source_corpus_zh -V../data/source_corpus_zh.vcb
+./mkcls -p../data/target_corpus_zh -V../data/target_corpus_zh.vcb
+
+
+./plain2snt.out ../data/source_corpus_zh ../data/target_corpus_zh
+
+./GIZA++ -S ../data/target_corpus_zh.vcb -T ../data/source_corpus_zh.vcb -C ../data/target_corpus_zh_source_corpus_zh.snt -o geofunql_zh -outputpath ../data/output
+
+
+###################### id ############### 
+./plain2snt.out ../data/source_corpus_id ../data/target_corpus_id
+
+./mkcls -p../data/source_corpus_id -V../data/source_corpus_id.vcb
+./mkcls -p../data/target_corpus_id -V../data/target_corpus_id.vcb
+
+
+./plain2snt.out ../data/source_corpus_id ../data/target_corpus_id
+
+./GIZA++ -S ../data/target_corpus_id.vcb -T ../data/source_corpus_id.vcb -C ../data/target_corpus_id_source_corpus_id.snt -o geofunql_id -outputpath ../data/output
+
+###################### sv ############### 
+./plain2snt.out ../data/source_corpus_sv ../data/target_corpus_sv
+
+./mkcls -p../data/source_corpus_sv -V../data/source_corpus_sv.vcb
+./mkcls -p../data/target_corpus_sv -V../data/target_corpus_sv.vcb
+
+
+./plain2snt.out ../data/source_corpus_sv ../data/target_corpus_sv
+
+./GIZA++ -S ../data/target_corpus_sv.vcb -T ../data/source_corpus_sv.vcb -C ../data/target_corpus_sv_source_corpus_sv.snt -o geofunql_sv -outputpath ../data/output
+
+###################### en ############### 
+./plain2snt.out ../data/source_corpus_en ../data/target_corpus_en
+
+./mkcls -p../data/source_corpus_en -V../data/source_corpus_en.vcb
+./mkcls -p../data/target_corpus_en -V../data/target_corpus_en.vcb
+
+
+./plain2snt.out ../data/source_corpus_en ../data/target_corpus_en
+
+./GIZA++ -S ../data/target_corpus_en.vcb -T ../data/source_corpus_en.vcb -C ../data/target_corpus_en_source_corpus_en.snt -o geofunql_en -outputpath ../data/output
+
